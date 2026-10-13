@@ -4,7 +4,7 @@
 
 > **散度与保守系统**<br>向量场 $(E,F,G)$ 的散度为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}$. 当 $\mu$ 为常数时, 上式成为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}=0$, 即散度等于零, 称该系统为保守系统. 当 $\mu$ 不是常数时, 称 $\mu(x,y,z)$ 为拟积分因子, 此时原系统经参数变换 $d\tau=\frac{dt}{\mu}$ 化为等价的保守系统 $\frac{dx}{d\tau}=\mu E,\ \frac{dy}{d\tau}=\mu F,\ \frac{dz}{d\tau}=\mu G$.
 
-> **定理 2.1**(恰当方程的判别与通积分公式)<br>对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu(x,y)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
+> **第二章的恰当方程与积分因子理论**<br>对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu(x,y)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
 
 ### 习题一
 
