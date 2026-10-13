@@ -8,15 +8,33 @@
 
 **定义 1.2**(解)
 
-设函数 $y=\varphi\left(x\right)$ 在区间 $J$ 上连续, 且有直到 $n$ 阶的导数. 如果把 $y=\varphi\left(x\right)$ 及其相应的各阶导数代入方程 $F\left(x,y,y',\cdots,y^{\left(n\right)}\right)=0$, 得到关于 $x$ 的恒等式 $F\left(x,\varphi\left(x\right),\varphi'\left(x\right),\cdots,\varphi^{\left(n\right)}\left(x\right)\right)=0$ 对一切 $x\in J$ 都成立, 则称 $y=\varphi\left(x\right)$ 为微分方程在区间 $J$ 上的一个解.
+设函数 $y=\varphi\left(x\right)$ 在区间 $J$ 上连续, 且有直到 $n$ 阶的导数. 如果把 $y=\varphi\left(x\right)$ 及其相应的各阶导数代入方程 $F\left(x,y,y',\cdots,y^{\left(n\right)}\right)=0$, 得到关于 $x$ 的恒等式
+
+$$
+F\left(x,\varphi\left(x\right),\varphi'\left(x\right),\cdots,\varphi^{\left(n\right)}\left(x\right)\right)=0
+$$
+
+对一切 $x\in J$ 都成立, 则称 $y=\varphi\left(x\right)$ 为微分方程在区间 $J$ 上的一个解.
 
 **定义 1.3**(通解与特解)
 
-设 $n$ 阶微分方程的解 $y=\varphi\left(x,C_1,C_2,\cdots,C_n\right)$ 包含 $n$ 个独立的任意常数 $C_1,C_2,\cdots,C_n$, 则称它为通解. 这里 $n$ 个任意常数 $C_1,C_2,\cdots,C_n$ 是独立的, 其含义是雅可比行列式 $\frac{D\left(\varphi,\varphi',\cdots,\varphi^{\left(n-1\right)}\right)}{D\left(C_1,C_2,\cdots,C_n\right)}\neq0$, 其中 $\varphi^{\left(k\right)}=\varphi^{\left(k\right)}\left(x,C_1,C_2,\cdots,C_n\right)\ \left(k=0,1,\cdots,n-1\right)$. 如果微分方程的解 $y=\varphi\left(x\right)$ 不包含任意常数, 则称它为特解.
+设 $n$ 阶微分方程的解 $y=\varphi\left(x,C_1,C_2,\cdots,C_n\right)$ 包含 $n$ 个独立的任意常数 $C_1,C_2,\cdots,C_n$, 则称它为通解. 这里 $n$ 个任意常数 $C_1,C_2,\cdots,C_n$ 是独立的, 其含义是雅可比行列式 $\frac{D\left(\varphi,\varphi',\cdots,\varphi^{\left(n-1\right)}\right)}{D\left(C_1,C_2,\cdots,C_n\right)}\neq0$, 其中
+
+$$
+\varphi^{\left(k\right)}=\varphi^{\left(k\right)}\left(x,C_1,C_2,\cdots,C_n\right)\ \left(k=0,1,\cdots,n-1\right).
+$$
+
+如果微分方程的解 $y=\varphi\left(x\right)$ 不包含任意常数, 则称它为特解.
 
 **初值问题**(柯西问题)
 
-对 $n$ 阶微分方程, 初值条件的一般提法是 $y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0',\ \cdots,\ y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)}$, 其中 $x_0$ 是自变量所取定的某个初值, 而 $y_0,\ y_0',\ \cdots,\ y_0^{\left(n-1\right)}$ 是未知函数及其相应导数所取定的初值. 这样, $n$ 阶微分方程的初值问题可以提成如下形式:
+对 $n$ 阶微分方程, 初值条件的一般提法是
+
+$$
+y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0',\ \cdots,\ y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)},
+$$
+
+其中 $x_0$ 是自变量所取定的某个初值, 而 $y_0,\ y_0',\ \cdots,\ y_0^{\left(n-1\right)}$ 是未知函数及其相应导数所取定的初值. 这样, $n$ 阶微分方程的初值问题可以提成如下形式:
 
 $$
 \begin{cases}y^{\left(n\right)}=F\left(x,y,y',\cdots,y^{\left(n-1\right)}\right),\\y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0',\ \cdots,\ y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)}.\end{cases}
@@ -138,7 +156,13 @@ $$
 P\left(x,y\right)dx+Q\left(x,y\right)dy=0
 $$
 
-中的 $P\left(x,y\right)$ 与 $Q\left(x,y\right)$ 是同次齐次函数, 即 $P\left(tx,ty\right)=t^mP\left(x,y\right),\ Q\left(tx,ty\right)=t^mQ\left(x,y\right)$, 则称它为齐次方程. 作变量替换 $y=ux$($u$ 为新未知函数), 方程化为关于 $u$ 与 $x$ 的变量分离方程.
+中的 $P\left(x,y\right)$ 与 $Q\left(x,y\right)$ 是同次齐次函数, 即
+
+$$
+P\left(tx,ty\right)=t^mP\left(x,y\right),\ Q\left(tx,ty\right)=t^mQ\left(x,y\right),
+$$
+
+则称它为齐次方程. 作变量替换 $y=ux$($u$ 为新未知函数), 方程化为关于 $u$ 与 $x$ 的变量分离方程.
 
 **可化为齐次的方程**
 
@@ -236,15 +260,39 @@ $$
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$, 其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+设初值问题 $(E)$:
+
+$$
+\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0,
+$$
+
+其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
 
 **定理 3.2**(奥斯古德条件下解的唯一性)
 
-设函数 $f(x,y)$ 在区域 $G$ 内连续, 且满足不等式 $|f(x,y_1)-f(x,y_2)|\le F(|y_1-y_2|)$, 其中 $F(r)> 0$ 是 $r> 0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\frac{dr}{F(r)}=+\infty$($r_1> 0$ 为常数), 则称 $f(x,y)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\frac{dy}{dx}=f(x,y)$ 在 $G$ 内经过每一点的解都是唯一的.
+设函数 $f(x,y)$ 在区域 $G$ 内连续, 且满足不等式
+
+$$
+|f(x,y_1)-f(x,y_2)|\le F(|y_1-y_2|),
+$$
+
+其中 $F(r)> 0$ 是 $r> 0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\frac{dr}{F(r)}=+\infty$($r_1> 0$ 为常数), 则称 $f(x,y)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\frac{dy}{dx}=f(x,y)$ 在 $G$ 内经过每一点的解都是唯一的.
 
 **积分方程与初值问题的等价性**
 
-初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 有解 $y=\varphi(x)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f(t,y(t))\,dt$ 有解. 其皮卡序列为 $y_{n+1}(x)=y_0+\displaystyle\int_{x_0}^x f(t,y_n(t))\,dt$, 其中取 $y_0(x)=y_0$.
+初值问题 $(E)$:
+
+$$
+\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+$$
+
+有解 $y=\varphi(x)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f(t,y(t))\,dt$ 有解. 其皮卡序列为
+
+$$
+y_{n+1}(x)=y_0+\displaystyle\int_{x_0}^x f(t,y_n(t))\,dt,
+$$
+
+其中取 $y_0(x)=y_0$.
 
 ## 3.2 佩亚诺存在定理
 
@@ -254,7 +302,13 @@ $$
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$, 其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有且只有一个解, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+设初值问题 $(E)$:
+
+$$
+\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0,
+$$
+
+其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有且只有一个解, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
 
 **积分方程与初值问题的等价性**
 
@@ -274,11 +328,23 @@ $$
 
 **引理 3.2**(欧拉折线的积分关系式)
 
-欧拉折线 $y=\rho_n(x)$ 在区间 $[x_0-h,x_0+h]$ 上满足 $\rho_n(x)=y_0+\displaystyle\int_{x_0}^x f(t,\rho_n(t))\,dt+\delta_n(x)$, 其中 $\lim_{n\to\infty}\delta_n(x)=0$ 对 $|x-x_0|\le h$ 一致成立.
+欧拉折线 $y=\rho_n(x)$ 在区间 $[x_0-h,x_0+h]$ 上满足
+
+$$
+\rho_n(x)=y_0+\displaystyle\int_{x_0}^x f(t,\rho_n(t))\,dt+\delta_n(x),
+$$
+
+其中 $\lim_{n\to\infty}\delta_n(x)=0$ 对 $|x-x_0|\le h$ 一致成立.
 
 **定理 3.3**(佩亚诺存在定理)
 
-设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题 $(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 在区间 $[x_0-h,x_0+h]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
+设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题
+
+$$
+(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+$$
+
+在区间 $[x_0-h,x_0+h]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
 
 ## 3.3 解的延伸
 
@@ -292,13 +358,25 @@ $$
 
 **定理 3.5**(条形区域上解的整体存在性)
 
-设微分方程 $\frac{dy}{dx}=f(x,y)$ 的右端函数在条形区域 $S:\ \alpha< x< \beta,\ -\infty< y< +\infty$ 内连续, 且满足不等式 $|f(x,y)|\le A(x)|y|+B(x)$, 其中 $A(x)\ge0$ 与 $B(x)\ge0$ 在 $(\alpha,\beta)$ 上连续, 则微分方程的每一个解都以区间 $(\alpha,\beta)$ 为最大存在区间.
+设微分方程 $\frac{dy}{dx}=f(x,y)$ 的右端函数在条形区域
+
+$$
+S:\ \alpha< x< \beta,\ -\infty< y< +\infty
+$$
+
+内连续, 且满足不等式 $|f(x,y)|\le A(x)|y|+B(x)$, 其中 $A(x)\ge0$ 与 $B(x)\ge0$ 在 $(\alpha,\beta)$ 上连续, 则微分方程的每一个解都以区间 $(\alpha,\beta)$ 为最大存在区间.
 
 ## 3.4 比较定理及其应用
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$, 其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续, 则 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+设初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$, 其中 $f(x,y)$ 在矩形区域
+
+$$
+R:\ |x-x_0|\le a,\ |y-y_0|\le b
+$$
+
+内连续, 则 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
 
 **定理 3.6**(第一比较定理)
 
@@ -318,7 +396,13 @@ $$
 
 **定理 3.3**(佩亚诺存在定理)
 
-设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题 $(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 在区间 $[x_0-h,x_0+h]$ 上至少有一个解.
+设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题
+
+$$
+(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+$$
+
+在区间 $[x_0-h,x_0+h]$ 上至少有一个解.
 
 **定理 3.4**(解的延伸定理)
 
@@ -522,7 +606,13 @@ $$
 
 **定理 5.2**(解对初值的大范围连续依赖性)
 
-设 $n$ 维向量值函数 $f\left(x,y\right)$ 在开区域 $G$ 上连续, 且对 $y$ 满足局部利普希茨条件. 假设 $y=\xi\left(x\right)$ 是 $\frac{dy}{dx}=f\left(x,y\right)$ 的一个解, 存在区间为 $J$. 任取有界闭区间 $\left[a,b\right]\subset J$, 则存在常数 $\delta> 0$, 使对任何初值 $\left(x_0,y_0\right)$ 满足 $a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$, 柯西问题的解 $y=\varphi\left(x;x_0,y_0\right)$ 至少在 $\left[a,b\right]$ 上存在, 且在闭区域 $D_\delta:a\le x\le b,\ a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$ 上连续.
+设 $n$ 维向量值函数 $f\left(x,y\right)$ 在开区域 $G$ 上连续, 且对 $y$ 满足局部利普希茨条件. 假设 $y=\xi\left(x\right)$ 是 $\frac{dy}{dx}=f\left(x,y\right)$ 的一个解, 存在区间为 $J$. 任取有界闭区间 $\left[a,b\right]\subset J$, 则存在常数 $\delta> 0$, 使对任何初值 $\left(x_0,y_0\right)$ 满足 $a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$, 柯西问题的解 $y=\varphi\left(x;x_0,y_0\right)$ 至少在 $\left[a,b\right]$ 上存在, 且在闭区域
+
+$$
+D_\delta:a\le x\le b,\ a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta
+$$
+
+上连续.
 
 **积分方程与柯西问题的等价性**
 
@@ -544,7 +634,13 @@ $$
 
 **变分方程**
 
-设 $y=\varphi\left(x;x_0,y_0,\lambda\right)$ 是 $\frac{dy}{dx}=f\left(x,y,\lambda\right),\ y\left(x_0\right)=y_0$ 的解. 与柯西问题等价的积分方程为 $\varphi\left(x;x_0,y_0,\lambda\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(s,\varphi\left(s;x_0,y_0,\lambda\right),\lambda\right)ds$. 记 $A\left(x,x_0,y_0,\lambda\right)=\frac{\partial f}{\partial y}\left(x,\varphi,\lambda\right)$, $B\left(x,x_0,y_0,\lambda\right)=\frac{\partial f}{\partial\lambda}\left(x,\varphi,\lambda\right)$. 则 $z=\frac{\partial\varphi}{\partial\lambda}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z+B\left(x,x_0,y_0,\lambda\right)$, $z\left(x_0\right)=0$; $z=\frac{\partial\varphi}{\partial y_0}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z$, $z\left(x_0\right)=1$; $z=\frac{\partial\varphi}{\partial x_0}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z$, $z\left(x_0\right)=-f\left(x_0,y_0,\lambda\right)$. 这些方程统称为原方程关于初值和参数的变分方程.
+设 $y=\varphi\left(x;x_0,y_0,\lambda\right)$ 是 $\frac{dy}{dx}=f\left(x,y,\lambda\right),\ y\left(x_0\right)=y_0$ 的解. 与柯西问题等价的积分方程为
+
+$$
+\varphi\left(x;x_0,y_0,\lambda\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(s,\varphi\left(s;x_0,y_0,\lambda\right),\lambda\right)ds.
+$$
+
+记 $A\left(x,x_0,y_0,\lambda\right)=\frac{\partial f}{\partial y}\left(x,\varphi,\lambda\right)$, $B\left(x,x_0,y_0,\lambda\right)=\frac{\partial f}{\partial\lambda}\left(x,\varphi,\lambda\right)$. 则 $z=\frac{\partial\varphi}{\partial\lambda}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z+B\left(x,x_0,y_0,\lambda\right)$, $z\left(x_0\right)=0$; $z=\frac{\partial\varphi}{\partial y_0}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z$, $z\left(x_0\right)=1$; $z=\frac{\partial\varphi}{\partial x_0}$ 满足 $\frac{dz}{dx}=A\left(x,x_0,y_0,\lambda\right)z$, $z\left(x_0\right)=-f\left(x_0,y_0,\lambda\right)$. 这些方程统称为原方程关于初值和参数的变分方程.
 
 **雅可比矩阵**
 
@@ -566,7 +662,13 @@ $$
 
 **定理 6.1**(齐次线性微分方程组的通解结构)
 
-齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y$ 在区间 $\left(a,b\right)$ 上有 $n$ 个线性无关的解 $\varphi_1\left(x\right),\varphi_2\left(x\right),\cdots,\varphi_n\left(x\right)$, 而且它的通解为 $y=C_1\varphi_1\left(x\right)+C_2\varphi_2\left(x\right)+\cdots+C_n\varphi_n\left(x\right)$, 其中 $C_1,C_2,\cdots,C_n$ 是任意常数. 通常称齐次线性微分方程组的 $n$ 个线性无关的解为一个基本解组.
+齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y$ 在区间 $\left(a,b\right)$ 上有 $n$ 个线性无关的解 $\varphi_1\left(x\right),\varphi_2\left(x\right),\cdots,\varphi_n\left(x\right)$, 而且它的通解为
+
+$$
+y=C_1\varphi_1\left(x\right)+C_2\varphi_2\left(x\right)+\cdots+C_n\varphi_n\left(x\right),
+$$
+
+其中 $C_1,C_2,\cdots,C_n$ 是任意常数. 通常称齐次线性微分方程组的 $n$ 个线性无关的解为一个基本解组.
 
 **引理 6.3**(朗斯基行列式的刘维尔公式)
 
@@ -778,7 +880,13 @@ $$
 \lambda^n+a_1\lambda^{n-1}+\cdots+a_{n-1}\lambda+a_n=0.
 $$
 
-设特征方程在复数域中共有 $s$ 个互不相同的根 $\lambda_1,\cdots,\lambda_s$, 相应重数分别为 $n_1,\cdots,n_s$, 则函数组 $e^{\lambda_kx},\ xe^{\lambda_kx},\ \cdots,\ x^{n_k-1}e^{\lambda_kx}\ (k=1,\cdots,s)$ 是一个基本解组. 复根成对共轭出现, 取复值解的实部和虚部即得相应的实值解.
+设特征方程在复数域中共有 $s$ 个互不相同的根 $\lambda_1,\cdots,\lambda_s$, 相应重数分别为 $n_1,\cdots,n_s$, 则函数组
+
+$$
+e^{\lambda_kx},\ xe^{\lambda_kx},\ \cdots,\ x^{n_k-1}e^{\lambda_kx}\ (k=1,\cdots,s)
+$$
+
+是一个基本解组. 复根成对共轭出现, 取复值解的实部和虚部即得相应的实值解.
 
 **待定系数法**(对特殊非齐次项预先设定特解形式)
 
@@ -788,7 +896,13 @@ $$
 \varphi^*(x)=x^kQ_m(x)e^{\mu x},
 $$
 
-其中 $Q_m(x)$ 是系数待定的 $m$ 次多项式. 当非齐次项为 $f(x)=\left[A_m(x)\cos\beta x+B_l(x)\sin\beta x\right]e^{\alpha x}$ 时, 设
+其中 $Q_m(x)$ 是系数待定的 $m$ 次多项式. 当非齐次项为
+
+$$
+f(x)=\left[A_m(x)\cos\beta x+B_l(x)\sin\beta x\right]e^{\alpha x}
+$$
+
+时, 设
 
 $$
 \varphi^*(x)=x^k\left[C_n(x)\cos\beta x+D_n(x)\sin\beta x\right]e^{\alpha x},
@@ -798,7 +912,13 @@ $$
 
 **初值问题解的存在唯一性**
 
-$n$ 阶线性微分方程满足初值条件 $y(x_0)=y_0,\ y'(x_0)=y_0',\ \cdots,\ y^{(n-1)}(x_0)=y_0^{(n-1)}$ 的解在系数与非齐次项的公共连续区间上存在而且唯一. 特别地, 初值条件全取零的初值问题只有零解.
+$n$ 阶线性微分方程满足初值条件
+
+$$
+y(x_0)=y_0,\ y'(x_0)=y_0',\ \cdots,\ y^{(n-1)}(x_0)=y_0^{(n-1)}
+$$
+
+的解在系数与非齐次项的公共连续区间上存在而且唯一. 特别地, 初值条件全取零的初值问题只有零解.
 
 ## 7.1 柯西定理
 
@@ -808,17 +928,35 @@ $n$ 阶线性微分方程满足初值条件 $y(x_0)=y_0,\ y'(x_0)=y_0',\ \cdots,
 
 **定理 7.1**(柯西定理)
 
-如果函数 $f\left(x,y\right)$ 在矩形区域 $R:\left|x-x_0\right|< \alpha,\ \left|y-y_0\right|< \beta$ 上可以展开成 $\left(x-x_0\right)$ 和 $\left(y-y_0\right)$ 的一个收敛的幂级数, 则初值问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在 $x_0$ 点的邻域 $\left(x_0-\rho,x_0+\rho\right)$ 内有一个解析解 $y=y\left(x\right)$, 而且它是唯一的. 此处形式解的系数 $C_n=\frac{1}{n!}y^{\left(n\right)}\left(x_0\right)=P_n\left(a_{00},a_{01},a_{10},\cdots,a_{n-1,0}\right)$, 其中 $P_n$ 是关于各系数的正系数多项式, 只与标号 $n$ 有关而与函数 $f$ 无关.
+如果函数 $f\left(x,y\right)$ 在矩形区域 $R:\left|x-x_0\right|< \alpha,\ \left|y-y_0\right|< \beta$ 上可以展开成 $\left(x-x_0\right)$ 和 $\left(y-y_0\right)$ 的一个收敛的幂级数, 则初值问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在 $x_0$ 点的邻域 $\left(x_0-\rho,x_0+\rho\right)$ 内有一个解析解 $y=y\left(x\right)$, 而且它是唯一的. 此处形式解的系数
+
+$$
+C_n=\frac{1}{n!}y^{\left(n\right)}\left(x_0\right)=P_n\left(a_{00},a_{01},a_{10},\cdots,a_{n-1,0}\right),
+$$
+
+其中 $P_n$ 是关于各系数的正系数多项式, 只与标号 $n$ 有关而与函数 $f$ 无关.
 
 **附注 3**(优级数方法对微分方程组的应用)
 
-优级数方法可以应用于微分方程组的情形. 考虑微分方程组的初值问题 $\frac{dy_k}{dx}=f_k\left(x,y_1,\cdots,y_n\right),\ y_k\left(0\right)=0\ \left(k=1,2,\cdots,n\right)$. 假设右端函数在区域 $\left|x\right|\le\alpha,\ \left|y_1\right|\le\beta,\ \cdots,\ \left|y_n\right|\le\beta$ 内可以展成收敛的幂级数, 则与引理 7.1 类似可证存在优函数, 再用与定理 7.1 同样的推理可知该初值问题在 $x=0$ 的某邻域内有收敛的幂级数解.
+优级数方法可以应用于微分方程组的情形. 考虑微分方程组的初值问题
+
+$$
+\frac{dy_k}{dx}=f_k\left(x,y_1,\cdots,y_n\right),\ y_k\left(0\right)=0\ \left(k=1,2,\cdots,n\right).
+$$
+
+假设右端函数在区域 $\left|x\right|\le\alpha,\ \left|y_1\right|\le\beta,\ \cdots,\ \left|y_n\right|\le\beta$ 内可以展成收敛的幂级数, 则与引理 7.1 类似可证存在优函数, 再用与定理 7.1 同样的推理可知该初值问题在 $x=0$ 的某邻域内有收敛的幂级数解.
 
 ## 7.2 幂级数解法
 
 **常点与奇点**
 
-考虑二阶齐次线性微分方程 $A\left(x\right)y''+B\left(x\right)y'+C\left(x\right)y=0$. 如果 $A\left(x_0\right)\neq0$, 则在 $x_0$ 点附近 $A\left(x\right)\neq0$, 方程可写成 $y''+p\left(x\right)y'+q\left(x\right)y=0$, 其中 $p\left(x\right)=B\left(x\right)/A\left(x\right),\ q\left(x\right)=C\left(x\right)/A\left(x\right)$ 在 $x_0$ 附近解析. 称这样的点 $x_0$ 为微分方程的常点. 如果 $A\left(x_0\right)=0$, 则 $p\left(x\right)$ 和 $q\left(x\right)$ 中至少有一个在 $x_0$ 点不连续, 称 $x_0$ 为微分方程的奇点.
+考虑二阶齐次线性微分方程 $A\left(x\right)y''+B\left(x\right)y'+C\left(x\right)y=0$. 如果 $A\left(x_0\right)\neq0$, 则在 $x_0$ 点附近 $A\left(x\right)\neq0$, 方程可写成 $y''+p\left(x\right)y'+q\left(x\right)y=0$, 其中
+
+$$
+p\left(x\right)=B\left(x\right)/A\left(x\right),\ q\left(x\right)=C\left(x\right)/A\left(x\right)
+$$
+
+在 $x_0$ 附近解析. 称这样的点 $x_0$ 为微分方程的常点. 如果 $A\left(x_0\right)=0$, 则 $p\left(x\right)$ 和 $q\left(x\right)$ 中至少有一个在 $x_0$ 点不连续, 称 $x_0$ 为微分方程的奇点.
 
 **定理 7.2**(常点邻域内幂级数解的存在与递推)
 
@@ -868,7 +1006,13 @@ $n$ 阶线性微分方程满足初值条件 $y(x_0)=y_0,\ y'(x_0)=y_0',\ \cdots,
 
 **定理 8.6**(非线性系统在初等奇点附近与线性化系统有相同的定性结构)
 
-设非线性系统 $\frac{dx}{dt} = ax + by + \varphi(x,y),\ \frac{dy}{dt} = cx + dy + \psi(x,y)$ 以 $(0,0)$ 为孤立奇点, 其线性化系统 $\frac{dx}{dt} = ax + by,\ \frac{dy}{dt} = cx + dy$ 以 $(0,0)$ 为初等奇点, 其中 $r = \sqrt{x^2 + y^2}$. 则 (1) 若线性化系统以 $(0,0)$ 为焦点且条件 $A$($\varphi(x,y) = o(r),\ \psi(x,y) = o(r),\ r \to 0$) 成立, 则 $(0,0)$ 也是原系统的焦点, 且稳定性相同; (2) 若线性化系统以 $(0,0)$ 为鞍点或两向结点且条件 $A$ 与条件 $B$($\varphi, \psi$ 在原点的一个小邻域内对 $x, y$ 连续可微) 成立, 则 $(0,0)$ 也分别是原系统的鞍点或两向结点, 且稳定性相同; (3) 若线性化系统以 $(0,0)$ 为单向结点且条件 $A^*$($|\varphi|/r$ 与 $|\psi|/r$ 当 $r \to 0$ 时一致趋于零) 成立, 则 $(0,0)$ 也是原系统的单向结点, 且稳定性相同; (4) 若线性化系统以 $(0,0)$ 为星形结点且条件 $A^*$ 与条件 $B$ 成立, 则 $(0,0)$ 也是原系统的星形结点, 且稳定性相同.
+设非线性系统
+
+$$
+\frac{dx}{dt} = ax + by + \varphi(x,y),\ \frac{dy}{dt} = cx + dy + \psi(x,y)
+$$
+
+以 $(0,0)$ 为孤立奇点, 其线性化系统 $\frac{dx}{dt} = ax + by,\ \frac{dy}{dt} = cx + dy$ 以 $(0,0)$ 为初等奇点, 其中 $r = \sqrt{x^2 + y^2}$. 则 (1) 若线性化系统以 $(0,0)$ 为焦点且条件 $A$($\varphi(x,y) = o(r),\ \psi(x,y) = o(r),\ r \to 0$) 成立, 则 $(0,0)$ 也是原系统的焦点, 且稳定性相同; (2) 若线性化系统以 $(0,0)$ 为鞍点或两向结点且条件 $A$ 与条件 $B$($\varphi, \psi$ 在原点的一个小邻域内对 $x, y$ 连续可微) 成立, 则 $(0,0)$ 也分别是原系统的鞍点或两向结点, 且稳定性相同; (3) 若线性化系统以 $(0,0)$ 为单向结点且条件 $A^*$($|\varphi|/r$ 与 $|\psi|/r$ 当 $r \to 0$ 时一致趋于零) 成立, 则 $(0,0)$ 也是原系统的单向结点, 且稳定性相同; (4) 若线性化系统以 $(0,0)$ 为星形结点且条件 $A^*$ 与条件 $B$ 成立, 则 $(0,0)$ 也是原系统的星形结点, 且稳定性相同.
 
 ## 10.2 首次积分的性质
 
@@ -898,7 +1042,13 @@ $$
 
 **定理 10.7**(大范围首次积分与保守系统)
 
-对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $(E,F,G)$ 与雅可比量 $L=\frac{D(\Phi_1,\Phi_2)}{D(y,z)},\ M=\frac{D(\Phi_1,\Phi_2)}{D(z,x)},\ N=\frac{D(\Phi_1,\Phi_2)}{D(x,y)}$ 成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial(\mu E)}{\partial x}+\frac{\partial(\mu F)}{\partial y}+\frac{\partial(\mu G)}{\partial z}\equiv0$.
+对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $(E,F,G)$ 与雅可比量
+
+$$
+L=\frac{D(\Phi_1,\Phi_2)}{D(y,z)},\ M=\frac{D(\Phi_1,\Phi_2)}{D(z,x)},\ N=\frac{D(\Phi_1,\Phi_2)}{D(x,y)}
+$$
+
+成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial(\mu E)}{\partial x}+\frac{\partial(\mu F)}{\partial y}+\frac{\partial(\mu G)}{\partial z}\equiv0$.
 
 **散度与保守系统**
 
@@ -918,7 +1068,13 @@ $$
 
 **定理 11.2**(拟线性偏微分方程的隐式通解)
 
-设有一阶拟线性偏微分方程 $X\left(x,y,z\right)\frac{\partial z}{\partial x}+Y\left(x,y,z\right)\frac{\partial z}{\partial y}=Z\left(x,y,z\right)$, 其中 $X,Y,Z$ 连续可微且 $X,Y$ 不同时为零. 其相应特征方程为 $\frac{dx}{X}=\frac{dy}{Y}=\frac{dz}{Z}$. 设 $u\left(x,y,z\right)=C_1,\ v\left(x,y,z\right)=C_2$ 是该特征方程的两个独立首次积分, 则原拟线性偏微分方程的隐式通解为 $\Phi\left[u\left(x,y,z\right),v\left(x,y,z\right)\right]=0$, 其中 $\Phi$ 是任意连续可微函数, 并要求 $\frac{\partial\Phi}{\partial z}\neq0$ 以便由隐函数解出 $z=z\left(x,y\right)$.
+设有一阶拟线性偏微分方程
+
+$$
+X\left(x,y,z\right)\frac{\partial z}{\partial x}+Y\left(x,y,z\right)\frac{\partial z}{\partial y}=Z\left(x,y,z\right),
+$$
+
+其中 $X,Y,Z$ 连续可微且 $X,Y$ 不同时为零. 其相应特征方程为 $\frac{dx}{X}=\frac{dy}{Y}=\frac{dz}{Z}$. 设 $u\left(x,y,z\right)=C_1,\ v\left(x,y,z\right)=C_2$ 是该特征方程的两个独立首次积分, 则原拟线性偏微分方程的隐式通解为 $\Phi\left[u\left(x,y,z\right),v\left(x,y,z\right)\right]=0$, 其中 $\Phi$ 是任意连续可微函数, 并要求 $\frac{\partial\Phi}{\partial z}\neq0$ 以便由隐函数解出 $z=z\left(x,y\right)$.
 
 **定理 11.1**(齐次线性偏微分方程的通解)
 
