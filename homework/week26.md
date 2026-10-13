@@ -17,13 +17,13 @@
 由**互相独立的首次积分**(雅可比行列式非零), 不妨设在所论区域内 $\frac{D\left(V_1,\cdots,V_k\right)}{D\left(y_1,\cdots,y_k\right)}\neq0$. 把前 $k$ 个未知函数 $y_1,\cdots,y_k$ 看作待解出的变元, 而把 $x,y_{k+1},\cdots,y_n$ 看作自变量. 由**隐函数定理**, 可从方程组
 
 $$
-V_i\left(x,y_1,\cdots,y_k,y_{k+1},\cdots,y_n\right)=C_i\qquad(i=1,\cdots,k)
+V_i\left(x,y_1,\cdots,y_k,y_{k+1},\cdots,y_n\right)=C_i\qquad\left(i=1,\cdots,k\right)
 $$
 
 局部解出
 
 $$
-y_i=g_i\left(x,y_{k+1},\cdots,y_n,C_1,\cdots,C_k\right)\qquad(i=1,\cdots,k).
+y_i=g_i\left(x,y_{k+1},\cdots,y_n,C_1,\cdots,C_k\right)\qquad\left(i=1,\cdots,k\right).
 $$
 
 将它们代入原微分方程组 (10.17) 的后 $n-k$ 个等式

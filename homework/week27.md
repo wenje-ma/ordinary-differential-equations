@@ -1,10 +1,10 @@
 # 作业 27
 
-> **定理 10.7**(大范围首次积分与保守系统)<br>对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $(E,F,G)$ 与雅可比量 $L=\frac{D(\Phi_1,\Phi_2)}{D(y,z)},\ M=\frac{D(\Phi_1,\Phi_2)}{D(z,x)},\ N=\frac{D(\Phi_1,\Phi_2)}{D(x,y)}$ 成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial(\mu E)}{\partial x}+\frac{\partial(\mu F)}{\partial y}+\frac{\partial(\mu G)}{\partial z}\equiv0$.
+> **定理 10.7**(大范围首次积分与保守系统)<br>对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $\left(E,F,G\right)$ 与雅可比量 $L=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(y,z\right)},\ M=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(z,x\right)},\ N=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(x,y\right)}$ 成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial\left(\mu E\right)}{\partial x}+\frac{\partial\left(\mu F\right)}{\partial y}+\frac{\partial\left(\mu G\right)}{\partial z}\equiv0$.
 
-> **散度与保守系统**<br>向量场 $(E,F,G)$ 的散度为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}$. 当 $\mu$ 为常数时, 上式成为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}=0$, 即散度等于零, 称该系统为保守系统. 当 $\mu$ 不是常数时, 称 $\mu(x,y,z)$ 为拟积分因子, 此时原系统经参数变换 $d\tau=\frac{dt}{\mu}$ 化为等价的保守系统 $\frac{dx}{d\tau}=\mu E,\ \frac{dy}{d\tau}=\mu F,\ \frac{dz}{d\tau}=\mu G$.
+> **散度与保守系统**<br>向量场 $\left(E,F,G\right)$ 的散度为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}$. 当 $\mu$ 为常数时, 上式成为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}=0$, 即散度等于零, 称该系统为保守系统. 当 $\mu$ 不是常数时, 称 $\mu\left(x,y,z\right)$ 为拟积分因子, 此时原系统经参数变换 $d\tau=\frac{dt}{\mu}$ 化为等价的保守系统 $\frac{dx}{d\tau}=\mu E,\ \frac{dy}{d\tau}=\mu F,\ \frac{dz}{d\tau}=\mu G$.
 
-> **第二章的恰当方程与积分因子理论**<br>对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu(x,y)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
+> **第二章的恰当方程与积分因子理论**<br>对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu\left(x,y\right)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
 
 ### 习题一
 
@@ -15,19 +15,19 @@
 第一步, 把**定理 10.7**(大范围首次积分与保守系统) 推广到 $n$ 维. 设 $n$ 维自治系统 $\frac{dx_i}{dt}=f_i$($i=1,\cdots,n$) 在区域 $\Omega$ 内有 $n-1$ 个互相独立的驻定首次积分 $\Phi_1,\cdots,\Phi_{n-1}$. 由首次积分的充要条件, 有恒等式
 
 $$
-\sum_{i=1}^n f_i\frac{\partial\Phi_k}{\partial x_i}\equiv0\qquad(k=1,\cdots,n-1).
+\sum_{i=1}^n f_i\frac{\partial\Phi_k}{\partial x_i}\equiv0\qquad\left(k=1,\cdots,n-1\right).
 $$
 
-因为 $\Phi_1,\cdots,\Phi_{n-1}$ 互相独立, 这 $n-1$ 个梯度 $\nabla\Phi_k$ 线性无关, 而向量 $f=(f_1,\cdots,f_n)$ 与它们都垂直, 故 $f$ 落在一维正交补空间中. 定义广义叉乘向量
+因为 $\Phi_1,\cdots,\Phi_{n-1}$ 互相独立, 这 $n-1$ 个梯度 $\nabla\Phi_k$ 线性无关, 而向量 $f=\left(f_1,\cdots,f_n\right)$ 与它们都垂直, 故 $f$ 落在一维正交补空间中. 定义广义叉乘向量
 
 $$
-L_i=(-1)^{i-1}\frac{D\left(\Phi_1,\cdots,\Phi_{n-1}\right)}{D\left(x_1,\cdots,\widehat{x_i},\cdots,x_n\right)}\qquad(i=1,\cdots,n),
+L_i=\left(-1\right)^{i-1}\frac{D\left(\Phi_1,\cdots,\Phi_{n-1}\right)}{D\left(x_1,\cdots,\widehat{x_i},\cdots,x_n\right)}\qquad\left(i=1,\cdots,n\right),
 $$
 
 其中 $\widehat{x_i}$ 表示去掉变元 $x_i$. 按行列式的拉普拉斯展开, 有 $\sum_{i=1}^nL_i\frac{\partial\Phi_k}{\partial x_i}\equiv0$, 故 $L$ 与 $f$ 成比例:
 
 $$
-L_i=\mu f_i\qquad(i=1,\cdots,n).
+L_i=\mu f_i\qquad\left(i=1,\cdots,n\right).
 $$
 
 另一方面, 与三维时 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 同理(要求各 $\Phi_k$ 二次连续可微), 有

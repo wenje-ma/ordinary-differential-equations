@@ -65,7 +65,7 @@ $$
 
 ### 习题三
 
-(习题 11-1 题2(2))求解初值问题 $\begin{cases}\left(x-y^2\right)\frac{\partial z}{\partial x}+y\frac{\partial z}{\partial y}=0,\\ \text{当 }x=1\text{ 时}, z=f_0(y).\end{cases}$
+(习题 11-1 题2(2))求解初值问题 $\begin{cases}\left(x-y^2\right)\frac{\partial z}{\partial x}+y\frac{\partial z}{\partial y}=0,\\ \text{当 }x=1\text{ 时}, z=f_0\left(y\right).\end{cases}$
 
 ### 解答 习题三
 
@@ -81,16 +81,16 @@ $$
 d\left(\frac{x}{y}\right)=-dy,
 $$
 
-故 $\frac{x}{y}+y=C$ 是首次积分. 通解为 $z=\psi\left(\frac{x}{y}+y\right)$, 其中 $\psi$ 是任意连续可微函数. 代入初值条件, 当 $x=1$ 时 $z=f_0(y)$, 得
+故 $\frac{x}{y}+y=C$ 是首次积分. 通解为 $z=\psi\left(\frac{x}{y}+y\right)$, 其中 $\psi$ 是任意连续可微函数. 代入初值条件, 当 $x=1$ 时 $z=f_0\left(y\right)$, 得
 
 $$
-\psi\left(\frac{1}{y}+y\right)=f_0(y).
+\psi\left(\frac{1}{y}+y\right)=f_0\left(y\right).
 $$
 
-此式确定函数 $\psi$: 对任意变元 $s$, 取 $y$ 满足 $y+\frac{1}{y}=s$, 则 $\psi(s)=f_0(y)$. 故所求解为
+此式确定函数 $\psi$: 对任意变元 $s$, 取 $y$ 满足 $y+\frac{1}{y}=s$, 则 $\psi\left(s\right)=f_0\left(y\right)$. 故所求解为
 
 $$
 z=\psi\left(\frac{x}{y}+y\right),
 $$
 
-其中函数 $\psi$ 由 $\psi\left(y+\frac{1}{y}\right)=f_0(y)$ 确定. $\blacksquare$
+其中函数 $\psi$ 由 $\psi\left(y+\frac{1}{y}\right)=f_0\left(y\right)$ 确定. $\blacksquare$

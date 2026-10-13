@@ -8,7 +8,7 @@
 
 ### 习题一
 
-(习题 7-1 题2)设初值问题 $(E):\ y''+p\left(x\right)y'+q\left(x\right)y=0,\ y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0'$, 其中 $p\left(x\right)$ 和 $q\left(x\right)$ 在区间 $\left(x_0-a,x_0+a\right)$ 内可以展成 $\left(x-x_0\right)$ 的收敛的幂级数, 则 $(E)$ 的解析解 $y=y\left(x\right)$ 在 $\left(x_0-a,x_0+a\right)$ 内存在且唯一.
+(习题 7-1 题2)设初值问题 $\left(E\right):\ y''+p\left(x\right)y'+q\left(x\right)y=0,\ y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0'$, 其中 $p\left(x\right)$ 和 $q\left(x\right)$ 在区间 $\left(x_0-a,x_0+a\right)$ 内可以展成 $\left(x-x_0\right)$ 的收敛的幂级数, 则 $\left(E\right)$ 的解析解 $y=y\left(x\right)$ 在 $\left(x_0-a,x_0+a\right)$ 内存在且唯一.
 
 ### 解答 习题一
 

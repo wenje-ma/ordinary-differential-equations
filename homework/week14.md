@@ -76,6 +76,6 @@ $$
 
 当 $A\to 0$ 时, $T\left(A\right)\to\dfrac{4}{a}\cdot\dfrac{\pi}{2}=\dfrac{2\pi}{a}$, 即线性单摆的周期. 而当 $0<A<\sqrt{6}$ 时, 被积函数的分母 $<1$, 故被积函数 $>1$, 从而 $T\left(A\right)>\dfrac{2\pi}{a}$; 并且 $A$ 越大分母越小, $T\left(A\right)$ 越大. 因此周期 $T$ 随振幅 $A$ 变化, 即单摆振动是不等时的. 又当 $A\to\sqrt{6}^{-}$ 时, 在 $\varphi=\dfrac{\pi}{2}$ 处分母趋于零, 周期 $T\left(A\right)\to+\infty$.
 
-(2) 说明相图上可以发生进动. 当能量 $E>\dfrac{3}{2}a^2$ 时, 首次积分右端 $2E-a^2x^2+\dfrac{a^2}{12}x^4\to+\infty$($|x|\to\infty$), 故 $v=\dfrac{dx}{dt}$ 恒不为零且不变号: $v>0$ 时 $x\left(t\right)$ 单调增加, $v<0$ 时 $x\left(t\right)$ 单调减少, 轨线不再掉头封闭, 而是绕过两个鞍点 $\left(\pm\sqrt{6},0\right)$ 向 $|x|$ 增大的方向延伸. 在相图上这就是分界线之外的上, 下两支轨线, 对应单摆越过最高点持续转动, 即发生进动.
+(2) 说明相图上可以发生进动. 当能量 $E>\dfrac{3}{2}a^2$ 时, 首次积分右端 $2E-a^2x^2+\dfrac{a^2}{12}x^4\to+\infty$($\left|x\right|\to\infty$), 故 $v=\dfrac{dx}{dt}$ 恒不为零且不变号: $v>0$ 时 $x\left(t\right)$ 单调增加, $v<0$ 时 $x\left(t\right)$ 单调减少, 轨线不再掉头封闭, 而是绕过两个鞍点 $\left(\pm\sqrt{6},0\right)$ 向 $\left|x\right|$ 增大的方向延伸. 在相图上这就是分界线之外的上, 下两支轨线, 对应单摆越过最高点持续转动, 即发生进动.
 
 $\blacksquare$

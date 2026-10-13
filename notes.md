@@ -256,67 +256,67 @@ $$
 
 **利普希茨条件**
 
-设函数 $f(x,y)$ 在区域 $D$ 内满足不等式 $|f(x,y_1)-f(x,y_2)|\le L|y_1-y_2|$, 其中常数 $L> 0$, 则称函数 $f(x,y)$ 在区域 $D$ 内对 $y$ 满足利普希茨条件. 若 $f(x,y)$ 在凸区域 $D$ 内对 $y$ 有连续的偏微商, 则它在 $D$ 内对 $y$ 满足利普希茨条件.
+设函数 $f\left(x,y\right)$ 在区域 $D$ 内满足不等式 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$, 其中常数 $L> 0$, 则称函数 $f\left(x,y\right)$ 在区域 $D$ 内对 $y$ 满足利普希茨条件. 若 $f\left(x,y\right)$ 在凸区域 $D$ 内对 $y$ 有连续的偏微商, 则它在 $D$ 内对 $y$ 满足利普希茨条件.
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$:
+设初值问题 $\left(E\right)$:
 
 $$
-\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0,
+\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0,
 $$
 
-其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
 
 **定理 3.2**(奥斯古德条件下解的唯一性)
 
-设函数 $f(x,y)$ 在区域 $G$ 内连续, 且满足不等式
+设函数 $f\left(x,y\right)$ 在区域 $G$ 内连续, 且满足不等式
 
 $$
-|f(x,y_1)-f(x,y_2)|\le F(|y_1-y_2|),
+\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le F\left(\left|y_1-y_2\right|\right),
 $$
 
-其中 $F(r)> 0$ 是 $r> 0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\frac{dr}{F(r)}=+\infty$($r_1> 0$ 为常数), 则称 $f(x,y)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\frac{dy}{dx}=f(x,y)$ 在 $G$ 内经过每一点的解都是唯一的.
+其中 $F\left(r\right)> 0$ 是 $r> 0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\frac{dr}{F\left(r\right)}=+\infty$($r_1> 0$ 为常数), 则称 $f\left(x,y\right)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 在 $G$ 内经过每一点的解都是唯一的.
 
 **积分方程与初值问题的等价性**
 
-初值问题 $(E)$:
+初值问题 $\left(E\right)$:
 
 $$
-\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0
 $$
 
-有解 $y=\varphi(x)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f(t,y(t))\,dt$ 有解. 其皮卡序列为
+有解 $y=\varphi\left(x\right)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解. 其皮卡序列为
 
 $$
-y_{n+1}(x)=y_0+\displaystyle\int_{x_0}^x f(t,y_n(t))\,dt,
+y_{n+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt,
 $$
 
-其中取 $y_0(x)=y_0$.
+其中取 $y_0\left(x\right)=y_0$.
 
 ## 3.2 佩亚诺存在定理
 
 **欧拉折线**
 
-设微分方程 $\frac{dy}{dx}=f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续, $M$ 为 $|f(x,y)|$ 在 $R$ 上的一个上界, 令 $h=\min\left\{a,\frac{b}{M}\right\}$. 把区间 $[x_0-h,x_0+h]$ 等分为 $2n$ 份, 从初值点 $P_0(x_0,y_0)$ 出发, 在每一节点沿该处线素方向作直线段, 得到一条停留在角形区域 $|y-y_0|\le M|x-x_0|$ 内的连续折线 $y=\rho_n(x)$, 称为初值问题 $(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 的欧拉折线.
+设微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, $M$ 为 $\left|f\left(x,y\right)\right|$ 在 $R$ 上的一个上界, 令 $h=\min\left\{a,\frac{b}{M}\right\}$. 把区间 $\left[x_0-h,x_0+h\right]$ 等分为 $2n$ 份, 从初值点 $P_0\left(x_0,y_0\right)$ 出发, 在每一节点沿该处线素方向作直线段, 得到一条停留在角形区域 $\left|y-y_0\right|\le M\left|x-x_0\right|$ 内的连续折线 $y=\rho_n\left(x\right)$, 称为初值问题 $\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的欧拉折线.
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$:
+设初值问题 $\left(E\right)$:
 
 $$
-\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0,
+\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0,
 $$
 
-其中 $f(x,y)$ 在矩形区域 $R:\ |x-x_0|\le a,\ |y-y_0|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $(E)$ 在区间 $I=[x_0-h,x_0+h]$ 上有且只有一个解, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有且只有一个解, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
 
 **积分方程与初值问题的等价性**
 
-初值问题 $(E)$ 有解等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f(t,y(t))\,dt$ 有解.
+初值问题 $\left(E\right)$ 有解等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解.
 
 **一致有界与等度连续**
 
-设在区间 $I$ 上给定函数序列 $f_1(x),f_2(x),\cdots$. 若存在常数 $K> 0$ 使 $|f_n(x)|< K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta(\varepsilon)$, 使只要 $|x_1-x_2|< \delta$ 就有 $|f_n(x_1)-f_n(x_2)|< \varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
+设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K> 0$ 使 $\left|f_n\left(x\right)\right|< K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta\left(\varepsilon\right)$, 使只要 $\left|x_1-x_2\right|< \delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|< \varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
 
 **阿斯科利引理**
 
@@ -324,89 +324,89 @@ $$
 
 **引理 3.1**(欧拉序列的收敛子序列)
 
-欧拉折线序列 $\{\rho_n(x)\}$ 在区间 $[x_0-h,x_0+h]$ 上一致有界且等度连续, 因而至少含有一个一致收敛的子序列.
+欧拉折线序列 $\left\{\rho_n\left(x\right)\right\}$ 在区间 $\left[x_0-h,x_0+h\right]$ 上一致有界且等度连续, 因而至少含有一个一致收敛的子序列.
 
 **引理 3.2**(欧拉折线的积分关系式)
 
-欧拉折线 $y=\rho_n(x)$ 在区间 $[x_0-h,x_0+h]$ 上满足
+欧拉折线 $y=\rho_n\left(x\right)$ 在区间 $\left[x_0-h,x_0+h\right]$ 上满足
 
 $$
-\rho_n(x)=y_0+\displaystyle\int_{x_0}^x f(t,\rho_n(t))\,dt+\delta_n(x),
+\rho_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,\rho_n\left(t\right)\right)\,dt+\delta_n\left(x\right),
 $$
 
-其中 $\lim_{n\to\infty}\delta_n(x)=0$ 对 $|x-x_0|\le h$ 一致成立.
+其中 $\lim_{n\to\infty}\delta_n\left(x\right)=0$ 对 $\left|x-x_0\right|\le h$ 一致成立.
 
 **定理 3.3**(佩亚诺存在定理)
 
-设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题
+设函数 $f\left(x,y\right)$ 在矩形区域 $R$ 内连续, 则初值问题
 
 $$
-(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0
 $$
 
-在区间 $[x_0-h,x_0+h]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
+在区间 $\left[x_0-h,x_0+h\right]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
 
 ## 3.3 解的延伸
 
 **定理 3.4**(解的延伸定理)
 
-设微分方程 $\frac{dy}{dx}=f(x,y)$ 中函数 $f(x,y)$ 在开区域 $G$ 内连续, $P_0(x_0,y_0)$ 为 $G$ 内任一点, 则经过 $P_0$ 的任一条积分曲线将在区域 $G$ 内延伸到边界: 即对任何有界闭区域 $G_1$($P_0\in G_1\subset G$), 积分曲线将延伸到 $G_1$ 之外. 换言之, 若解 $y=y(x)$ 的最大存在区间为 $(\alpha,\beta)$, 则当 $\beta< +\infty$ 时 $(x,y(x))$ 趋于 $G$ 的边界(在 $G=\mathbb{R}^2$ 时即 $|y|\to+\infty$).
+设微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 中函数 $f\left(x,y\right)$ 在开区域 $G$ 内连续, $P_0\left(x_0,y_0\right)$ 为 $G$ 内任一点, 则经过 $P_0$ 的任一条积分曲线将在区域 $G$ 内延伸到边界: 即对任何有界闭区域 $G_1$($P_0\in G_1\subset G$), 积分曲线将延伸到 $G_1$ 之外. 换言之, 若解 $y=y\left(x\right)$ 的最大存在区间为 $\left(\alpha,\beta\right)$, 则当 $\beta< +\infty$ 时 $\left(x,y\left(x\right)\right)$ 趋于 $G$ 的边界(在 $G=\mathbb{R}^2$ 时即 $\left|y\right|\to+\infty$).
 
 **推论**(局部利普希茨条件下解的存在唯一与延伸)
 
-设 $f(x,y)$ 在区域 $G$ 内连续, 且对 $y$ 满足局部利普希茨条件(即 $G$ 内每一点都有一个含于 $G$ 的邻域, 使 $f$ 在其中对 $y$ 满足利普希茨条件), 则微分方程经过 $G$ 内任一点 $P_0$ 存在唯一的积分曲线, 并且它在 $G$ 内延伸到边界.
+设 $f\left(x,y\right)$ 在区域 $G$ 内连续, 且对 $y$ 满足局部利普希茨条件(即 $G$ 内每一点都有一个含于 $G$ 的邻域, 使 $f$ 在其中对 $y$ 满足利普希茨条件), 则微分方程经过 $G$ 内任一点 $P_0$ 存在唯一的积分曲线, 并且它在 $G$ 内延伸到边界.
 
 **定理 3.5**(条形区域上解的整体存在性)
 
-设微分方程 $\frac{dy}{dx}=f(x,y)$ 的右端函数在条形区域
+设微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 的右端函数在条形区域
 
 $$
 S:\ \alpha< x< \beta,\ -\infty< y< +\infty
 $$
 
-内连续, 且满足不等式 $|f(x,y)|\le A(x)|y|+B(x)$, 其中 $A(x)\ge0$ 与 $B(x)\ge0$ 在 $(\alpha,\beta)$ 上连续, 则微分方程的每一个解都以区间 $(\alpha,\beta)$ 为最大存在区间.
+内连续, 且满足不等式 $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, 其中 $A\left(x\right)\ge0$ 与 $B\left(x\right)\ge0$ 在 $\left(\alpha,\beta\right)$ 上连续, 则微分方程的每一个解都以区间 $\left(\alpha,\beta\right)$ 为最大存在区间.
 
 ## 3.4 比较定理及其应用
 
 **定理 3.1**(皮卡存在和唯一性定理)
 
-设初值问题 $(E)$: $\frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$, 其中 $f(x,y)$ 在矩形区域
+设初值问题 $\left(E\right)$: $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$, 其中 $f\left(x,y\right)$ 在矩形区域
 
 $$
-R:\ |x-x_0|\le a,\ |y-y_0|\le b
+R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b
 $$
 
-内连续, 则 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{(x,y)\in R}|f(x,y)|$.
+内连续, 则 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
 
 **定理 3.6**(第一比较定理)
 
-设函数 $f(x,y)$ 与 $F(x,y)$ 都在平面区域 $G$ 内连续且满足不等式 $f(x,y)< F(x,y)$($(x,y)\in G$); 又设 $y=\varphi(x)$ 与 $y=\Phi(x)$ 在区间 $(a,b)$ 上分别是初值问题 $(E_1):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 与 $(E_2):\ \frac{dy}{dx}=F(x,y),\ y(x_0)=y_0$ 的解, 其中 $(x_0,y_0)\in G$. 则 $\varphi(x)< \Phi(x)$ 于 $(x_0,b)$, 而 $\varphi(x)> \Phi(x)$ 于 $(a,x_0)$. 其几何意义是: 斜率小的曲线向右不可能从斜率大的曲线下方穿越到上方.
+设函数 $f\left(x,y\right)$ 与 $F\left(x,y\right)$ 都在平面区域 $G$ 内连续且满足不等式 $f\left(x,y\right)< F\left(x,y\right)$($\left(x,y\right)\in G$); 又设 $y=\varphi\left(x\right)$ 与 $y=\Phi\left(x\right)$ 在区间 $\left(a,b\right)$ 上分别是初值问题 $\left(E_1\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 与 $\left(E_2\right):\ \frac{dy}{dx}=F\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解, 其中 $\left(x_0,y_0\right)\in G$. 则 $\varphi\left(x\right)< \Phi\left(x\right)$ 于 $\left(x_0,b\right)$, 而 $\varphi\left(x\right)> \Phi\left(x\right)$ 于 $\left(a,x_0\right)$. 其几何意义是: 斜率小的曲线向右不可能从斜率大的曲线下方穿越到上方.
 
 **最小解与最大解**
 
-设初值问题 $(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 在矩形区域 $R$ 内连续, 若在区间 $[x_0-h,x_0+h]$ 上有两个解 $y=W(x)$ 与 $y=Z(x)$, 使 $(E)$ 的任何解 $y=y(x)$ 都满足 $W(x)\le y(x)\le Z(x)$, 则称 $y=W(x)$ 与 $y=Z(x)$ 分别为 $(E)$ 的最小解与最大解.
+设初值问题 $\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在矩形区域 $R$ 内连续, 若在区间 $\left[x_0-h,x_0+h\right]$ 上有两个解 $y=W\left(x\right)$ 与 $y=Z\left(x\right)$, 使 $\left(E\right)$ 的任何解 $y=y\left(x\right)$ 都满足 $W\left(x\right)\le y\left(x\right)\le Z\left(x\right)$, 则称 $y=W\left(x\right)$ 与 $y=Z\left(x\right)$ 分别为 $\left(E\right)$ 的最小解与最大解.
 
 **定理 3.7**(最小解与最大解的存在性)
 
-存在正数 $\delta< h$, 使初值问题 $(E)$ 在区间 $[x_0-\delta,x_0+\delta]$ 上有最小解和最大解. 构造方法: 对 $\varepsilon> 0$, 考虑 $(E_\varepsilon):\ \frac{dy}{dx}=f(x,y)\pm\varepsilon$, 由**定理 3.3**(佩亚诺存在定理)取其解并利用**阿斯科利引理**取极限, 即得最小解与最大解.
+存在正数 $\delta< h$, 使初值问题 $\left(E\right)$ 在区间 $\left[x_0-\delta,x_0+\delta\right]$ 上有最小解和最大解. 构造方法: 对 $\varepsilon> 0$, 考虑 $\left(E_\varepsilon\right):\ \frac{dy}{dx}=f\left(x,y\right)\pm\varepsilon$, 由**定理 3.3**(佩亚诺存在定理)取其解并利用**阿斯科利引理**取极限, 即得最小解与最大解.
 
 **定理 3.8**(第二比较定理)
 
-设函数 $f(x,y)$ 与 $F(x,y)$ 都在平面区域 $G$ 内连续且满足 $f(x,y)\le F(x,y)$; 又设 $y=\varphi(x)$ 与 $y=\Phi(x)$ 在 $(a,b)$ 上分别是 $(E_1):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0$ 与 $(E_2):\ \frac{dy}{dx}=F(x,y),\ y(x_0)=y_0$ 的解, 其中 $y=\varphi(x)$ 是 $(E_1)$ 的右行最小解和左行最大解, $y=\Phi(x)$ 是 $(E_2)$ 的右行最大解和左行最小解. 则 $\varphi(x)\le\Phi(x)$ 于 $[x_0,b)$, 而 $\varphi(x)\ge\Phi(x)$ 于 $(a,x_0]$.
+设函数 $f\left(x,y\right)$ 与 $F\left(x,y\right)$ 都在平面区域 $G$ 内连续且满足 $f\left(x,y\right)\le F\left(x,y\right)$; 又设 $y=\varphi\left(x\right)$ 与 $y=\Phi\left(x\right)$ 在 $\left(a,b\right)$ 上分别是 $\left(E_1\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 与 $\left(E_2\right):\ \frac{dy}{dx}=F\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解, 其中 $y=\varphi\left(x\right)$ 是 $\left(E_1\right)$ 的右行最小解和左行最大解, $y=\Phi\left(x\right)$ 是 $\left(E_2\right)$ 的右行最大解和左行最小解. 则 $\varphi\left(x\right)\le\Phi\left(x\right)$ 于 $\left[x_0,b\right)$, 而 $\varphi\left(x\right)\ge\Phi\left(x\right)$ 于 $\left(a,x_0\right]$.
 
 **定理 3.3**(佩亚诺存在定理)
 
-设函数 $f(x,y)$ 在矩形区域 $R$ 内连续, 则初值问题
+设函数 $f\left(x,y\right)$ 在矩形区域 $R$ 内连续, 则初值问题
 
 $$
-(E):\ \frac{dy}{dx}=f(x,y),\ y(x_0)=y_0
+\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0
 $$
 
-在区间 $[x_0-h,x_0+h]$ 上至少有一个解.
+在区间 $\left[x_0-h,x_0+h\right]$ 上至少有一个解.
 
 **定理 3.4**(解的延伸定理)
 
-设 $f(x,y)$ 在开区域 $G$ 内连续, 则经过 $G$ 内任一点的积分曲线在 $G$ 内延伸到边界.
+设 $f\left(x,y\right)$ 在开区域 $G$ 内连续, 则经过 $G$ 内任一点的积分曲线在 $G$ 内延伸到边界.
 
 ## 4.1 一阶隐式微分方程
 
@@ -425,19 +425,19 @@ $$
 设从一阶隐式方程中可显式解出未知函数
 
 $$
-y=f(x,p),
+y=f\left(x,p\right),
 $$
 
-其中 $p=\frac{dy}{dx}$. 设函数 $f(x,p)$ 对 $(x,p)$ 连续可微, 则由上式对 $x$ 进行微分, 得到
+其中 $p=\frac{dy}{dx}$. 设函数 $f\left(x,p\right)$ 对 $\left(x,p\right)$ 连续可微, 则由上式对 $x$ 进行微分, 得到
 
 $$
-\left[f_x(x,p)-p\right]dx+f_p(x,p)dp=0.
+\left[f_x\left(x,p\right)-p\right]dx+f_p\left(x,p\right)dp=0.
 $$
 
-这是关于变量 $x$ 和 $p$ 的一阶显式微分方程. 若能求得其通解 $p=u(x,C)$, 则原方程的通解为 $y=f(x,u(x,C))$; 若其通解易写成 $x=v(p,C)$ 的形式, 则原方程的通解可写成
+这是关于变量 $x$ 和 $p$ 的一阶显式微分方程. 若能求得其通解 $p=u\left(x,C\right)$, 则原方程的通解为 $y=f\left(x,u\left(x,C\right)\right)$; 若其通解易写成 $x=v\left(p,C\right)$ 的形式, 则原方程的通解可写成
 
 $$
-\begin{cases}x=v(p,C),\\y=f(v(p,C),p),\end{cases}
+\begin{cases}x=v\left(p,C\right),\\y=f\left(v\left(p,C\right),p\right),\end{cases}
 $$
 
 其中 $p$ 视作参变量.
@@ -447,25 +447,25 @@ $$
 设微分方程不明显包含自变量, 即
 
 $$
-F(y,p)=0.
+F\left(y,p\right)=0.
 $$
 
 作为 $y$ 和 $p$ 之间的联系, 在 $Oyp$ 平面上它一般表示若干条曲线. 设
 
 $$
-y=g(t),\qquad p=h(t)
+y=g\left(t\right),\qquad p=h\left(t\right)
 $$
 
-是其中一条的参数表示, 其中设 $h(t)\neq0$. 由 $dy=p\,dx$ 可得 $dx=\frac{g'(t)}{h(t)}dt$, 再积分得原方程的通解
+是其中一条的参数表示, 其中设 $h\left(t\right)\neq0$. 由 $dy=p\,dx$ 可得 $dx=\frac{g'\left(t\right)}{h\left(t\right)}dt$, 再积分得原方程的通解
 
 $$
-x=\int\frac{g'(t)}{h(t)}dt+C,\qquad y=g(t).
+x=\int\frac{g'\left(t\right)}{h\left(t\right)}dt+C,\qquad y=g\left(t\right).
 $$
 
-同理, 对不明显包含未知函数的方程 $F(x,p)=0$, 可取参数表示 $x=f(t),\ p=h(t)$, 则由 $dy=p\,dx$ 得 $dy=h(t)f'(t)dt$, 通解为
+同理, 对不明显包含未知函数的方程 $F\left(x,p\right)=0$, 可取参数表示 $x=f\left(t\right),\ p=h\left(t\right)$, 则由 $dy=p\,dx$ 得 $dy=h\left(t\right)f'\left(t\right)dt$, 通解为
 
 $$
-y=\int h(t)f'(t)dt+C,\qquad x=f(t).
+y=\int h\left(t\right)f'\left(t\right)dt+C,\qquad x=f\left(t\right).
 $$
 
 ## 4.2 奇解
@@ -478,66 +478,66 @@ $$
 F\left(x,y,\frac{dy}{dx}\right)=0
 $$
 
-有特解 $\Gamma:y=\varphi(x)$($x\in J$). 如果对每一点 $Q\in\Gamma$, 在 $Q$ 点的任何邻域内该方程有一个不同于 $\Gamma$ 的解在 $Q$ 点与 $\Gamma$ 相切, 则称 $\Gamma$ 是该微分方程的奇解.
+有特解 $\Gamma:y=\varphi\left(x\right)$($x\in J$). 如果对每一点 $Q\in\Gamma$, 在 $Q$ 点的任何邻域内该方程有一个不同于 $\Gamma$ 的解在 $Q$ 点与 $\Gamma$ 相切, 则称 $\Gamma$ 是该微分方程的奇解.
 
 **定理 4.1**(奇解的必要条件即 $p$-判别式)
 
-设函数 $F(x,y,p)$ 对 $(x,y,p)\in G$ 是连续的, 而且对 $y$ 和 $p$ 有连续的偏微商 $F_y'$ 和 $F_p'$. 若函数 $y=\varphi(x)$($x\in J$)是微分方程的一个奇解, 并且 $(x,\varphi(x),\varphi'(x))\in G$, 则奇解 $y=\varphi(x)$ 满足 $p$-判别式
+设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是连续的, 而且对 $y$ 和 $p$ 有连续的偏微商 $F_y'$ 和 $F_p'$. 若函数 $y=\varphi\left(x\right)$($x\in J$)是微分方程的一个奇解, 并且 $\left(x,\varphi\left(x\right),\varphi'\left(x\right)\right)\in G$, 则奇解 $y=\varphi\left(x\right)$ 满足 $p$-判别式
 
 $$
-\begin{cases}F(x,y,p)=0,\\F_p'(x,y,p)=0,\end{cases}\qquad\left(p=\frac{dy}{dx}\right).
+\begin{cases}F\left(x,y,p\right)=0,\\F_p'\left(x,y,p\right)=0,\end{cases}\qquad\left(p=\frac{dy}{dx}\right).
 $$
 
 从 $p$-判别式中消去 $p$ 所得方程所决定的曲线称为 $p$-判别曲线. 奇解必是一条 $p$-判别曲线. 但须注意, 由 $p$-判别式确定的函数不一定是解, 即使是解也不一定是奇解, 仍须按**定义 4.1**(奇解)经过验证.
 
 **定理 4.2**(奇解的充分条件)
 
-设函数 $F(x,y,p)$ 对 $(x,y,p)\in G$ 是二阶连续可微的. 又设由 $p$-判别式消去 $p$ 后得到的函数 $y=\psi(x)$($x\in J$)是微分方程的解, 而且条件
+设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是二阶连续可微的. 又设由 $p$-判别式消去 $p$ 后得到的函数 $y=\psi\left(x\right)$($x\in J$)是微分方程的解, 而且条件
 
 $$
-F_y'(x,\psi(x),\psi'(x))\neq0,\qquad F_{pp}''(x,\psi(x),\psi'(x))\neq0
+F_y'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0,\qquad F_{pp}''\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0
 $$
 
 以及
 
 $$
-F_p'(x,\psi(x),\psi'(x))=0
+F_p'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)=0
 $$
 
-对 $x\in J$ 成立, 则 $y=\psi(x)$ 是微分方程的奇解.
+对 $x\in J$ 成立, 则 $y=\psi\left(x\right)$ 是微分方程的奇解.
 
 ## 4.3 包络
 
 **定义 4.2**(包络)
 
-设在平面上有一条连续可微的曲线 $\Gamma$. 如果对于任一点 $q\in\Gamma$, 在单参数曲线族 $K(C):V(x,y,C)=0$ 中都有一条曲线 $K(C^*)$ 通过 $q$ 点并在该点与 $\Gamma$ 相切, 而且 $K(C^*)$ 在 $q$ 点的任一邻域内不同于 $\Gamma$, 则称曲线 $\Gamma$ 为该曲线族的一支包络.
+设在平面上有一条连续可微的曲线 $\Gamma$. 如果对于任一点 $q\in\Gamma$, 在单参数曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 中都有一条曲线 $K\left(C^*\right)$ 通过 $q$ 点并在该点与 $\Gamma$ 相切, 而且 $K\left(C^*\right)$ 在 $q$ 点的任一邻域内不同于 $\Gamma$, 则称曲线 $\Gamma$ 为该曲线族的一支包络.
 
 **定理 4.3**(包络是奇解)
 
-设微分方程 $F(x,y,\frac{dy}{dx})=0$ 有通积分 $U(x,y,C)=0$, 又设该积分曲线族有包络 $\Gamma:y=\varphi(x)$($x\in J$), 则包络 $y=\varphi(x)$ 是该微分方程的奇解. 因此, 求微分方程的奇解归结到求它的通积分的包络.
+设微分方程 $F\left(x,y,\frac{dy}{dx}\right)=0$ 有通积分 $U\left(x,y,C\right)=0$, 又设该积分曲线族有包络 $\Gamma:y=\varphi\left(x\right)$($x\in J$), 则包络 $y=\varphi\left(x\right)$ 是该微分方程的奇解. 因此, 求微分方程的奇解归结到求它的通积分的包络.
 
 **定理 4.4**(包络满足 $C$-判别式)
 
-设 $\Gamma$ 是曲线族 $K(C):V(x,y,C)=0$ 的一支包络, 并且它可表示为参数 $C$ 的光滑曲线, 则它满足 $C$-判别式
+设 $\Gamma$ 是曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的一支包络, 并且它可表示为参数 $C$ 的光滑曲线, 则它满足 $C$-判别式
 
 $$
-\begin{cases}V(x,y,C)=0,\\V_C'(x,y,C)=0,\end{cases}
+\begin{cases}V\left(x,y,C\right)=0,\\V_C'\left(x,y,C\right)=0,\end{cases}
 $$
 
-或消去 $C$ 后所得关系式 $\Omega(x,y)=0$.
+或消去 $C$ 后所得关系式 $\Omega\left(x,y\right)=0$.
 
 **定理 4.5**($C$-判别式是包络的充分条件)
 
-设由曲线族 $K(C):V(x,y,C)=0$ 的 $C$-判别式确定一支连续可微且不含于该曲线族的曲线
+设由曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的 $C$-判别式确定一支连续可微且不含于该曲线族的曲线
 
 $$
-\Lambda:\begin{cases}x=\varphi(C),\\y=\psi(C),\end{cases}\qquad(C\in J),
+\Lambda:\begin{cases}x=\varphi\left(C\right),\\y=\psi\left(C\right),\end{cases}\qquad\left(C\in J\right),
 $$
 
 而且它满足非退化性条件
 
 $$
-(\varphi'(C),\psi'(C))\neq(0,0),\qquad(V_x',V_y')\neq(0,0),
+\left(\varphi'\left(C\right),\psi'\left(C\right)\right)\neq\left(0,0\right),\qquad\left(V_x',V_y'\right)\neq\left(0,0\right),
 $$
 
 则 $\Lambda$ 是该曲线族的一支包络.
@@ -725,7 +725,7 @@ $$
 (2) 对任何矩阵 $A$, 指数函数 $e^A$ 是可逆的, 且
 
 $$
-(e^A)^{-1}=e^{-A};
+\left(e^A\right)^{-1}=e^{-A};
 $$
 
 (3) 若 $P$ 是一个非奇异的 $n$ 阶矩阵, 则
@@ -739,7 +739,7 @@ $$
 矩阵指数函数
 
 $$
-\Phi(x)=e^{xA}
+\Phi\left(x\right)=e^{xA}
 $$
 
 是常系数齐次线性微分方程组
@@ -748,40 +748,40 @@ $$
 \frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}
 $$
 
-的一个标准基解矩阵(即基解矩阵 $\Phi(x)$ 满足 $\Phi(0)=E$).
+的一个标准基解矩阵(即基解矩阵 $\Phi\left(x\right)$ 满足 $\Phi\left(0\right)=E$).
 
 **推论 3**(常系数非齐次线性微分方程组的通解与初值问题解)
 
 常系数非齐次线性微分方程组
 
 $$
-\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}(x)
+\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)
 $$
 
-在区间 $(a,b)$ 上的通解为
+在区间 $\left(a,b\right)$ 上的通解为
 
 $$
-\boldsymbol{y}=e^{xA}\boldsymbol{c}+\int_{x_0}^{x}e^{(x-s)A}\boldsymbol{f}(s)\,ds,
+\boldsymbol{y}=e^{xA}\boldsymbol{c}+\int_{x_0}^{x}e^{\left(x-s\right)A}\boldsymbol{f}\left(s\right)\,ds,
 $$
 
-其中 $c$ 为任意的常数列向量; 而该方程组满足初值条件 $y(x_0)=y_0$ 的解为
+其中 $c$ 为任意的常数列向量; 而该方程组满足初值条件 $y\left(x_0\right)=y_0$ 的解为
 
 $$
-\boldsymbol{y}=e^{(x-x_0)A}\boldsymbol{y}_0+\int_{x_0}^{x}e^{(x-s)A}\boldsymbol{f}(s)\,ds,
+\boldsymbol{y}=e^{\left(x-x_0\right)A}\boldsymbol{y}_0+\int_{x_0}^{x}e^{\left(x-s\right)A}\boldsymbol{f}\left(s\right)\,ds,
 $$
 
-其中 $x_0\in(a,b)$.
+其中 $x_0\in\left(a,b\right)$.
 
 **引理 6.6**(方程组有指数型非零解的充要条件)
 
-常系数齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 有非零解 $y=e^{\lambda x}r$, 当且仅当 $\lambda$ 是矩阵 $A$ 的特征根, 而 $\boldsymbol{r}$ 是与 $\lambda$ 相应的特征向量, 即 $\boldsymbol{r}$ 满足齐次线性代数方程组 $(A-\lambda E)\boldsymbol{r}=\boldsymbol{0}$.
+常系数齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 有非零解 $y=e^{\lambda x}r$, 当且仅当 $\lambda$ 是矩阵 $A$ 的特征根, 而 $\boldsymbol{r}$ 是与 $\lambda$ 相应的特征向量, 即 $\boldsymbol{r}$ 满足齐次线性代数方程组 $\left(A-\lambda E\right)\boldsymbol{r}=\boldsymbol{0}$.
 
 **定理 6.5**($n$ 个互不相同特征根时的基解矩阵)
 
 设 $n$ 阶矩阵 $A$ 有 $n$ 个互不相同的特征根 $\lambda_1,\lambda_2,\cdots,\lambda_n$, 则矩阵函数
 
 $$
-\Phi(x)=\left(e^{\lambda_1 x}\boldsymbol{r}_1,e^{\lambda_2 x}\boldsymbol{r}_2,\cdots,e^{\lambda_n x}\boldsymbol{r}_n\right)
+\Phi\left(x\right)=\left(e^{\lambda_1 x}\boldsymbol{r}_1,e^{\lambda_2 x}\boldsymbol{r}_2,\cdots,e^{\lambda_n x}\boldsymbol{r}_n\right)
 $$
 
 是方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 的一个基解矩阵, 其中 $r_i$ 是 $A$ 的与 $\lambda_i$ 相应的特征向量.
@@ -791,13 +791,13 @@ $$
 设 $\lambda_i$ 是矩阵 $A$ 的 $n_i$ 重特征根, 则方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 有形如
 
 $$
-e^{\lambda_i x}\left(\boldsymbol{r}_0+\frac{x}{1!}\boldsymbol{r}_1+\cdots+\frac{x^{n_i-1}}{(n_i-1)!}\boldsymbol{r}_{n_i-1}\right)
+e^{\lambda_i x}\left(\boldsymbol{r}_0+\frac{x}{1!}\boldsymbol{r}_1+\cdots+\frac{x^{n_i-1}}{\left(n_i-1\right)!}\boldsymbol{r}_{n_i-1}\right)
 $$
 
-的非零解的充要条件是: $r_0$ 是齐次线性代数方程组 $(A-\lambda_i E)^{n_i}\boldsymbol{r}=\boldsymbol{0}$ 的一个非零解, 而且 $r_1,r_2,\cdots,r_{n_i-1}$ 由下面的关系式逐次确定
+的非零解的充要条件是: $r_0$ 是齐次线性代数方程组 $\left(A-\lambda_i E\right)^{n_i}\boldsymbol{r}=\boldsymbol{0}$ 的一个非零解, 而且 $r_1,r_2,\cdots,r_{n_i-1}$ 由下面的关系式逐次确定
 
 $$
-\boldsymbol{r}_1=(A-\lambda_i E)\boldsymbol{r}_0,\ \boldsymbol{r}_2=(A-\lambda_i E)\boldsymbol{r}_1,\ \cdots,\ \boldsymbol{r}_{n_i-1}=(A-\lambda_i E)\boldsymbol{r}_{n_i-2}.
+\boldsymbol{r}_1=\left(A-\lambda_i E\right)\boldsymbol{r}_0,\ \boldsymbol{r}_2=\left(A-\lambda_i E\right)\boldsymbol{r}_1,\ \cdots,\ \boldsymbol{r}_{n_i-1}=\left(A-\lambda_i E\right)\boldsymbol{r}_{n_i-2}.
 $$
 
 **定理 6.6**(有重特征根时常系数齐次线性微分方程组的基解矩阵)
@@ -805,76 +805,76 @@ $$
 设 $n$ 阶实值常数矩阵 $A$ 在复域中互不相同的特征根是 $\lambda_1,\lambda_2,\cdots,\lambda_s$, 相应的重数分别为 $n_1,n_2,\cdots,n_s$, 则方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 的任一解都是形如
 
 $$
-e^{\lambda_i x}\left(\boldsymbol{r}_0+\frac{x}{1!}\boldsymbol{r}_1+\cdots+\frac{x^{n_i-1}}{(n_i-1)!}\boldsymbol{r}_{n_i-1}\right)
+e^{\lambda_i x}\left(\boldsymbol{r}_0+\frac{x}{1!}\boldsymbol{r}_1+\cdots+\frac{x^{n_i-1}}{\left(n_i-1\right)!}\boldsymbol{r}_{n_i-1}\right)
 $$
 
 的向量函数的线性组合, 其中 $i=1,2,\cdots,s$.
 
 **附注 2**(从复值解提取实值解的方法)
 
-设方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 有一个复值解 $\boldsymbol{y}_1=\boldsymbol{u}(x)+i\boldsymbol{v}(x)$, 其中 $A$ 为实矩阵, 则 $\boldsymbol{y}_1$ 的共轭 $\boldsymbol{y}_2=\boldsymbol{u}(x)-i\boldsymbol{v}(x)$ 也是方程组的复值解, 从而 $\boldsymbol{y}_1$ 的实部 $\boldsymbol{u}(x)$ 和虚部 $\boldsymbol{v}(x)$ 都是方程组的实值解, 即由一对共轭的复值解可以得到两个实值解.
+设方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 有一个复值解 $\boldsymbol{y}_1=\boldsymbol{u}\left(x\right)+i\boldsymbol{v}\left(x\right)$, 其中 $A$ 为实矩阵, 则 $\boldsymbol{y}_1$ 的共轭 $\boldsymbol{y}_2=\boldsymbol{u}\left(x\right)-i\boldsymbol{v}\left(x\right)$ 也是方程组的复值解, 从而 $\boldsymbol{y}_1$ 的实部 $\boldsymbol{u}\left(x\right)$ 和虚部 $\boldsymbol{v}\left(x\right)$ 都是方程组的实值解, 即由一对共轭的复值解可以得到两个实值解.
 
 ## 6.3 高阶线性微分方程
 
 **定理 6.1***(齐次线性微分方程解的结构)
 
-齐次线性微分方程 (6.47) 在区间 $(a,b)$ 上存在 $n$ 个线性无关的解. 如果这 $n$ 个线性无关的解如 $\varphi_1(x),\varphi_2(x),\cdots,\varphi_n(x)$ 所示, 则方程 (6.47) 的通解为
+齐次线性微分方程 (6.47) 在区间 $\left(a,b\right)$ 上存在 $n$ 个线性无关的解. 如果这 $n$ 个线性无关的解如 $\varphi_1\left(x\right),\varphi_2\left(x\right),\cdots,\varphi_n\left(x\right)$ 所示, 则方程 (6.47) 的通解为
 
 $$
-y=C_1\varphi_1(x)+C_2\varphi_2(x)+\cdots+C_n\varphi_n(x),
+y=C_1\varphi_1\left(x\right)+C_2\varphi_2\left(x\right)+\cdots+C_n\varphi_n\left(x\right),
 $$
 
 其中 $C_1,C_2,\cdots,C_n$ 为任意常数. 这 $n$ 个线性无关的解称为一个基本解组.
 
 **定理 6.2***(解组线性无关的朗斯基行列式判据)
 
-方程 (6.47) 的解组 $\varphi_1(x),\cdots,\varphi_n(x)$ 是线性无关的充要条件为它的朗斯基行列式
+方程 (6.47) 的解组 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是线性无关的充要条件为它的朗斯基行列式
 
 $$
-W(x)=\left|\begin{matrix}\varphi_1(x)&\cdots&\varphi_n(x)\\\varphi_1'(x)&\cdots&\varphi_n'(x)\\\vdots&&\vdots\\\varphi_1^{(n-1)}(x)&\cdots&\varphi_n^{(n-1)}(x)\end{matrix}\right|
+W\left(x\right)=\left|\begin{matrix}\varphi_1\left(x\right)&\cdots&\varphi_n\left(x\right)\\\varphi_1'\left(x\right)&\cdots&\varphi_n'\left(x\right)\\\vdots&&\vdots\\\varphi_1^{\left(n-1\right)}\left(x\right)&\cdots&\varphi_n^{\left(n-1\right)}\left(x\right)\end{matrix}\right|
 $$
 
-在区间 $(a,b)$ 上恒不为零.
+在区间 $\left(a,b\right)$ 上恒不为零.
 
 **刘维尔公式**(朗斯基行列式的演化公式 (6.54))
 
-若 $\varphi_1(x),\cdots,\varphi_n(x)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W(x)$, 则
+若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则
 
 $$
-W(x)=W(x_0)e^{-\int_{x_0}^{x}a_1(s)ds}\qquad(a< x< b),
+W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\qquad\left(a< x< b\right),
 $$
 
-其中 $x_0\in(a,b)$, 而 $a_1(x)$ 是方程 (6.47) 中 $y^{(n-1)}$ 项的系数. 特别地, 对二阶方程 $y''+p(x)y'+q(x)y=0$ 有 $a_1(x)=p(x)$.
+其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.
 
 **例 1**(由一个非零解构造通解的公式 (6.56))
 
-设 $y=\varphi(x)$ 是二阶齐次线性微分方程 $y''+p(x)y'+q(x)y=0$ 的一个非零解, 其中 $p(x)$ 和 $q(x)$ 是区间 $(a,b)$ 上的连续函数, 则在 $\varphi(x)\neq0$ 的子区间上方程的通解为
+设 $y=\varphi\left(x\right)$ 是二阶齐次线性微分方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 的一个非零解, 其中 $p\left(x\right)$ 和 $q\left(x\right)$ 是区间 $\left(a,b\right)$ 上的连续函数, 则在 $\varphi\left(x\right)\neq0$ 的子区间上方程的通解为
 
 $$
-y=\varphi(x)\left[C_1+C_2\int_{x_0}^{x}\frac{1}{\varphi^2(s)}e^{-\int_{x_0}^{s}p(t)dt}ds\right],
+y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^{x}\frac{1}{\varphi^2\left(s\right)}e^{-\int_{x_0}^{s}p\left(t\right)dt}ds\right],
 $$
 
 其中 $C_1$ 和 $C_2$ 为任意常数.
 
 **定理 6.3***(非齐次线性微分方程的通解结构与常数变易公式 (6.57)(6.58))
 
-设 $\varphi_1(x),\cdots,\varphi_n(x)$ 是齐次线性微分方程 (6.47) 在区间 $(a,b)$ 上的一个基本解组, 则非齐次线性微分方程 (6.46) 的通解为
+设 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是齐次线性微分方程 (6.47) 在区间 $\left(a,b\right)$ 上的一个基本解组, 则非齐次线性微分方程 (6.46) 的通解为
 
 $$
-y=C_1\varphi_1(x)+\cdots+C_n\varphi_n(x)+\varphi^*(x),
+y=C_1\varphi_1\left(x\right)+\cdots+C_n\varphi_n\left(x\right)+\varphi^*\left(x\right),
 $$
 
 其中
 
 $$
-\varphi^*(x)=\sum_{k=1}^{n}\varphi_k(x)\int_{x_0}^{x}\frac{W_k(s)}{W(s)}f(s)ds
+\varphi^*\left(x\right)=\sum_{k=1}^{n}\varphi_k\left(x\right)\int_{x_0}^{x}\frac{W_k\left(s\right)}{W\left(s\right)}f\left(s\right)ds
 $$
 
-是方程 (6.46) 的一个特解, $W(x)$ 是基本解组的朗斯基行列式, 而 $W_k(x)$ 是 $W(x)$ 中第 $n$ 行第 $k$ 列元素的代数余子式.
+是方程 (6.46) 的一个特解, $W\left(x\right)$ 是基本解组的朗斯基行列式, 而 $W_k\left(x\right)$ 是 $W\left(x\right)$ 中第 $n$ 行第 $k$ 列元素的代数余子式.
 
 **定理 6.6***(常系数齐次线性微分方程的特征根解法)
 
-常系数齐次线性微分方程 $y^{(n)}+a_1y^{(n-1)}+\cdots+a_ny=0$ 的特征方程为
+常系数齐次线性微分方程 $y^{\left(n\right)}+a_1y^{\left(n-1\right)}+\cdots+a_ny=0$ 的特征方程为
 
 $$
 \lambda^n+a_1\lambda^{n-1}+\cdots+a_{n-1}\lambda+a_n=0.
@@ -883,39 +883,39 @@ $$
 设特征方程在复数域中共有 $s$ 个互不相同的根 $\lambda_1,\cdots,\lambda_s$, 相应重数分别为 $n_1,\cdots,n_s$, 则函数组
 
 $$
-e^{\lambda_kx},\ xe^{\lambda_kx},\ \cdots,\ x^{n_k-1}e^{\lambda_kx}\ (k=1,\cdots,s)
+e^{\lambda_kx},\ xe^{\lambda_kx},\ \cdots,\ x^{n_k-1}e^{\lambda_kx}\ \left(k=1,\cdots,s\right)
 $$
 
 是一个基本解组. 复根成对共轭出现, 取复值解的实部和虚部即得相应的实值解.
 
 **待定系数法**(对特殊非齐次项预先设定特解形式)
 
-当非齐次项为 $f(x)=P_m(x)e^{\mu x}$(其中 $P_m(x)$ 是 $m$ 次多项式) 时, 若 $\mu$ 不是特征根, 设特解 $\varphi^*(x)=Q_m(x)e^{\mu x}$; 若 $\mu$ 是 $k$ 重特征根, 则设
+当非齐次项为 $f\left(x\right)=P_m\left(x\right)e^{\mu x}$(其中 $P_m\left(x\right)$ 是 $m$ 次多项式) 时, 若 $\mu$ 不是特征根, 设特解 $\varphi^*\left(x\right)=Q_m\left(x\right)e^{\mu x}$; 若 $\mu$ 是 $k$ 重特征根, 则设
 
 $$
-\varphi^*(x)=x^kQ_m(x)e^{\mu x},
+\varphi^*\left(x\right)=x^kQ_m\left(x\right)e^{\mu x},
 $$
 
-其中 $Q_m(x)$ 是系数待定的 $m$ 次多项式. 当非齐次项为
+其中 $Q_m\left(x\right)$ 是系数待定的 $m$ 次多项式. 当非齐次项为
 
 $$
-f(x)=\left[A_m(x)\cos\beta x+B_l(x)\sin\beta x\right]e^{\alpha x}
+f\left(x\right)=\left[A_m\left(x\right)\cos\beta x+B_l\left(x\right)\sin\beta x\right]e^{\alpha x}
 $$
 
 时, 设
 
 $$
-\varphi^*(x)=x^k\left[C_n(x)\cos\beta x+D_n(x)\sin\beta x\right]e^{\alpha x},
+\varphi^*\left(x\right)=x^k\left[C_n\left(x\right)\cos\beta x+D_n\left(x\right)\sin\beta x\right]e^{\alpha x},
 $$
 
-其中 $k$ 是 $\alpha\pm i\beta$ 作为特征根的重数 (不是特征根时取 $k=0$), $n=\max\{m,l\}$, 多项式 $C_n(x),D_n(x)$ 的系数待定.
+其中 $k$ 是 $\alpha\pm i\beta$ 作为特征根的重数 (不是特征根时取 $k=0$), $n=\max\left\{m,l\right\}$, 多项式 $C_n\left(x\right),D_n\left(x\right)$ 的系数待定.
 
 **初值问题解的存在唯一性**
 
 $n$ 阶线性微分方程满足初值条件
 
 $$
-y(x_0)=y_0,\ y'(x_0)=y_0',\ \cdots,\ y^{(n-1)}(x_0)=y_0^{(n-1)}
+y\left(x_0\right)=y_0,\ y'\left(x_0\right)=y_0',\ \cdots,\ y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)}
 $$
 
 的解在系数与非齐次项的公共连续区间上存在而且唯一. 特别地, 初值条件全取零的初值问题只有零解.
@@ -976,7 +976,7 @@ $$
 
 **解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定)
 
-考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}(t,\boldsymbol{x})$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}(t)$. 如果对任意给定的 $\varepsilon >  0$, 都存在 $\delta = \delta(\varepsilon, t_0) >  0$, 使得只要 $\|\boldsymbol{x}_0 - \boldsymbol{\varphi}(t_0)\| <  \delta$, 方程以 $\boldsymbol{x}(t_0) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}(t, t_0, \boldsymbol{x}_0)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\|\boldsymbol{x}(t, t_0, \boldsymbol{x}_0) - \boldsymbol{\varphi}(t)\| <  \varepsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}(t)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}(t)$ 是稳定的, 而且存在 $\delta_0 >  0$, 使得只要 $\|\boldsymbol{x}_0 - \boldsymbol{\varphi}(t_0)\| <  \delta_0$ 就有 $\boldsymbol{x}(t, t_0, \boldsymbol{x}_0) - \boldsymbol{\varphi}(t) \to \boldsymbol{0}\ (t \to +\infty)$, 则称解 $\boldsymbol{\varphi}(t)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}(t)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}(t, t_0, \boldsymbol{x}_0) - \boldsymbol{\varphi}(t) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}(t)$ 是全局渐近稳定的.
+考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(t,\boldsymbol{x}\right)$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}\left(t\right)$. 如果对任意给定的 $\varepsilon >  0$, 都存在 $\delta = \delta\left(\varepsilon, t_0\right) >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta$, 方程以 $\boldsymbol{x}\left(t_0\right) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\left\|\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right)\right\| <  \varepsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 是稳定的, 而且存在 $\delta_0 >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta_0$ 就有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}\ \left(t \to +\infty\right)$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是全局渐近稳定的.
 
 **定理 8.1**(常系数线性系统零解稳定性的特征根判别)
 
@@ -984,35 +984,35 @@ $$
 
 **定理 8.3**(按线性近似判断不稳定性)
 
-设非线性方程 $\frac{d\boldsymbol{x}}{dt} = A\boldsymbol{x} + \boldsymbol{N}(t,\boldsymbol{x})$ 中的 $A$ 为常矩阵, 而且 $A$ 的特征根中至少有一个具有正的实部, 则方程的零解是不稳定的.
+设非线性方程 $\frac{d\boldsymbol{x}}{dt} = A\boldsymbol{x} + \boldsymbol{N}\left(t,\boldsymbol{x}\right)$ 中的 $A$ 为常矩阵, 而且 $A$ 的特征根中至少有一个具有正的实部, 则方程的零解是不稳定的.
 
 **定理 8.4**(李雅普诺夫的稳定性判定)
 
-设自治系统 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}(\boldsymbol{x})$ 的右端满足初值问题解的存在和唯一性条件, 且存在连续可微的标量函数 $V(\boldsymbol{x})$. 记 $V$ 沿轨线对 $t$ 的全导数为 $\frac{dV}{dt} = \sum_{i=1}^{n}\frac{\partial V}{\partial x_i}f_i(\boldsymbol{x})$. 若条件 $I$($V(\boldsymbol{0}) = 0,\ V(\boldsymbol{x}) >  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 称 $V$ 为定正函数) 成立, 则 (1) 再若条件 $II$($\frac{dV}{dt} <  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 即全导数为定负函数) 成立, 零解是渐近稳定的; (2) 再若条件 $II^*$($\frac{dV}{dt} \le 0$, 即全导数为常负函数) 成立, 零解是稳定的; (3) 再若条件 $III$($\frac{dV}{dt} >  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 即全导数为定正函数) 成立, 零解是不稳定的.
+设自治系统 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(\boldsymbol{x}\right)$ 的右端满足初值问题解的存在和唯一性条件, 且存在连续可微的标量函数 $V\left(\boldsymbol{x}\right)$. 记 $V$ 沿轨线对 $t$ 的全导数为 $\frac{dV}{dt} = \sum_{i=1}^{n}\frac{\partial V}{\partial x_i}f_i\left(\boldsymbol{x}\right)$. 若条件 $I$($V\left(\boldsymbol{0}\right) = 0,\ V\left(\boldsymbol{x}\right) >  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 称 $V$ 为定正函数) 成立, 则 (1) 再若条件 $II$($\frac{dV}{dt} <  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 即全导数为定负函数) 成立, 零解是渐近稳定的; (2) 再若条件 $II^*$($\frac{dV}{dt} \le 0$, 即全导数为常负函数) 成立, 零解是稳定的; (3) 再若条件 $III$($\frac{dV}{dt} >  0,\ \boldsymbol{x} \ne \boldsymbol{0}$, 即全导数为定正函数) 成立, 零解是不稳定的.
 
 ## 8.3 平面上的动力系统, 奇点与极限环
 
 **初等奇点**(与高阶奇点)
 
-以 $(0,0)$ 为奇点的线性系统 $\frac{d\boldsymbol{u}}{dt} = A\boldsymbol{u}$. 当矩阵 $A$ 非退化(即 $A$ 不以零为特征根)时, 称 $(0,0)$ 点为系统的初等奇点; 否则称它为高阶奇点. 初等奇点都是孤立奇点, 而线性高阶奇点都是非孤立的.
+以 $\left(0,0\right)$ 为奇点的线性系统 $\frac{d\boldsymbol{u}}{dt} = A\boldsymbol{u}$. 当矩阵 $A$ 非退化(即 $A$ 不以零为特征根)时, 称 $\left(0,0\right)$ 点为系统的初等奇点; 否则称它为高阶奇点. 初等奇点都是孤立奇点, 而线性高阶奇点都是非孤立的.
 
 **特殊方向**
 
-当 $t \to +\infty$(或 $-\infty$)时, 有的轨线能沿某一确定的直线 $y = kx$(或 $x = ky$)趋于奇点 $(0,0)$, 这个直线的走向称为一个特殊方向. 星形结点有无穷个特殊方向, 两向结点和鞍点有两个特殊方向, 单向结点有一个特殊方向, 而焦点和中心没有特殊方向; 并且当直线 $y = kx$ 给出线性系统的一个特殊方向时, 此直线被奇点分割的两条射线都是系统的轨线.
+当 $t \to +\infty$(或 $-\infty$)时, 有的轨线能沿某一确定的直线 $y = kx$(或 $x = ky$)趋于奇点 $\left(0,0\right)$, 这个直线的走向称为一个特殊方向. 星形结点有无穷个特殊方向, 两向结点和鞍点有两个特殊方向, 单向结点有一个特殊方向, 而焦点和中心没有特殊方向; 并且当直线 $y = kx$ 给出线性系统的一个特殊方向时, 此直线被奇点分割的两条射线都是系统的轨线.
 
 **定理 8.5**(初等奇点类型的判定)
 
-对于线性系统 $\frac{d\boldsymbol{u}}{dt} = A\boldsymbol{u}$, 记 $p = -\text{tr}[A]$(矩阵 $A$ 的迹的反号), $q = \det[A]$, 则我们有 (1) 当 $q <  0$ 时, $(0,0)$ 为鞍点; (2) 当 $q >  0$ 且 $p^2 >  4q$ 时, $(0,0)$ 为两向结点; (3) 当 $q >  0$ 且 $p^2 = 4q$ 时, $(0,0)$ 为单向结点或星形结点; (4) 当 $q >  0$ 且 $0 <  p^2 <  4q$ 时, $(0,0)$ 为焦点; (5) 当 $q >  0$ 且 $p = 0$ 时, $(0,0)$ 为中心点. 此外, 在情形 (2) 至 (4) 中, 当 $p >  0$ 时奇点 $(0,0)$ 是稳定的, 而当 $p <  0$ 时则是不稳定的.
+对于线性系统 $\frac{d\boldsymbol{u}}{dt} = A\boldsymbol{u}$, 记 $p = -\text{tr}\left[A\right]$(矩阵 $A$ 的迹的反号), $q = \det\left[A\right]$, 则我们有 (1) 当 $q <  0$ 时, $\left(0,0\right)$ 为鞍点; (2) 当 $q >  0$ 且 $p^2 >  4q$ 时, $\left(0,0\right)$ 为两向结点; (3) 当 $q >  0$ 且 $p^2 = 4q$ 时, $\left(0,0\right)$ 为单向结点或星形结点; (4) 当 $q >  0$ 且 $0 <  p^2 <  4q$ 时, $\left(0,0\right)$ 为焦点; (5) 当 $q >  0$ 且 $p = 0$ 时, $\left(0,0\right)$ 为中心点. 此外, 在情形 (2) 至 (4) 中, 当 $p >  0$ 时奇点 $\left(0,0\right)$ 是稳定的, 而当 $p <  0$ 时则是不稳定的.
 
 **定理 8.6**(非线性系统在初等奇点附近与线性化系统有相同的定性结构)
 
 设非线性系统
 
 $$
-\frac{dx}{dt} = ax + by + \varphi(x,y),\ \frac{dy}{dt} = cx + dy + \psi(x,y)
+\frac{dx}{dt} = ax + by + \varphi\left(x,y\right),\ \frac{dy}{dt} = cx + dy + \psi\left(x,y\right)
 $$
 
-以 $(0,0)$ 为孤立奇点, 其线性化系统 $\frac{dx}{dt} = ax + by,\ \frac{dy}{dt} = cx + dy$ 以 $(0,0)$ 为初等奇点, 其中 $r = \sqrt{x^2 + y^2}$. 则 (1) 若线性化系统以 $(0,0)$ 为焦点且条件 $A$($\varphi(x,y) = o(r),\ \psi(x,y) = o(r),\ r \to 0$) 成立, 则 $(0,0)$ 也是原系统的焦点, 且稳定性相同; (2) 若线性化系统以 $(0,0)$ 为鞍点或两向结点且条件 $A$ 与条件 $B$($\varphi, \psi$ 在原点的一个小邻域内对 $x, y$ 连续可微) 成立, 则 $(0,0)$ 也分别是原系统的鞍点或两向结点, 且稳定性相同; (3) 若线性化系统以 $(0,0)$ 为单向结点且条件 $A^*$($|\varphi|/r$ 与 $|\psi|/r$ 当 $r \to 0$ 时一致趋于零) 成立, 则 $(0,0)$ 也是原系统的单向结点, 且稳定性相同; (4) 若线性化系统以 $(0,0)$ 为星形结点且条件 $A^*$ 与条件 $B$ 成立, 则 $(0,0)$ 也是原系统的星形结点, 且稳定性相同.
+以 $\left(0,0\right)$ 为孤立奇点, 其线性化系统 $\frac{dx}{dt} = ax + by,\ \frac{dy}{dt} = cx + dy$ 以 $\left(0,0\right)$ 为初等奇点, 其中 $r = \sqrt{x^2 + y^2}$. 则 (1) 若线性化系统以 $\left(0,0\right)$ 为焦点且条件 $A$($\varphi\left(x,y\right) = o\left(r\right),\ \psi\left(x,y\right) = o\left(r\right),\ r \to 0$) 成立, 则 $\left(0,0\right)$ 也是原系统的焦点, 且稳定性相同; (2) 若线性化系统以 $\left(0,0\right)$ 为鞍点或两向结点且条件 $A$ 与条件 $B$($\varphi, \psi$ 在原点的一个小邻域内对 $x, y$ 连续可微) 成立, 则 $\left(0,0\right)$ 也分别是原系统的鞍点或两向结点, 且稳定性相同; (3) 若线性化系统以 $\left(0,0\right)$ 为单向结点且条件 $A^*$($\left|\varphi\right|/r$ 与 $\left|\psi\right|/r$ 当 $r \to 0$ 时一致趋于零) 成立, 则 $\left(0,0\right)$ 也是原系统的单向结点, 且稳定性相同; (4) 若线性化系统以 $\left(0,0\right)$ 为星形结点且条件 $A^*$ 与条件 $B$ 成立, 则 $\left(0,0\right)$ 也是原系统的星形结点, 且稳定性相同.
 
 ## 10.2 首次积分的性质
 
@@ -1042,21 +1042,21 @@ $$
 
 **定理 10.7**(大范围首次积分与保守系统)
 
-对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $(E,F,G)$ 与雅可比量
+对于三维自治系统 $\frac{dx}{dt}=E,\ \frac{dy}{dt}=F,\ \frac{dz}{dt}=G$, 若它在大范围区域 $\Omega$ 内有两个互相独立的驻定首次积分 $\Phi_1=C_1,\ \Phi_2=C_2$, 则该系统在 $\Omega$ 内是一个保守系统或等价于一个保守系统. 其推导为: 由首次积分充要条件 $\frac{\partial\Phi_i}{\partial x}E+\frac{\partial\Phi_i}{\partial y}F+\frac{\partial\Phi_i}{\partial z}G\equiv0$ 解出 $\left(E,F,G\right)$ 与雅可比量
 
 $$
-L=\frac{D(\Phi_1,\Phi_2)}{D(y,z)},\ M=\frac{D(\Phi_1,\Phi_2)}{D(z,x)},\ N=\frac{D(\Phi_1,\Phi_2)}{D(x,y)}
+L=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(y,z\right)},\ M=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(z,x\right)},\ N=\frac{D\left(\Phi_1,\Phi_2\right)}{D\left(x,y\right)}
 $$
 
-成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial(\mu E)}{\partial x}+\frac{\partial(\mu F)}{\partial y}+\frac{\partial(\mu G)}{\partial z}\equiv0$.
+成比例, 即 $L=\mu E,\ M=\mu F,\ N=\mu G$; 再由恒等式 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 得 $\frac{\partial\left(\mu E\right)}{\partial x}+\frac{\partial\left(\mu F\right)}{\partial y}+\frac{\partial\left(\mu G\right)}{\partial z}\equiv0$.
 
 **散度与保守系统**
 
-向量场 $(E,F,G)$ 的散度为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}$. 当 $\mu$ 为常数时, 上式成为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}=0$, 即散度等于零, 称该系统为保守系统. 当 $\mu$ 不是常数时, 称 $\mu(x,y,z)$ 为拟积分因子, 此时原系统经参数变换 $d\tau=\frac{dt}{\mu}$ 化为等价的保守系统 $\frac{dx}{d\tau}=\mu E,\ \frac{dy}{d\tau}=\mu F,\ \frac{dz}{d\tau}=\mu G$.
+向量场 $\left(E,F,G\right)$ 的散度为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}$. 当 $\mu$ 为常数时, 上式成为 $\frac{\partial E}{\partial x}+\frac{\partial F}{\partial y}+\frac{\partial G}{\partial z}=0$, 即散度等于零, 称该系统为保守系统. 当 $\mu$ 不是常数时, 称 $\mu\left(x,y,z\right)$ 为拟积分因子, 此时原系统经参数变换 $d\tau=\frac{dt}{\mu}$ 化为等价的保守系统 $\frac{dx}{d\tau}=\mu E,\ \frac{dy}{d\tau}=\mu F,\ \frac{dz}{d\tau}=\mu G$.
 
 **第二章的恰当方程与积分因子理论**
 
-对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu(x,y)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
+对于对称形式的一阶方程 $Pdx+Qdy=0$, 它是恰当方程(即存在 $\Phi$ 使 $d\Phi=Pdx+Qdy$)的充要条件为 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$; 当它不是恰当方程时, 若有因子 $\mu\left(x,y\right)$ 使 $\mu Pdx+\mu Qdy=0$ 成为恰当方程, 则称 $\mu$ 为该方程的积分因子.
 
 ## 11.1 一阶齐次线性偏微分方程
 
