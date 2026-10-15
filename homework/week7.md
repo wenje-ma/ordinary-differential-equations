@@ -45,7 +45,7 @@ $$
 由积分方程与初值问题的等价性, 该初值问题等价于积分方程 $y\left(x\right)=\displaystyle\int_0^x\big[t+y\left(t\right)+1\big]\,dt$, 皮卡序列为
 
 $$
-y_{n+1}\left(x\right)=\int_0^x\big[t+y_n\left(t\right)+1\big]\,dt,\qquad y_0\left(x\right)=0.
+y_{n+1}\left(x\right)=\int_0^x\big[t+y_n\left(t\right)+1\big]\,dt,\quad y_0\left(x\right)=0.
 $$
 
 逐项计算前几项:

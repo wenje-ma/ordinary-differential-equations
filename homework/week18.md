@@ -26,7 +26,7 @@
 
 该方程组的分量形式为
 
-$$\frac{dy_1}{dt}=\frac{1}{t}y_1,\qquad\frac{dy_2}{dt}=\frac{1}{t}y_2.$$
+$$\frac{dy_1}{dt}=\frac{1}{t}y_1,\quad\frac{dy_2}{dt}=\frac{1}{t}y_2.$$
 
 两个方程相互独立, 分别求解. 对第一个方程分离变量积分, 得 $\ln\left|y_1\right|=\ln\left|t\right|+C_1$, 即 $y_1=C_1t$. 同理 $y_2=C_2t$. 因此通解为
 
@@ -42,7 +42,7 @@ $$y=C_1\begin{pmatrix}t\\0\end{pmatrix}+C_2\begin{pmatrix}0\\t\end{pmatrix},$$
 
 该方程组的分量形式为
 
-$$\frac{dy_1}{dt}=y_2,\qquad\frac{dy_2}{dt}=-y_1.$$
+$$\frac{dy_1}{dt}=y_2,\quad\frac{dy_2}{dt}=-y_1.$$
 
 由第一式得 $y_2=\frac{dy_1}{dt}$, 代入第二式, 得二阶方程
 
@@ -72,7 +72,7 @@ $$\frac{d}{dt}\left(ty\right)=t^2.$$
 
 积分得 $ty=\frac{t^3}{3}+C$, 即 $y=\frac{t^2}{3}+\frac{C}{t}$. 代入初值 $y\left(1\right)=\frac{4}{3}$, 得 $\frac{4}{3}=\frac{1}{3}+C$, 故 $C=1$. 因此所求解为
 
-$$x\left(t\right)\equiv0,\qquad y\left(t\right)=\frac{t^2}{3}+\frac{1}{t}.$$
+$$x\left(t\right)\equiv0,\quad y\left(t\right)=\frac{t^2}{3}+\frac{1}{t}.$$
 
 $\blacksquare$
 
@@ -88,7 +88,7 @@ $$C_1\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2\begin{pmatrix}x\\0\\0\end{pmatrix}+
 
 比较第一分量, 得多项式恒等式
 
-$$C_1+C_2x+C_3x^2=0\qquad\left(a<x<b\right).$$
+$$C_1+C_2x+C_3x^2=0\quad\left(a<x<b\right).$$
 
 由于非零多项式在任一区间上不可能恒等于零, 故必有 $C_1=C_2=C_3=0$. 由向量函数组线性无关的定义, 该向量函数组在任意区间 $\left(a,b\right)$ 上线性无关. $\blacksquare$
 

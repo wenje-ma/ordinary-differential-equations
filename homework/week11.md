@@ -4,7 +4,7 @@
 
 > **微分法**<br>设从一阶隐式方程中可显式解出未知函数 $$y=f\left(x,p\right),$$ 其中 $p=\frac{dy}{dx}$. 设函数 $f\left(x,p\right)$ 对 $\left(x,p\right)$ 连续可微, 则由上式对 $x$ 进行微分, 得到 $$\left[f_x\left(x,p\right)-p\right]dx+f_p\left(x,p\right)dp=0.$$ 这是关于变量 $x$ 和 $p$ 的一阶显式微分方程. 若能求得其通解 $p=u\left(x,C\right)$, 则原方程的通解为 $y=f\left(x,u\left(x,C\right)\right)$; 若其通解易写成 $x=v\left(p,C\right)$ 的形式, 则原方程的通解可写成 $$\begin{cases}x=v\left(p,C\right),\\y=f\left(v\left(p,C\right),p\right),\end{cases}$$ 其中 $p$ 视作参变量.
 
-> **参数法**<br>设微分方程不明显包含自变量, 即 $$F\left(y,p\right)=0.$$ 作为 $y$ 和 $p$ 之间的联系, 在 $Oyp$ 平面上它一般表示若干条曲线. 设 $$y=g\left(t\right),\qquad p=h\left(t\right)$$ 是其中一条的参数表示, 其中设 $h\left(t\right)\neq0$. 由 $dy=p\,dx$ 可得 $dx=\frac{g'\left(t\right)}{h\left(t\right)}dt$, 再积分得原方程的通解 $$x=\int\frac{g'\left(t\right)}{h\left(t\right)}dt+C,\qquad y=g\left(t\right).$$ 同理, 对不明显包含未知函数的方程 $F\left(x,p\right)=0$, 可取参数表示 $x=f\left(t\right),\ p=h\left(t\right)$, 则由 $dy=p\,dx$ 得 $dy=h\left(t\right)f'\left(t\right)dt$, 通解为 $$y=\int h\left(t\right)f'\left(t\right)dt+C,\qquad x=f\left(t\right).$$
+> **参数法**<br>设微分方程不明显包含自变量, 即 $$F\left(y,p\right)=0.$$ 作为 $y$ 和 $p$ 之间的联系, 在 $Oyp$ 平面上它一般表示若干条曲线. 设 $$y=g\left(t\right),\quad p=h\left(t\right)$$ 是其中一条的参数表示, 其中设 $h\left(t\right)\neq0$. 由 $dy=p\,dx$ 可得 $dx=\frac{g'\left(t\right)}{h\left(t\right)}dt$, 再积分得原方程的通解 $$x=\int\frac{g'\left(t\right)}{h\left(t\right)}dt+C,\quad y=g\left(t\right).$$ 同理, 对不明显包含未知函数的方程 $F\left(x,p\right)=0$, 可取参数表示 $x=f\left(t\right),\ p=h\left(t\right)$, 则由 $dy=p\,dx$ 得 $dy=h\left(t\right)f'\left(t\right)dt$, 通解为 $$y=\int h\left(t\right)f'\left(t\right)dt+C,\quad x=f\left(t\right).$$
 
 ### 习题一
 
@@ -101,7 +101,7 @@ $\blacksquare$
 由**参数法**, 该方程不明显包含未知函数 $y$, 属 $F\left(x,p\right)=0$ 型, 其中 $p=\frac{dy}{dx}$. 对曲线 $x^2-3p^2=1$ 取参数表示
 
 $$
-x=\cosh t,\qquad p=\frac{1}{\sqrt{3}}\sinh t.
+x=\cosh t,\quad p=\frac{1}{\sqrt{3}}\sinh t.
 $$
 
 由 $dy=p\,dx$, 且 $\frac{dx}{dt}=\sinh t$, 得
@@ -136,7 +136,7 @@ $\blacksquare$
 由**参数法**, 该方程不明显包含未知函数 $y$, 属 $F\left(x,p\right)=0$ 型, 其中 $p=\frac{dy}{dx}$. 对曲线 $x^3+p^3=4xp$ 取参数 $p=tx$, 代入得 $x^3\left(1+t^3\right)=4tx^2$, 故
 
 $$
-x=\frac{4t}{1+t^3},\qquad p=\frac{4t^2}{1+t^3}.
+x=\frac{4t}{1+t^3},\quad p=\frac{4t^2}{1+t^3}.
 $$
 
 由 $dy=p\,dx$, 且 $\frac{dx}{dt}=\frac{4\left(1-2t^3\right)}{\left(1+t^3\right)^2}$, 得

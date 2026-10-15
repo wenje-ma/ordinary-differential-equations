@@ -13,7 +13,7 @@
 由**勒让德多项式的母函数**, 有
 
 $$
-G\left(x,t\right)=\sum_{n=0}^{\infty}P_n\left(x\right)t^n,\qquad\frac{\partial G}{\partial t}=\sum_{n=1}^{\infty}nP_n\left(x\right)t^{n-1}.
+G\left(x,t\right)=\sum_{n=0}^{\infty}P_n\left(x\right)t^n,\quad\frac{\partial G}{\partial t}=\sum_{n=1}^{\infty}nP_n\left(x\right)t^{n-1}.
 $$
 
 将它们代入恒等式 $\left(1-2xt+t^2\right)\frac{\partial G}{\partial t}=\left(x-t\right)G$, 左端展开为
@@ -47,7 +47,7 @@ $$
 将 $k$ 换记为 $n$, 即得递推公式
 
 $$
-\left(n+1\right)P_{n+1}\left(x\right)-\left(2n+1\right)xP_n\left(x\right)+nP_{n-1}\left(x\right)=0\qquad\left(n\ge1\right).
+\left(n+1\right)P_{n+1}\left(x\right)-\left(2n+1\right)xP_n\left(x\right)+nP_{n-1}\left(x\right)=0\quad\left(n\ge1\right).
 $$
 
 $\blacksquare$

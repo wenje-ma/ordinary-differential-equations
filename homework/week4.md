@@ -75,7 +75,7 @@ $$
 
 代入 $A\left(x\right)=e^{\int_0^x a\left(s\right)ds}$, 整理得
 $$
-\varphi\left(x\right)\le\varphi\left(0\right)e^{-\int_0^x a\left(s\right)ds}\qquad\left(x\ge0\right).
+\varphi\left(x\right)\le\varphi\left(0\right)e^{-\int_0^x a\left(s\right)ds}\quad\left(x\ge0\right).
 $$
 
 $\blacksquare$

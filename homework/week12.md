@@ -2,9 +2,9 @@
 
 > **定义 4.1**(奇解)<br>设一阶微分方程 $$F\left(x,y,\frac{dy}{dx}\right)=0$$ 有特解 $\Gamma:y=\varphi\left(x\right)$($x\in J$). 如果对每一点 $Q\in\Gamma$, 在 $Q$ 点的任何邻域内该方程有一个不同于 $\Gamma$ 的解在 $Q$ 点与 $\Gamma$ 相切, 则称 $\Gamma$ 是该微分方程的奇解.
 
-> **定理 4.1**(奇解的必要条件即 $p$-判别式)<br>设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是连续的, 而且对 $y$ 和 $p$ 有连续的偏微商 $F_y'$ 和 $F_p'$. 若函数 $y=\varphi\left(x\right)$($x\in J$)是微分方程的一个奇解, 并且 $\left(x,\varphi\left(x\right),\varphi'\left(x\right)\right)\in G$, 则奇解 $y=\varphi\left(x\right)$ 满足 $p$-判别式 $$\begin{cases}F\left(x,y,p\right)=0,\\F_p'\left(x,y,p\right)=0,\end{cases}\qquad\left(p=\frac{dy}{dx}\right).$$ 从 $p$-判别式中消去 $p$ 所得方程所决定的曲线称为 $p$-判别曲线. 奇解必是一条 $p$-判别曲线. 但须注意, 由 $p$-判别式确定的函数不一定是解, 即使是解也不一定是奇解, 仍须按**定义 4.1**(奇解)经过验证.
+> **定理 4.1**(奇解的必要条件即 $p$-判别式)<br>设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是连续的, 而且对 $y$ 和 $p$ 有连续的偏微商 $F_y'$ 和 $F_p'$. 若函数 $y=\varphi\left(x\right)$($x\in J$)是微分方程的一个奇解, 并且 $\left(x,\varphi\left(x\right),\varphi'\left(x\right)\right)\in G$, 则奇解 $y=\varphi\left(x\right)$ 满足 $p$-判别式 $$\begin{cases}F\left(x,y,p\right)=0,\\F_p'\left(x,y,p\right)=0,\end{cases}\quad\left(p=\frac{dy}{dx}\right).$$ 从 $p$-判别式中消去 $p$ 所得方程所决定的曲线称为 $p$-判别曲线. 奇解必是一条 $p$-判别曲线. 但须注意, 由 $p$-判别式确定的函数不一定是解, 即使是解也不一定是奇解, 仍须按**定义 4.1**(奇解)经过验证.
 
-> **定理 4.2**(奇解的充分条件)<br>设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是二阶连续可微的. 又设由 $p$-判别式消去 $p$ 后得到的函数 $y=\psi\left(x\right)$($x\in J$)是微分方程的解, 而且条件 $$F_y'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0,\qquad F_{pp}''\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0$$ 以及 $$F_p'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)=0$$ 对 $x\in J$ 成立, 则 $y=\psi\left(x\right)$ 是微分方程的奇解.
+> **定理 4.2**(奇解的充分条件)<br>设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是二阶连续可微的. 又设由 $p$-判别式消去 $p$ 后得到的函数 $y=\psi\left(x\right)$($x\in J$)是微分方程的解, 而且条件 $$F_y'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0,\quad F_{pp}''\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0$$ 以及 $$F_p'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)=0$$ 对 $x\in J$ 成立, 则 $y=\psi\left(x\right)$ 是微分方程的奇解.
 
 ### 习题一
 

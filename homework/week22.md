@@ -19,7 +19,7 @@ $$
 逐项微分并调整求和指标, 得
 
 $$
-y'=\sum_{n=0}^{\infty}\left(n+1\right)a_{n+1}x^n,\qquad y''=\sum_{n=0}^{\infty}\left(n+2\right)\left(n+1\right)a_{n+2}x^n.
+y'=\sum_{n=0}^{\infty}\left(n+1\right)a_{n+1}x^n,\quad y''=\sum_{n=0}^{\infty}\left(n+2\right)\left(n+1\right)a_{n+2}x^n.
 $$
 
 代入方程 $y''-2xy'+\lambda y=0$, 其中 $-2xy'=-2\sum_{n=1}^{\infty}na_nx^n$, 比较 $x^n$ 的系数.
@@ -29,7 +29,7 @@ $n=0$ 时: $2a_2+\lambda a_0=0$, 即 $a_2=-\frac{\lambda}{2}a_0$.
 $n\ge1$ 时: $\left(n+2\right)\left(n+1\right)a_{n+2}-2na_n+\lambda a_n=0$, 即递推公式
 
 $$
-a_{n+2}=\frac{2n-\lambda}{\left(n+2\right)\left(n+1\right)}\,a_n\qquad\left(n=0,1,2,\cdots\right).
+a_{n+2}=\frac{2n-\lambda}{\left(n+2\right)\left(n+1\right)}\,a_n\quad\left(n=0,1,2,\cdots\right).
 $$
 
 递推公式隔项分离, 分别写出偶次和奇次系数.
@@ -37,13 +37,13 @@ $$
 偶次项: $a_2=-\frac{\lambda}{2!}a_0,\ a_4=\frac{\left(-\lambda\right)\left(4-\lambda\right)}{4!}a_0,\ a_6=\frac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)}{6!}a_0$, 一般地
 
 $$
-a_{2k}=\frac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)\cdots\left(4k-4-\lambda\right)}{\left(2k\right)!}\,a_0\qquad\left(k\ge1\right).
+a_{2k}=\frac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)\cdots\left(4k-4-\lambda\right)}{\left(2k\right)!}\,a_0\quad\left(k\ge1\right).
 $$
 
 奇次项: $a_3=\frac{2-\lambda}{3!}a_1,\ a_5=\frac{\left(2-\lambda\right)\left(6-\lambda\right)}{5!}a_1$, 一般地
 
 $$
-a_{2k+1}=\frac{\left(2-\lambda\right)\left(6-\lambda\right)\left(10-\lambda\right)\cdots\left(4k-2-\lambda\right)}{\left(2k+1\right)!}\,a_1\qquad\left(k\ge1\right).
+a_{2k+1}=\frac{\left(2-\lambda\right)\left(6-\lambda\right)\left(10-\lambda\right)\cdots\left(4k-2-\lambda\right)}{\left(2k+1\right)!}\,a_1\quad\left(k\ge1\right).
 $$
 
 因此方程的通解为
@@ -63,7 +63,7 @@ $$
 $x=0$ 是方程的常点($\sin x$ 在 $x=0$ 附近解析). 由**定理 7.2**(常点邻域内幂级数解的存在与递推), 设
 
 $$
-y=\sum_{n=0}^{\infty}a_nx^n,\qquad y''=\sum_{n=0}^{\infty}\left(n+2\right)\left(n+1\right)a_{n+2}x^n.
+y=\sum_{n=0}^{\infty}a_nx^n,\quad y''=\sum_{n=0}^{\infty}\left(n+2\right)\left(n+1\right)a_{n+2}x^n.
 $$
 
 而 $\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots$, 故乘积 $\left(\sin x\right)y$ 中 $x^n$ 的系数为 $a_{n-1}-\frac{a_{n-3}}{3!}+\frac{a_{n-5}}{5!}-\cdots$(其中 $a_{-1}=a_{-2}=0$). 代入方程比较系数:

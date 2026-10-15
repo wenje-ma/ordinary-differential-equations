@@ -17,19 +17,19 @@
 由**互相独立的首次积分**(雅可比行列式非零), 不妨设在所论区域内 $\frac{D\left(V_1,\cdots,V_k\right)}{D\left(y_1,\cdots,y_k\right)}\neq0$. 把前 $k$ 个未知函数 $y_1,\cdots,y_k$ 看作待解出的变元, 而把 $x,y_{k+1},\cdots,y_n$ 看作自变量. 由**隐函数定理**, 可从方程组
 
 $$
-V_i\left(x,y_1,\cdots,y_k,y_{k+1},\cdots,y_n\right)=C_i\qquad\left(i=1,\cdots,k\right)
+V_i\left(x,y_1,\cdots,y_k,y_{k+1},\cdots,y_n\right)=C_i\quad\left(i=1,\cdots,k\right)
 $$
 
 局部解出
 
 $$
-y_i=g_i\left(x,y_{k+1},\cdots,y_n,C_1,\cdots,C_k\right)\qquad\left(i=1,\cdots,k\right).
+y_i=g_i\left(x,y_{k+1},\cdots,y_n,C_1,\cdots,C_k\right)\quad\left(i=1,\cdots,k\right).
 $$
 
 将它们代入原微分方程组 (10.17) 的后 $n-k$ 个等式
 
 $$
-\frac{dy_{k+1}}{dx}=f_{k+1},\qquad\cdots,\qquad\frac{dy_n}{dx}=f_n,
+\frac{dy_{k+1}}{dx}=f_{k+1},\quad\cdots,\quad\frac{dy_n}{dx}=f_n,
 $$
 
 就消去了 $y_1,\cdots,y_k$, 得到一个以 $y_{k+1},\cdots,y_n$ 为未知函数的 $n-k$ 阶微分方程组. 这正是**定理 10.2**(已知一个首次积分可降低一阶) 的推广: 每用一个独立首次积分消去一个未知函数, 阶数便降低一阶, 故用 $k$ 个独立首次积分即把原方程组降低 $k$ 阶. $\blacksquare$

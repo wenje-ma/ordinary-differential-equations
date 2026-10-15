@@ -15,19 +15,19 @@
 第一步, 把**定理 10.7**(大范围首次积分与保守系统) 推广到 $n$ 维. 设 $n$ 维自治系统 $\frac{dx_i}{dt}=f_i$($i=1,\cdots,n$) 在区域 $\Omega$ 内有 $n-1$ 个互相独立的驻定首次积分 $\Phi_1,\cdots,\Phi_{n-1}$. 由首次积分的充要条件, 有恒等式
 
 $$
-\sum_{i=1}^n f_i\frac{\partial\Phi_k}{\partial x_i}\equiv0\qquad\left(k=1,\cdots,n-1\right).
+\sum_{i=1}^n f_i\frac{\partial\Phi_k}{\partial x_i}\equiv0\quad\left(k=1,\cdots,n-1\right).
 $$
 
 因为 $\Phi_1,\cdots,\Phi_{n-1}$ 互相独立, 这 $n-1$ 个梯度 $\nabla\Phi_k$ 线性无关, 而向量 $f=\left(f_1,\cdots,f_n\right)$ 与它们都垂直, 故 $f$ 落在一维正交补空间中. 定义广义叉乘向量
 
 $$
-L_i=\left(-1\right)^{i-1}\frac{D\left(\Phi_1,\cdots,\Phi_{n-1}\right)}{D\left(x_1,\cdots,\widehat{x_i},\cdots,x_n\right)}\qquad\left(i=1,\cdots,n\right),
+L_i=\left(-1\right)^{i-1}\frac{D\left(\Phi_1,\cdots,\Phi_{n-1}\right)}{D\left(x_1,\cdots,\widehat{x_i},\cdots,x_n\right)}\quad\left(i=1,\cdots,n\right),
 $$
 
 其中 $\widehat{x_i}$ 表示去掉变元 $x_i$. 按行列式的拉普拉斯展开, 有 $\sum_{i=1}^nL_i\frac{\partial\Phi_k}{\partial x_i}\equiv0$, 故 $L$ 与 $f$ 成比例:
 
 $$
-L_i=\mu f_i\qquad\left(i=1,\cdots,n\right).
+L_i=\mu f_i\quad\left(i=1,\cdots,n\right).
 $$
 
 另一方面, 与三维时 $\frac{\partial L}{\partial x}+\frac{\partial M}{\partial y}+\frac{\partial N}{\partial z}\equiv0$ 同理(要求各 $\Phi_k$ 二次连续可微), 有
@@ -47,7 +47,7 @@ $$
 第二步, 取 $n=2$. 此时系统为 $\frac{dx}{dt}=f_1,\ \frac{dy}{dt}=f_2$, 沿轨线有 $\frac{dy}{dx}=\frac{f_2}{f_1}$. 它只有 $n-1=1$ 个首次积分 $\Phi\left(x,y\right)=C$. 按上述广义叉乘, 取 $i=1,2$:
 
 $$
-L_1=\frac{D\left(\Phi\right)}{D\left(y\right)}=\frac{\partial\Phi}{\partial y},\qquad L_2=-\frac{D\left(\Phi\right)}{D\left(x\right)}=-\frac{\partial\Phi}{\partial x},
+L_1=\frac{D\left(\Phi\right)}{D\left(y\right)}=\frac{\partial\Phi}{\partial y},\quad L_2=-\frac{D\left(\Phi\right)}{D\left(x\right)}=-\frac{\partial\Phi}{\partial x},
 $$
 
 于是 $L_i=\mu f_i$ 即 $\frac{\partial\Phi}{\partial y}=\mu f_1,\ -\frac{\partial\Phi}{\partial x}=\mu f_2$. 推广后的散度恒等式成为

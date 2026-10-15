@@ -16,7 +16,7 @@
 
 这是**可化为齐次的方程**. 解方程组 $2y-x+5=0,\ 2x-y-4=0$, 得 $x=1,\ y=-2$. 作平移变换 $x=\xi+1,\ y=\eta-2$, 则
 $$
-2y-x+5=2\eta-\xi,\qquad2x-y-4=2\xi-\eta.
+2y-x+5=2\eta-\xi,\quad2x-y-4=2\xi-\eta.
 $$
 
 方程化为齐次方程 $\frac{d\eta}{d\xi}=\frac{2\eta-\xi}{2\xi-\eta}$. 令 $\eta=u\xi$, 由**齐次方程**, 得
@@ -115,7 +115,7 @@ $$
 
 这是**可化为齐次的方程**. 解方程组 $2u+3v-7=0,\ 3u+2v-8=0$, 得 $u=2,\ v=1$. 作平移变换 $u=\xi+2,\ v=\eta+1$, 则
 $$
-2u+3v-7=2\xi+3\eta,\qquad3u+2v-8=3\xi+2\eta.
+2u+3v-7=2\xi+3\eta,\quad3u+2v-8=3\xi+2\eta.
 $$
 
 方程化为 $\frac{d\eta}{d\xi}=\frac{2\xi+3\eta}{3\xi+2\eta}$. 令 $\eta=w\xi$, 由**齐次方程**, 得

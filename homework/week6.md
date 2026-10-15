@@ -16,7 +16,7 @@
 
 记 $P\left(x,y\right)=y,\ Q\left(x,y\right)=2xy-e^{-2y}$. 计算得
 $$
-\frac{\partial P}{\partial y}=1,\qquad\frac{\partial Q}{\partial x}=2y.
+\frac{\partial P}{\partial y}=1,\quad\frac{\partial Q}{\partial x}=2y.
 $$
 
 二者不恒等, 方程非恰当. 由**定理 2.5**(只依赖于 $y$ 的积分因子), 检查表达式

@@ -19,7 +19,7 @@
 (1) $A$ 的秩为 $1$, 即 $A$ 有一个非零实特征根 $\lambda \ne 0$ 与一个零特征根. 此时 $A$ 相似于对角形 $\begin{pmatrix}\lambda & 0 \\ 0 & 0\end{pmatrix}$, 系统为
 
 $$
-\frac{dx}{dt} = \lambda x,\qquad\frac{dy}{dt} = 0.
+\frac{dx}{dt} = \lambda x,\quad\frac{dy}{dt} = 0.
 $$
 
 相图: 每条水平直线 $y = c$ 都是一条轨线所在的直线, 其上的点沿 $x$ 轴向 $y$ 轴方向($\lambda < 0$)或远离 $y$ 轴方向($\lambda > 0$)运动; 整个 $y$ 轴由无穷多个平衡点组成(奇点是非孤立的).
@@ -27,7 +27,7 @@ $$
 (2) $A$ 为非零的幂零矩阵, 即 $A$ 相似于 $\begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}$, 系统为
 
 $$
-\frac{dx}{dt} = y,\qquad\frac{dy}{dt} = 0.
+\frac{dx}{dt} = y,\quad\frac{dy}{dt} = 0.
 $$
 
 相图: 每条水平直线 $y = c \ne 0$ 都是轨线, 当 $c > 0$ 时沿 $x$ 增大方向运动, 当 $c < 0$ 时沿 $x$ 减小方向运动; 整个 $x$ 轴由无穷多个平衡点组成.
@@ -45,7 +45,7 @@ $$
 线性部分矩阵为 $A = \begin{pmatrix}2 & 1 \\ 1 & 2\end{pmatrix}$. 计算得
 
 $$
-p = -\text{tr}\left[A\right] = -4,\qquad q = \det\left[A\right] = 3,\qquad p^2 - 4q = 16 - 12 = 4 > 0.
+p = -\text{tr}\left[A\right] = -4,\quad q = \det\left[A\right] = 3,\quad p^2 - 4q = 16 - 12 = 4 > 0.
 $$
 
 由**定理 8.5**(初等奇点类型的判定), $q > 0$ 且 $p^2 > 4q$, 故线性化系统以 $\left(0,0\right)$ 为两向结点; 又 $p = -4 < 0$, 故该结点是不稳定的.
@@ -65,7 +65,7 @@ $$
 线性部分矩阵为 $A = \begin{pmatrix}1 & 2 \\ -2 & 5\end{pmatrix}$. 计算得
 
 $$
-p = -\text{tr}\left[A\right] = -6,\qquad q = \det\left[A\right] = 9,\qquad p^2 - 4q = 36 - 36 = 0.
+p = -\text{tr}\left[A\right] = -6,\quad q = \det\left[A\right] = 9,\quad p^2 - 4q = 36 - 36 = 0.
 $$
 
 由**定理 8.5**(初等奇点类型的判定), $q > 0$ 且 $p^2 = 4q$, 故线性化系统以 $\left(0,0\right)$ 为单向结点或星形结点. 特征方程为 $\left(\lambda - 3\right)^2 = 0$, 有二重特征根 $\lambda = 3$. 求解 $\left(A - 3I\right)\boldsymbol{v} = \begin{pmatrix}-2 & 2 \\ -2 & 2\end{pmatrix}\boldsymbol{v} = 0$, 得唯一的特征方向 $y = x$, 即只有一个线性无关的特征向量, 故奇点为单向结点. 又 $p = -6 < 0$, 故该单向结点是不稳定的.
@@ -83,7 +83,7 @@ $$
 在 $\left(0,0\right)$ 附近, 右端函数展开为 $\frac{dx}{dt} = x - xy,\ \frac{dy}{dt} = y - xy$, 线性部分矩阵为 $A = \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$. 计算得
 
 $$
-p = -\text{tr}\left[A\right] = -2,\qquad q = \det\left[A\right] = 1,\qquad p^2 - 4q = 4 - 4 = 0.
+p = -\text{tr}\left[A\right] = -2,\quad q = \det\left[A\right] = 1,\quad p^2 - 4q = 4 - 4 = 0.
 $$
 
 由**定理 8.5**(初等奇点类型的判定), $q > 0$ 且 $p^2 = 4q$, 故线性化系统以 $\left(0,0\right)$ 为单向结点或星形结点. 特征方程为 $\left(\lambda - 1\right)^2 = 0$, 有二重特征根 $\lambda = 1$; 而 $A = I$, 任何非零向量都是特征向量, 即两个若尔当块都是一阶的, 故奇点为星形结点. 又 $p = -2 < 0$, 故该星形结点是不稳定的.

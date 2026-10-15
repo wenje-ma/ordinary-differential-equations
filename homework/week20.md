@@ -4,7 +4,7 @@
 
 > **定理 6.2***(解组线性无关的朗斯基行列式判据)<br>方程 (6.47) 的解组 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是线性无关的充要条件为它的朗斯基行列式 $$W\left(x\right)=\left|\begin{matrix}\varphi_1\left(x\right)&\cdots&\varphi_n\left(x\right)\\\varphi_1'\left(x\right)&\cdots&\varphi_n'\left(x\right)\\\vdots&&\vdots\\\varphi_1^{\left(n-1\right)}\left(x\right)&\cdots&\varphi_n^{\left(n-1\right)}\left(x\right)\end{matrix}\right|$$ 在区间 $\left(a,b\right)$ 上恒不为零.
 
-> **刘维尔公式**(朗斯基行列式的演化公式 (6.54))<br>若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则 $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\qquad\left(a<x<b\right),$$ 其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.
+> **刘维尔公式**(朗斯基行列式的演化公式 (6.54))<br>若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则 $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a<x<b\right),$$ 其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.
 
 > **例 1**(由一个非零解构造通解的公式 (6.56))<br>设 $y=\varphi\left(x\right)$ 是二阶齐次线性微分方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 的一个非零解, 其中 $p\left(x\right)$ 和 $q\left(x\right)$ 是区间 $\left(a,b\right)$ 上的连续函数, 则在 $\varphi\left(x\right)\neq0$ 的子区间上方程的通解为 $$y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^{x}\frac{1}{\varphi^2\left(s\right)}e^{-\int_{x_0}^{s}p\left(t\right)dt}ds\right],$$ 其中 $C_1$ 和 $C_2$ 为任意常数.
 
@@ -85,7 +85,7 @@ $$
 (1) 由于 $u\left(x\right),v\left(x\right)$ 是方程 (6.76) 的解, 它们满足
 
 $$
-u''+p\left(x\right)u'+q\left(x\right)u=0,\qquad v''+p\left(x\right)v'+q\left(x\right)v=0.
+u''+p\left(x\right)u'+q\left(x\right)u=0,\quad v''+p\left(x\right)v'+q\left(x\right)v=0.
 $$
 
 将 $p\left(x\right),q\left(x\right)$ 视为未知量, 这是以 $u'\left(x\right),u\left(x\right)$ 和 $v'\left(x\right),v\left(x\right)$ 为系数的线性代数方程组:
@@ -103,7 +103,7 @@ $$
 其中 $W\left(x\right)$ 是基本解组 $u,v$ 的朗斯基行列式. 由**定理 6.2***(解组线性无关的朗斯基行列式判据), $u,v$ 为基本解组蕴含 $W\left(x\right)\neq0$ 在 $I$ 上恒成立, 故 $\Delta\left(x\right)\neq0$, 上述线性方程组有唯一解. 由克莱姆法则解得
 
 $$
-p\left(x\right)=\frac{u''\left(x\right)v\left(x\right)-u\left(x\right)v''\left(x\right)}{W\left(x\right)},\qquad q\left(x\right)=\frac{u'\left(x\right)v''\left(x\right)-u''\left(x\right)v'\left(x\right)}{W\left(x\right)}.
+p\left(x\right)=\frac{u''\left(x\right)v\left(x\right)-u\left(x\right)v''\left(x\right)}{W\left(x\right)},\quad q\left(x\right)=\frac{u'\left(x\right)v''\left(x\right)-u''\left(x\right)v'\left(x\right)}{W\left(x\right)}.
 $$
 
 因此 $p\left(x\right),q\left(x\right)$ 被基本解组 $u,v$ 唯一地确定.
@@ -131,7 +131,7 @@ $$
 的解. 逐次求导, 并依次令各阶导数中变易常数导数的组合为零, 即令
 
 $$
-\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(j\right)}\left(x\right)=0\qquad\left(j=0,1,\cdots,n-2\right),
+\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(j\right)}\left(x\right)=0\quad\left(j=0,1,\cdots,n-2\right),
 $$
 
 则有 $y^{\left(j\right)}\left(x\right)=\sum_{k=1}^{n}C_k\left(x\right)\varphi_k^{\left(j\right)}\left(x\right)\ \left(j=0,1,\cdots,n-1\right)$. 再求一次导数, 得
@@ -149,7 +149,7 @@ $$
 于是 $C_1'\left(x\right),\cdots,C_n'\left(x\right)$ 满足线性方程组
 
 $$
-\left\{\begin{matrix}\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k'\left(x\right)=0,\\\qquad\vdots\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-2\right)}\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-1\right)}\left(x\right)=f\left(x\right).\end{matrix}\right.
+\left\{\begin{matrix}\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k'\left(x\right)=0,\\\quad\vdots\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-2\right)}\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-1\right)}\left(x\right)=f\left(x\right).\end{matrix}\right.
 $$
 
 其系数行列式恰为基本解组的朗斯基行列式 $W\left(x\right)$. 由**定理 6.2***(解组线性无关的朗斯基行列式判据), $W\left(x\right)\neq0$, 故由克莱姆法则, $C_k'\left(x\right)$ 等于把 $W\left(x\right)$ 的第 $k$ 列换成右端向量 $\left(0,\cdots,0,f\left(x\right)\right)^T$ 所得行列式除以 $W\left(x\right)$. 按第 $k$ 列展开该行列式, 只有最后一行的 $f\left(x\right)$ 贡献, 故
@@ -161,7 +161,7 @@ $$
 其中 $W_k\left(x\right)$ 是 $W\left(x\right)$ 中第 $n$ 行第 $k$ 列元素的代数余子式. 取积分常数为零以得到一个特解, 积分得
 
 $$
-C_k\left(x\right)=\int_{x_0}^{x}\frac{W_k\left(s\right)}{W\left(s\right)}f\left(s\right)ds\qquad\left(k=1,\cdots,n\right).
+C_k\left(x\right)=\int_{x_0}^{x}\frac{W_k\left(s\right)}{W\left(s\right)}f\left(s\right)ds\quad\left(k=1,\cdots,n\right).
 $$
 
 代回所设解的形式, 得方程 (6.46) 的一个特解
@@ -193,7 +193,7 @@ $$
 下面归纳证明
 
 $$
-x^ky^{\left(k\right)}=D\left(D-1\right)\cdots\left(D-k+1\right)y\qquad\left(k=1,2,\cdots,n\right).
+x^ky^{\left(k\right)}=D\left(D-1\right)\cdots\left(D-k+1\right)y\quad\left(k=1,2,\cdots,n\right).
 $$
 
 $k=1$ 时 $xy'=Dy$, 显然成立. 设上式对 $k$ 成立, 则对 $k+1$ 有
@@ -335,7 +335,7 @@ $$
 非齐次项为 $\sin x$, 而 $\pm i$ 是二重特征根. 由**待定系数法**(对特殊非齐次项预先设定特解形式), 设特解 $y^*=x^2\left(A\cos x+B\sin x\right)$. 记 $D=\frac{d}{dx}$, 原方程为 $\left(D^2+1\right)^2y=\sin x$. 直接求导可算得
 
 $$
-\left(D^2+1\right)^2\left(x^2\cos x\right)=-8\cos x,\qquad\left(D^2+1\right)^2\left(x^2\sin x\right)=-8\sin x.
+\left(D^2+1\right)^2\left(x^2\cos x\right)=-8\cos x,\quad\left(D^2+1\right)^2\left(x^2\sin x\right)=-8\sin x.
 $$
 
 代入得
@@ -353,7 +353,7 @@ $$
 由**初值问题解的存在唯一性**, 任意给定的初值条件唯一确定一组常数. 计算各阶导数在 $x=0$ 的值: $y\left(0\right)=C_1$; 由 $y'=C_2\cos x-\left(C_1+C_2x\right)\sin x+C_4\sin x+\left(C_3+C_4x\right)\cos x-\frac{1}{8}\left(2x\sin x+x^2\cos x\right)$, 得 $y'\left(0\right)=C_2+C_3$; 直接算得 $y''\left(0\right)=-C_1+2C_4,\ y'''\left(0\right)=-3C_2-C_3-\frac{3}{4}$. 代入初值条件:
 
 $$
-C_1=1,\qquad C_2+C_3=-2,\qquad-C_1+2C_4=3,\qquad-3C_2-C_3-\frac{3}{4}=0.
+C_1=1,\quad C_2+C_3=-2,\quad-C_1+2C_4=3,\quad-3C_2-C_3-\frac{3}{4}=0.
 $$
 
 解得 $C_1=1,\ C_2=\frac{5}{8},\ C_3=-\frac{21}{8},\ C_4=2$. 故所求特解为
@@ -385,7 +385,7 @@ $$
 非齐次项为 $\left(12x-7\right)e^{-x}$, 其中 $\mu=-1$ 不是特征根. 由**待定系数法**(对特殊非齐次项预先设定特解形式), 设特解 $y^*=\left(Ax+B\right)e^{-x}$. 求导得
 
 $$
-y^{*'}=\left(A-Ax-B\right)e^{-x},\qquad y^{*''}=\left(Ax+B-2A\right)e^{-x}.
+y^{*'}=\left(A-Ax-B\right)e^{-x},\quad y^{*''}=\left(Ax+B-2A\right)e^{-x}.
 $$
 
 代入方程:

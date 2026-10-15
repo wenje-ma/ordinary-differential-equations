@@ -29,7 +29,7 @@ $$
 右端函数 $f\left(x,y\right)=y\left(y-1\right)$ 在全平面连续, 且对 $y$ 有连续偏导数, 由**推论**(局部利普希茨条件下解的存在唯一与延伸), 过任一点的解存在唯一. 分离变量, 由 $\frac{dy}{y\left(y-1\right)}=dx$ 及 $\frac{1}{y\left(y-1\right)}=\frac{1}{y-1}-\frac{1}{y}$, 积分得
 
 $$
-\ln\left|\frac{y-1}{y}\right|=x+C,\qquad\text{即}\qquad y=\frac{1}{1-Ce^x}.
+\ln\left|\frac{y-1}{y}\right|=x+C,\quad\text{即}\quad y=\frac{1}{1-Ce^x}.
 $$
 
 解的存在区间由初值点 $\left(x_0,y_0\right)$ 决定:

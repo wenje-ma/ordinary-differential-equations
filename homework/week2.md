@@ -12,12 +12,12 @@
 
 记 $P\left(x,y\right)=ax+by,\ Q\left(x,y\right)=bx+cy$. 由**定理 2.1**(恰当方程的判别与通积分公式), 只需检查 $\frac{\partial P}{\partial y}$ 与 $\frac{\partial Q}{\partial x}$ 是否恒等. 计算得
 $$
-\frac{\partial P}{\partial y}=b,\qquad\frac{\partial Q}{\partial x}=b.
+\frac{\partial P}{\partial y}=b,\quad\frac{\partial Q}{\partial x}=b.
 $$
 
 故 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$, 方程是恰当方程. 令 $\Phi\left(x,y\right)$ 满足
 $$
-\frac{\partial\Phi}{\partial x}=ax+by,\qquad\frac{\partial\Phi}{\partial y}=bx+cy.
+\frac{\partial\Phi}{\partial x}=ax+by,\quad\frac{\partial\Phi}{\partial y}=bx+cy.
 $$
 
 对第一式关于 $x$ 积分, 得
@@ -40,12 +40,12 @@ $\blacksquare$
 
 记 $P\left(x,y\right)=ye^x+2e^x+y^2,\ Q\left(x,y\right)=e^x+2xy$. 由**定理 2.1**(恰当方程的判别与通积分公式), 只需检查 $\frac{\partial P}{\partial y}$ 与 $\frac{\partial Q}{\partial x}$ 是否恒等. 计算得
 $$
-\frac{\partial P}{\partial y}=e^x+2y,\qquad\frac{\partial Q}{\partial x}=e^x+2y.
+\frac{\partial P}{\partial y}=e^x+2y,\quad\frac{\partial Q}{\partial x}=e^x+2y.
 $$
 
 故 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$, 方程是恰当方程. 令 $\Phi\left(x,y\right)$ 满足
 $$
-\frac{\partial\Phi}{\partial x}=ye^x+2e^x+y^2,\qquad\frac{\partial\Phi}{\partial y}=e^x+2xy.
+\frac{\partial\Phi}{\partial x}=ye^x+2e^x+y^2,\quad\frac{\partial\Phi}{\partial y}=e^x+2xy.
 $$
 
 对第一式关于 $x$ 积分, 得
@@ -68,12 +68,12 @@ $\blacksquare$
 
 记 $P\left(s,t\right)=\frac{2s-1}{t},\ Q\left(s,t\right)=\frac{s-s^2}{t^2}$. 由**定理 2.1**(恰当方程的判别与通积分公式), 只需检查 $\frac{\partial P}{\partial t}$ 与 $\frac{\partial Q}{\partial s}$ 是否恒等. 计算得
 $$
-\frac{\partial P}{\partial t}=-\frac{2s-1}{t^2},\qquad\frac{\partial Q}{\partial s}=\frac{1-2s}{t^2}=-\frac{2s-1}{t^2}.
+\frac{\partial P}{\partial t}=-\frac{2s-1}{t^2},\quad\frac{\partial Q}{\partial s}=\frac{1-2s}{t^2}=-\frac{2s-1}{t^2}.
 $$
 
 故 $\frac{\partial P}{\partial t}\equiv\frac{\partial Q}{\partial s}$, 方程是恰当方程. 令 $\Phi\left(s,t\right)$ 满足
 $$
-\frac{\partial\Phi}{\partial s}=\frac{2s-1}{t},\qquad\frac{\partial\Phi}{\partial t}=\frac{s-s^2}{t^2}.
+\frac{\partial\Phi}{\partial s}=\frac{2s-1}{t},\quad\frac{\partial\Phi}{\partial t}=\frac{s-s^2}{t^2}.
 $$
 
 对第一式关于 $s$ 积分, 得
@@ -96,12 +96,12 @@ $\blacksquare$
 
 记 $P\left(x,y\right)=xf\left(x^2+y^2\right),\ Q\left(x,y\right)=yf\left(x^2+y^2\right)$. 由**定理 2.1**(恰当方程的判别与通积分公式), 只需检查 $\frac{\partial P}{\partial y}$ 与 $\frac{\partial Q}{\partial x}$ 是否恒等. 由 $f$ 连续可微, 计算得
 $$
-\frac{\partial P}{\partial y}=2xyf'\left(x^2+y^2\right),\qquad\frac{\partial Q}{\partial x}=2xyf'\left(x^2+y^2\right).
+\frac{\partial P}{\partial y}=2xyf'\left(x^2+y^2\right),\quad\frac{\partial Q}{\partial x}=2xyf'\left(x^2+y^2\right).
 $$
 
 故 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$, 方程是恰当方程. 设 $F\left(u\right)$ 是 $f\left(u\right)$ 的一个原函数, 即 $F'\left(u\right)=f\left(u\right)$. 令 $\Phi\left(x,y\right)$ 满足
 $$
-\frac{\partial\Phi}{\partial x}=xf\left(x^2+y^2\right),\qquad\frac{\partial\Phi}{\partial y}=yf\left(x^2+y^2\right).
+\frac{\partial\Phi}{\partial x}=xf\left(x^2+y^2\right),\quad\frac{\partial\Phi}{\partial y}=yf\left(x^2+y^2\right).
 $$
 
 对第一式关于 $x$ 积分, 利用 $\int xf\left(x^2+y^2\right)dx=\frac{1}{2}F\left(x^2+y^2\right)$, 得

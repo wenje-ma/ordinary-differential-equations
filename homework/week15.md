@@ -63,7 +63,7 @@ $\blacksquare$
 **定理叙述**. 设矩阵函数 $A\left(x\right)=\left(a_{ij}\left(x\right)\right)_{n\times n}$ 和向量函数 $e\left(x\right)$ 都在区间 $\left(\alpha,\beta\right)$ 上连续, 则线性微分方程组柯西问题
 
 $$
-\frac{dy}{dx}=A\left(x\right)y+e\left(x\right),\qquad y\left(x_0\right)=y_0
+\frac{dy}{dx}=A\left(x\right)y+e\left(x\right),\quad y\left(x_0\right)=y_0
 $$
 
 (其中 $\alpha<x_0<\beta$, $y_0\in R^n$)的解在整个区间 $\left(\alpha,\beta\right)$ 上存在且唯一.

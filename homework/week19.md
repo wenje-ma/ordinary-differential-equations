@@ -46,7 +46,7 @@ $$\boldsymbol{y}_1=\left(\cos ax+i\sin ax\right)\begin{pmatrix}1\\i\end{pmatrix}
 
 其实部与虚部分别为
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos ax\\-\sin ax\end{pmatrix},\qquad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin ax\\\cos ax\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos ax\\-\sin ax\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin ax\\\cos ax\end{pmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 两个实值解线性无关, 构成一个实基解矩阵, 故通解为
 
@@ -76,7 +76,7 @@ $$A-E=\begin{pmatrix}0&\frac{2}{3}&-\frac{2}{3}\\0&-\frac{1}{3}&\frac{1}{3}\\0&-
 
 其秩为 1, 故 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 的解空间为二维. 由 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_2=r_3$, 取两个线性无关的特征向量
 
-$$\boldsymbol{r}^{\left(1\right)}=\begin{pmatrix}1\\0\\0\end{pmatrix},\qquad\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}0\\1\\1\end{pmatrix}.$$
+$$\boldsymbol{r}^{\left(1\right)}=\begin{pmatrix}1\\0\\0\end{pmatrix},\quad\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}0\\1\\1\end{pmatrix}.$$
 
 由**引理 6.7**(重特征根时确定向量多项式系数的方法), 还需再取一个满足 $\left(A-E\right)^2\boldsymbol{r}_0=O$ 但 $\left(A-E\right)\boldsymbol{r}_0\neq\boldsymbol{0}$ 的向量 $\boldsymbol{r}_0$. 直接验算可知
 
@@ -100,7 +100,7 @@ $$\boldsymbol{y}=C_1e^x\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2e^x\begin{pmatrix}
 
 (习题 6-2 题2(2))求常系数非齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 的通解, 其中
 
-$$A=\begin{pmatrix}0&-n^2\\-n^2&0\end{pmatrix},\qquad\boldsymbol{f}\left(x\right)=\begin{pmatrix}\cos nx\\\sin nx\end{pmatrix}.$$
+$$A=\begin{pmatrix}0&-n^2\\-n^2&0\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}\cos nx\\\sin nx\end{pmatrix}.$$
 
 ### 解答 习题三
 
@@ -118,11 +118,11 @@ $$\boldsymbol{y}_p=\begin{pmatrix}a_1\cos nx+b_1\sin nx\\a_2\cos nx+b_2\sin nx\e
 
 代入方程组 $y_1'=-n^2y_2+\cos nx,\ y_2'=-n^2y_1+\sin nx$, 比较 $\cos nx$ 与 $\sin nx$ 的系数, 得 $a_1=0,\ b_2=0$, 以及
 
-$$nb_1=1-n^2a_2,\qquad -na_2=1-n^2b_1.$$
+$$nb_1=1-n^2a_2,\quad -na_2=1-n^2b_1.$$
 
 联立解得
 
-$$a_2=\frac{n-1}{n\left(1+n^2\right)},\qquad b_1=\frac{n+1}{n\left(1+n^2\right)}.$$
+$$a_2=\frac{n-1}{n\left(1+n^2\right)},\quad b_1=\frac{n+1}{n\left(1+n^2\right)}.$$
 
 故一个特解为
 
@@ -138,7 +138,7 @@ $$\boldsymbol{y}=C_1e^{n^2x}\begin{pmatrix}1\\-1\end{pmatrix}+C_2e^{-n^2x}\begin
 
 (习题 6-2 题2(4))求常系数非齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 的通解, 其中
 
-$$A=\begin{pmatrix}2&1&-2\\-1&0&0\\1&1&-1\end{pmatrix},\qquad\boldsymbol{f}\left(x\right)=\begin{pmatrix}2-x\\0\\1-x\end{pmatrix}.$$
+$$A=\begin{pmatrix}2&1&-2\\-1&0&0\\1&1&-1\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}2-x\\0\\1-x\end{pmatrix}.$$
 
 ### 解答 习题四
 
@@ -148,7 +148,7 @@ $$\det\left(A-\lambda E\right)=\left(2-\lambda\right)\left(\lambda+\lambda^2\rig
 
 故特征根为 $\lambda=1,\ \lambda=\pm i$. 对 $\lambda=1$, 解 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得特征向量 $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^T$. 对 $\lambda=i$, 解 $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得复特征向量 $\boldsymbol{r}=\left(-i,1,-i\right)^T$, 对应复值解 $e^{ix}\left(-i,1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{ix}=\cos x+i\sin x$ 取实部与虚部, 得
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\sin x\\\cos x\\\sin x\end{pmatrix},\qquad\boldsymbol{v}\left(x\right)=\begin{pmatrix}-\cos x\\\sin x\\-\cos x\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\sin x\\\cos x\\\sin x\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}-\cos x\\\sin x\\-\cos x\end{pmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 齐次通解为
 
@@ -156,7 +156,7 @@ $$\boldsymbol{y}_h=C_1e^x\begin{pmatrix}-1\\1\\0\end{pmatrix}+C_2\begin{pmatrix}
 
 再求一个特解. 非齐次项是 $x$ 的一次式, 设特解 $\boldsymbol{y}_p=\boldsymbol{a}+\boldsymbol{b}x$, 其中 $\boldsymbol{a},\boldsymbol{b}$ 为常向量. 代入方程组, 比较常数项与 $x$ 的系数, 得
 
-$$A\boldsymbol{b}=\begin{pmatrix}1\\0\\1\end{pmatrix},\qquad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}2\\0\\1\end{pmatrix}.$$
+$$A\boldsymbol{b}=\begin{pmatrix}1\\0\\1\end{pmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}2\\0\\1\end{pmatrix}.$$
 
 由前式解出 $\boldsymbol{b}=\left(0,1,0\right)^T$, 再代入后式得 $A\boldsymbol{a}=\left(-2,1,-1\right)^T$, 解得 $\boldsymbol{a}=\left(-1,0,0\right)^T$. 故一个特解为
 
@@ -172,7 +172,7 @@ $$\boldsymbol{y}=C_1e^x\begin{pmatrix}-1\\1\\0\end{pmatrix}+C_2\begin{pmatrix}\s
 
 (习题 6-2 题3(2))求微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 满足初值条件 $\boldsymbol{y}\left(0\right)=\boldsymbol{\eta}$ 的解, 其中
 
-$$A=\begin{pmatrix}0&-2\\2&0\end{pmatrix},\qquad\boldsymbol{f}\left(x\right)=\begin{pmatrix}3x\\4\end{pmatrix},\qquad\boldsymbol{\eta}=\begin{pmatrix}2\\3\end{pmatrix}.$$
+$$A=\begin{pmatrix}0&-2\\2&0\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}3x\\4\end{pmatrix},\quad\boldsymbol{\eta}=\begin{pmatrix}2\\3\end{pmatrix}.$$
 
 ### 解答 习题五
 
@@ -182,11 +182,11 @@ $$\det\left(A-\lambda E\right)=\lambda^2+4=0,$$
 
 故 $\lambda=\pm2i$. 对 $\lambda=2i$, 解 $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $\boldsymbol{r}=\left(1,-i\right)^T$, 对应复值解 $e^{2ix}\left(1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{2ix}=\cos 2x+i\sin 2x$ 取实部与虚部, 得两个实值解
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos 2x\\\sin 2x\end{pmatrix},\qquad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin 2x\\-\cos 2x\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos 2x\\\sin 2x\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin 2x\\-\cos 2x\end{pmatrix}.$$
 
 再求一个特解. 非齐次项为一次式, 设 $\boldsymbol{y}_p=\boldsymbol{a}+\boldsymbol{b}x$, 代入方程组比较系数, 得
 
-$$A\boldsymbol{b}=\begin{pmatrix}-3\\0\end{pmatrix},\qquad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}0\\4\end{pmatrix}.$$
+$$A\boldsymbol{b}=\begin{pmatrix}-3\\0\end{pmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}0\\4\end{pmatrix}.$$
 
 由前式得 $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^T$, 再代入得 $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^T$. 故一个特解为
 
@@ -210,7 +210,7 @@ $\blacksquare$
 
 (习题 6-2 题3(4))求微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 满足初值条件 $\boldsymbol{y}\left(0\right)=\boldsymbol{\eta}$ 的解, 其中
 
-$$A=\begin{pmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{pmatrix},\qquad\boldsymbol{f}\left(x\right)=\begin{pmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{pmatrix},\qquad\boldsymbol{\eta}=\begin{pmatrix}0\\0\\0\end{pmatrix}.$$
+$$A=\begin{pmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{pmatrix},\quad\boldsymbol{\eta}=\begin{pmatrix}0\\0\\0\end{pmatrix}.$$
 
 ### 解答 习题六
 
@@ -220,7 +220,7 @@ $$\det\left(A-\lambda E\right)=-\left(\lambda-2\right)\left(\lambda+1\right)\lef
 
 故特征根为 $\lambda=2,\ \lambda=-1,\ \lambda=-3$. 由**引理 6.6**(方程组有指数型非零解的充要条件)分别求对应的特征向量, 得
 
-$$\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}-1\\1\\0\end{pmatrix},\qquad\boldsymbol{r}^{\left(-1\right)}=\begin{pmatrix}2\\3\\-2\end{pmatrix},\qquad\boldsymbol{r}^{\left(-3\right)}=\begin{pmatrix}-2\\0\\1\end{pmatrix}.$$
+$$\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}-1\\1\\0\end{pmatrix},\quad\boldsymbol{r}^{\left(-1\right)}=\begin{pmatrix}2\\3\\-2\end{pmatrix},\quad\boldsymbol{r}^{\left(-3\right)}=\begin{pmatrix}-2\\0\\1\end{pmatrix}.$$
 
 注意到非齐次项恰为
 
@@ -264,7 +264,7 @@ $$\boldsymbol{y}_1=e^{\left(a+ib\right)t}\begin{pmatrix}1\\-i\end{pmatrix}.$$
 
 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{\left(a+ib\right)t}=e^{at}\left(\cos bt+i\sin bt\right)$ 取实部与虚部, 得
 
-$$\boldsymbol{u}\left(t\right)=e^{at}\begin{pmatrix}\cos bt\\\sin bt\end{pmatrix},\qquad\boldsymbol{v}\left(t\right)=e^{at}\begin{pmatrix}\sin bt\\-\cos bt\end{pmatrix}.$$
+$$\boldsymbol{u}\left(t\right)=e^{at}\begin{pmatrix}\cos bt\\\sin bt\end{pmatrix},\quad\boldsymbol{v}\left(t\right)=e^{at}\begin{pmatrix}\sin bt\\-\cos bt\end{pmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 通解为
 

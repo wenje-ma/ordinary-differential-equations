@@ -453,19 +453,19 @@ $$
 作为 $y$ 和 $p$ 之间的联系, 在 $Oyp$ 平面上它一般表示若干条曲线. 设
 
 $$
-y=g\left(t\right),\qquad p=h\left(t\right)
+y=g\left(t\right),\quad p=h\left(t\right)
 $$
 
 是其中一条的参数表示, 其中设 $h\left(t\right)\neq0$. 由 $dy=p\,dx$ 可得 $dx=\frac{g'\left(t\right)}{h\left(t\right)}dt$, 再积分得原方程的通解
 
 $$
-x=\int\frac{g'\left(t\right)}{h\left(t\right)}dt+C,\qquad y=g\left(t\right).
+x=\int\frac{g'\left(t\right)}{h\left(t\right)}dt+C,\quad y=g\left(t\right).
 $$
 
 同理, 对不明显包含未知函数的方程 $F\left(x,p\right)=0$, 可取参数表示 $x=f\left(t\right),\ p=h\left(t\right)$, 则由 $dy=p\,dx$ 得 $dy=h\left(t\right)f'\left(t\right)dt$, 通解为
 
 $$
-y=\int h\left(t\right)f'\left(t\right)dt+C,\qquad x=f\left(t\right).
+y=\int h\left(t\right)f'\left(t\right)dt+C,\quad x=f\left(t\right).
 $$
 
 ## 4.2 奇解
@@ -485,7 +485,7 @@ $$
 设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是连续的, 而且对 $y$ 和 $p$ 有连续的偏微商 $F_y'$ 和 $F_p'$. 若函数 $y=\varphi\left(x\right)$($x\in J$)是微分方程的一个奇解, 并且 $\left(x,\varphi\left(x\right),\varphi'\left(x\right)\right)\in G$, 则奇解 $y=\varphi\left(x\right)$ 满足 $p$-判别式
 
 $$
-\begin{cases}F\left(x,y,p\right)=0,\\F_p'\left(x,y,p\right)=0,\end{cases}\qquad\left(p=\frac{dy}{dx}\right).
+\begin{cases}F\left(x,y,p\right)=0,\\F_p'\left(x,y,p\right)=0,\end{cases}\quad\left(p=\frac{dy}{dx}\right).
 $$
 
 从 $p$-判别式中消去 $p$ 所得方程所决定的曲线称为 $p$-判别曲线. 奇解必是一条 $p$-判别曲线. 但须注意, 由 $p$-判别式确定的函数不一定是解, 即使是解也不一定是奇解, 仍须按**定义 4.1**(奇解)经过验证.
@@ -495,7 +495,7 @@ $$
 设函数 $F\left(x,y,p\right)$ 对 $\left(x,y,p\right)\in G$ 是二阶连续可微的. 又设由 $p$-判别式消去 $p$ 后得到的函数 $y=\psi\left(x\right)$($x\in J$)是微分方程的解, 而且条件
 
 $$
-F_y'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0,\qquad F_{pp}''\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0
+F_y'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0,\quad F_{pp}''\left(x,\psi\left(x\right),\psi'\left(x\right)\right)\neq0
 $$
 
 以及
@@ -531,13 +531,13 @@ $$
 设由曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的 $C$-判别式确定一支连续可微且不含于该曲线族的曲线
 
 $$
-\Lambda:\begin{cases}x=\varphi\left(C\right),\\y=\psi\left(C\right),\end{cases}\qquad\left(C\in J\right),
+\Lambda:\begin{cases}x=\varphi\left(C\right),\\y=\psi\left(C\right),\end{cases}\quad\left(C\in J\right),
 $$
 
 而且它满足非退化性条件
 
 $$
-\left(\varphi'\left(C\right),\psi'\left(C\right)\right)\neq\left(0,0\right),\qquad\left(V_x',V_y'\right)\neq\left(0,0\right),
+\left(\varphi'\left(C\right),\psi'\left(C\right)\right)\neq\left(0,0\right),\quad\left(V_x',V_y'\right)\neq\left(0,0\right),
 $$
 
 则 $\Lambda$ 是该曲线族的一支包络.
@@ -841,7 +841,7 @@ $$
 若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则
 
 $$
-W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\qquad\left(a< x< b\right),
+W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a< x< b\right),
 $$
 
 其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.

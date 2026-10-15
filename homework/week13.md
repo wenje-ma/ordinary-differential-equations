@@ -6,7 +6,7 @@
 
 > **定理 4.4**(包络满足 $C$-判别式)<br>设 $\Gamma$ 是曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的一支包络, 并且它可表示为参数 $C$ 的光滑曲线, 则它满足 $C$-判别式 $$\begin{cases}V\left(x,y,C\right)=0,\\V_C'\left(x,y,C\right)=0,\end{cases}$$ 或消去 $C$ 后所得关系式 $\Omega\left(x,y\right)=0$.
 
-> **定理 4.5**($C$-判别式是包络的充分条件)<br>设由曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的 $C$-判别式确定一支连续可微且不含于该曲线族的曲线 $$\Lambda:\begin{cases}x=\varphi\left(C\right),\\y=\psi\left(C\right),\end{cases}\qquad\left(C\in J\right),$$ 而且它满足非退化性条件 $$\left(\varphi'\left(C\right),\psi'\left(C\right)\right)\neq\left(0,0\right),\qquad\left(V_x',V_y'\right)\neq\left(0,0\right),$$ 则 $\Lambda$ 是该曲线族的一支包络.
+> **定理 4.5**($C$-判别式是包络的充分条件)<br>设由曲线族 $K\left(C\right):V\left(x,y,C\right)=0$ 的 $C$-判别式确定一支连续可微且不含于该曲线族的曲线 $$\Lambda:\begin{cases}x=\varphi\left(C\right),\\y=\psi\left(C\right),\end{cases}\quad\left(C\in J\right),$$ 而且它满足非退化性条件 $$\left(\varphi'\left(C\right),\psi'\left(C\right)\right)\neq\left(0,0\right),\quad\left(V_x',V_y'\right)\neq\left(0,0\right),$$ 则 $\Lambda$ 是该曲线族的一支包络.
 
 ### 习题一
 

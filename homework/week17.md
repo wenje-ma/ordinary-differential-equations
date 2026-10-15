@@ -17,7 +17,7 @@
 考虑柯西问题
 
 $$
-\frac{dy}{dx}=f\left(x,y,\lambda\right),\qquad y\left(x_0\right)=y_0,
+\frac{dy}{dx}=f\left(x,y,\lambda\right),\quad y\left(x_0\right)=y_0,
 $$
 
 其中初值 $y_0$ 固定(不依赖于 $\lambda$), $\lambda\in K\subset R^m$. 由**定理 5.3**(解对参数的连续可微性), 其解 $y=\varphi\left(x,\lambda\right)$ 连续可微, 故偏导数 $z=\frac{\partial\varphi}{\partial\lambda}$ 存在且连续.
@@ -73,7 +73,7 @@ $\blacksquare$
 在**定理 5.3 的推论**(解对初值的连续可微性)中, 柯西问题为
 
 $$
-\frac{dy}{dx}=f\left(x,y\right),\qquad y\left(x_0\right)=\eta,
+\frac{dy}{dx}=f\left(x,y\right),\quad y\left(x_0\right)=\eta,
 $$
 
 其中 $f\left(x,y\right)$ 连续且对 $y$ 有连续偏微商 $f_y\left(x,y\right)$, 解 $y=\varphi\left(x,\eta\right)$.

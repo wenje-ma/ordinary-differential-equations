@@ -39,7 +39,7 @@
 先证右行段 $x\in\left[x_0,b\right)$, 即证 $\varphi\left(x\right)\le\Phi\left(x\right)$. 对任意 $\varepsilon>0$, 考虑扰动方程 $\left(E_{1,\varepsilon}\right):\ \frac{dy}{dx}=f\left(x,y\right)-\varepsilon,\ y\left(x_0\right)=y_0$. 由**定理 3.3**(佩亚诺存在定理), 它存在解 $u_\varepsilon\left(x\right)$; 由**定理 3.7**(最小解与最大解的存在性), 当 $\varepsilon\to0^{+}$ 时 $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$(因 $\varphi$ 是 $\left(E_1\right)$ 的右行最小解). 由于 $f\left(x,y\right)-\varepsilon<F\left(x,y\right)$ 严格成立, 对 $u_\varepsilon$ 与 $\Phi$ 应用**定理 3.6**(第一比较定理), 得
 
 $$
-u_\varepsilon\left(x\right)<\Phi\left(x\right),\qquad x\in\left(x_0,b\right).
+u_\varepsilon\left(x\right)<\Phi\left(x\right),\quad x\in\left(x_0,b\right).
 $$
 
 令 $\varepsilon\to0^{+}$, 由 $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$ 取极限, 即得 $\varphi\left(x\right)\le\Phi\left(x\right)$ 于 $\left[x_0,b\right)$.
@@ -47,7 +47,7 @@ $$
 再证左行段 $x\in\left(a,x_0\right]$, 即证 $\varphi\left(x\right)\ge\Phi\left(x\right)$. 仍取上述解 $u_\varepsilon$ 对应 $\left(E_{1,\varepsilon}\right):\ y'=f\left(x,y\right)-\varepsilon$. 由**定理 3.7**(最小解与最大解的存在性), $u_\varepsilon$ 在左行趋于 $\left(E_1\right)$ 的左行最大解, 亦即 $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$. 由于 $f\left(x,y\right)-\varepsilon<F\left(x,y\right)$, 对左行段应用**定理 3.6**(第一比较定理)(其第二部分给出斜率小的曲线在 $x_0$ 左侧位于斜率大的曲线之上), 得
 
 $$
-u_\varepsilon\left(x\right)>\Phi\left(x\right),\qquad x\in\left(a,x_0\right).
+u_\varepsilon\left(x\right)>\Phi\left(x\right),\quad x\in\left(a,x_0\right).
 $$
 
 令 $\varepsilon\to0^{+}$, 取极限即得 $\varphi\left(x\right)\ge\Phi\left(x\right)$ 于 $\left(a,x_0\right]$.

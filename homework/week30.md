@@ -23,7 +23,7 @@ $$
 现在考察初始曲线 $\Lambda:\ x=y=z$. 把它参数化为 $x=y=z=\sigma$($\sigma>0$). 代入两个首次积分, 得
 
 $$
-\overline{C}_1=\sqrt{\sigma}-\sqrt{\sigma}=0,\qquad\overline{C}_2=\sqrt{\sigma}-\sqrt{\sigma}=0.
+\overline{C}_1=\sqrt{\sigma}-\sqrt{\sigma}=0,\quad\overline{C}_2=\sqrt{\sigma}-\sqrt{\sigma}=0.
 $$
 
 无论参数 $\sigma$ 取何值, 都有 $\overline{C}_1=\overline{C}_2=0$, 即初始曲线 $\Lambda$ 恰好是特征曲线 $\sqrt{x}-\sqrt{y}=0,\ \sqrt{y}-\sqrt{z}=0$(亦即 $\sqrt{x}=\sqrt{y}=\sqrt{z}$) 本身. 由**特征线法附注**(初始曲线为特征曲线时解不唯一), 当初始曲线本身是一条特征曲线时, 过 $\Lambda$ 的特征曲线只是 $\Lambda$ 自己, 不能张成曲面, 此时初值问题的解存在但不唯一.
