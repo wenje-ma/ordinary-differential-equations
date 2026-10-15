@@ -24,7 +24,7 @@ $$
 
 代入方程 $y''-2xy'+\lambda y=0$, 其中 $-2xy'=-2\sum_{n=1}^{\infty}na_nx^n$, 比较 $x^n$ 的系数.
 
-$n=0$ 时: $2a_2+\lambda a_0=0$, 即 $a_2=-\dfrac{\lambda}{2}a_0$.
+$n=0$ 时: $2a_2+\lambda a_0=0$, 即 $a_2=-\frac{\lambda}{2}a_0$.
 
 $n\ge1$ 时: $\left(n+2\right)\left(n+1\right)a_{n+2}-2na_n+\lambda a_n=0$, 即递推公式
 
@@ -34,13 +34,13 @@ $$
 
 递推公式隔项分离, 分别写出偶次和奇次系数.
 
-偶次项: $a_2=-\dfrac{\lambda}{2!}a_0,\ a_4=\dfrac{\left(-\lambda\right)\left(4-\lambda\right)}{4!}a_0,\ a_6=\dfrac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)}{6!}a_0$, 一般地
+偶次项: $a_2=-\frac{\lambda}{2!}a_0,\ a_4=\frac{\left(-\lambda\right)\left(4-\lambda\right)}{4!}a_0,\ a_6=\frac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)}{6!}a_0$, 一般地
 
 $$
 a_{2k}=\frac{\left(-\lambda\right)\left(4-\lambda\right)\left(8-\lambda\right)\cdots\left(4k-4-\lambda\right)}{\left(2k\right)!}\,a_0\qquad\left(k\ge1\right).
 $$
 
-奇次项: $a_3=\dfrac{2-\lambda}{3!}a_1,\ a_5=\dfrac{\left(2-\lambda\right)\left(6-\lambda\right)}{5!}a_1$, 一般地
+奇次项: $a_3=\frac{2-\lambda}{3!}a_1,\ a_5=\frac{\left(2-\lambda\right)\left(6-\lambda\right)}{5!}a_1$, 一般地
 
 $$
 a_{2k+1}=\frac{\left(2-\lambda\right)\left(6-\lambda\right)\left(10-\lambda\right)\cdots\left(4k-2-\lambda\right)}{\left(2k+1\right)!}\,a_1\qquad\left(k\ge1\right).
@@ -52,7 +52,7 @@ $$
 y=a_0\left[1+\sum_{k=1}^{\infty}\frac{\left(-\lambda\right)\left(4-\lambda\right)\cdots\left(4k-4-\lambda\right)}{\left(2k\right)!}x^{2k}\right]+a_1\left[x+\sum_{k=1}^{\infty}\frac{\left(2-\lambda\right)\left(6-\lambda\right)\cdots\left(4k-2-\lambda\right)}{\left(2k+1\right)!}x^{2k+1}\right],
 $$
 
-其中 $a_0,a_1$ 为任意常数. 由比值法, $\left|\dfrac{a_{n+2}}{a_n}\right|=\dfrac{\left|2n-\lambda\right|}{\left(n+2\right)\left(n+1\right)}\to0$, 故两级数对一切 $x$ 收敛. $\blacksquare$
+其中 $a_0,a_1$ 为任意常数. 由比值法, $\left|\frac{a_{n+2}}{a_n}\right|=\frac{\left|2n-\lambda\right|}{\left(n+2\right)\left(n+1\right)}\to0$, 故两级数对一切 $x$ 收敛. $\blacksquare$
 
 ### 习题二
 
@@ -66,7 +66,7 @@ $$
 y=\sum_{n=0}^{\infty}a_nx^n,\qquad y''=\sum_{n=0}^{\infty}\left(n+2\right)\left(n+1\right)a_{n+2}x^n.
 $$
 
-而 $\sin x=x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!}-\cdots$, 故乘积 $\left(\sin x\right)y$ 中 $x^n$ 的系数为 $a_{n-1}-\dfrac{a_{n-3}}{3!}+\dfrac{a_{n-5}}{5!}-\cdots$(其中 $a_{-1}=a_{-2}=0$). 代入方程比较系数:
+而 $\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots$, 故乘积 $\left(\sin x\right)y$ 中 $x^n$ 的系数为 $a_{n-1}-\frac{a_{n-3}}{3!}+\frac{a_{n-5}}{5!}-\cdots$(其中 $a_{-1}=a_{-2}=0$). 代入方程比较系数:
 
 $$
 \begin{aligned}

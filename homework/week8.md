@@ -1,8 +1,8 @@
 # 作业 8
 
-> **欧拉折线**<br>设微分方程 $\dfrac{dy}{dx}=f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, $M$ 为 $\left|f\left(x,y\right)\right|$ 在 $R$ 上的一个上界, 令 $h=\min\left\{a,\dfrac{b}{M}\right\}$. 把区间 $\left[x_0-h,x_0+h\right]$ 等分为 $2n$ 份, 从初值点 $P_0\left(x_0,y_0\right)$ 出发, 在每一节点沿该处线素方向作直线段, 得到一条停留在角形区域 $\left|y-y_0\right|\le M\left|x-x_0\right|$ 内的连续折线 $y=\rho_n\left(x\right)$, 称为初值问题 $\left(E\right):\ \dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的欧拉折线.
+> **欧拉折线**<br>设微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, $M$ 为 $\left|f\left(x,y\right)\right|$ 在 $R$ 上的一个上界, 令 $h=\min\left\{a,\frac{b}{M}\right\}$. 把区间 $\left[x_0-h,x_0+h\right]$ 等分为 $2n$ 份, 从初值点 $P_0\left(x_0,y_0\right)$ 出发, 在每一节点沿该处线素方向作直线段, 得到一条停留在角形区域 $\left|y-y_0\right|\le M\left|x-x_0\right|$ 内的连续折线 $y=\rho_n\left(x\right)$, 称为初值问题 $\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的欧拉折线.
 
-> **定理 3.1**(皮卡存在和唯一性定理)<br>设初值问题 $\left(E\right)$: $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$, 其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有且只有一个解, 其中 $h=\min\left\{a,\dfrac{b}{M}\right\}$, $M=\max\limits_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
+> **定理 3.1**(皮卡存在和唯一性定理)<br>设初值问题 $\left(E\right)$: $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$, 其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续且对 $y$ 满足利普希茨条件, 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有且只有一个解, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max\limits_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
 
 > **积分方程与初值问题的等价性**<br>初值问题 $\left(E\right)$ 有解等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解.
 
@@ -14,7 +14,7 @@
 
 > **引理 3.2**(欧拉折线的积分关系式)<br>欧拉折线 $y=\rho_n\left(x\right)$ 在区间 $\left[x_0-h,x_0+h\right]$ 上满足 $\rho_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,\rho_n\left(t\right)\right)\,dt+\delta_n\left(x\right)$, 其中 $\lim\limits_{n\to\infty}\delta_n\left(x\right)=0$ 对 $\left|x-x_0\right|\le h$ 一致成立.
 
-> **定理 3.3**(佩亚诺存在定理)<br>设函数 $f\left(x,y\right)$ 在矩形区域 $R$ 内连续, 则初值问题 $\left(E\right):\ \dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在区间 $\left[x_0-h,x_0+h\right]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
+> **定理 3.3**(佩亚诺存在定理)<br>设函数 $f\left(x,y\right)$ 在矩形区域 $R$ 内连续, 则初值问题 $\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在区间 $\left[x_0-h,x_0+h\right]$ 上至少有一个解, 这里矩形区域 $R$ 和正数 $h$ 的定义同**定理 3.1**(皮卡存在和唯一性定理).
 
 ### 习题一
 
@@ -38,7 +38,7 @@ $$
 
 ### 习题二
 
-(习题 3-2 题4)对于与初值问题 $\left(E\right)$ 等价的积分方程 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$, 在区间 $I=\left[x_0,x_0+h\right]$ 上构造托内利序列如下: 任给正整数 $n$, 令 $d_n=\dfrac{h}{n}$, $x_k=x_0+kd_n$($k=0,1,\cdots,n$), 则分点 $x_0,x_1,\cdots,x_n\left(=x_0+h\right)$ 把 $I$ 分成 $n$ 等份, 用分段递推法定义函数 $y_n\left(x\right)=\begin{cases}y_0,&x\in\left[x_0,x_1\right],\\ y_0+\displaystyle\int_{x_0}^{x-d_n}f\left(t,y_n\left(t\right)\right)\,dt,&x\in\left[x_1,x_0+h\right].\end{cases}$ 试用托内利序列和阿斯科利引理证明佩亚诺存在定理(即**定理 3.3**(佩亚诺存在定理)).
+(习题 3-2 题4)对于与初值问题 $\left(E\right)$ 等价的积分方程 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$, 在区间 $I=\left[x_0,x_0+h\right]$ 上构造托内利序列如下: 任给正整数 $n$, 令 $d_n=\frac{h}{n}$, $x_k=x_0+kd_n$($k=0,1,\cdots,n$), 则分点 $x_0,x_1,\cdots,x_n\left(=x_0+h\right)$ 把 $I$ 分成 $n$ 等份, 用分段递推法定义函数 $y_n\left(x\right)=\begin{cases}y_0,&x\in\left[x_0,x_1\right],\\ y_0+\displaystyle\int_{x_0}^{x-d_n}f\left(t,y_n\left(t\right)\right)\,dt,&x\in\left[x_1,x_0+h\right].\end{cases}$ 试用托内利序列和阿斯科利引理证明佩亚诺存在定理(即**定理 3.3**(佩亚诺存在定理)).
 
 ### 解答 习题二
 

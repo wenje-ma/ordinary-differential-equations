@@ -2,15 +2,15 @@
 
 > **利普希茨条件**<br>设函数 $f\left(x,y\right)$ 在区域 $D$ 内满足不等式 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$, 其中常数 $L>0$, 则称函数 $f\left(x,y\right)$ 在区域 $D$ 内对 $y$ 满足利普希茨条件. 若 $f\left(x,y\right)$ 在凸区域 $D$ 内对 $y$ 有连续的偏微商, 则它在 $D$ 内对 $y$ 满足利普希茨条件.
 
-> **定理 3.1**(皮卡存在和唯一性定理)<br>设初值问题 $\left(E\right)$: $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$, 其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\dfrac{b}{M}\right\}$, $M=\max\limits_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
+> **定理 3.1**(皮卡存在和唯一性定理)<br>设初值问题 $\left(E\right)$: $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$, 其中 $f\left(x,y\right)$ 在矩形区域 $R:\ \left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 内连续, 而且对 $y$ 满足利普希茨条件. 则 $\left(E\right)$ 在区间 $I=\left[x_0-h,x_0+h\right]$ 上有并且只有一个解, 其中常数 $h=\min\left\{a,\frac{b}{M}\right\}$, $M=\max\limits_{\left(x,y\right)\in R}\left|f\left(x,y\right)\right|$.
 
-> **定理 3.2**(奥斯古德条件下解的唯一性)<br>设函数 $f\left(x,y\right)$ 在区域 $G$ 内连续, 且满足不等式 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le F\left(\left|y_1-y_2\right|\right)$, 其中 $F\left(r\right)>0$ 是 $r>0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\dfrac{dr}{F\left(r\right)}=+\infty$($r_1>0$ 为常数), 则称 $f\left(x,y\right)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\dfrac{dy}{dx}=f\left(x,y\right)$ 在 $G$ 内经过每一点的解都是唯一的.
+> **定理 3.2**(奥斯古德条件下解的唯一性)<br>设函数 $f\left(x,y\right)$ 在区域 $G$ 内连续, 且满足不等式 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le F\left(\left|y_1-y_2\right|\right)$, 其中 $F\left(r\right)>0$ 是 $r>0$ 的连续函数, 而且瑕积分 $\int_0^{r_1}\frac{dr}{F\left(r\right)}=+\infty$($r_1>0$ 为常数), 则称 $f\left(x,y\right)$ 在 $G$ 内对 $y$ 满足奥斯古德条件; 此时微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 在 $G$ 内经过每一点的解都是唯一的.
 
-> **积分方程与初值问题的等价性**<br>初值问题 $\left(E\right)$: $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 有解 $y=\varphi\left(x\right)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解. 其皮卡序列为 $y_{n+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt$, 其中取 $y_0\left(x\right)=y_0$.
+> **积分方程与初值问题的等价性**<br>初值问题 $\left(E\right)$: $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 有解 $y=\varphi\left(x\right)$, 等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解. 其皮卡序列为 $y_{n+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt$, 其中取 $y_0\left(x\right)=y_0$.
 
 ### 习题一
 
-(习题 3-1 题1)利用右端函数的性质讨论下列微分方程满足初值条件 $y\left(0\right)=0$ 的解的唯一性问题: (1) $\dfrac{dy}{dx}=\left|y\right|^{\alpha}$, 常数 $\alpha>0$; (2) $\dfrac{dy}{dx}=\begin{cases}0,&y=0,\\ y\ln\left|y\right|,&y\ne0.\end{cases}$
+(习题 3-1 题1)利用右端函数的性质讨论下列微分方程满足初值条件 $y\left(0\right)=0$ 的解的唯一性问题: (1) $\frac{dy}{dx}=\left|y\right|^{\alpha}$, 常数 $\alpha>0$; (2) $\frac{dy}{dx}=\begin{cases}0,&y=0,\\ y\ln\left|y\right|,&y\ne0.\end{cases}$
 
 ### 解答 习题一
 
@@ -38,7 +38,7 @@ $$
 
 ### 习题二
 
-(习题 3-1 题2)试求初值问题 $\dfrac{dy}{dx}=x+y+1,\ y\left(0\right)=0$ 的皮卡序列, 并由此取极限求解.
+(习题 3-1 题2)试求初值问题 $\frac{dy}{dx}=x+y+1,\ y\left(0\right)=0$ 的皮卡序列, 并由此取极限求解.
 
 ### 解答 习题二
 

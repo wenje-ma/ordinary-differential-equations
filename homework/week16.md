@@ -1,22 +1,22 @@
 # 作业 16
 
-> **定理 5.1**(解对参数的连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y,\lambda\right)$ 在区域 $G:\left|x\right|\le a,\ \left|y\right|\le b,\ \left|\lambda-\lambda_0\right|\le c$ 上连续, 且对 $y$ 满足利普希茨条件 $\left|f\left(x,y_1,\lambda\right)-f\left(x,y_2,\lambda\right)\right|\le L\left|y_1-y_2\right|$. 令 $M$ 为 $\left|f\left(x,y,\lambda\right)\right|$ 在 $G$ 上的一个上界, $h=\min\left\{a,\dfrac{b}{M}\right\}$, 则初值问题 $\dfrac{dy}{dx}=f\left(x,y,\lambda\right),\ y\left(0\right)=0$ 的解 $y=\varphi\left(x,\lambda\right)$ 在区域 $D:\left|x\right|\le h,\ \left|\lambda-\lambda_0\right|\le c$ 上是连续的.
+> **定理 5.1**(解对参数的连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y,\lambda\right)$ 在区域 $G:\left|x\right|\le a,\ \left|y\right|\le b,\ \left|\lambda-\lambda_0\right|\le c$ 上连续, 且对 $y$ 满足利普希茨条件 $\left|f\left(x,y_1,\lambda\right)-f\left(x,y_2,\lambda\right)\right|\le L\left|y_1-y_2\right|$. 令 $M$ 为 $\left|f\left(x,y,\lambda\right)\right|$ 在 $G$ 上的一个上界, $h=\min\left\{a,\frac{b}{M}\right\}$, 则初值问题 $\frac{dy}{dx}=f\left(x,y,\lambda\right),\ y\left(0\right)=0$ 的解 $y=\varphi\left(x,\lambda\right)$ 在区域 $D:\left|x\right|\le h,\ \left|\lambda-\lambda_0\right|\le c$ 上是连续的.
 
-> **定理 5.1 的推论**(解对初值的连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y\right)$ 在区域 $R:\left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 上连续, 且对 $y$ 满足利普希茨条件, 则柯西问题 $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=\eta$ 的解 $y=\varphi\left(x,\eta\right)$ 在区域 $Q:\left|x-x_0\right|\le\dfrac{h}{2},\ \left|\eta-y_0\right|\le\dfrac{b}{2}$ 上连续, 其中 $h=\min\left\{a,\dfrac{b}{M}\right\}$, $M$ 为 $\left|f\left(x,y\right)\right|$ 在 $R$ 上的一个上界.
+> **定理 5.1 的推论**(解对初值的连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y\right)$ 在区域 $R:\left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 上连续, 且对 $y$ 满足利普希茨条件, 则柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=\eta$ 的解 $y=\varphi\left(x,\eta\right)$ 在区域 $Q:\left|x-x_0\right|\le\frac{h}{2},\ \left|\eta-y_0\right|\le\frac{b}{2}$ 上连续, 其中 $h=\min\left\{a,\frac{b}{M}\right\}$, $M$ 为 $\left|f\left(x,y\right)\right|$ 在 $R$ 上的一个上界.
 
-> **定理 5.2**(解对初值的大范围连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y\right)$ 在开区域 $G$ 上连续, 且对 $y$ 满足局部利普希茨条件. 假设 $y=\xi\left(x\right)$ 是 $\dfrac{dy}{dx}=f\left(x,y\right)$ 的一个解, 存在区间为 $J$. 任取有界闭区间 $\left[a,b\right]\subset J$, 则存在常数 $\delta>0$, 使对任何初值 $\left(x_0,y_0\right)$ 满足 $a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$, 柯西问题的解 $y=\varphi\left(x;x_0,y_0\right)$ 至少在 $\left[a,b\right]$ 上存在, 且在闭区域 $D_\delta:a\le x\le b,\ a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$ 上连续.
+> **定理 5.2**(解对初值的大范围连续依赖性)<br>设 $n$ 维向量值函数 $f\left(x,y\right)$ 在开区域 $G$ 上连续, 且对 $y$ 满足局部利普希茨条件. 假设 $y=\xi\left(x\right)$ 是 $\frac{dy}{dx}=f\left(x,y\right)$ 的一个解, 存在区间为 $J$. 任取有界闭区间 $\left[a,b\right]\subset J$, 则存在常数 $\delta>0$, 使对任何初值 $\left(x_0,y_0\right)$ 满足 $a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$, 柯西问题的解 $y=\varphi\left(x;x_0,y_0\right)$ 至少在 $\left[a,b\right]$ 上存在, 且在闭区域 $D_\delta:a\le x\le b,\ a\le x_0\le b,\ \left|y_0-\xi\left(x_0\right)\right|\le\delta$ 上连续.
 
-> **积分方程与柯西问题的等价性**<br>柯西问题 $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 等价于积分方程 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 当近似解序列一致收敛且 $f$ 连续时, 可在积分号下取极限.
+> **积分方程与柯西问题的等价性**<br>柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 等价于积分方程 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 当近似解序列一致收敛且 $f$ 连续时, 可在积分号下取极限.
 
 > **阿斯科利引理**<br>有界闭区间上一致有界且等度连续的函数列, 必有一致收敛的子列.
 
 ### 习题一
 
-(习题 5-3 题2)设 $f\left(x,y\right)$ 在区域 $R$ 上连续, 而且微分方程 $\dfrac{dy}{dx}=f\left(x,y\right)$ 经过 $R$ 内任何一个内点的积分曲线都是(存在)唯一的, 则上述微分方程的解对初值是连续依赖的. 这里区域 $R$ 的定义见**定理 5.1 的推论**(解对初值的连续依赖性).
+(习题 5-3 题2)设 $f\left(x,y\right)$ 在区域 $R$ 上连续, 而且微分方程 $\frac{dy}{dx}=f\left(x,y\right)$ 经过 $R$ 内任何一个内点的积分曲线都是(存在)唯一的, 则上述微分方程的解对初值是连续依赖的. 这里区域 $R$ 的定义见**定理 5.1 的推论**(解对初值的连续依赖性).
 
 ### 解答 习题一
 
-取定 $R$ 内任一内点 $\left(\bar{x}_0,\bar{y}_0\right)$. 要证: 当 $\left(x_0,y_0\right)\to\left(\bar{x}_0,\bar{y}_0\right)$ 时, 柯西问题 $\dfrac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解 $y=\varphi\left(x;x_0,y_0\right)$ 在某个公共区间上一致地趋于解 $\bar{\varphi}\left(x\right)=\varphi\left(x;\bar{x}_0,\bar{y}_0\right)$.
+取定 $R$ 内任一内点 $\left(\bar{x}_0,\bar{y}_0\right)$. 要证: 当 $\left(x_0,y_0\right)\to\left(\bar{x}_0,\bar{y}_0\right)$ 时, 柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解 $y=\varphi\left(x;x_0,y_0\right)$ 在某个公共区间上一致地趋于解 $\bar{\varphi}\left(x\right)=\varphi\left(x;\bar{x}_0,\bar{y}_0\right)$.
 
 第一步, 缩小区域使 $f$ 有界. 由 $\left(\bar{x}_0,\bar{y}_0\right)$ 是 $R$ 的内点, 可取有界闭小矩形 $R':\left|x-\bar{x}_0\right|\le a',\ \left|y-\bar{y}_0\right|\le b'$ 含于 $R$ 内部. $f$ 在有界闭区域 $R'$ 上连续, 故有界, 记 $\left|f\left(x,y\right)\right|\le M$.
 
@@ -26,7 +26,7 @@ $$
 \varphi_k\left(x\right)=y_0^{\left(k\right)}+\int_{x_0^{\left(k\right)}}^{x}f\left(t,\varphi_k\left(t\right)\right)dt.
 $$
 
-由**积分方程与柯西问题的等价性**, 从 $\left|f\right|\le M$ 得 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|\le\left|y_0^{\left(k\right)}-\bar{y}_0\right|+M\left|x-\bar{x}_0\right|$. 取充分小的 $h>0$ 使 $Mh<\dfrac{b'}{2}$, 并取 $k$ 充分大使 $\left|y_0^{\left(k\right)}-\bar{y}_0\right|<\dfrac{b'}{2}$, 则 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|<b'$, 即所有 $\varphi_k$ 都停留在 $R'$ 内, 因而在 $\left[\bar{x}_0-h,\bar{x}_0+h\right]$ 上有定义.
+由**积分方程与柯西问题的等价性**, 从 $\left|f\right|\le M$ 得 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|\le\left|y_0^{\left(k\right)}-\bar{y}_0\right|+M\left|x-\bar{x}_0\right|$. 取充分小的 $h>0$ 使 $Mh<\frac{b'}{2}$, 并取 $k$ 充分大使 $\left|y_0^{\left(k\right)}-\bar{y}_0\right|<\frac{b'}{2}$, 则 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|<b'$, 即所有 $\varphi_k$ 都停留在 $R'$ 内, 因而在 $\left[\bar{x}_0-h,\bar{x}_0+h\right]$ 上有定义.
 
 第三步, 一致有界且等度连续. 一致有界由第二步给出. 等度连续: 对任意 $x,x'$ 在该区间上,
 

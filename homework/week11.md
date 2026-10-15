@@ -121,7 +121,7 @@ $$
 $$
 \begin{cases}
 x=\cosh t,\\
-y=\dfrac{1}{2\sqrt{3}}\left(\sinh t\cosh t-t\right)+C.
+y=\frac{1}{2\sqrt{3}}\left(\sinh t\cosh t-t\right)+C.
 \end{cases}
 $$
 
@@ -155,8 +155,8 @@ $$
 
 $$
 \begin{cases}
-x=\dfrac{4t}{1+t^3},\\
-y=-\dfrac{8}{\left(1+t^3\right)^2}+\dfrac{32}{3\left(1+t^3\right)}+C.
+x=\frac{4t}{1+t^3},\\
+y=-\frac{8}{\left(1+t^3\right)^2}+\frac{32}{3\left(1+t^3\right)}+C.
 \end{cases}
 $$
 

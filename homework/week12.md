@@ -16,7 +16,7 @@
 
 $$
 \begin{cases}
-\left(y-1\right)^2p^2-\dfrac{4}{9}y=0,\\
+\left(y-1\right)^2p^2-\frac{4}{9}y=0,\\
 F_p'\left(x,y,p\right)=2p\left(y-1\right)^2=0.
 \end{cases}
 $$
@@ -35,7 +35,7 @@ $$
 
 $$
 \begin{cases}
-y-2x-p+\dfrac{1}{3}p^3=0,\\
+y-2x-p+\frac{1}{3}p^3=0,\\
 F_p'\left(x,y,p\right)=-1+p^2=0.
 \end{cases}
 $$
@@ -47,7 +47,7 @@ $$
 对解 $y=2x-\frac{2}{3}$, 检查**定理 4.2**(奇解的充分条件)的条件: $F_y'=1\neq0$, $F_{pp}''=2p=4\neq0$, 这两个不等式条件成立; 但第三个条件要求 $F_p'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)=0$, 而此处 $\psi'\left(x\right)=2$, 故
 
 $$
-F_p'\left(x,2x-\tfrac{2}{3},2\right)=-1+2^2=3\neq0,
+F_p'\left(x,2x-\frac{2}{3},2\right)=-1+2^2=3\neq0,
 $$
 
 即条件 $F_p'\left(x,\psi\left(x\right),\psi'\left(x\right)\right)=0$ 不成立.
