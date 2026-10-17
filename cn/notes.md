@@ -584,7 +584,7 @@ $$
 
 **皮卡序列及其一致收敛估计**
 
-与柯西问题等价的积分方程为 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 作皮卡序列 $y_{k+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y_k\left(t\right)\right)dt$, $y_0\left(x\right)\equiv y_0$. 归纳可证 $\left|y_{k+1}\left(x\right)-y_k\left(x\right)\right|\le\frac{ML^k\left|x-x_0\right|^{k+1}}{\left(k+1\right)!}$, 它蕴涵皮卡序列在 $\left|x-x_0\right|\le h$ 上一致收敛.
+与柯西问题等价的积分方程为 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 作皮卡序列 $y_{k+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y_k\left(t\right)\right)dt$, $y_0\left(x\right)\equiv y_0$. 归纳可证 $\left|y_{k+1}\left(x\right)-y_k\left(x\right)\right|\le\frac{ML^k\left|x-x_0\right|^{k+1}}{\left(k+1\right)!}$, 它蕴含皮卡序列在 $\left|x-x_0\right|\le h$ 上一致收敛.
 
 **阿斯科利引理与格朗沃尔不等式**
 

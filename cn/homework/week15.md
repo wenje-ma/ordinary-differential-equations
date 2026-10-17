@@ -10,7 +10,7 @@
 
 > **佩亚诺存在定理($n$ 维向量形式)**<br>设 $f\left(x,y\right)$ 在区域 $R:\left|x-x_0\right|\le a,\ \left|y-y_0\right|\le b$ 上连续, 令 $M=\max_R\left|f\left(x,y\right)\right|$, $h=\min\left\{a,\frac{b}{M}\right\}$, 则柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 在区间 $\left|x-x_0\right|\le h$ 上至少存在一个解(不保证唯一性).
 
-> **皮卡序列及其一致收敛估计**<br>与柯西问题等价的积分方程为 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 作皮卡序列 $y_{k+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y_k\left(t\right)\right)dt$, $y_0\left(x\right)\equiv y_0$. 归纳可证 $\left|y_{k+1}\left(x\right)-y_k\left(x\right)\right|\le\frac{ML^k\left|x-x_0\right|^{k+1}}{\left(k+1\right)!}$, 它蕴涵皮卡序列在 $\left|x-x_0\right|\le h$ 上一致收敛.
+> **皮卡序列及其一致收敛估计**<br>与柯西问题等价的积分方程为 $y\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y\left(t\right)\right)dt$. 作皮卡序列 $y_{k+1}\left(x\right)=y_0+\displaystyle\int_{x_0}^{x}f\left(t,y_k\left(t\right)\right)dt$, $y_0\left(x\right)\equiv y_0$. 归纳可证 $\left|y_{k+1}\left(x\right)-y_k\left(x\right)\right|\le\frac{ML^k\left|x-x_0\right|^{k+1}}{\left(k+1\right)!}$, 它蕴含皮卡序列在 $\left|x-x_0\right|\le h$ 上一致收敛.
 
 > **阿斯科利引理与格朗沃尔不等式**<br>阿斯科利引理: 有界闭区间上一致有界且等度连续的函数列必有一致收敛的子列. 格朗沃尔不等式: 若非负连续函数 $u\left(x\right)$ 满足 $u\left(x\right)\le A+L\displaystyle\int_{x_0}^{x}u\left(t\right)dt$, 则 $u\left(x\right)\le Ae^{L\left|x-x_0\right|}$.
 
