@@ -1,6 +1,6 @@
 # 作业 24
 
-> **解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定)<br>考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(t,\boldsymbol{x}\right)$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}\left(t\right)$. 如果对任意给定的 $\varepsilon > 0$, 都存在 $\delta = \delta\left(\varepsilon, t_0\right) > 0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| < \delta$, 方程以 $\boldsymbol{x}\left(t_0\right) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\left\|\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right)\right\| < \varepsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 是稳定的, 而且存在 $\delta_0 > 0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| < \delta_0$ 就有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}\ \left(t \to +\infty\right)$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是全局渐近稳定的.
+> **解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定)<br>考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(t,\boldsymbol{x}\right)$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}\left(t\right)$. 如果对任意给定的 $\epsilon > 0$, 都存在 $\delta = \delta\left(\epsilon, t_0\right) > 0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| < \delta$, 方程以 $\boldsymbol{x}\left(t_0\right) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\left\|\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right)\right\| < \epsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 是稳定的, 而且存在 $\delta_0 > 0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| < \delta_0$ 就有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}\ \left(t \to +\infty\right)$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是全局渐近稳定的.
 
 > **定理 8.1**(常系数线性系统零解稳定性的特征根判别)<br>设线性方程 $\frac{d\boldsymbol{x}}{dt} = A\boldsymbol{x}$ 中的矩阵 $A$ 为常矩阵, 则 (1) 零解是渐近稳定的, 当且仅当矩阵 $A$ 的全部特征根都有负的实部; (2) 零解是稳定的, 当且仅当矩阵 $A$ 的全部特征根的实部都是非正的, 并且那些实部为零的特征根所对应的若尔当块都是一阶的; (3) 零解是不稳定的, 当且仅当矩阵 $A$ 的特征根中至少有一个实部为正, 或者至少有一个实部为零且它所对应的若尔当块是高于一阶的.
 
@@ -58,7 +58,7 @@ $$
 
 故零解渐近稳定的充要条件是 $\int_{t_0}^{t}a\left(s\right)\,ds \to -\infty\ \left(t \to +\infty\right)$.
 
-再论稳定性. 零解稳定要求: 对任意 $\varepsilon > 0$, 存在 $\delta > 0$, 使 $\left|x_0\right| < \delta$ 时 $\left|x\left(t\right)\right| < \varepsilon$ 对一切 $t \ge t_0$ 成立, 即 $e^{A\left(t\right)}$ 对 $t \ge t_0$ 有上界. 这等价于 $A\left(t\right)$ 在 $t \ge t_0$ 上有上界:
+再论稳定性. 零解稳定要求: 对任意 $\epsilon > 0$, 存在 $\delta > 0$, 使 $\left|x_0\right| < \delta$ 时 $\left|x\left(t\right)\right| < \epsilon$ 对一切 $t \ge t_0$ 成立, 即 $e^{A\left(t\right)}$ 对 $t \ge t_0$ 有上界. 这等价于 $A\left(t\right)$ 在 $t \ge t_0$ 上有上界:
 
 $$
 \sup_{t \ge t_0}\int_{t_0}^{t}a\left(s\right)\,ds < +\infty.
@@ -82,10 +82,10 @@ $$
 
 在相邻两圆之间, $\sin\frac{1}{r}$ 恒有定号: 当 $r \in \left(\frac{1}{\left(2k+1\right)\pi}, \frac{1}{2k\pi}\right)$ 时 $\sin\frac{1}{r} > 0$, 轨线径向单调向外边界 $r = \frac{1}{2k\pi}$ 逼近; 当 $r \in \left(\frac{1}{\left(2k+2\right)\pi}, \frac{1}{\left(2k+1\right)\pi}\right)$ 时 $\sin\frac{1}{r} < 0$, 轨线径向单调向内边界 $r = \frac{1}{\left(2k+2\right)\pi}$ 逼近. 故相图为: 原点附近布满无穷多条同心圆闭轨, 相邻闭轨之间的环形区域内, 轨线在逆时针旋转的同时单调地旋向其中一条边界闭轨.
 
-下面研究平衡点 $r = 0$ 的稳定性. 由**解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定), 任给 $\varepsilon > 0$, 取充分大的正整数 $N$ 使 $r_N = \frac{1}{N\pi} < \varepsilon$, 并令 $\delta = r_N$. 当初值 $r_0 < \delta$ 时, 由于各圆周 $r = r_n$ 都是不变闭轨, 轨线不能穿越它们, 故初值所在环形区间 $\left(r_{k+1}, r_k\right)$(其中 $k \ge N$)是正不变的, 从而
+下面研究平衡点 $r = 0$ 的稳定性. 由**解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定), 任给 $\epsilon > 0$, 取充分大的正整数 $N$ 使 $r_N = \frac{1}{N\pi} < \epsilon$, 并令 $\delta = r_N$. 当初值 $r_0 < \delta$ 时, 由于各圆周 $r = r_n$ 都是不变闭轨, 轨线不能穿越它们, 故初值所在环形区间 $\left(r_{k+1}, r_k\right)$(其中 $k \ge N$)是正不变的, 从而
 
 $$
-r\left(t\right) < r_k \le r_N = \delta < \varepsilon\quad\left(t \ge 0\right).
+r\left(t\right) < r_k \le r_N = \delta < \epsilon\quad\left(t \ge 0\right).
 $$
 
 于是 $r = 0$ 是稳定的. 但它不是渐近稳定的: 任一闭轨 $r = r_n$ 本身就是周期轨线, 其上的轨线永远不会趋于原点; 任何从某环形区域内出发的轨线也永远停留在该区域内, 不趋于原点. 故平衡点 $r = 0$ 是稳定的, 但不是渐近稳定的. $\blacksquare$
@@ -254,4 +254,4 @@ $$
 
 现任取充分小的正数 $\rho > 0$, 从正 $x$ 轴上一点 $\left(x_0, 0\right)$($x_0 > 0$ 任意小)出发的轨线, 因 $\frac{dy}{dt} = 2x_0^5 > 0$ 立即进入 $R$, 并在 $R$ 内单调演化. 若它永远留在圆盘 $x^2 + y^2 < \rho^2$ 内, 则 $\frac{dx}{dt} > 0$ 迫使 $x\left(t\right)$ 单调递增并趋于某有限极限 $x^*$, 从而 $\frac{dx}{dt} \to 0$, 即 $y\left(2x^2 + y^2\right) \to 0$. 因 $x \to x^* > 0$, 必有 $y\left(t\right) \to 0$, 但此时 $\frac{dy}{dt} \to 2x^{*5} > 0$, 与 $y\left(t\right) \to 0$ 矛盾. 故该轨线必在有限时间内穿出圆盘 $x^2 + y^2 < \rho^2$.
 
-由**解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定), 不论原点多小的邻域, 都存在从其内出发的轨线穿出给定的 $\varepsilon$-邻域, 故零解是不稳定的. $\blacksquare$
+由**解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定), 不论原点多小的邻域, 都存在从其内出发的轨线穿出给定的 $\epsilon$-邻域, 故零解是不稳定的. $\blacksquare$

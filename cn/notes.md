@@ -316,7 +316,7 @@ $$
 
 **一致有界与等度连续**
 
-设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K> 0$ 使 $\left|f_n\left(x\right)\right|< K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta\left(\varepsilon\right)$, 使只要 $\left|x_1-x_2\right|< \delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|< \varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
+设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K> 0$ 使 $\left|f_n\left(x\right)\right|< K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\epsilon$, 存在 $\delta=\delta\left(\epsilon\right)$, 使只要 $\left|x_1-x_2\right|< \delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|< \epsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
 
 **阿斯科利引理**
 
@@ -388,7 +388,7 @@ $$
 
 **定理 3.7**(最小解与最大解的存在性)
 
-存在正数 $\delta< h$, 使初值问题 $\left(E\right)$ 在区间 $\left[x_0-\delta,x_0+\delta\right]$ 上有最小解和最大解. 构造方法: 对 $\varepsilon> 0$, 考虑 $\left(E_\varepsilon\right):\ \frac{dy}{dx}=f\left(x,y\right)\pm\varepsilon$, 由**定理 3.3**(佩亚诺存在定理)取其解并利用**阿斯科利引理**取极限, 即得最小解与最大解.
+存在正数 $\delta< h$, 使初值问题 $\left(E\right)$ 在区间 $\left[x_0-\delta,x_0+\delta\right]$ 上有最小解和最大解. 构造方法: 对 $\epsilon> 0$, 考虑 $\left(E_\epsilon\right):\ \frac{dy}{dx}=f\left(x,y\right)\pm\epsilon$, 由**定理 3.3**(佩亚诺存在定理)取其解并利用**阿斯科利引理**取极限, 即得最小解与最大解.
 
 **定理 3.8**(第二比较定理)
 
@@ -976,7 +976,7 @@ $$
 
 **解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定)
 
-考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(t,\boldsymbol{x}\right)$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}\left(t\right)$. 如果对任意给定的 $\varepsilon >  0$, 都存在 $\delta = \delta\left(\varepsilon, t_0\right) >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta$, 方程以 $\boldsymbol{x}\left(t_0\right) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\left\|\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right)\right\| <  \varepsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 是稳定的, 而且存在 $\delta_0 >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta_0$ 就有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}\ \left(t \to +\infty\right)$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是全局渐近稳定的.
+考虑方程 $\frac{d\boldsymbol{x}}{dt} = \boldsymbol{f}\left(t,\boldsymbol{x}\right)$ 的某个解 $\boldsymbol{x} = \boldsymbol{\varphi}\left(t\right)$. 如果对任意给定的 $\epsilon >  0$, 都存在 $\delta = \delta\left(\epsilon, t_0\right) >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta$, 方程以 $\boldsymbol{x}\left(t_0\right) = \boldsymbol{x}_0$ 为初值的解 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right)$ 就在 $t \ge t_0$ 有定义, 并且满足 $\left\|\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right)\right\| <  \epsilon$ 对一切 $t \ge t_0$ 成立, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是(在李雅普诺夫意义下)稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 是稳定的, 而且存在 $\delta_0 >  0$, 使得只要 $\left\|\boldsymbol{x}_0 - \boldsymbol{\varphi}\left(t_0\right)\right\| <  \delta_0$ 就有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}\ \left(t \to +\infty\right)$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是渐近稳定的. 如果解 $\boldsymbol{\varphi}\left(t\right)$ 不是稳定的, 则称它是不稳定的. 如果吸引域是全空间, 即不论初值多大都有 $\boldsymbol{x}\left(t, t_0, \boldsymbol{x}_0\right) - \boldsymbol{\varphi}\left(t\right) \to \boldsymbol{0}$, 则称解 $\boldsymbol{\varphi}\left(t\right)$ 是全局渐近稳定的.
 
 **定理 8.1**(常系数线性系统零解稳定性的特征根判别)
 

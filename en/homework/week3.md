@@ -133,11 +133,11 @@ together with the particular solution $y\equiv0$ to be supplied. The integral cu
 
 ### Problem 7
 
-(Problem 2-2, Problem 5) Consider the differential equation $\frac{dy}{dx}=f\left(y\right)$, where $f\left(y\right)$ is continuous in some neighborhood of $y=a$ (e.g. the interval $\left[a-\varepsilon,a+\varepsilon\right]$), and $f\left(y\right)=0$ if and only if $y=a$. Prove: at every point on the line $y=a$, the solution of the equation is locally unique if and only if the improper integral $\left|\int_a^{a\pm\varepsilon}\frac{dy}{f\left(y\right)}\right|=+\infty$ (diverges).
+(Problem 2-2, Problem 5) Consider the differential equation $\frac{dy}{dx}=f\left(y\right)$, where $f\left(y\right)$ is continuous in some neighborhood of $y=a$ (e.g. the interval $\left[a-\epsilon,a+\epsilon\right]$), and $f\left(y\right)=0$ if and only if $y=a$. Prove: at every point on the line $y=a$, the solution of the equation is locally unique if and only if the improper integral $\left|\int_a^{a\pm\epsilon}\frac{dy}{f\left(y\right)}\right|=+\infty$ (diverges).
 
 ### Solution to Problem 7
 
-Since $f\left(y\right)$ is continuous on $\left[a-\varepsilon,a+\varepsilon\right]$ and vanishes only at $y=a$, $f\left(y\right)$ keeps a fixed sign on both $\left(a,a+\varepsilon\right)$ and $\left(a-\varepsilon,a\right)$. The line $y\equiv a$ itself is always a solution of the equation. The question is whether there can be another nonconstant solution reaching the line $y=a$ at some point $\left(x_0,a\right)$.
+Since $f\left(y\right)$ is continuous on $\left[a-\epsilon,a+\epsilon\right]$ and vanishes only at $y=a$, $f\left(y\right)$ keeps a fixed sign on both $\left(a,a+\epsilon\right)$ and $\left(a-\epsilon,a\right)$. The line $y\equiv a$ itself is always a solution of the equation. The question is whether there can be another nonconstant solution reaching the line $y=a$ at some point $\left(x_0,a\right)$.
 
 First, prove sufficiency. Suppose both one-sided improper integrals diverge. Take any solution $y=y\left(x\right)$ through $\left(x_0,a\right)$, and suppose it is nonconstant; then near $x_0$, $y\left(x\right)\neq a$. By the **Separable Equation**, after separating variables, for a nonconstant solution we have
 $$
@@ -146,9 +146,9 @@ $$
 
 When $y\left(x\right)\to a$, the right-hand side diverges to $+\infty$ by assumption, i.e. $x-x_0\to+\infty$, contradicting the fact that $x-x_0$ is finite. Hence there can be no nonconstant solution through $\left(x_0,a\right)$; the unique solution is $y\equiv a$, and local uniqueness holds.
 
-Next, prove necessity. Suppose one side's improper integral converges, e.g. $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ is finite. Without loss of generality suppose $f\left(y\right)>0$ on $\left(a,a+\varepsilon\right)$. Fix $x_1$; by the **Separable Equation**, the solution through $\left(x_1,a+\varepsilon\right)$ satisfies
+Next, prove necessity. Suppose one side's improper integral converges, e.g. $\int_a^{a+\epsilon}\frac{dy}{f\left(y\right)}=I$ is finite. Without loss of generality suppose $f\left(y\right)>0$ on $\left(a,a+\epsilon\right)$. Fix $x_1$; by the **Separable Equation**, the solution through $\left(x_1,a+\epsilon\right)$ satisfies
 $$
-x-x_1=\int_{a+\varepsilon}^{y}\frac{ds}{f\left(s\right)}.
+x-x_1=\int_{a+\epsilon}^{y}\frac{ds}{f\left(s\right)}.
 $$
 
-Letting $y\to a^{+}$, the right-hand side tends to $\int_{a+\varepsilon}^{a}\frac{ds}{f\left(s\right)}=-I$, which is finite. Thus this solution reaches $y=a$ at the finite abscissa $x_1-I$. Patching this solution with the line $y=a$ when $x\le x_1-I$ gives another solution through $\left(x_1-I,a\right)$ different from $y\equiv a$, and local uniqueness is destroyed. Hence the improper integral must diverge. $\blacksquare$
+Letting $y\to a^{+}$, the right-hand side tends to $\int_{a+\epsilon}^{a}\frac{ds}{f\left(s\right)}=-I$, which is finite. Thus this solution reaches $y=a$ at the finite abscissa $x_1-I$. Patching this solution with the line $y=a$ when $x\le x_1-I$ gives another solution through $\left(x_1-I,a\right)$ different from $y\equiv a$, and local uniqueness is destroyed. Hence the improper integral must diverge. $\blacksquare$

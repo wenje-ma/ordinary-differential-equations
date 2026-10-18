@@ -6,7 +6,7 @@
 
 > **Minimal and Maximal Solutions**<br>Suppose the initial value problem $\left(E\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ is continuous in the rectangle $R$. If on the interval $\left[x_0-h,x_0+h\right]$ there are two solutions $y=W\left(x\right)$ and $y=Z\left(x\right)$ such that every solution $y=y\left(x\right)$ of $\left(E\right)$ satisfies $W\left(x\right)\le y\left(x\right)\le Z\left(x\right)$, then $y=W\left(x\right)$ and $y=Z\left(x\right)$ are called the minimal and maximal solutions of $\left(E\right)$, respectively.
 
-> **Theorem 3.7** (Existence of Minimal and Maximal Solutions)<br>There exists a positive number $\delta<h$ such that the initial value problem $\left(E\right)$ has a minimal solution and a maximal solution on the interval $\left[x_0-\delta,x_0+\delta\right]$. Construction: for $\varepsilon>0$, consider $\left(E_\varepsilon\right):\ \frac{dy}{dx}=f\left(x,y\right)\pm\varepsilon$, take its solutions by **Theorem 3.3** (Peano Existence Theorem), and take the limit using **Ascoli's Lemma** to obtain the minimal and maximal solutions.
+> **Theorem 3.7** (Existence of Minimal and Maximal Solutions)<br>There exists a positive number $\delta<h$ such that the initial value problem $\left(E\right)$ has a minimal solution and a maximal solution on the interval $\left[x_0-\delta,x_0+\delta\right]$. Construction: for $\epsilon>0$, consider $\left(E_\epsilon\right):\ \frac{dy}{dx}=f\left(x,y\right)\pm\epsilon$, take its solutions by **Theorem 3.3** (Peano Existence Theorem), and take the limit using **Ascoli's Lemma** to obtain the minimal and maximal solutions.
 
 > **Theorem 3.8** (Second Comparison Theorem)<br>Suppose both functions $f\left(x,y\right)$ and $F\left(x,y\right)$ are continuous in a plane region $G$ and satisfy $f\left(x,y\right)\le F\left(x,y\right)$; suppose $y=\varphi\left(x\right)$ and $y=\Phi\left(x\right)$ are solutions on $\left(a,b\right)$ of $\left(E_1\right):\ \frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ and $\left(E_2\right):\ \frac{dy}{dx}=F\left(x,y\right),\ y\left(x_0\right)=y_0$, respectively, where $y=\varphi\left(x\right)$ is the rightward minimal and leftward maximal solution of $\left(E_1\right)$, and $y=\Phi\left(x\right)$ is the rightward maximal and leftward minimal solution of $\left(E_2\right)$. Then $\varphi\left(x\right)\le\Phi\left(x\right)$ on $\left[x_0,b\right)$, and $\varphi\left(x\right)\ge\Phi\left(x\right)$ on $\left(a,x_0\right]$.
 
@@ -36,20 +36,20 @@ Thus $y=u\left(x\right)$ is a solution of $\left(E\right)$ on $\left[x_0-h,x_0+h
 
 Let $f\left(x,y\right)\le F\left(x,y\right)$ hold in $G$. The proof is in left and right segments.
 
-First prove the rightward segment $x\in\left[x_0,b\right)$, i.e. prove $\varphi\left(x\right)\le\Phi\left(x\right)$. For any $\varepsilon>0$, consider the perturbed equation $\left(E_{1,\varepsilon}\right):\ \frac{dy}{dx}=f\left(x,y\right)-\varepsilon,\ y\left(x_0\right)=y_0$. By **Theorem 3.3** (Peano Existence Theorem), it has a solution $u_\varepsilon\left(x\right)$; by **Theorem 3.7** (Existence of Minimal and Maximal Solutions), as $\varepsilon\to0^{+}$, $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$ (since $\varphi$ is the rightward minimal solution of $\left(E_1\right)$). Since $f\left(x,y\right)-\varepsilon<F\left(x,y\right)$ strictly holds, applying **Theorem 3.6** (First Comparison Theorem) to $u_\varepsilon$ and $\Phi$ gives
+First prove the rightward segment $x\in\left[x_0,b\right)$, i.e. prove $\varphi\left(x\right)\le\Phi\left(x\right)$. For any $\epsilon>0$, consider the perturbed equation $\left(E_{1,\epsilon}\right):\ \frac{dy}{dx}=f\left(x,y\right)-\epsilon,\ y\left(x_0\right)=y_0$. By **Theorem 3.3** (Peano Existence Theorem), it has a solution $u_\epsilon\left(x\right)$; by **Theorem 3.7** (Existence of Minimal and Maximal Solutions), as $\epsilon\to0^{+}$, $u_\epsilon\left(x\right)\to\varphi\left(x\right)$ (since $\varphi$ is the rightward minimal solution of $\left(E_1\right)$). Since $f\left(x,y\right)-\epsilon<F\left(x,y\right)$ strictly holds, applying **Theorem 3.6** (First Comparison Theorem) to $u_\epsilon$ and $\Phi$ gives
 
 $$
-u_\varepsilon\left(x\right)<\Phi\left(x\right),\quad x\in\left(x_0,b\right).
+u_\epsilon\left(x\right)<\Phi\left(x\right),\quad x\in\left(x_0,b\right).
 $$
 
-Letting $\varepsilon\to0^{+}$ and taking the limit by $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$ gives $\varphi\left(x\right)\le\Phi\left(x\right)$ on $\left[x_0,b\right)$.
+Letting $\epsilon\to0^{+}$ and taking the limit by $u_\epsilon\left(x\right)\to\varphi\left(x\right)$ gives $\varphi\left(x\right)\le\Phi\left(x\right)$ on $\left[x_0,b\right)$.
 
-Next prove the leftward segment $x\in\left(a,x_0\right]$, i.e. prove $\varphi\left(x\right)\ge\Phi\left(x\right)$. Again take the above solution $u_\varepsilon$ corresponding to $\left(E_{1,\varepsilon}\right):\ y'=f\left(x,y\right)-\varepsilon$. By **Theorem 3.7** (Existence of Minimal and Maximal Solutions), $u_\varepsilon$ tends leftward to the leftward maximal solution of $\left(E_1\right)$, i.e. $u_\varepsilon\left(x\right)\to\varphi\left(x\right)$. Since $f\left(x,y\right)-\varepsilon<F\left(x,y\right)$, applying **Theorem 3.6** (First Comparison Theorem) to the leftward segment (its second part gives that the curve with smaller slope lies above the curve with larger slope to the left of $x_0$) gives
+Next prove the leftward segment $x\in\left(a,x_0\right]$, i.e. prove $\varphi\left(x\right)\ge\Phi\left(x\right)$. Again take the above solution $u_\epsilon$ corresponding to $\left(E_{1,\epsilon}\right):\ y'=f\left(x,y\right)-\epsilon$. By **Theorem 3.7** (Existence of Minimal and Maximal Solutions), $u_\epsilon$ tends leftward to the leftward maximal solution of $\left(E_1\right)$, i.e. $u_\epsilon\left(x\right)\to\varphi\left(x\right)$. Since $f\left(x,y\right)-\epsilon<F\left(x,y\right)$, applying **Theorem 3.6** (First Comparison Theorem) to the leftward segment (its second part gives that the curve with smaller slope lies above the curve with larger slope to the left of $x_0$) gives
 
 $$
-u_\varepsilon\left(x\right)>\Phi\left(x\right),\quad x\in\left(a,x_0\right).
+u_\epsilon\left(x\right)>\Phi\left(x\right),\quad x\in\left(a,x_0\right).
 $$
 
-Letting $\varepsilon\to0^{+}$ and taking the limit gives $\varphi\left(x\right)\ge\Phi\left(x\right)$ on $\left(a,x_0\right]$.
+Letting $\epsilon\to0^{+}$ and taking the limit gives $\varphi\left(x\right)\ge\Phi\left(x\right)$ on $\left(a,x_0\right]$.
 
 Combining the two segments, $\varphi\left(x\right)\le\Phi\left(x\right)$ on $\left[x_0,b\right)$ and $\varphi\left(x\right)\ge\Phi\left(x\right)$ on $\left(a,x_0\right]$, and **Theorem 3.8** (Second Comparison Theorem) is proved. $\blacksquare$
