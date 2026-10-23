@@ -6,7 +6,7 @@
 
 > **Equivalence Between the Integral Equation and the Initial Value Problem**<br>The initial value problem $\left(E\right)$ has a solution if and only if the integral equation $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ has a solution.
 
-> **Uniform Boundedness and Equicontinuity**<br>Suppose a sequence of functions $f_1\left(x\right),f_2\left(x\right),\cdots$ is given on an interval $I$. If there exists a constant $K>0$ such that $\left|f_n\left(x\right)\right|<K$ for all $n$, the sequence is called uniformly bounded on $I$; if for any positive $\epsilon$, there exists $\delta=\delta\left(\epsilon\right)$ such that $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|<\epsilon$ for all $n$ whenever $\left|x_1-x_2\right|<\delta$, the sequence is called equicontinuous on $I$.
+> **Uniform Boundedness and Equicontinuity**<br>Suppose a sequence of functions $f_1\left(x\right),f_2\left(x\right),\cdots$ is given on an interval $I$. If there exists a constant $K>0$ such that $\left|f_n\left(x\right)\right|<K$ for all $n$, the sequence is called uniformly bounded on $I$; if for any positive $\varepsilon$, there exists $\delta=\delta\left(\varepsilon\right)$ such that $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|<\varepsilon$ for all $n$ whenever $\left|x_1-x_2\right|<\delta$, the sequence is called equicontinuous on $I$.
 
 > **Ascoli's Lemma**<br>If a sequence of functions is uniformly bounded and equicontinuous on a finite closed interval $I$, then one can select a subsequence that converges uniformly on $I$.
 
@@ -62,7 +62,7 @@ $$
 y_n\left(x\right)=y_0+\int_{x_0}^{x}f\left(t,y_n\left(t\right)\right)\,dt-\int_{x-d_n}^{x}f\left(t,y_n\left(t\right)\right)\,dt.
 $$
 
-The second integral on the right has length $d_n$, and $\left|f\right|\le M$, so its absolute value is at most $Md_n$, which tends uniformly to zero as $n\to\infty$. That is, $y_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt+\epsilon_n\left(x\right)$, where $\epsilon_n\left(x\right)$ tends uniformly to zero. Along the subsequence, letting $k\to\infty$, by $y_{n_k}\to\varphi$ uniformly and the continuity of $f$, taking the limit under the integral sign gives
+The second integral on the right has length $d_n$, and $\left|f\right|\le M$, so its absolute value is at most $Md_n$, which tends uniformly to zero as $n\to\infty$. That is, $y_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt+\varepsilon_n\left(x\right)$, where $\varepsilon_n\left(x\right)$ tends uniformly to zero. Along the subsequence, letting $k\to\infty$, by $y_{n_k}\to\varphi$ uniformly and the continuity of $f$, taking the limit under the integral sign gives
 
 $$
 \varphi\left(x\right)=y_0+\int_{x_0}^{x}f\left(t,\varphi\left(t\right)\right)\,dt.

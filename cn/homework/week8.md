@@ -6,7 +6,7 @@
 
 > **积分方程与初值问题的等价性**<br>初值问题 $\left(E\right)$ 有解等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解.
 
-> **一致有界与等度连续**<br>设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K>0$ 使 $\left|f_n\left(x\right)\right|<K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\epsilon$, 存在 $\delta=\delta\left(\epsilon\right)$, 使只要 $\left|x_1-x_2\right|<\delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|<\epsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
+> **一致有界与等度连续**<br>设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K>0$ 使 $\left|f_n\left(x\right)\right|<K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta\left(\varepsilon\right)$, 使只要 $\left|x_1-x_2\right|<\delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|<\varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
 
 > **阿斯科利引理**<br>设函数序列在有限闭区间 $I$ 上一致有界且等度连续, 则可以选取它的一个子序列, 使该子序列在区间 $I$ 上一致收敛.
 
@@ -62,7 +62,7 @@ $$
 y_n\left(x\right)=y_0+\int_{x_0}^{x}f\left(t,y_n\left(t\right)\right)\,dt-\int_{x-d_n}^{x}f\left(t,y_n\left(t\right)\right)\,dt.
 $$
 
-右端第二个积分长度为 $d_n$, 且 $\left|f\right|\le M$, 故其绝对值不超过 $Md_n$, 当 $n\to\infty$ 时一致趋于零. 即 $y_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt+\epsilon_n\left(x\right)$, 其中 $\epsilon_n\left(x\right)$ 一致趋于零. 沿子序列令 $k\to\infty$, 由 $y_{n_k}\to\varphi$ 一致及 $f$ 的连续性, 在积分号下取极限, 得
+右端第二个积分长度为 $d_n$, 且 $\left|f\right|\le M$, 故其绝对值不超过 $Md_n$, 当 $n\to\infty$ 时一致趋于零. 即 $y_n\left(x\right)=y_0+\displaystyle\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\,dt+\varepsilon_n\left(x\right)$, 其中 $\varepsilon_n\left(x\right)$ 一致趋于零. 沿子序列令 $k\to\infty$, 由 $y_{n_k}\to\varphi$ 一致及 $f$ 的连续性, 在积分号下取极限, 得
 
 $$
 \varphi\left(x\right)=y_0+\int_{x_0}^{x}f\left(t,\varphi\left(t\right)\right)\,dt.

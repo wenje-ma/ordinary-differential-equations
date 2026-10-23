@@ -46,7 +46,7 @@ $$
 
 By the **Equivalence Between the Integral Equation and the Cauchy Problem**, $\psi\left(x\right)$ is the solution through $\left(\bar{x}_0,\bar{y}_0\right)$.
 
-Step 6: use the uniqueness condition in the problem. The problem guarantees that the integral curve through $\left(\bar{x}_0,\bar{y}_0\right)$ is unique, so $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. Hence every convergent subsequence of $\left\{\varphi_k\right\}$ converges uniformly to the same limit $\bar{\varphi}$; if the whole sequence did not converge uniformly to $\bar{\varphi}$, there would exist some $\epsilon>0$ and a subsequence with $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\epsilon$, which by Ascoli's Lemma contains a convergent subsequence, a contradiction. Therefore $\varphi_k\rightrightarrows\bar{\varphi}$. By the arbitrariness of the sequence, the solutions depend continuously on the initial values.
+Step 6: use the uniqueness condition in the problem. The problem guarantees that the integral curve through $\left(\bar{x}_0,\bar{y}_0\right)$ is unique, so $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. Hence every convergent subsequence of $\left\{\varphi_k\right\}$ converges uniformly to the same limit $\bar{\varphi}$; if the whole sequence did not converge uniformly to $\bar{\varphi}$, there would exist some $\varepsilon>0$ and a subsequence with $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\varepsilon$, which by Ascoli's Lemma contains a convergent subsequence, a contradiction. Therefore $\varphi_k\rightrightarrows\bar{\varphi}$. By the arbitrariness of the sequence, the solutions depend continuously on the initial values.
 
 $\blacksquare$
 

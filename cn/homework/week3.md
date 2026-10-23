@@ -133,11 +133,11 @@ $$
 
 ### 习题七
 
-(习题 2-2 题5)设微分方程 $\frac{dy}{dx}=f\left(y\right)$, 其中 $f\left(y\right)$ 在 $y=a$ 的某邻域(例如区间 $\left[a-\epsilon,a+\epsilon\right]$)内连续, 而且 $f\left(y\right)=0$ 当且仅当 $y=a$. 试证: 在直线 $y=a$ 上的每一点, 方程的解是局部唯一的, 当且仅当瑕积分 $\left|\int_a^{a\pm\epsilon}\frac{dy}{f\left(y\right)}\right|=+\infty$(发散).
+(习题 2-2 题5)设微分方程 $\frac{dy}{dx}=f\left(y\right)$, 其中 $f\left(y\right)$ 在 $y=a$ 的某邻域(例如区间 $\left[a-\varepsilon,a+\varepsilon\right]$)内连续, 而且 $f\left(y\right)=0$ 当且仅当 $y=a$. 试证: 在直线 $y=a$ 上的每一点, 方程的解是局部唯一的, 当且仅当瑕积分 $\left|\int_a^{a\pm\varepsilon}\frac{dy}{f\left(y\right)}\right|=+\infty$(发散).
 
 ### 解答 习题七
 
-由于 $f\left(y\right)$ 在 $\left[a-\epsilon,a+\epsilon\right]$ 上连续且仅在 $y=a$ 处为零, 故 $f\left(y\right)$ 在 $\left(a,a+\epsilon\right)$ 与 $\left(a-\epsilon,a\right)$ 上均保持固定的符号. 直线 $y\equiv a$ 本身恒为方程的解. 问题在于能否另有非常数解在某一点 $\left(x_0,a\right)$ 处到达直线 $y=a$.
+由于 $f\left(y\right)$ 在 $\left[a-\varepsilon,a+\varepsilon\right]$ 上连续且仅在 $y=a$ 处为零, 故 $f\left(y\right)$ 在 $\left(a,a+\varepsilon\right)$ 与 $\left(a-\varepsilon,a\right)$ 上均保持固定的符号. 直线 $y\equiv a$ 本身恒为方程的解. 问题在于能否另有非常数解在某一点 $\left(x_0,a\right)$ 处到达直线 $y=a$.
 
 先证充分性. 设两个单侧瑕积分均发散. 任取过 $\left(x_0,a\right)$ 的一个解 $y=y\left(x\right)$, 设它非常数, 则在 $x_0$ 附近 $y\left(x\right)\neq a$. 由**变量分离方程**, 分离变量后对非常数解有
 $$
@@ -146,9 +146,9 @@ $$
 
 当 $y\left(x\right)\to a$ 时, 右端按假设发散到 $+\infty$, 即 $x-x_0\to+\infty$, 与 $x-x_0$ 为有限值矛盾. 故过 $\left(x_0,a\right)$ 不可能有非常数解, 唯一解即 $y\equiv a$, 局部唯一成立.
 
-再证必要性. 设某一侧瑕积分收敛, 例如 $\int_a^{a+\epsilon}\frac{dy}{f\left(y\right)}=I$ 为有限值. 不妨设在 $\left(a,a+\epsilon\right)$ 上 $f\left(y\right)>0$. 取定 $x_1$, 由**变量分离方程**, 过 $\left(x_1,a+\epsilon\right)$ 的解满足
+再证必要性. 设某一侧瑕积分收敛, 例如 $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ 为有限值. 不妨设在 $\left(a,a+\varepsilon\right)$ 上 $f\left(y\right)>0$. 取定 $x_1$, 由**变量分离方程**, 过 $\left(x_1,a+\varepsilon\right)$ 的解满足
 $$
-x-x_1=\int_{a+\epsilon}^{y}\frac{ds}{f\left(s\right)}.
+x-x_1=\int_{a+\varepsilon}^{y}\frac{ds}{f\left(s\right)}.
 $$
 
-令 $y\to a^{+}$, 右端趋于 $\int_{a+\epsilon}^{a}\frac{ds}{f\left(s\right)}=-I$, 为有限值. 于是该解在有限横坐标 $x_1-I$ 处到达 $y=a$. 将此解在 $x\le x_1-I$ 时与直线 $y=a$ 拼接, 即得过 $\left(x_1-I,a\right)$ 而区别于 $y\equiv a$ 的另一个解, 局部唯一性被破坏. 故瑕积分必须发散. $\blacksquare$
+令 $y\to a^{+}$, 右端趋于 $\int_{a+\varepsilon}^{a}\frac{ds}{f\left(s\right)}=-I$, 为有限值. 于是该解在有限横坐标 $x_1-I$ 处到达 $y=a$. 将此解在 $x\le x_1-I$ 时与直线 $y=a$ 拼接, 即得过 $\left(x_1-I,a\right)$ 而区别于 $y\equiv a$ 的另一个解, 局部唯一性被破坏. 故瑕积分必须发散. $\blacksquare$

@@ -46,7 +46,7 @@ $$
 
 由**积分方程与柯西问题的等价性**, $\psi\left(x\right)$ 是经过 $\left(\bar{x}_0,\bar{y}_0\right)$ 的解.
 
-第六步, 用题设的唯一性条件. 题设保证经过 $\left(\bar{x}_0,\bar{y}_0\right)$ 的积分曲线唯一, 故 $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. 于是序列 $\left\{\varphi_k\right\}$ 的任一收敛子列都一致收敛于同一极限 $\bar{\varphi}$; 若整个序列不一致收敛于 $\bar{\varphi}$, 则必有某 $\epsilon>0$ 与子列 $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\epsilon$, 而该子列由阿斯科利引理又含收敛子列, 矛盾. 因此 $\varphi_k\rightrightarrows\bar{\varphi}$. 由序列的任意性, 解对初值连续依赖.
+第六步, 用题设的唯一性条件. 题设保证经过 $\left(\bar{x}_0,\bar{y}_0\right)$ 的积分曲线唯一, 故 $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. 于是序列 $\left\{\varphi_k\right\}$ 的任一收敛子列都一致收敛于同一极限 $\bar{\varphi}$; 若整个序列不一致收敛于 $\bar{\varphi}$, 则必有某 $\varepsilon>0$ 与子列 $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\varepsilon$, 而该子列由阿斯科利引理又含收敛子列, 矛盾. 因此 $\varphi_k\rightrightarrows\bar{\varphi}$. 由序列的任意性, 解对初值连续依赖.
 
 $\blacksquare$
 
