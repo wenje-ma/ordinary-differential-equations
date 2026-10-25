@@ -16,7 +16,7 @@
 
 By **Elementary Singular Points** (and Higher-Order Singular Points), $\left(0,0\right)$ being a higher-order singular point means that the matrix $A$ has zero as an eigenvalue, i.e. $\det\left[A\right] = 0$. We discuss three cases.
 
-(1) The rank of $A$ is $1$, i.e. $A$ has one nonzero real eigenvalue $\lambda \ne 0$ and one zero eigenvalue. Then $A$ is similar to the diagonal form $\begin{pmatrix}\lambda & 0 \\ 0 & 0\end{pmatrix}$, and the system is
+(1) The rank of $A$ is $1$, i.e. $A$ has one nonzero real eigenvalue $\lambda \ne 0$ and one zero eigenvalue. Then $A$ is similar to the diagonal form $\begin{bmatrix}\lambda & 0 \\ 0 & 0\end{bmatrix}$, and the system is
 
 $$
 \frac{dx}{dt} = \lambda x,\quad\frac{dy}{dt} = 0.
@@ -24,7 +24,7 @@ $$
 
 Phase portrait: each horizontal line $y = c$ is a line containing trajectories; points on it move along the $x$-axis toward the $y$-axis ($\lambda < 0$) or away from the $y$-axis ($\lambda > 0$); the entire $y$-axis consists of infinitely many equilibrium points (the singular point is non-isolated).
 
-(2) $A$ is a nonzero nilpotent matrix, i.e. $A$ is similar to $\begin{pmatrix}0 & 1 \\ 0 & 0\end{pmatrix}$, and the system is
+(2) $A$ is a nonzero nilpotent matrix, i.e. $A$ is similar to $\begin{bmatrix}0 & 1 \\ 0 & 0\end{bmatrix}$, and the system is
 
 $$
 \frac{dx}{dt} = y,\quad\frac{dy}{dt} = 0.
@@ -42,7 +42,7 @@ In summary, the higher-order singular point of a linear system is non-isolated; 
 
 ### Solution to Problem 2
 
-The linear part matrix is $A = \begin{pmatrix}2 & 1 \\ 1 & 2\end{pmatrix}$. Computing:
+The linear part matrix is $A = \begin{bmatrix}2 & 1 \\ 1 & 2\end{bmatrix}$. Computing:
 
 $$
 p = -\text{tr}\left[A\right] = -4,\quad q = \det\left[A\right] = 3,\quad p^2 - 4q = 16 - 12 = 4 > 0.
@@ -62,13 +62,13 @@ Phase portrait description: near the singular point, except for trajectories lyi
 
 ### Solution to Problem 3
 
-The linear part matrix is $A = \begin{pmatrix}1 & 2 \\ -2 & 5\end{pmatrix}$. Computing:
+The linear part matrix is $A = \begin{bmatrix}1 & 2 \\ -2 & 5\end{bmatrix}$. Computing:
 
 $$
 p = -\text{tr}\left[A\right] = -6,\quad q = \det\left[A\right] = 9,\quad p^2 - 4q = 36 - 36 = 0.
 $$
 
-By **Theorem 8.5** (Classification of Elementary Singular Points), $q > 0$ and $p^2 = 4q$, so the linearized system has a one-way node or star node at $\left(0,0\right)$. The characteristic equation is $\left(\lambda - 3\right)^2 = 0$, with double eigenvalue $\lambda = 3$. Solving $\left(A - 3I\right)\boldsymbol{v} = \begin{pmatrix}-2 & 2 \\ -2 & 2\end{pmatrix}\boldsymbol{v} = 0$, we get a unique characteristic direction $y = x$, i.e. only one linearly independent eigenvector, so the singular point is a one-way node. Also $p = -6 < 0$, so this one-way node is unstable.
+By **Theorem 8.5** (Classification of Elementary Singular Points), $q > 0$ and $p^2 = 4q$, so the linearized system has a one-way node or star node at $\left(0,0\right)$. The characteristic equation is $\left(\lambda - 3\right)^2 = 0$, with double eigenvalue $\lambda = 3$. Solving $\left(A - 3I\right)\boldsymbol{v} = \begin{bmatrix}-2 & 2 \\ -2 & 2\end{bmatrix}\boldsymbol{v} = 0$, we get a unique characteristic direction $y = x$, i.e. only one linearly independent eigenvector, so the singular point is a one-way node. Also $p = -6 < 0$, so this one-way node is unstable.
 
 The nonlinear term $x^3 = o\left(r\right)$ ($r \to 0$) and is continuously differentiable near the origin, so condition $A^*$ holds. By conclusion (3) of **Theorem 8.6** (Nonlinear Systems Have the Same Qualitative Structure Near Elementary Singular Points as Their Linearized Systems), $\left(0,0\right)$ of the original system is also an unstable one-way node.
 
@@ -80,7 +80,7 @@ Phase portrait description: by **Characteristic Directions**, a one-way node has
 
 ### Solution to Problem 4
 
-Near $\left(0,0\right)$, the right-hand side functions expand to $\frac{dx}{dt} = x - xy,\ \frac{dy}{dt} = y - xy$, and the linear part matrix is $A = \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$. Computing:
+Near $\left(0,0\right)$, the right-hand side functions expand to $\frac{dx}{dt} = x - xy,\ \frac{dy}{dt} = y - xy$, and the linear part matrix is $A = \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}$. Computing:
 
 $$
 p = -\text{tr}\left[A\right] = -2,\quad q = \det\left[A\right] = 1,\quad p^2 - 4q = 4 - 4 = 0.

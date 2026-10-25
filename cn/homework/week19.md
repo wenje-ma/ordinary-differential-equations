@@ -22,7 +22,7 @@
 
 (习题 6-2 题1(2))求常系数齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 的通解, 其中矩阵
 
-$$A=\begin{pmatrix}0&a\\-a&0\end{pmatrix},$$
+$$A=\begin{bmatrix}0&a\\-a&0\end{bmatrix},$$
 
 $a$ 为常数.
 
@@ -34,23 +34,23 @@ $$\det\left(A-\lambda E\right)=\begin{vmatrix}-\lambda&a\\-a&-\lambda\end{vmatri
 
 故 $\lambda=\pm ia$. 以下设 $a\neq0$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 方程组有指数型非零解 $e^{\lambda x}\boldsymbol{r}$ 当且仅当 $\lambda$ 是 $A$ 的特征根. 对 $\lambda=ia$, 解 $\left(A-iaE\right)\boldsymbol{r}=\boldsymbol{0}$:
 
-$$\begin{pmatrix}-ia&a\\-a&-ia\end{pmatrix}\begin{pmatrix}r_1\\r_2\end{pmatrix}=\boldsymbol{0},$$
+$$\begin{bmatrix}-ia&a\\-a&-ia\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
 由第一行得 $-ir_1+r_2=0$, 取 $\boldsymbol{r}=\left(1,i\right)^T$. 于是得到一个复值解
 
-$$\boldsymbol{y}_1=e^{iax}\begin{pmatrix}1\\i\end{pmatrix}.$$
+$$\boldsymbol{y}_1=e^{iax}\begin{bmatrix}1\\i\end{bmatrix}.$$
 
 由**附注 2**(从复值解提取实值解的方法), 取 $\boldsymbol{y}_1$ 的实部与虚部即为实值解. 利用 $e^{iax}=\cos ax+i\sin ax$, 展开得
 
-$$\boldsymbol{y}_1=\left(\cos ax+i\sin ax\right)\begin{pmatrix}1\\i\end{pmatrix}=\begin{pmatrix}\cos ax+i\sin ax\\i\cos ax-\sin ax\end{pmatrix}.$$
+$$\boldsymbol{y}_1=\left(\cos ax+i\sin ax\right)\begin{bmatrix}1\\i\end{bmatrix}=\begin{bmatrix}\cos ax+i\sin ax\\i\cos ax-\sin ax\end{bmatrix}.$$
 
 其实部与虚部分别为
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos ax\\-\sin ax\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin ax\\\cos ax\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 两个实值解线性无关, 构成一个实基解矩阵, 故通解为
 
-$$\boldsymbol{y}=C_1\begin{pmatrix}\cos ax\\-\sin ax\end{pmatrix}+C_2\begin{pmatrix}\sin ax\\\cos ax\end{pmatrix},$$
+$$\boldsymbol{y}=C_1\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix}+C_2\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix},$$
 
 其中 $C_1,C_2$ 为任意常数. 当 $a=0$ 时 $A$ 为零矩阵, 方程组退化为 $\frac{d\boldsymbol{y}}{dx}=\boldsymbol{0}$, 通解为常向量 $\boldsymbol{y}=\boldsymbol{C}$. $\blacksquare$
 
@@ -58,7 +58,7 @@ $$\boldsymbol{y}=C_1\begin{pmatrix}\cos ax\\-\sin ax\end{pmatrix}+C_2\begin{pmat
 
 (习题 6-2 题1(4))求常系数齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}$ 的通解, 其中矩阵
 
-$$A=\begin{pmatrix}1&\frac{2}{3}&-\frac{2}{3}\\0&\frac{2}{3}&\frac{1}{3}\\0&-\frac{1}{3}&\frac{4}{3}\end{pmatrix}.$$
+$$A=\begin{bmatrix}1&\frac{2}{3}&-\frac{2}{3}\\0&\frac{2}{3}&\frac{1}{3}\\0&-\frac{1}{3}&\frac{4}{3}\end{bmatrix}.$$
 
 ### 解答 习题二
 
@@ -72,11 +72,11 @@ $$\det\left(A-\lambda E\right)=-\left(\lambda-1\right)^3,$$
 
 即 $\lambda=1$ 是三重特征根. 计算 $A-E$:
 
-$$A-E=\begin{pmatrix}0&\frac{2}{3}&-\frac{2}{3}\\0&-\frac{1}{3}&\frac{1}{3}\\0&-\frac{1}{3}&\frac{1}{3}\end{pmatrix}.$$
+$$A-E=\begin{bmatrix}0&\frac{2}{3}&-\frac{2}{3}\\0&-\frac{1}{3}&\frac{1}{3}\\0&-\frac{1}{3}&\frac{1}{3}\end{bmatrix}.$$
 
 其秩为 1, 故 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 的解空间为二维. 由 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_2=r_3$, 取两个线性无关的特征向量
 
-$$\boldsymbol{r}^{\left(1\right)}=\begin{pmatrix}1\\0\\0\end{pmatrix},\quad\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}0\\1\\1\end{pmatrix}.$$
+$$\boldsymbol{r}^{\left(1\right)}=\begin{bmatrix}1\\0\\0\end{bmatrix},\quad\boldsymbol{r}^{\left(2\right)}=\begin{bmatrix}0\\1\\1\end{bmatrix}.$$
 
 由**引理 6.7**(重特征根时确定向量多项式系数的方法), 还需再取一个满足 $\left(A-E\right)^2\boldsymbol{r}_0=O$ 但 $\left(A-E\right)\boldsymbol{r}_0\neq\boldsymbol{0}$ 的向量 $\boldsymbol{r}_0$. 直接验算可知
 
@@ -84,15 +84,15 @@ $$\left(A-E\right)^2=O,$$
 
 故任取 $\boldsymbol{r}_0^{\left(3\right)}=\left(0,1,0\right)^T$ 即可, 它不是特征向量. 逐次计算系数:
 
-$$\boldsymbol{r}_1^{\left(3\right)}=\left(A-E\right)\boldsymbol{r}_0^{\left(3\right)}=\begin{pmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{pmatrix}.$$
+$$\boldsymbol{r}_1^{\left(3\right)}=\left(A-E\right)\boldsymbol{r}_0^{\left(3\right)}=\begin{bmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{bmatrix}.$$
 
 于是由**引理 6.7**(重特征根时确定向量多项式系数的方法)所得的第三个解为
 
-$$e^x\left(\boldsymbol{r}_0^{\left(3\right)}+x\boldsymbol{r}_1^{\left(3\right)}\right)=e^x\left[\begin{pmatrix}0\\1\\0\end{pmatrix}+x\begin{pmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{pmatrix}\right].$$
+$$e^x\left(\boldsymbol{r}_0^{\left(3\right)}+x\boldsymbol{r}_1^{\left(3\right)}\right)=e^x\left[\begin{bmatrix}0\\1\\0\end{bmatrix}+x\begin{bmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{bmatrix}\right].$$
 
 三个解在 $x=0$ 处的值分别为 $\boldsymbol{r}^{\left(1\right)},\boldsymbol{r}^{\left(2\right)}$ 和 $\boldsymbol{r}_0^{\left(3\right)}$, 它们线性无关, 由**定理 6.6**(有重特征根时常系数齐次线性微分方程组的基解矩阵)知构成基解矩阵, 故通解为
 
-$$\boldsymbol{y}=C_1e^x\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2e^x\begin{pmatrix}0\\1\\1\end{pmatrix}+C_3e^x\left[\begin{pmatrix}0\\1\\0\end{pmatrix}+x\begin{pmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{pmatrix}\right],$$
+$$\boldsymbol{y}=C_1e^x\begin{bmatrix}1\\0\\0\end{bmatrix}+C_2e^x\begin{bmatrix}0\\1\\1\end{bmatrix}+C_3e^x\left[\begin{bmatrix}0\\1\\0\end{bmatrix}+x\begin{bmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{bmatrix}\right],$$
 
 其中 $C_1,C_2,C_3$ 为任意常数. $\blacksquare$
 
@@ -100,7 +100,7 @@ $$\boldsymbol{y}=C_1e^x\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2e^x\begin{pmatrix}
 
 (习题 6-2 题2(2))求常系数非齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 的通解, 其中
 
-$$A=\begin{pmatrix}0&-n^2\\-n^2&0\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}\cos nx\\\sin nx\end{pmatrix}.$$
+$$A=\begin{bmatrix}0&-n^2\\-n^2&0\end{bmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{bmatrix}\cos nx\\\sin nx\end{bmatrix}.$$
 
 ### 解答 习题三
 
@@ -110,11 +110,11 @@ $$\det\left(A-\lambda E\right)=\lambda^2-n^4=0,$$
 
 故 $\lambda=\pm n^2$. 由**引理 6.6**(方程组有指数型非零解的充要条件)分别求特征向量: 对 $\lambda=n^2$ 解 $\left(A-n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1+r_2=0$, 取 $\left(1,-1\right)^T$; 对 $\lambda=-n^2$ 解 $\left(A+n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1-r_2=0$, 取 $\left(1,1\right)^T$. 故齐次通解为
 
-$$\boldsymbol{y}_h=C_1e^{n^2x}\begin{pmatrix}1\\-1\end{pmatrix}+C_2e^{-n^2x}\begin{pmatrix}1\\1\end{pmatrix}.$$
+$$\boldsymbol{y}_h=C_1e^{n^2x}\begin{bmatrix}1\\-1\end{bmatrix}+C_2e^{-n^2x}\begin{bmatrix}1\\1\end{bmatrix}.$$
 
 再求一个特解. 非齐次项为 $\cos nx$ 与 $\sin nx$, 与特征根 $\pm n^2$ 不共振, 故设特解形如
 
-$$\boldsymbol{y}_p=\begin{pmatrix}a_1\cos nx+b_1\sin nx\\a_2\cos nx+b_2\sin nx\end{pmatrix}.$$
+$$\boldsymbol{y}_p=\begin{bmatrix}a_1\cos nx+b_1\sin nx\\a_2\cos nx+b_2\sin nx\end{bmatrix}.$$
 
 代入方程组 $y_1'=-n^2y_2+\cos nx,\ y_2'=-n^2y_1+\sin nx$, 比较 $\cos nx$ 与 $\sin nx$ 的系数, 得 $a_1=0,\ b_2=0$, 以及
 
@@ -126,11 +126,11 @@ $$a_2=\frac{n-1}{n\left(1+n^2\right)},\quad b_1=\frac{n+1}{n\left(1+n^2\right)}.
 
 故一个特解为
 
-$$\boldsymbol{y}_p=\begin{pmatrix}\frac{n+1}{n\left(1+n^2\right)}\sin nx\\[2pt\right]\frac{n-1}{n\left(1+n^2\right)}\cos nx\end{pmatrix}.$$
+$$\boldsymbol{y}_p=\begin{bmatrix}\frac{n+1}{n\left(1+n^2\right)}\sin nx\\[2pt\right]\frac{n-1}{n\left(1+n^2\right)}\cos nx\end{bmatrix}.$$
 
 由**推论 3**(常系数非齐次线性微分方程组的通解与初值问题解), 非齐次通解为齐次通解加上一个特解, 即
 
-$$\boldsymbol{y}=C_1e^{n^2x}\begin{pmatrix}1\\-1\end{pmatrix}+C_2e^{-n^2x}\begin{pmatrix}1\\1\end{pmatrix}+\begin{pmatrix}\frac{n+1}{n\left(1+n^2\right)}\sin nx\\[2pt\right]\frac{n-1}{n\left(1+n^2\right)}\cos nx\end{pmatrix},$$
+$$\boldsymbol{y}=C_1e^{n^2x}\begin{bmatrix}1\\-1\end{bmatrix}+C_2e^{-n^2x}\begin{bmatrix}1\\1\end{bmatrix}+\begin{bmatrix}\frac{n+1}{n\left(1+n^2\right)}\sin nx\\[2pt\right]\frac{n-1}{n\left(1+n^2\right)}\cos nx\end{bmatrix},$$
 
 其中 $C_1,C_2$ 为任意常数. $\blacksquare$
 
@@ -138,7 +138,7 @@ $$\boldsymbol{y}=C_1e^{n^2x}\begin{pmatrix}1\\-1\end{pmatrix}+C_2e^{-n^2x}\begin
 
 (习题 6-2 题2(4))求常系数非齐次线性微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 的通解, 其中
 
-$$A=\begin{pmatrix}2&1&-2\\-1&0&0\\1&1&-1\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}2-x\\0\\1-x\end{pmatrix}.$$
+$$A=\begin{bmatrix}2&1&-2\\-1&0&0\\1&1&-1\end{bmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{bmatrix}2-x\\0\\1-x\end{bmatrix}.$$
 
 ### 解答 习题四
 
@@ -148,23 +148,23 @@ $$\det\left(A-\lambda E\right)=\left(2-\lambda\right)\left(\lambda+\lambda^2\rig
 
 故特征根为 $\lambda=1,\ \lambda=\pm i$. 对 $\lambda=1$, 解 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得特征向量 $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^T$. 对 $\lambda=i$, 解 $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得复特征向量 $\boldsymbol{r}=\left(-i,1,-i\right)^T$, 对应复值解 $e^{ix}\left(-i,1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{ix}=\cos x+i\sin x$ 取实部与虚部, 得
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\sin x\\\cos x\\\sin x\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}-\cos x\\\sin x\\-\cos x\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\sin x\\\cos x\\\sin x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}-\cos x\\\sin x\\-\cos x\end{bmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 齐次通解为
 
-$$\boldsymbol{y}_h=C_1e^x\begin{pmatrix}-1\\1\\0\end{pmatrix}+C_2\begin{pmatrix}\sin x\\\cos x\\\sin x\end{pmatrix}+C_3\begin{pmatrix}-\cos x\\\sin x\\-\cos x\end{pmatrix}.$$
+$$\boldsymbol{y}_h=C_1e^x\begin{bmatrix}-1\\1\\0\end{bmatrix}+C_2\begin{bmatrix}\sin x\\\cos x\\\sin x\end{bmatrix}+C_3\begin{bmatrix}-\cos x\\\sin x\\-\cos x\end{bmatrix}.$$
 
 再求一个特解. 非齐次项是 $x$ 的一次式, 设特解 $\boldsymbol{y}_p=\boldsymbol{a}+\boldsymbol{b}x$, 其中 $\boldsymbol{a},\boldsymbol{b}$ 为常向量. 代入方程组, 比较常数项与 $x$ 的系数, 得
 
-$$A\boldsymbol{b}=\begin{pmatrix}1\\0\\1\end{pmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}2\\0\\1\end{pmatrix}.$$
+$$A\boldsymbol{b}=\begin{bmatrix}1\\0\\1\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}2\\0\\1\end{bmatrix}.$$
 
 由前式解出 $\boldsymbol{b}=\left(0,1,0\right)^T$, 再代入后式得 $A\boldsymbol{a}=\left(-2,1,-1\right)^T$, 解得 $\boldsymbol{a}=\left(-1,0,0\right)^T$. 故一个特解为
 
-$$\boldsymbol{y}_p=\begin{pmatrix}-1\\x\\0\end{pmatrix}.$$
+$$\boldsymbol{y}_p=\begin{bmatrix}-1\\x\\0\end{bmatrix}.$$
 
 由**推论 3**(常系数非齐次线性微分方程组的通解与初值问题解), 通解为
 
-$$\boldsymbol{y}=C_1e^x\begin{pmatrix}-1\\1\\0\end{pmatrix}+C_2\begin{pmatrix}\sin x\\\cos x\\\sin x\end{pmatrix}+C_3\begin{pmatrix}-\cos x\\\sin x\\-\cos x\end{pmatrix}+\begin{pmatrix}-1\\x\\0\end{pmatrix},$$
+$$\boldsymbol{y}=C_1e^x\begin{bmatrix}-1\\1\\0\end{bmatrix}+C_2\begin{bmatrix}\sin x\\\cos x\\\sin x\end{bmatrix}+C_3\begin{bmatrix}-\cos x\\\sin x\\-\cos x\end{bmatrix}+\begin{bmatrix}-1\\x\\0\end{bmatrix},$$
 
 其中 $C_1,C_2,C_3$ 为任意常数. $\blacksquare$
 
@@ -172,7 +172,7 @@ $$\boldsymbol{y}=C_1e^x\begin{pmatrix}-1\\1\\0\end{pmatrix}+C_2\begin{pmatrix}\s
 
 (习题 6-2 题3(2))求微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 满足初值条件 $\boldsymbol{y}\left(0\right)=\boldsymbol{\eta}$ 的解, 其中
 
-$$A=\begin{pmatrix}0&-2\\2&0\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}3x\\4\end{pmatrix},\quad\boldsymbol{\eta}=\begin{pmatrix}2\\3\end{pmatrix}.$$
+$$A=\begin{bmatrix}0&-2\\2&0\end{bmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{bmatrix}3x\\4\end{bmatrix},\quad\boldsymbol{\eta}=\begin{bmatrix}2\\3\end{bmatrix}.$$
 
 ### 解答 习题五
 
@@ -182,27 +182,27 @@ $$\det\left(A-\lambda E\right)=\lambda^2+4=0,$$
 
 故 $\lambda=\pm2i$. 对 $\lambda=2i$, 解 $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $\boldsymbol{r}=\left(1,-i\right)^T$, 对应复值解 $e^{2ix}\left(1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{2ix}=\cos 2x+i\sin 2x$ 取实部与虚部, 得两个实值解
 
-$$\boldsymbol{u}\left(x\right)=\begin{pmatrix}\cos 2x\\\sin 2x\end{pmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{pmatrix}\sin 2x\\-\cos 2x\end{pmatrix}.$$
+$$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}\sin 2x\\-\cos 2x\end{bmatrix}.$$
 
 再求一个特解. 非齐次项为一次式, 设 $\boldsymbol{y}_p=\boldsymbol{a}+\boldsymbol{b}x$, 代入方程组比较系数, 得
 
-$$A\boldsymbol{b}=\begin{pmatrix}-3\\0\end{pmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{pmatrix}0\\4\end{pmatrix}.$$
+$$A\boldsymbol{b}=\begin{bmatrix}-3\\0\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}0\\4\end{bmatrix}.$$
 
 由前式得 $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^T$, 再代入得 $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^T$. 故一个特解为
 
-$$\boldsymbol{y}_p=\begin{pmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{pmatrix}.$$
+$$\boldsymbol{y}_p=\begin{bmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{bmatrix}.$$
 
 由**推论 3**(常系数非齐次线性微分方程组的通解与初值问题解), 通解为
 
-$$\boldsymbol{y}=C_1\begin{pmatrix}\cos 2x\\\sin 2x\end{pmatrix}+C_2\begin{pmatrix}\sin 2x\\-\cos 2x\end{pmatrix}+\begin{pmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{pmatrix}.$$
+$$\boldsymbol{y}=C_1\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix}+C_2\begin{bmatrix}\sin 2x\\-\cos 2x\end{bmatrix}+\begin{bmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{bmatrix}.$$
 
 代入初值条件 $\boldsymbol{y}\left(0\right)=\left(2,3\right)$:
 
-$$C_1\begin{pmatrix}1\\0\end{pmatrix}+C_2\begin{pmatrix}0\\-1\end{pmatrix}+\begin{pmatrix}-\frac{5}{4}\\0\end{pmatrix}=\begin{pmatrix}2\\3\end{pmatrix},$$
+$$C_1\begin{bmatrix}1\\0\end{bmatrix}+C_2\begin{bmatrix}0\\-1\end{bmatrix}+\begin{bmatrix}-\frac{5}{4}\\0\end{bmatrix}=\begin{bmatrix}2\\3\end{bmatrix},$$
 
 解得 $C_1=\frac{13}{4},\ C_2=-3$. 故所求初值问题的解为
 
-$$\boldsymbol{y}=\frac{13}{4}\begin{pmatrix}\cos 2x\\\sin 2x\end{pmatrix}-3\begin{pmatrix}\sin 2x\\-\cos 2x\end{pmatrix}+\begin{pmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{pmatrix}.$$
+$$\boldsymbol{y}=\frac{13}{4}\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix}-3\begin{bmatrix}\sin 2x\\-\cos 2x\end{bmatrix}+\begin{bmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{bmatrix}.$$
 
 $\blacksquare$
 
@@ -210,7 +210,7 @@ $\blacksquare$
 
 (习题 6-2 题3(4))求微分方程组 $\frac{d\boldsymbol{y}}{dx}=A\boldsymbol{y}+\boldsymbol{f}\left(x\right)$ 满足初值条件 $\boldsymbol{y}\left(0\right)=\boldsymbol{\eta}$ 的解, 其中
 
-$$A=\begin{pmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{pmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{pmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{pmatrix},\quad\boldsymbol{\eta}=\begin{pmatrix}0\\0\\0\end{pmatrix}.$$
+$$A=\begin{bmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{bmatrix},\quad\boldsymbol{f}\left(x\right)=\begin{bmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{bmatrix},\quad\boldsymbol{\eta}=\begin{bmatrix}0\\0\\0\end{bmatrix}.$$
 
 ### 解答 习题六
 
@@ -220,11 +220,11 @@ $$\det\left(A-\lambda E\right)=-\left(\lambda-2\right)\left(\lambda+1\right)\lef
 
 故特征根为 $\lambda=2,\ \lambda=-1,\ \lambda=-3$. 由**引理 6.6**(方程组有指数型非零解的充要条件)分别求对应的特征向量, 得
 
-$$\boldsymbol{r}^{\left(2\right)}=\begin{pmatrix}-1\\1\\0\end{pmatrix},\quad\boldsymbol{r}^{\left(-1\right)}=\begin{pmatrix}2\\3\\-2\end{pmatrix},\quad\boldsymbol{r}^{\left(-3\right)}=\begin{pmatrix}-2\\0\\1\end{pmatrix}.$$
+$$\boldsymbol{r}^{\left(2\right)}=\begin{bmatrix}-1\\1\\0\end{bmatrix},\quad\boldsymbol{r}^{\left(-1\right)}=\begin{bmatrix}2\\3\\-2\end{bmatrix},\quad\boldsymbol{r}^{\left(-3\right)}=\begin{bmatrix}-2\\0\\1\end{bmatrix}.$$
 
 注意到非齐次项恰为
 
-$$\boldsymbol{f}\left(x\right)=e^{-x}\begin{pmatrix}-2\\-3\\2\end{pmatrix}=-e^{-x}\boldsymbol{r}^{\left(-1\right)},$$
+$$\boldsymbol{f}\left(x\right)=e^{-x}\begin{bmatrix}-2\\-3\\2\end{bmatrix}=-e^{-x}\boldsymbol{r}^{\left(-1\right)},$$
 
 即非齐次向量共振于特征根 $\lambda=-1$. 由**推论 3**(常系数非齐次线性微分方程组的通解与初值问题解), 取 $x_0=0,\ \boldsymbol{y}_0=\boldsymbol{0}$, 初值问题的解为
 
@@ -236,7 +236,7 @@ $$\boldsymbol{y}\left(x\right)=-\boldsymbol{r}^{\left(-1\right)}\int_0^x e^{-\le
 
 代入 $\boldsymbol{r}^{\left(-1\right)}=\left(2,3,-2\right)^T$, 所求解为
 
-$$\boldsymbol{y}\left(x\right)=xe^{-x}\begin{pmatrix}-2\\-3\\2\end{pmatrix}.$$
+$$\boldsymbol{y}\left(x\right)=xe^{-x}\begin{bmatrix}-2\\-3\\2\end{bmatrix}.$$
 
 $\blacksquare$
 
@@ -244,31 +244,31 @@ $\blacksquare$
 
 (习题 6-2 题4)求解微分方程组
 
-$$\frac{d}{dt}\begin{pmatrix}x\\y\end{pmatrix}=\begin{pmatrix}a&-b\\b&a\end{pmatrix}\begin{pmatrix}x\\y\end{pmatrix},$$
+$$\frac{d}{dt}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}a&-b\\b&a\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix},$$
 
 其中 $a$ 和 $b$ 为实常数, 而且 $b\neq0$.
 
 ### 解答 习题七
 
-记 $A=\begin{pmatrix}a&-b\\b&a\end{pmatrix}$. 先求特征根. 特征方程为
+记 $A=\begin{bmatrix}a&-b\\b&a\end{bmatrix}$. 先求特征根. 特征方程为
 
 $$\det\left(A-\lambda E\right)=\left(a-\lambda\right)^2+b^2=0,$$
 
 故 $\lambda=a\pm ib$. 对 $\lambda=a+ib$, 解 $\left(A-\left(a+ib\right)E\right)\boldsymbol{r}=\boldsymbol{0}$:
 
-$$\begin{pmatrix}-ib&-b\\b&-ib\end{pmatrix}\begin{pmatrix}r_1\\r_2\end{pmatrix}=\boldsymbol{0},$$
+$$\begin{bmatrix}-ib&-b\\b&-ib\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
 由第一行得 $-ir_1-r_2=0$, 取 $\boldsymbol{r}=\left(1,-i\right)^T$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 得复值解
 
-$$\boldsymbol{y}_1=e^{\left(a+ib\right)t}\begin{pmatrix}1\\-i\end{pmatrix}.$$
+$$\boldsymbol{y}_1=e^{\left(a+ib\right)t}\begin{bmatrix}1\\-i\end{bmatrix}.$$
 
 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{\left(a+ib\right)t}=e^{at}\left(\cos bt+i\sin bt\right)$ 取实部与虚部, 得
 
-$$\boldsymbol{u}\left(t\right)=e^{at}\begin{pmatrix}\cos bt\\\sin bt\end{pmatrix},\quad\boldsymbol{v}\left(t\right)=e^{at}\begin{pmatrix}\sin bt\\-\cos bt\end{pmatrix}.$$
+$$\boldsymbol{u}\left(t\right)=e^{at}\begin{bmatrix}\cos bt\\\sin bt\end{bmatrix},\quad\boldsymbol{v}\left(t\right)=e^{at}\begin{bmatrix}\sin bt\\-\cos bt\end{bmatrix}.$$
 
 由**定理 6.5**($n$ 个互不相同特征根时的基解矩阵), 通解为
 
-$$\begin{pmatrix}x\\y\end{pmatrix}=C_1e^{at}\begin{pmatrix}\cos bt\\\sin bt\end{pmatrix}+C_2e^{at}\begin{pmatrix}\sin bt\\-\cos bt\end{pmatrix},$$
+$$\begin{bmatrix}x\\y\end{bmatrix}=C_1e^{at}\begin{bmatrix}\cos bt\\\sin bt\end{bmatrix}+C_2e^{at}\begin{bmatrix}\sin bt\\-\cos bt\end{bmatrix},$$
 
 其中 $C_1,C_2$ 为任意常数. $\blacksquare$
 

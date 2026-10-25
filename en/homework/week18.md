@@ -20,7 +20,7 @@
 
 ### Problem 1
 
-(Problem 6-1, Problem 1(1)) Find the general solution of the homogeneous linear system $\frac{dy}{dt}=A\left(t\right)y$, where $A\left(t\right)=\begin{pmatrix}\frac{1}{t}&0\\0&\frac{1}{t}\end{pmatrix},\ t\neq0$.
+(Problem 6-1, Problem 1(1)) Find the general solution of the homogeneous linear system $\frac{dy}{dt}=A\left(t\right)y$, where $A\left(t\right)=\begin{bmatrix}\frac{1}{t}&0\\0&\frac{1}{t}\end{bmatrix},\ t\neq0$.
 
 ### Solution to Problem 1
 
@@ -30,13 +30,13 @@ $$\frac{dy_1}{dt}=\frac{1}{t}y_1,\quad\frac{dy_2}{dt}=\frac{1}{t}y_2.$$
 
 The two equations are independent and solved separately. For the first equation, separating variables and integrating gives $\ln\left|y_1\right|=\ln\left|t\right|+C_1$, i.e. $y_1=C_1t$. Similarly $y_2=C_2t$. Therefore the general solution is
 
-$$y=C_1\begin{pmatrix}t\\0\end{pmatrix}+C_2\begin{pmatrix}0\\t\end{pmatrix},$$
+$$y=C_1\begin{bmatrix}t\\0\end{bmatrix}+C_2\begin{bmatrix}0\\t\end{bmatrix},$$
 
 where $C_1,C_2$ are arbitrary constants. $\blacksquare$
 
 ### Problem 2
 
-(Problem 6-1, Problem 1(3)) Find the general solution of the homogeneous linear system $\frac{dy}{dt}=A\left(t\right)y$, where $A\left(t\right)=\begin{pmatrix}0&1\\-1&0\end{pmatrix}$.
+(Problem 6-1, Problem 1(3)) Find the general solution of the homogeneous linear system $\frac{dy}{dt}=A\left(t\right)y$, where $A\left(t\right)=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$.
 
 ### Solution to Problem 2
 
@@ -50,7 +50,7 @@ $$\frac{d^2y_1}{dt^2}+y_1=0.$$
 
 Its characteristic equation is $r^2+1=0$, with roots $r=\pm i$, so $y_1=C_1\cos t+C_2\sin t$. Hence $y_2=\frac{dy_1}{dt}=-C_1\sin t+C_2\cos t$. Therefore the general solution is
 
-$$y=C_1\begin{pmatrix}\cos t\\-\sin t\end{pmatrix}+C_2\begin{pmatrix}\sin t\\\cos t\end{pmatrix},$$
+$$y=C_1\begin{bmatrix}\cos t\\-\sin t\end{bmatrix}+C_2\begin{bmatrix}\sin t\\\cos t\end{bmatrix},$$
 
 where $C_1,C_2$ are arbitrary constants. $\blacksquare$
 
@@ -78,13 +78,13 @@ $\blacksquare$
 
 ### Problem 4
 
-(Problem 6-1, Problem 3) Prove that the vector functions $\begin{pmatrix}1\\0\\0\end{pmatrix},\ \begin{pmatrix}x\\0\\0\end{pmatrix},\ \begin{pmatrix}x^2\\0\\0\end{pmatrix}$ are linearly independent on any interval $\left(a,b\right)$.
+(Problem 6-1, Problem 3) Prove that the vector functions $\begin{bmatrix}1\\0\\0\end{bmatrix},\ \begin{bmatrix}x\\0\\0\end{bmatrix},\ \begin{bmatrix}x^2\\0\\0\end{bmatrix}$ are linearly independent on any interval $\left(a,b\right)$.
 
 ### Solution to Problem 4
 
 Suppose there exist constants $C_1,C_2,C_3$ such that for all $x\in\left(a,b\right)$,
 
-$$C_1\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2\begin{pmatrix}x\\0\\0\end{pmatrix}+C_3\begin{pmatrix}x^2\\0\\0\end{pmatrix}=\begin{pmatrix}0\\0\\0\end{pmatrix}.$$
+$$C_1\begin{bmatrix}1\\0\\0\end{bmatrix}+C_2\begin{bmatrix}x\\0\\0\end{bmatrix}+C_3\begin{bmatrix}x^2\\0\\0\end{bmatrix}=\begin{bmatrix}0\\0\\0\end{bmatrix}.$$
 
 Comparing the first component gives the polynomial identity
 

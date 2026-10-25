@@ -165,7 +165,7 @@ The equilibrium points satisfy $y = 0,\ -1 + x^2 = 0$, so the two equilibrium po
 First study the equilibrium point $\left(1,0\right)$. The Jacobian matrix of the right-hand side functions $\left(y,\ x^2 - 1\right)$ at $\left(1,0\right)$ is
 
 $$
-J = \begin{pmatrix}0 & 1 \\ 2x & 0\end{pmatrix}\bigg|_{x = 1} = \begin{pmatrix}0 & 1 \\ 2 & 0\end{pmatrix}.
+J = \begin{bmatrix}0 & 1 \\ 2x & 0\end{bmatrix}\bigg|_{x = 1} = \begin{bmatrix}0 & 1 \\ 2 & 0\end{bmatrix}.
 $$
 
 Its characteristic equation is $\lambda^2 - 2 = 0$, with eigenvalues $\lambda = \pm\sqrt{2}$, where $\sqrt{2} > 0$ has positive real part. By **Theorem 8.3** (Judging Instability by Linear Approximation), the equilibrium point $\left(1,0\right)$ is unstable.
@@ -173,7 +173,7 @@ Its characteristic equation is $\lambda^2 - 2 = 0$, with eigenvalues $\lambda = 
 Next study the equilibrium point $\left(-1,0\right)$. Its Jacobian matrix is
 
 $$
-J = \begin{pmatrix}0 & 1 \\ 2x & 0\end{pmatrix}\bigg|_{x = -1} = \begin{pmatrix}0 & 1 \\ -2 & 0\end{pmatrix}.
+J = \begin{bmatrix}0 & 1 \\ 2x & 0\end{bmatrix}\bigg|_{x = -1} = \begin{bmatrix}0 & 1 \\ -2 & 0\end{bmatrix}.
 $$
 
 The characteristic equation is $\lambda^2 + 2 = 0$, with eigenvalues $\lambda = \pm i\sqrt{2}$, purely imaginary roots; linear approximation cannot determine stability, so we use Lyapunov's second method. Take the function

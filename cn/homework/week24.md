@@ -165,7 +165,7 @@ $$
 先研究平衡点 $\left(1,0\right)$. 右端函数 $\left(y,\ x^2 - 1\right)$ 在 $\left(1,0\right)$ 处的雅可比矩阵为
 
 $$
-J = \begin{pmatrix}0 & 1 \\ 2x & 0\end{pmatrix}\bigg|_{x = 1} = \begin{pmatrix}0 & 1 \\ 2 & 0\end{pmatrix}.
+J = \begin{bmatrix}0 & 1 \\ 2x & 0\end{bmatrix}\bigg|_{x = 1} = \begin{bmatrix}0 & 1 \\ 2 & 0\end{bmatrix}.
 $$
 
 其特征方程为 $\lambda^2 - 2 = 0$, 特征根 $\lambda = \pm\sqrt{2}$, 其中 $\sqrt{2} > 0$ 为正实部. 由**定理 8.3**(按线性近似判断不稳定性), 平衡点 $\left(1,0\right)$ 是不稳定的.
@@ -173,7 +173,7 @@ $$
 再研究平衡点 $\left(-1,0\right)$. 其雅可比矩阵为
 
 $$
-J = \begin{pmatrix}0 & 1 \\ 2x & 0\end{pmatrix}\bigg|_{x = -1} = \begin{pmatrix}0 & 1 \\ -2 & 0\end{pmatrix}.
+J = \begin{bmatrix}0 & 1 \\ 2x & 0\end{bmatrix}\bigg|_{x = -1} = \begin{bmatrix}0 & 1 \\ -2 & 0\end{bmatrix}.
 $$
 
 特征方程为 $\lambda^2 + 2 = 0$, 特征根 $\lambda = \pm i\sqrt{2}$ 为纯虚根, 线性近似不能判定, 改用李雅普诺夫第二方法. 取函数

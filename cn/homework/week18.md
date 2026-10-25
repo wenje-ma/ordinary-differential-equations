@@ -20,7 +20,7 @@
 
 ### 习题一
 
-(习题 6-1 题1(1))求出齐次线性微分方程组 $\frac{dy}{dt}=A\left(t\right)y$ 的通解, 其中 $A\left(t\right)=\begin{pmatrix}\frac{1}{t}&0\\0&\frac{1}{t}\end{pmatrix},\ t\neq0$.
+(习题 6-1 题1(1))求出齐次线性微分方程组 $\frac{dy}{dt}=A\left(t\right)y$ 的通解, 其中 $A\left(t\right)=\begin{bmatrix}\frac{1}{t}&0\\0&\frac{1}{t}\end{bmatrix},\ t\neq0$.
 
 ### 解答 习题一
 
@@ -30,13 +30,13 @@ $$\frac{dy_1}{dt}=\frac{1}{t}y_1,\quad\frac{dy_2}{dt}=\frac{1}{t}y_2.$$
 
 两个方程相互独立, 分别求解. 对第一个方程分离变量积分, 得 $\ln\left|y_1\right|=\ln\left|t\right|+C_1$, 即 $y_1=C_1t$. 同理 $y_2=C_2t$. 因此通解为
 
-$$y=C_1\begin{pmatrix}t\\0\end{pmatrix}+C_2\begin{pmatrix}0\\t\end{pmatrix},$$
+$$y=C_1\begin{bmatrix}t\\0\end{bmatrix}+C_2\begin{bmatrix}0\\t\end{bmatrix},$$
 
 其中 $C_1,C_2$ 为任意常数. $\blacksquare$
 
 ### 习题二
 
-(习题 6-1 题1(3))求出齐次线性微分方程组 $\frac{dy}{dt}=A\left(t\right)y$ 的通解, 其中 $A\left(t\right)=\begin{pmatrix}0&1\\-1&0\end{pmatrix}$.
+(习题 6-1 题1(3))求出齐次线性微分方程组 $\frac{dy}{dt}=A\left(t\right)y$ 的通解, 其中 $A\left(t\right)=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$.
 
 ### 解答 习题二
 
@@ -50,7 +50,7 @@ $$\frac{d^2y_1}{dt^2}+y_1=0.$$
 
 其特征方程为 $r^2+1=0$, 根为 $r=\pm i$, 故 $y_1=C_1\cos t+C_2\sin t$. 从而 $y_2=\frac{dy_1}{dt}=-C_1\sin t+C_2\cos t$. 因此通解为
 
-$$y=C_1\begin{pmatrix}\cos t\\-\sin t\end{pmatrix}+C_2\begin{pmatrix}\sin t\\\cos t\end{pmatrix},$$
+$$y=C_1\begin{bmatrix}\cos t\\-\sin t\end{bmatrix}+C_2\begin{bmatrix}\sin t\\\cos t\end{bmatrix},$$
 
 其中 $C_1,C_2$ 为任意常数. $\blacksquare$
 
@@ -78,13 +78,13 @@ $\blacksquare$
 
 ### 习题四
 
-(习题 6-1 题3)试证向量函数组 $\begin{pmatrix}1\\0\\0\end{pmatrix},\ \begin{pmatrix}x\\0\\0\end{pmatrix},\ \begin{pmatrix}x^2\\0\\0\end{pmatrix}$ 在任意区间 $\left(a,b\right)$ 上线性无关.
+(习题 6-1 题3)试证向量函数组 $\begin{bmatrix}1\\0\\0\end{bmatrix},\ \begin{bmatrix}x\\0\\0\end{bmatrix},\ \begin{bmatrix}x^2\\0\\0\end{bmatrix}$ 在任意区间 $\left(a,b\right)$ 上线性无关.
 
 ### 解答 习题四
 
 设存在常数 $C_1,C_2,C_3$, 使得对一切 $x\in\left(a,b\right)$ 有
 
-$$C_1\begin{pmatrix}1\\0\\0\end{pmatrix}+C_2\begin{pmatrix}x\\0\\0\end{pmatrix}+C_3\begin{pmatrix}x^2\\0\\0\end{pmatrix}=\begin{pmatrix}0\\0\\0\end{pmatrix}.$$
+$$C_1\begin{bmatrix}1\\0\\0\end{bmatrix}+C_2\begin{bmatrix}x\\0\\0\end{bmatrix}+C_3\begin{bmatrix}x^2\\0\\0\end{bmatrix}=\begin{bmatrix}0\\0\\0\end{bmatrix}.$$
 
 比较第一分量, 得多项式恒等式
 
