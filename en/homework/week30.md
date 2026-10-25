@@ -20,7 +20,7 @@ $$
 
 From $\frac{dx}{\sqrt{x}}=\frac{dy}{\sqrt{y}}$ we integrate to get $\sqrt{x}-\sqrt{y}=C_1$; from $\frac{dy}{\sqrt{y}}=\frac{dz}{\sqrt{z}}$ we get $\sqrt{y}-\sqrt{z}=C_2$. These are two independent first integrals.
 
-Now consider the initial curve $\Lambda:\ x=y=z$. Parameterize it as $x=y=z=\sigma$ ($\sigma>0$). Substituting into the two first integrals gives
+Now consider the initial curve $\Lambda:\ x=y=z$. Parameterize it as $x=y=z=\sigma$ ($\sigma> 0$). Substituting into the two first integrals gives
 
 $$
 \overline{C}_1=\sqrt{\sigma}-\sqrt{\sigma}=0,\quad\overline{C}_2=\sqrt{\sigma}-\sqrt{\sigma}=0.

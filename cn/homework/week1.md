@@ -12,20 +12,20 @@
 
 ### 习题一
 
-(习题 1-1 题1(4))验证函数 $y=\begin{cases}-\frac{1}{4}\left(x-C_1\right)^2,&-\infty<x<C_1,\\0,&C_1\le x\le C_2,\\\frac{1}{4}\left(x-C_2\right)^2,&C_2<x<+\infty\end{cases}$ 是右侧相应微分方程 $y'=\sqrt{\left|y\right|}$ 的解.
+(习题 1-1 题1(4))验证函数 $y=\begin{cases}-\frac{1}{4}\left(x-C_1\right)^2,&-\infty< x< C_1,\\0,&C_1\le x\le C_2,\\\frac{1}{4}\left(x-C_2\right)^2,&C_2< x< +\infty\end{cases}$ 是右侧相应微分方程 $y'=\sqrt{\left|y\right|}$ 的解.
 
 ### 解答 习题一
 
 由**定义 1.2**(解), 只需验证 $y=y\left(x\right)$ 满足 $y'=\sqrt{\left|y\right|}$. 将 $y=y\left(x\right)$ 分三段验证.
 
-(1) 当 $-\infty<x<C_1$ 时, $y=-\frac{1}{4}\left(x-C_1\right)^2<0$, 故 $y'=-\frac{1}{2}\left(x-C_1\right)$, 且 $\left|y\right|=\frac{1}{4}\left(x-C_1\right)^2$. 由于 $x<C_1$, $\left|x-C_1\right|=C_1-x$, 于是
+(1) 当 $-\infty< x< C_1$ 时, $y=-\frac{1}{4}\left(x-C_1\right)^2< 0$, 故 $y'=-\frac{1}{2}\left(x-C_1\right)$, 且 $\left|y\right|=\frac{1}{4}\left(x-C_1\right)^2$. 由于 $x< C_1$, $\left|x-C_1\right|=C_1-x$, 于是
 $$
 \sqrt{\left|y\right|}=\frac{1}{2}\left|x-C_1\right|=\frac{1}{2}\left(C_1-x\right)=-\frac{1}{2}\left(x-C_1\right)=y'.
 $$
 
 (2) 当 $C_1\le x\le C_2$ 时, $y=0$, 故 $y'=0$, 且 $\sqrt{\left|y\right|}=0$, 故 $y'=\sqrt{\left|y\right|}$.
 
-(3) 当 $C_2<x<+\infty$ 时, $y=\frac{1}{4}\left(x-C_2\right)^2>0$, 故 $y'=\frac{1}{2}\left(x-C_2\right)$, 且 $\left|y\right|=\frac{1}{4}\left(x-C_2\right)^2$. 由于 $x>C_2$, $\left|x-C_2\right|=x-C_2$, 于是
+(3) 当 $C_2< x< +\infty$ 时, $y=\frac{1}{4}\left(x-C_2\right)^2> 0$, 故 $y'=\frac{1}{2}\left(x-C_2\right)$, 且 $\left|y\right|=\frac{1}{4}\left(x-C_2\right)^2$. 由于 $x> C_2$, $\left|x-C_2\right|=x-C_2$, 于是
 $$
 \sqrt{\left|y\right|}=\frac{1}{2}\left|x-C_2\right|=\frac{1}{2}\left(x-C_2\right)=y'.
 $$
@@ -34,7 +34,7 @@ $$
 
 ### 习题二
 
-(习题 1-2 题2(3))求初值问题 $\frac{dR}{dt}=-aR,\ R\left(0\right)=1$ 的解(这里 $a>0$ 是一个常数).
+(习题 1-2 题2(3))求初值问题 $\frac{dR}{dt}=-aR,\ R\left(0\right)=1$ 的解(这里 $a> 0$ 是一个常数).
 
 ### 解答 习题二
 

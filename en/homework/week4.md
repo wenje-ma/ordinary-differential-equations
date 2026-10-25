@@ -35,7 +35,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-This is a first-order linear equation with $p\left(x\right)=-\frac{1}{1-x^2},\ q\left(x\right)=1+x$. By the **General Solution of the Nonhomogeneous Linear Equation (Integrating Factor Method)**, noting that the solution is considered near $x=0$, i.e. on $\left|x\right|<1$, the integrating factor is
+This is a first-order linear equation with $p\left(x\right)=-\frac{1}{1-x^2},\ q\left(x\right)=1+x$. By the **General Solution of the Nonhomogeneous Linear Equation (Integrating Factor Method)**, noting that the solution is considered near $x=0$, i.e. on $\left|x\right|< 1$, the integrating factor is
 $$
 \mu\left(x\right)=e^{\int-\frac{1}{1-x^2}dx}=e^{-\frac{1}{2}\ln\frac{1+x}{1-x}}=\sqrt{\frac{1-x}{1+x}}.
 $$
@@ -63,7 +63,7 @@ $\blacksquare$
 
 ### Solution to Problem 3
 
-Following the idea of the **General Solution of the Nonhomogeneous Linear Equation (Integrating Factor Method)**, take the integrating factor $A\left(x\right)=e^{\int_0^x a\left(s\right)ds}>0$. Multiplying both sides of the inequality $y'+a\left(x\right)y\le0$ by $A\left(x\right)$ gives
+Following the idea of the **General Solution of the Nonhomogeneous Linear Equation (Integrating Factor Method)**, take the integrating factor $A\left(x\right)=e^{\int_0^x a\left(s\right)ds}> 0$. Multiplying both sides of the inequality $y'+a\left(x\right)y\le0$ by $A\left(x\right)$ gives
 $$
 A\left(x\right)\left[y'+a\left(x\right)y\right]=\frac{d}{dx}\left(A\left(x\right)y\right)\le0.
 $$
@@ -115,7 +115,7 @@ $\blacksquare$
 
 ### Problem 5
 
-(Problem 2-3, Problem 5) Consider the equation $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, where $p\left(x\right),q\left(x\right)$ are both continuous functions with period $\omega>0$. Prove: (1) if $q\left(x\right)\equiv0$, then any nonzero solution of the equation has period $\omega$ if and only if the mean value of the function $p\left(x\right)$ $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) if $q\left(x\right)$ is not identically zero, then the equation has a unique $\omega$-periodic solution if and only if $\bar p\neq0$, and find this solution.
+(Problem 2-3, Problem 5) Consider the equation $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, where $p\left(x\right),q\left(x\right)$ are both continuous functions with period $\omega> 0$. Prove: (1) if $q\left(x\right)\equiv0$, then any nonzero solution of the equation has period $\omega$ if and only if the mean value of the function $p\left(x\right)$ $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) if $q\left(x\right)$ is not identically zero, then the equation has a unique $\omega$-periodic solution if and only if $\bar p\neq0$, and find this solution.
 
 ### Solution to Problem 5
 

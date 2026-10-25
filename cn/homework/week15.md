@@ -66,7 +66,7 @@ $$
 \frac{dy}{dx}=A\left(x\right)y+e\left(x\right),\quad y\left(x_0\right)=y_0
 $$
 
-(其中 $\alpha<x_0<\beta$, $y_0\in R^n$)的解在整个区间 $\left(\alpha,\beta\right)$ 上存在且唯一.
+(其中 $\alpha< x_0< \beta$, $y_0\in R^n$)的解在整个区间 $\left(\alpha,\beta\right)$ 上存在且唯一.
 
 **证明**. 令 $f\left(x,y\right)=A\left(x\right)y+e\left(x\right)$.
 
@@ -80,7 +80,7 @@ $$
 
 在任一有界闭子区间 $\left[c,d\right]\subset\left(\alpha,\beta\right)$ 上, $\left\|A\left(x\right)\right\|$ 连续故有上界 $L$, 从而 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$. 由**皮卡存在唯一性定理($n$ 维向量形式)**, 解局部存在且唯一.
 
-第三步, 延拓到整个 $\left(\alpha,\beta\right)$. 设解 $y=y\left(x\right)$ 的最大存在区间为 $\left(\omega_1,\omega_2\right)$. 假设 $\omega_2<\beta$. 在 $\left[x_0,\omega_2\right)$ 上, $\left\|A\left(x\right)\right\|$ 与 $\left|e\left(x\right)\right|$ 都有界, 分别记为 $M_1,M_2$, 则
+第三步, 延拓到整个 $\left(\alpha,\beta\right)$. 设解 $y=y\left(x\right)$ 的最大存在区间为 $\left(\omega_1,\omega_2\right)$. 假设 $\omega_2< \beta$. 在 $\left[x_0,\omega_2\right)$ 上, $\left\|A\left(x\right)\right\|$ 与 $\left|e\left(x\right)\right|$ 都有界, 分别记为 $M_1,M_2$, 则
 
 $$
 \left|y'\left(x\right)\right|\le\left\|A\left(x\right)\right\|\left|y\left(x\right)\right|+\left|e\left(x\right)\right|\le M_1\left|y\left(x\right)\right|+M_2.

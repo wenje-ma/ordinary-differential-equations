@@ -35,7 +35,7 @@ $\blacksquare$
 
 ### 解答 习题二
 
-这是一阶线性方程, $p\left(x\right)=-\frac{1}{1-x^2},\ q\left(x\right)=1+x$. 由**非齐次线性方程的通解(积分因子法)**, 注意到解在 $x=0$ 附近即 $\left|x\right|<1$ 上考虑, 积分因子为
+这是一阶线性方程, $p\left(x\right)=-\frac{1}{1-x^2},\ q\left(x\right)=1+x$. 由**非齐次线性方程的通解(积分因子法)**, 注意到解在 $x=0$ 附近即 $\left|x\right|< 1$ 上考虑, 积分因子为
 $$
 \mu\left(x\right)=e^{\int-\frac{1}{1-x^2}dx}=e^{-\frac{1}{2}\ln\frac{1+x}{1-x}}=\sqrt{\frac{1-x}{1+x}}.
 $$
@@ -63,7 +63,7 @@ $\blacksquare$
 
 ### 解答 习题三
 
-由**非齐次线性方程的通解(积分因子法)**的思想, 取积分因子 $A\left(x\right)=e^{\int_0^x a\left(s\right)ds}>0$. 以 $A\left(x\right)$ 乘不等式 $y'+a\left(x\right)y\le0$ 两端, 得
+由**非齐次线性方程的通解(积分因子法)**的思想, 取积分因子 $A\left(x\right)=e^{\int_0^x a\left(s\right)ds}> 0$. 以 $A\left(x\right)$ 乘不等式 $y'+a\left(x\right)y\le0$ 两端, 得
 $$
 A\left(x\right)\left[y'+a\left(x\right)y\right]=\frac{d}{dx}\left(A\left(x\right)y\right)\le0.
 $$
@@ -115,7 +115,7 @@ $\blacksquare$
 
 ### 习题五
 
-(习题 2-3 题5)考虑方程 $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, 其中 $p\left(x\right),q\left(x\right)$ 都是以 $\omega>0$ 为周期的连续函数. 试证: (1) 若 $q\left(x\right)\equiv0$, 则方程的任一非零解以 $\omega$ 为周期, 当且仅当函数 $p\left(x\right)$ 的平均值 $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) 若 $q\left(x\right)$ 不恒为零, 则方程有唯一的 $\omega$ 周期解, 当且仅当 $\bar p\neq0$, 试求出此解.
+(习题 2-3 题5)考虑方程 $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, 其中 $p\left(x\right),q\left(x\right)$ 都是以 $\omega> 0$ 为周期的连续函数. 试证: (1) 若 $q\left(x\right)\equiv0$, 则方程的任一非零解以 $\omega$ 为周期, 当且仅当函数 $p\left(x\right)$ 的平均值 $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) 若 $q\left(x\right)$ 不恒为零, 则方程有唯一的 $\omega$ 周期解, 当且仅当 $\bar p\neq0$, 试求出此解.
 
 ### 解答 习题五
 

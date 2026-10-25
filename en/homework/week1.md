@@ -12,20 +12,20 @@
 
 ### Problem 1
 
-(Problem 1-1, Problem 1(4)) Verify that the function $y=\begin{cases}-\frac{1}{4}\left(x-C_1\right)^2,&-\infty<x<C_1,\\0,&C_1\le x\le C_2,\\\frac{1}{4}\left(x-C_2\right)^2,&C_2<x<+\infty\end{cases}$ is a solution of the corresponding differential equation $y'=\sqrt{\left|y\right|}$.
+(Problem 1-1, Problem 1(4)) Verify that the function $y=\begin{cases}-\frac{1}{4}\left(x-C_1\right)^2,&-\infty< x< C_1,\\0,&C_1\le x\le C_2,\\\frac{1}{4}\left(x-C_2\right)^2,&C_2< x< +\infty\end{cases}$ is a solution of the corresponding differential equation $y'=\sqrt{\left|y\right|}$.
 
 ### Solution to Problem 1
 
 By **Definition 1.2** (Solution), it suffices to verify that $y=y\left(x\right)$ satisfies $y'=\sqrt{\left|y\right|}$. We verify $y=y\left(x\right)$ in three segments.
 
-(1) When $-\infty<x<C_1$, $y=-\frac{1}{4}\left(x-C_1\right)^2<0$, so $y'=-\frac{1}{2}\left(x-C_1\right)$, and $\left|y\right|=\frac{1}{4}\left(x-C_1\right)^2$. Since $x<C_1$, $\left|x-C_1\right|=C_1-x$, hence
+(1) When $-\infty< x< C_1$, $y=-\frac{1}{4}\left(x-C_1\right)^2< 0$, so $y'=-\frac{1}{2}\left(x-C_1\right)$, and $\left|y\right|=\frac{1}{4}\left(x-C_1\right)^2$. Since $x< C_1$, $\left|x-C_1\right|=C_1-x$, hence
 $$
 \sqrt{\left|y\right|}=\frac{1}{2}\left|x-C_1\right|=\frac{1}{2}\left(C_1-x\right)=-\frac{1}{2}\left(x-C_1\right)=y'.
 $$
 
 (2) When $C_1\le x\le C_2$, $y=0$, so $y'=0$, and $\sqrt{\left|y\right|}=0$, hence $y'=\sqrt{\left|y\right|}$.
 
-(3) When $C_2<x<+\infty$, $y=\frac{1}{4}\left(x-C_2\right)^2>0$, so $y'=\frac{1}{2}\left(x-C_2\right)$, and $\left|y\right|=\frac{1}{4}\left(x-C_2\right)^2$. Since $x>C_2$, $\left|x-C_2\right|=x-C_2$, hence
+(3) When $C_2< x< +\infty$, $y=\frac{1}{4}\left(x-C_2\right)^2> 0$, so $y'=\frac{1}{2}\left(x-C_2\right)$, and $\left|y\right|=\frac{1}{4}\left(x-C_2\right)^2$. Since $x> C_2$, $\left|x-C_2\right|=x-C_2$, hence
 $$
 \sqrt{\left|y\right|}=\frac{1}{2}\left|x-C_2\right|=\frac{1}{2}\left(x-C_2\right)=y'.
 $$
@@ -34,7 +34,7 @@ In summary, on all three intervals $y'=\sqrt{\left|y\right|}$, so $y$ is a solut
 
 ### Problem 2
 
-(Problem 1-2, Problem 2(3)) Find the solution of the initial value problem $\frac{dR}{dt}=-aR,\ R\left(0\right)=1$ (where $a>0$ is a constant).
+(Problem 1-2, Problem 2(3)) Find the solution of the initial value problem $\frac{dR}{dt}=-aR,\ R\left(0\right)=1$ (where $a> 0$ is a constant).
 
 ### Solution to Problem 2
 

@@ -288,6 +288,6 @@ $$\left|e^{\lambda x}\left(\boldsymbol{r}_0+\frac{x}{1!}\boldsymbol{r}_1+\cdots\
 
 其中 $M_k$ 为常数.
 
-先证充分性. 设 $A$ 的所有特征根的实部均为负, 即对每个特征根 $\lambda$ 都有 $\alpha=\mathrm{Re}\,\lambda<0$. 由于多项式函数增长慢于指数函数的衰减, 对任意 $k\ge0$ 都有 $x^ke^{\alpha x}\to0\ \left(x\to+\infty\right)$, 故上式右端趋于零, 从而方程组的每一个解都趋于零.
+先证充分性. 设 $A$ 的所有特征根的实部均为负, 即对每个特征根 $\lambda$ 都有 $\alpha=\mathrm{Re}\,\lambda< 0$. 由于多项式函数增长慢于指数函数的衰减, 对任意 $k\ge0$ 都有 $x^ke^{\alpha x}\to0\ \left(x\to+\infty\right)$, 故上式右端趋于零, 从而方程组的每一个解都趋于零.
 
-再证必要性. 反设 $A$ 有某个特征根 $\lambda_j$ 满足 $\alpha_j=\mathrm{Re}\,\lambda_j\ge0$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 取与 $\lambda_j$ 相应的特征向量 $\boldsymbol{r}_j\neq\boldsymbol{0}$, 则 $\boldsymbol{y}=e^{\lambda_j x}\boldsymbol{r}_j$ 是方程组的一个非零解. 当 $\alpha_j>0$ 时, $\left\|\boldsymbol{y}\right\|=e^{\alpha_j x}\left\|\boldsymbol{r}_j\right\|\to+\infty$; 当 $\alpha_j=0$ 时, 若 $\lambda_j=0$ 则 $\boldsymbol{y}=\boldsymbol{r}_j$ 为非零常向量, 若 $\lambda_j=i\beta\ \left(\beta\neq0\right)$ 则 $\boldsymbol{y}=e^{i\beta x}\boldsymbol{r}_j$ 的模恒为 $\left\|\boldsymbol{r}_j\right\|$ 而不趋于零. 这些都与题设结论矛盾. 故 $A$ 的所有特征根都必须具有负的实部. $\blacksquare$
+再证必要性. 反设 $A$ 有某个特征根 $\lambda_j$ 满足 $\alpha_j=\mathrm{Re}\,\lambda_j\ge0$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 取与 $\lambda_j$ 相应的特征向量 $\boldsymbol{r}_j\neq\boldsymbol{0}$, 则 $\boldsymbol{y}=e^{\lambda_j x}\boldsymbol{r}_j$ 是方程组的一个非零解. 当 $\alpha_j> 0$ 时, $\left\|\boldsymbol{y}\right\|=e^{\alpha_j x}\left\|\boldsymbol{r}_j\right\|\to+\infty$; 当 $\alpha_j=0$ 时, 若 $\lambda_j=0$ 则 $\boldsymbol{y}=\boldsymbol{r}_j$ 为非零常向量, 若 $\lambda_j=i\beta\ \left(\beta\neq0\right)$ 则 $\boldsymbol{y}=e^{i\beta x}\boldsymbol{r}_j$ 的模恒为 $\left\|\boldsymbol{r}_j\right\|$ 而不趋于零. 这些都与题设结论矛盾. 故 $A$ 的所有特征根都必须具有负的实部. $\blacksquare$

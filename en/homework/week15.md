@@ -66,7 +66,7 @@ $$
 \frac{dy}{dx}=A\left(x\right)y+e\left(x\right),\quad y\left(x_0\right)=y_0
 $$
 
-(where $\alpha<x_0<\beta$, $y_0\in R^n$) has a solution that exists and is unique on the entire interval $\left(\alpha,\beta\right)$.
+(where $\alpha< x_0< \beta$, $y_0\in R^n$) has a solution that exists and is unique on the entire interval $\left(\alpha,\beta\right)$.
 
 **Proof**. Let $f\left(x,y\right)=A\left(x\right)y+e\left(x\right)$.
 
@@ -80,7 +80,7 @@ $$
 
 On any bounded closed subinterval $\left[c,d\right]\subset\left(\alpha,\beta\right)$, $\left\|A\left(x\right)\right\|$ is continuous and hence has an upper bound $L$, so $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$. By the **Picard Existence and Uniqueness Theorem ($n$-dimensional Vector Form)**, the solution exists and is unique locally.
 
-Step 3: extend to the entire $\left(\alpha,\beta\right)$. Suppose the maximal interval of existence of the solution $y=y\left(x\right)$ is $\left(\omega_1,\omega_2\right)$. Assume $\omega_2<\beta$. On $\left[x_0,\omega_2\right)$, both $\left\|A\left(x\right)\right\|$ and $\left|e\left(x\right)\right|$ are bounded, denote them by $M_1,M_2$; then
+Step 3: extend to the entire $\left(\alpha,\beta\right)$. Suppose the maximal interval of existence of the solution $y=y\left(x\right)$ is $\left(\omega_1,\omega_2\right)$. Assume $\omega_2< \beta$. On $\left[x_0,\omega_2\right)$, both $\left\|A\left(x\right)\right\|$ and $\left|e\left(x\right)\right|$ are bounded, denote them by $M_1,M_2$; then
 
 $$
 \left|y'\left(x\right)\right|\le\left\|A\left(x\right)\right\|\left|y\left(x\right)\right|+\left|e\left(x\right)\right|\le M_1\left|y\left(x\right)\right|+M_2.

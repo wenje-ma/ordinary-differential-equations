@@ -1,10 +1,10 @@
 # Assignment 9
 
-> **Theorem 3.4** (Extension Theorem for Solutions)<br>Suppose in the differential equation $\frac{dy}{dx}=f\left(x,y\right)$ the function $f\left(x,y\right)$ is continuous in an open region $G$, and $P_0\left(x_0,y_0\right)$ is any point in $G$. Then any integral curve through $P_0$ extends to the boundary within $G$: that is, for any bounded closed region $G_1$ ($P_0\in G_1\subset G$), the integral curve extends outside $G_1$. In other words, if the maximal interval of existence of a solution $y=y\left(x\right)$ is $\left(\alpha,\beta\right)$, then when $\beta<+\infty$, $\left(x,y\left(x\right)\right)$ approaches the boundary of $G$ (when $G=\mathbb{R}^2$, this means $\left|y\right|\to+\infty$).
+> **Theorem 3.4** (Extension Theorem for Solutions)<br>Suppose in the differential equation $\frac{dy}{dx}=f\left(x,y\right)$ the function $f\left(x,y\right)$ is continuous in an open region $G$, and $P_0\left(x_0,y_0\right)$ is any point in $G$. Then any integral curve through $P_0$ extends to the boundary within $G$: that is, for any bounded closed region $G_1$ ($P_0\in G_1\subset G$), the integral curve extends outside $G_1$. In other words, if the maximal interval of existence of a solution $y=y\left(x\right)$ is $\left(\alpha,\beta\right)$, then when $\beta< +\infty$, $\left(x,y\left(x\right)\right)$ approaches the boundary of $G$ (when $G=\mathbb{R}^2$, this means $\left|y\right|\to+\infty$).
 
 > **Corollary** (Existence, Uniqueness, and Extension Under a Local Lipschitz Condition)<br>Suppose $f\left(x,y\right)$ is continuous in a region $G$ and satisfies a local Lipschitz condition with respect to $y$ (i.e. every point in $G$ has a neighborhood contained in $G$ in which $f$ satisfies a Lipschitz condition with respect to $y$). Then through any point $P_0$ in $G$ there exists a unique integral curve of the differential equation, and it extends to the boundary within $G$.
 
-> **Theorem 3.5** (Global Existence of Solutions on a Strip)<br>Suppose the right-hand side function of the differential equation $\frac{dy}{dx}=f\left(x,y\right)$ is continuous in the strip $S:\ \alpha<x<\beta,\ -\infty<y<+\infty$ and satisfies the inequality $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, where $A\left(x\right)\ge0$ and $B\left(x\right)\ge0$ are continuous on $\left(\alpha,\beta\right)$. Then every solution of the differential equation has $\left(\alpha,\beta\right)$ as its maximal interval of existence.
+> **Theorem 3.5** (Global Existence of Solutions on a Strip)<br>Suppose the right-hand side function of the differential equation $\frac{dy}{dx}=f\left(x,y\right)$ is continuous in the strip $S:\ \alpha< x< \beta,\ -\infty< y< +\infty$ and satisfies the inequality $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, where $A\left(x\right)\ge0$ and $B\left(x\right)\ge0$ are continuous on $\left(\alpha,\beta\right)$. Then every solution of the differential equation has $\left(\alpha,\beta\right)$ as its maximal interval of existence.
 
 ### Problem 1
 
@@ -12,7 +12,7 @@
 
 ### Solution to Problem 1
 
-The right-hand side function of this equation is $f\left(x,y\right)=a\left(x\right)y+b\left(x\right)$, which is continuous in the strip $S:\ x\in I,\ -\infty<y<+\infty$. We estimate
+The right-hand side function of this equation is $f\left(x,y\right)=a\left(x\right)y+b\left(x\right)$, which is continuous in the strip $S:\ x\in I,\ -\infty< y< +\infty$. We estimate
 
 $$
 \left|f\left(x,y\right)\right|=\left|a\left(x\right)y+b\left(x\right)\right|\le \left|a\left(x\right)\right|\,\left|y\right|+\left|b\left(x\right)\right|.
@@ -36,9 +36,9 @@ The interval of existence is determined by the initial point $\left(x_0,y_0\righ
 
 (1) The equilibrium solutions $y\equiv0$ and $y\equiv1$ exist on the entire $\left(-\infty,+\infty\right)$.
 
-(2) If $0<y_0<1$, then $C=\frac{y_0-1}{y_0}<0$, the denominator $1-Ce^x>0$ always holds, and the solution exists on the entire $\left(-\infty,+\infty\right)$.
+(2) If $0< y_0< 1$, then $C=\frac{y_0-1}{y_0}< 0$, the denominator $1-Ce^x> 0$ always holds, and the solution exists on the entire $\left(-\infty,+\infty\right)$.
 
-(3) If $y_0<0$ or $y_0>1$, then $C>0$, the denominator $1-Ce^x=0$ at the finite point $x=\ln\frac{1}{C}$, and the solution blows up there; hence the maximal interval of existence is a finite interval. $\blacksquare$
+(3) If $y_0< 0$ or $y_0> 1$, then $C> 0$, the denominator $1-Ce^x=0$ at the finite point $x=\ln\frac{1}{C}$, and the solution blows up there; hence the maximal interval of existence is a finite interval. $\blacksquare$
 
 ### Problem 3
 
@@ -52,7 +52,7 @@ $\blacksquare$
 
 ### Problem 4
 
-(Problem 3-3, Problem 3) Consider the differential equation in symmetric form $x\,dx+y\,dy=0$, with domain $G=\left\{\left(x,y\right)\mid x^2+y^2>0\right\}$. The unit circle $\left(x^2+y^2=1\right)$ is an integral curve lying in the interior of $G$ and does not extend to the boundary of $G$. Does this contradict the extension theorem for solutions above? Why?
+(Problem 3-3, Problem 3) Consider the differential equation in symmetric form $x\,dx+y\,dy=0$, with domain $G=\left\{\left(x,y\right)\mid x^2+y^2> 0\right\}$. The unit circle $\left(x^2+y^2=1\right)$ is an integral curve lying in the interior of $G$ and does not extend to the boundary of $G$. Does this contradict the extension theorem for solutions above? Why?
 
 ### Solution to Problem 4
 
@@ -70,12 +70,12 @@ The integral curve $x^2+y^2=C$ cannot traverse the full circle as a single-value
 
 The right-hand side function $f\left(x,y\right)=\left(y^2-2y-3\right)e^{\left(x+y\right)^2}$ is continuous on the entire plane and has continuous partial derivatives with respect to $y$; by the **Corollary** (Existence, Uniqueness, and Extension Under a Local Lipschitz Condition), the solution through $\left(x_0,y_0\right)$ exists uniquely and, by **Theorem 3.4** (Extension Theorem for Solutions), extends to the boundary of the whole plane; but the whole plane has no finite boundary point, so if one endpoint is finite, then at that end $\left|y\right|\to+\infty$.
 
-Note that $y^2-2y-3=\left(y-3\right)\left(y+1\right)$, and $e^{\left(x+y\right)^2}>0$, so the sign of $y'$ is determined by $\left(y-3\right)\left(y+1\right)$: when $y>3$ or $y<-1$, $y'>0$; when $-1<y<3$, $y'<0$.
+Note that $y^2-2y-3=\left(y-3\right)\left(y+1\right)$, and $e^{\left(x+y\right)^2}> 0$, so the sign of $y'$ is determined by $\left(y-3\right)\left(y+1\right)$: when $y> 3$ or $y< -1$, $y'> 0$; when $-1< y< 3$, $y'< 0$.
 
-First consider the right endpoint $b$. If $b<+\infty$, then necessarily $y\to+\infty$. In fact, when $y<-1$, $y'>0$ and the function is monotonically increasing, so it cannot tend to $-\infty$ as $x\to b^{-}$; hence blow-up at the right end can only be $y\to+\infty$, and the solution eventually enters the region $y>3$ and rises monotonically.
+First consider the right endpoint $b$. If $b< +\infty$, then necessarily $y\to+\infty$. In fact, when $y< -1$, $y'> 0$ and the function is monotonically increasing, so it cannot tend to $-\infty$ as $x\to b^{-}$; hence blow-up at the right end can only be $y\to+\infty$, and the solution eventually enters the region $y> 3$ and rises monotonically.
 
-Next consider the left endpoint $a$. If $a>-\infty$, by the same argument the solution eventually enters the region $y<-1$, where $y'>0$, and as $x\to a^{+}$ one can only have $y\to-\infty$.
+Next consider the left endpoint $a$. If $a> -\infty$, by the same argument the solution eventually enters the region $y< -1$, where $y'> 0$, and as $x\to a^{+}$ one can only have $y\to-\infty$.
 
-Suppose for contradiction that both $a>-\infty$ and $b<+\infty$ hold. Then the solution must grow monotonically from $y\to-\infty$ as $x\to a^{+}$ to $y\to+\infty$ as $x\to b^{-}$, and therefore must cross the interval $\left(-1,3\right)$. But inside $\left(-1,3\right)$, $y'<0$ and the function is monotonically decreasing, contradicting its monotonic rise from $-\infty$ to $+\infty$. More precisely: once the solution rises in the region $y<-1$ (where $y'>0$) and approaches $y=-1$, at $y=-1$, $y'=0$; upon just entering $\left(-1,3\right)$, $y'<0$, which pushes it back below $y=-1$. Hence the solution cannot cross $y=-1$ into $\left(-1,3\right)$, let alone reach $y>3$ and blow up to $+\infty$.
+Suppose for contradiction that both $a> -\infty$ and $b< +\infty$ hold. Then the solution must grow monotonically from $y\to-\infty$ as $x\to a^{+}$ to $y\to+\infty$ as $x\to b^{-}$, and therefore must cross the interval $\left(-1,3\right)$. But inside $\left(-1,3\right)$, $y'< 0$ and the function is monotonically decreasing, contradicting its monotonic rise from $-\infty$ to $+\infty$. More precisely: once the solution rises in the region $y< -1$ (where $y'> 0$) and approaches $y=-1$, at $y=-1$, $y'=0$; upon just entering $\left(-1,3\right)$, $y'< 0$, which pushes it back below $y=-1$. Hence the solution cannot cross $y=-1$ into $\left(-1,3\right)$, let alone reach $y> 3$ and blow up to $+\infty$.
 
-Therefore $a>-\infty$ and $b<+\infty$ cannot both hold; i.e. at least one of $a=-\infty$ and $b=+\infty$ holds. $\blacksquare$
+Therefore $a> -\infty$ and $b< +\infty$ cannot both hold; i.e. at least one of $a=-\infty$ and $b=+\infty$ holds. $\blacksquare$

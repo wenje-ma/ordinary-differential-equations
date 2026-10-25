@@ -100,7 +100,7 @@ $$
 y=C_1 e^{ax}.
 $$
 
-When $C_1=0$ we get the particular solution $y\equiv0$, which is already contained in the general solution. The family of integral curves is a family of curves asymptotic to the $x$-axis, rising or falling exponentially; when $a>0$ they grow exponentially as $x$ increases, and when $a<0$ they decay exponentially as $x$ increases. $\blacksquare$
+When $C_1=0$ we get the particular solution $y\equiv0$, which is already contained in the general solution. The family of integral curves is a family of curves asymptotic to the $x$-axis, rising or falling exponentially; when $a> 0$ they grow exponentially as $x$ increases, and when $a< 0$ they decay exponentially as $x$ increases. $\blacksquare$
 
 ### Problem 6
 
@@ -146,7 +146,7 @@ $$
 
 When $y\left(x\right)\to a$, the right-hand side diverges to $+\infty$ by assumption, i.e. $x-x_0\to+\infty$, contradicting the fact that $x-x_0$ is finite. Hence there can be no nonconstant solution through $\left(x_0,a\right)$; the unique solution is $y\equiv a$, and local uniqueness holds.
 
-Next, prove necessity. Suppose one side's improper integral converges, e.g. $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ is finite. Without loss of generality suppose $f\left(y\right)>0$ on $\left(a,a+\varepsilon\right)$. Fix $x_1$; by the **Separable Equation**, the solution through $\left(x_1,a+\varepsilon\right)$ satisfies
+Next, prove necessity. Suppose one side's improper integral converges, e.g. $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ is finite. Without loss of generality suppose $f\left(y\right)> 0$ on $\left(a,a+\varepsilon\right)$. Fix $x_1$; by the **Separable Equation**, the solution through $\left(x_1,a+\varepsilon\right)$ satisfies
 $$
 x-x_1=\int_{a+\varepsilon}^{y}\frac{ds}{f\left(s\right)}.
 $$

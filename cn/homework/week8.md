@@ -6,7 +6,7 @@
 
 > **积分方程与初值问题的等价性**<br>初值问题 $\left(E\right)$ 有解等价于积分方程 $y=y_0+\displaystyle\int_{x_0}^x f\left(t,y\left(t\right)\right)\,dt$ 有解.
 
-> **一致有界与等度连续**<br>设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K>0$ 使 $\left|f_n\left(x\right)\right|<K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta\left(\varepsilon\right)$, 使只要 $\left|x_1-x_2\right|<\delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|<\varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
+> **一致有界与等度连续**<br>设在区间 $I$ 上给定函数序列 $f_1\left(x\right),f_2\left(x\right),\cdots$. 若存在常数 $K> 0$ 使 $\left|f_n\left(x\right)\right|< K$ 对一切 $n$ 成立, 则称该序列在 $I$ 上一致有界; 若对任意正数 $\varepsilon$, 存在 $\delta=\delta\left(\varepsilon\right)$, 使只要 $\left|x_1-x_2\right|< \delta$ 就有 $\left|f_n\left(x_1\right)-f_n\left(x_2\right)\right|< \varepsilon$ 对一切 $n$ 成立, 则称该序列在 $I$ 上等度连续.
 
 > **阿斯科利引理**<br>设函数序列在有限闭区间 $I$ 上一致有界且等度连续, 则可以选取它的一个子序列, 使该子序列在区间 $I$ 上一致收敛.
 

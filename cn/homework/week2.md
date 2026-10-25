@@ -2,7 +2,7 @@
 
 > **恰当方程**(全微分方程)<br>考虑对称形式的一阶微分方程 $P\left(x,y\right)dx+Q\left(x,y\right)dy=0$. 如果存在一个可微函数 $\Phi\left(x,y\right)$, 使得它的全微分为 $d\Phi\left(x,y\right)=P\left(x,y\right)dx+Q\left(x,y\right)dy$, 亦即它的偏导数为 $\frac{\partial\Phi}{\partial x}=P\left(x,y\right),\ \frac{\partial\Phi}{\partial y}=Q\left(x,y\right)$, 则称该式为恰当方程或全微分方程. 当方程为恰当方程时, 可将它改写为全微分的形式 $d\Phi\left(x,y\right)=P\left(x,y\right)dx+Q\left(x,y\right)dy=0$, 从而 $\Phi\left(x,y\right)=C$, 其中 $C$ 为任意常数, 称 $\Phi\left(x,y\right)=C$ 为方程的一个通积分.
 
-> **定理 2.1**(恰当方程的判别与通积分公式)<br>设函数 $P\left(x,y\right)$ 和 $Q\left(x,y\right)$ 在区域 $R:\alpha<x<\beta,\ \gamma<y<\delta$ 上连续, 且有连续的一阶偏导数 $\frac{\partial P}{\partial y}$ 与 $\frac{\partial Q}{\partial x}$, 则微分方程 $P\left(x,y\right)dx+Q\left(x,y\right)dy=0$ 是恰当方程的充要条件为恒等式 $$\frac{\partial}{\partial y}P\left(x,y\right)\equiv\frac{\partial}{\partial x}Q\left(x,y\right)$$ 在 $R$ 内成立. 而且当该式成立时, 方程的通积分为 $$\int_{x_0}^{x}P\left(x,y\right)dx+\int_{y_0}^{y}Q\left(x_0,y\right)dy=C,$$ 或者 $$\int_{x_0}^{x}P\left(x,y_0\right)dx+\int_{y_0}^{y}Q\left(x,y\right)dy=C,$$ 其中 $\left(x_0,y_0\right)$ 是 $R$ 中任意取定的一点.
+> **定理 2.1**(恰当方程的判别与通积分公式)<br>设函数 $P\left(x,y\right)$ 和 $Q\left(x,y\right)$ 在区域 $R:\alpha< x< \beta,\ \gamma< y< \delta$ 上连续, 且有连续的一阶偏导数 $\frac{\partial P}{\partial y}$ 与 $\frac{\partial Q}{\partial x}$, 则微分方程 $P\left(x,y\right)dx+Q\left(x,y\right)dy=0$ 是恰当方程的充要条件为恒等式 $$\frac{\partial}{\partial y}P\left(x,y\right)\equiv\frac{\partial}{\partial x}Q\left(x,y\right)$$ 在 $R$ 内成立. 而且当该式成立时, 方程的通积分为 $$\int_{x_0}^{x}P\left(x,y\right)dx+\int_{y_0}^{y}Q\left(x_0,y\right)dy=C,$$ 或者 $$\int_{x_0}^{x}P\left(x,y_0\right)dx+\int_{y_0}^{y}Q\left(x,y\right)dy=C,$$ 其中 $\left(x_0,y_0\right)$ 是 $R$ 中任意取定的一点.
 
 ### 习题一
 

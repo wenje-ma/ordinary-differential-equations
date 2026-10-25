@@ -100,7 +100,7 @@ $$
 y=C_1 e^{ax}.
 $$
 
-当 $C_1=0$ 时即得特解 $y\equiv0$, 它已包含在通解之中. 积分曲线族是一族以 $x$ 轴为渐近线, 按指数规律升降的曲线, $a>0$ 时随 $x$ 增大而指数增长, $a<0$ 时随 $x$ 增大而指数衰减. $\blacksquare$
+当 $C_1=0$ 时即得特解 $y\equiv0$, 它已包含在通解之中. 积分曲线族是一族以 $x$ 轴为渐近线, 按指数规律升降的曲线, $a> 0$ 时随 $x$ 增大而指数增长, $a< 0$ 时随 $x$ 增大而指数衰减. $\blacksquare$
 
 ### 习题六
 
@@ -146,7 +146,7 @@ $$
 
 当 $y\left(x\right)\to a$ 时, 右端按假设发散到 $+\infty$, 即 $x-x_0\to+\infty$, 与 $x-x_0$ 为有限值矛盾. 故过 $\left(x_0,a\right)$ 不可能有非常数解, 唯一解即 $y\equiv a$, 局部唯一成立.
 
-再证必要性. 设某一侧瑕积分收敛, 例如 $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ 为有限值. 不妨设在 $\left(a,a+\varepsilon\right)$ 上 $f\left(y\right)>0$. 取定 $x_1$, 由**变量分离方程**, 过 $\left(x_1,a+\varepsilon\right)$ 的解满足
+再证必要性. 设某一侧瑕积分收敛, 例如 $\int_a^{a+\varepsilon}\frac{dy}{f\left(y\right)}=I$ 为有限值. 不妨设在 $\left(a,a+\varepsilon\right)$ 上 $f\left(y\right)> 0$. 取定 $x_1$, 由**变量分离方程**, 过 $\left(x_1,a+\varepsilon\right)$ 的解满足
 $$
 x-x_1=\int_{a+\varepsilon}^{y}\frac{ds}{f\left(s\right)}.
 $$

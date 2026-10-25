@@ -10,7 +10,7 @@
 
 > **引理 6.3**(朗斯基行列式的刘维尔公式)<br>设 $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ 是齐次线性微分方程组的 $n$ 个解, 其朗斯基行列式为 $W\left(x\right)$, 则 $$W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^{x}\mathrm{tr}\left[A\left(s\right)\right]ds},$$ 其中 $x_0\in\left(a,b\right)$, 而 $\mathrm{tr}\left[A\left(x\right)\right]$ 表示矩阵 $A\left(x\right)$ 的迹.
 
-> **定理 6.2**(朗斯基行列式判别法)<br>齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y$ 的解组 $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ 是线性无关的充要条件为 $W\left(x\right)\neq0\ \left(a<x<b\right)$.
+> **定理 6.2**(朗斯基行列式判别法)<br>齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y$ 的解组 $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ 是线性无关的充要条件为 $W\left(x\right)\neq0\ \left(a< x< b\right)$.
 
 > **推论 2**(基解矩阵的性质)<br>(1) 设 $\Phi\left(x\right)$ 是齐次线性微分方程组的一个基解矩阵, 则对于任一个非奇异的 $n$ 阶常数矩阵 $C$, 矩阵 $\Phi\left(x\right)C$ 也是该方程组的一个基解矩阵; (2) 设 $\Phi\left(x\right)$ 和 $\Psi\left(x\right)$ 都是该方程组的基解矩阵, 则必存在一个非奇异的 $n$ 阶常数矩阵 $C$, 使得 $\Psi\left(x\right)=\Phi\left(x\right)C$.
 
@@ -56,7 +56,7 @@ $$y=C_1\begin{bmatrix}\cos t\\-\sin t\end{bmatrix}+C_2\begin{bmatrix}\sin t\\\co
 
 ### 习题三
 
-(习题 6-1 题2(2))求解非齐次线性微分方程组的初值问题: $\frac{dx}{dt}=\frac{2t}{1+t^2}x,\ \frac{dy}{dt}=-\frac{1}{t}y+x+t\ \left(t>0\right),\ x\left(1\right)=0,\ y\left(1\right)=\frac{4}{3}$.
+(习题 6-1 题2(2))求解非齐次线性微分方程组的初值问题: $\frac{dx}{dt}=\frac{2t}{1+t^2}x,\ \frac{dy}{dt}=-\frac{1}{t}y+x+t\ \left(t> 0\right),\ x\left(1\right)=0,\ y\left(1\right)=\frac{4}{3}$.
 
 ### 解答 习题三
 
@@ -88,7 +88,7 @@ $$C_1\begin{bmatrix}1\\0\\0\end{bmatrix}+C_2\begin{bmatrix}x\\0\\0\end{bmatrix}+
 
 比较第一分量, 得多项式恒等式
 
-$$C_1+C_2x+C_3x^2=0\quad\left(a<x<b\right).$$
+$$C_1+C_2x+C_3x^2=0\quad\left(a< x< b\right).$$
 
 由于非零多项式在任一区间上不可能恒等于零, 故必有 $C_1=C_2=C_3=0$. 由向量函数组线性无关的定义, 该向量函数组在任意区间 $\left(a,b\right)$ 上线性无关. $\blacksquare$
 
@@ -110,7 +110,7 @@ $$A\left(x\right)-B\left(x\right)=0,$$
 
 ### 习题六
 
-(习题 6-1 题6)设当 $a<x<b$ 时, 非齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y+f\left(x\right)$ 中的 $f\left(x\right)$ 不恒为零. 证明: 该方程组有且至多有 $\left(n+1\right)$ 个线性无关解.
+(习题 6-1 题6)设当 $a< x< b$ 时, 非齐次线性微分方程组 $\frac{dy}{dx}=A\left(x\right)y+f\left(x\right)$ 中的 $f\left(x\right)$ 不恒为零. 证明: 该方程组有且至多有 $\left(n+1\right)$ 个线性无关解.
 
 ### 解答 习题六
 

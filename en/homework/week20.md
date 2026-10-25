@@ -4,7 +4,7 @@
 
 > **Theorem 6.2*** (Wronskian Criterion for Linear Independence of a Solution Set)<br>The solution set $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ of equation (6.47) is linearly independent if and only if its Wronskian determinant $$W\left(x\right)=\left|\begin{matrix}\varphi_1\left(x\right)&\cdots&\varphi_n\left(x\right)\\\varphi_1'\left(x\right)&\cdots&\varphi_n'\left(x\right)\\\vdots&&\vdots\\\varphi_1^{\left(n-1\right)}\left(x\right)&\cdots&\varphi_n^{\left(n-1\right)}\left(x\right)\end{matrix}\right|$$ never vanishes on the interval $\left(a,b\right)$.
 
-> **Liouville's Formula** (Evolution Formula for the Wronskian Determinant (6.54))<br>If $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ is a solution set of equation (6.47) with Wronskian determinant $W\left(x\right)$, then $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a<x<b\right),$$ where $x_0\in\left(a,b\right)$, and $a_1\left(x\right)$ is the coefficient of the $y^{\left(n-1\right)}$ term in equation (6.47). In particular, for the second-order equation $y''+p\left(x\right)y'+q\left(x\right)y=0$, we have $a_1\left(x\right)=p\left(x\right)$.
+> **Liouville's Formula** (Evolution Formula for the Wronskian Determinant (6.54))<br>If $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ is a solution set of equation (6.47) with Wronskian determinant $W\left(x\right)$, then $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a< x< b\right),$$ where $x_0\in\left(a,b\right)$, and $a_1\left(x\right)$ is the coefficient of the $y^{\left(n-1\right)}$ term in equation (6.47). In particular, for the second-order equation $y''+p\left(x\right)y'+q\left(x\right)y=0$, we have $a_1\left(x\right)=p\left(x\right)$.
 
 > **Example 1** (Formula for Constructing the General Solution from One Nonzero Solution (6.56))<br>Suppose $y=\varphi\left(x\right)$ is a nonzero solution of the second-order homogeneous linear equation $y''+p\left(x\right)y'+q\left(x\right)y=0$, where $p\left(x\right)$ and $q\left(x\right)$ are continuous functions on the interval $\left(a,b\right)$. Then on any subinterval where $\varphi\left(x\right)\neq0$, the general solution of the equation is $$y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^{x}\frac{1}{\varphi^2\left(s\right)}e^{-\int_{x_0}^{s}p\left(t\right)dt}ds\right],$$ where $C_1$ and $C_2$ are arbitrary constants.
 
@@ -180,11 +180,11 @@ which is exactly formulas (6.57)(6.58). **Theorem 6.3*** (General Solution Struc
 
 ### Problem 5
 
-(Problem 6-3, Problem 7) Consider the Euler equation $x^ny^{\left(n\right)}+a_1x^{n-1}y^{\left(n-1\right)}+\cdots+a_{n-1}xy'+a_ny=0$, where $a_1,a_2,\cdots,a_n$ are all constants and $x>0$. Use an appropriate change of variable to convert it into a constant-coefficient homogeneous linear differential equation.
+(Problem 6-3, Problem 7) Consider the Euler equation $x^ny^{\left(n\right)}+a_1x^{n-1}y^{\left(n-1\right)}+\cdots+a_{n-1}xy'+a_ny=0$, where $a_1,a_2,\cdots,a_n$ are all constants and $x> 0$. Use an appropriate change of variable to convert it into a constant-coefficient homogeneous linear differential equation.
 
 ### Solution to Problem 5
 
-Make the change of independent variable $x=e^t$, i.e. $t=\ln x\ \left(x>0\right)$. Denote $D=\frac{d}{dt}$; then $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, i.e.
+Make the change of independent variable $x=e^t$, i.e. $t=\ln x\ \left(x> 0\right)$. Denote $D=\frac{d}{dt}$; then $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, i.e.
 
 $$
 x\frac{d}{dx}=D.

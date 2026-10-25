@@ -6,7 +6,7 @@
 
 ### 习题一
 
-(习题 7-2 题3)求解埃尔米特方程 $y''-2xy'+\lambda y=0\ \left(-\infty<x<+\infty\right)$, 其中 $\lambda$ 是常数.
+(习题 7-2 题3)求解埃尔米特方程 $y''-2xy'+\lambda y=0\ \left(-\infty< x< +\infty\right)$, 其中 $\lambda$ 是常数.
 
 ### 解答 习题一
 

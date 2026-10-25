@@ -56,7 +56,7 @@ Finally, by **Definition 4.1** (Singular Solution), verify whether $y=2x-\frac{2
 
 ### Problem 3
 
-(Problem 4-2, Problem 4) Suppose the continuous function $E\left(y\right)$ satisfies $E\left(0\right)=0$, and $E\left(y\right)\neq0$ when $0<y\le1$. Then $y=0$ is a singular solution of the differential equation $\frac{dy}{dx}=E\left(y\right)$ if and only if the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ converges.
+(Problem 4-2, Problem 4) Suppose the continuous function $E\left(y\right)$ satisfies $E\left(0\right)=0$, and $E\left(y\right)\neq0$ when $0< y\le1$. Then $y=0$ is a singular solution of the differential equation $\frac{dy}{dx}=E\left(y\right)$ if and only if the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ converges.
 
 ### Solution to Problem 3
 
@@ -70,8 +70,8 @@ $$
 
 By **Definition 4.1** (Singular Solution), $y=0$ is a singular solution if and only if in any neighborhood of every point on $y=0$, there is another integral curve tangent to $y=0$ at that point.
 
-If the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ converges, then a nontrivial integral curve starting from some $y_0>0$ reaches $y=0$ after traversing a finite abscissa $\int_0^{y_0}\frac{dy}{E\left(y\right)}$. That is, the nontrivial integral curve meets $y=0$ at a finite abscissa; at the meeting point its slope $p=E\left(y\right)\to E\left(0\right)=0$, which equals the slope $0$ of $y=0$, so the two are tangent there. Hence near every point on $y=0$ there are other integral curves tangent to $y=0$, and $y=0$ is a singular solution.
+If the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ converges, then a nontrivial integral curve starting from some $y_0> 0$ reaches $y=0$ after traversing a finite abscissa $\int_0^{y_0}\frac{dy}{E\left(y\right)}$. That is, the nontrivial integral curve meets $y=0$ at a finite abscissa; at the meeting point its slope $p=E\left(y\right)\to E\left(0\right)=0$, which equals the slope $0$ of $y=0$, so the two are tangent there. Hence near every point on $y=0$ there are other integral curves tangent to $y=0$, and $y=0$ is a singular solution.
 
-If the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ diverges, then a nontrivial integral curve starting from $y_0>0$ must traverse an infinite abscissa for $y\to0$; i.e. they only approach $y=0$ asymptotically as the abscissa tends to infinity, and do not meet $y=0$ at any finite point. Hence near every point on $y=0$ there are no other integral curves tangent to it, and $y=0$ is not a singular solution.
+If the improper integral $\int_0^1\frac{dy}{E\left(y\right)}$ diverges, then a nontrivial integral curve starting from $y_0> 0$ must traverse an infinite abscissa for $y\to0$; i.e. they only approach $y=0$ asymptotically as the abscissa tends to infinity, and do not meet $y=0$ at any finite point. Hence near every point on $y=0$ there are no other integral curves tangent to it, and $y=0$ is not a singular solution.
 
 In summary, $y=0$ is a singular solution if and only if $\int_0^1\frac{dy}{E\left(y\right)}$ converges. $\blacksquare$

@@ -56,7 +56,7 @@ $$
 
 First find the stationary points. From $v=0$ and $x''=-a^2\left(x-\frac{1}{6}x^3\right)=0$, we get $x=0$ or $x=\pm\sqrt{6}$. Linearizing near $x=0$ gives $x''+a^2x=0$, so $\left(0,0\right)$ is a center (closed orbits surround it, corresponding to oscillation); linearizing near $x=\pm\sqrt{6}$ gives $u''-2a^2u=0$, so $\left(\pm\sqrt{6},0\right)$ are saddle points. At the saddle points, the energy is $E_*=\frac{a^2}{2}\cdot 6-\frac{a^2}{24}\cdot 36=\frac{3}{2}a^2$, and the orbit through the saddle point is the separatrix.
 
-(1) Prove that oscillations are not isochronous. Consider a closed orbit with amplitude $A$ ($0<A<\sqrt{6}$); it turns around at $x=A$ (i.e. $v=0$), so $E=\frac{a^2}{2}A^2-\frac{a^2}{24}A^4$. The period of oscillation is
+(1) Prove that oscillations are not isochronous. Consider a closed orbit with amplitude $A$ ($0< A< \sqrt{6}$); it turns around at $x=A$ (i.e. $v=0$), so $E=\frac{a^2}{2}A^2-\frac{a^2}{24}A^4$. The period of oscillation is
 
 $$
 T\left(A\right)=4\int_0^A\frac{dx}{\sqrt{2\left[E-\left(\frac{a^2}{2}x^2-\frac{a^2}{24}x^4\right)\right]}}.
@@ -74,8 +74,8 @@ $$
 T\left(A\right)=\frac{4}{a}\int_0^{\frac{\pi}{2}}\frac{d\varphi}{\sqrt{1-\frac{A^2}{12}\left(1+\sin^2\varphi\right)}}.
 $$
 
-When $A\to 0$, $T\left(A\right)\to\frac{4}{a}\cdot\frac{\pi}{2}=\frac{2\pi}{a}$, the period of the linear pendulum. When $0<A<\sqrt{6}$, the denominator of the integrand is $<1$, so the integrand is $>1$, and hence $T\left(A\right)>\frac{2\pi}{a}$; moreover, the larger $A$, the smaller the denominator and the larger $T\left(A\right)$. Therefore the period $T$ varies with the amplitude $A$, i.e. pendulum oscillations are not isochronous. Also, when $A\to\sqrt{6}^{-}$, the denominator tends to zero at $\varphi=\frac{\pi}{2}$, and the period $T\left(A\right)\to+\infty$.
+When $A\to 0$, $T\left(A\right)\to\frac{4}{a}\cdot\frac{\pi}{2}=\frac{2\pi}{a}$, the period of the linear pendulum. When $0< A< \sqrt{6}$, the denominator of the integrand is $< 1$, so the integrand is $> 1$, and hence $T\left(A\right)> \frac{2\pi}{a}$; moreover, the larger $A$, the smaller the denominator and the larger $T\left(A\right)$. Therefore the period $T$ varies with the amplitude $A$, i.e. pendulum oscillations are not isochronous. Also, when $A\to\sqrt{6}^{-}$, the denominator tends to zero at $\varphi=\frac{\pi}{2}$, and the period $T\left(A\right)\to+\infty$.
 
-(2) Show that precession can occur on the phase portrait. When the energy $E>\frac{3}{2}a^2$, the right-hand side of the first integral $2E-a^2x^2+\frac{a^2}{12}x^4\to+\infty$ ($\left|x\right|\to\infty$), so $v=\frac{dx}{dt}$ is never zero and does not change sign: when $v>0$, $x\left(t\right)$ increases monotonically; when $v<0$, $x\left(t\right)$ decreases monotonically. The orbit no longer turns around and closes, but bypasses the two saddle points $\left(\pm\sqrt{6},0\right)$ and extends in the direction of increasing $\left|x\right|$. On the phase portrait these are the upper and lower orbits outside the separatrix, corresponding to the pendulum rotating continuously past its highest point, i.e. precession occurs.
+(2) Show that precession can occur on the phase portrait. When the energy $E> \frac{3}{2}a^2$, the right-hand side of the first integral $2E-a^2x^2+\frac{a^2}{12}x^4\to+\infty$ ($\left|x\right|\to\infty$), so $v=\frac{dx}{dt}$ is never zero and does not change sign: when $v> 0$, $x\left(t\right)$ increases monotonically; when $v< 0$, $x\left(t\right)$ decreases monotonically. The orbit no longer turns around and closes, but bypasses the two saddle points $\left(\pm\sqrt{6},0\right)$ and extends in the direction of increasing $\left|x\right|$. On the phase portrait these are the upper and lower orbits outside the separatrix, corresponding to the pendulum rotating continuously past its highest point, i.e. precession occurs.
 
 $\blacksquare$

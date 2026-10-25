@@ -20,7 +20,7 @@ $$
 
 由 $\frac{dx}{\sqrt{x}}=\frac{dy}{\sqrt{y}}$ 积分得 $\sqrt{x}-\sqrt{y}=C_1$; 由 $\frac{dy}{\sqrt{y}}=\frac{dz}{\sqrt{z}}$ 得 $\sqrt{y}-\sqrt{z}=C_2$. 这是两个独立的首次积分.
 
-现在考察初始曲线 $\Lambda:\ x=y=z$. 把它参数化为 $x=y=z=\sigma$($\sigma>0$). 代入两个首次积分, 得
+现在考察初始曲线 $\Lambda:\ x=y=z$. 把它参数化为 $x=y=z=\sigma$($\sigma> 0$). 代入两个首次积分, 得
 
 $$
 \overline{C}_1=\sqrt{\sigma}-\sqrt{\sigma}=0,\quad\overline{C}_2=\sqrt{\sigma}-\sqrt{\sigma}=0.

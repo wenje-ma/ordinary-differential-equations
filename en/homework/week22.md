@@ -6,7 +6,7 @@
 
 ### Problem 1
 
-(Problem 7-2, Problem 3) Solve the Hermite equation $y''-2xy'+\lambda y=0\ \left(-\infty<x<+\infty\right)$, where $\lambda$ is a constant.
+(Problem 7-2, Problem 3) Solve the Hermite equation $y''-2xy'+\lambda y=0\ \left(-\infty< x< +\infty\right)$, where $\lambda$ is a constant.
 
 ### Solution to Problem 1
 

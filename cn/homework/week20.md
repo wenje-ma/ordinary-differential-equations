@@ -4,7 +4,7 @@
 
 > **定理 6.2***(解组线性无关的朗斯基行列式判据)<br>方程 (6.47) 的解组 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是线性无关的充要条件为它的朗斯基行列式 $$W\left(x\right)=\left|\begin{matrix}\varphi_1\left(x\right)&\cdots&\varphi_n\left(x\right)\\\varphi_1'\left(x\right)&\cdots&\varphi_n'\left(x\right)\\\vdots&&\vdots\\\varphi_1^{\left(n-1\right)}\left(x\right)&\cdots&\varphi_n^{\left(n-1\right)}\left(x\right)\end{matrix}\right|$$ 在区间 $\left(a,b\right)$ 上恒不为零.
 
-> **刘维尔公式**(朗斯基行列式的演化公式 (6.54))<br>若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则 $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a<x<b\right),$$ 其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.
+> **刘维尔公式**(朗斯基行列式的演化公式 (6.54))<br>若 $\varphi_1\left(x\right),\cdots,\varphi_n\left(x\right)$ 是方程 (6.47) 的解组, 其朗斯基行列式为 $W\left(x\right)$, 则 $$W\left(x\right)=W\left(x_0\right)e^{-\int_{x_0}^{x}a_1\left(s\right)ds}\quad\left(a< x< b\right),$$ 其中 $x_0\in\left(a,b\right)$, 而 $a_1\left(x\right)$ 是方程 (6.47) 中 $y^{\left(n-1\right)}$ 项的系数. 特别地, 对二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 有 $a_1\left(x\right)=p\left(x\right)$.
 
 > **例 1**(由一个非零解构造通解的公式 (6.56))<br>设 $y=\varphi\left(x\right)$ 是二阶齐次线性微分方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 的一个非零解, 其中 $p\left(x\right)$ 和 $q\left(x\right)$ 是区间 $\left(a,b\right)$ 上的连续函数, 则在 $\varphi\left(x\right)\neq0$ 的子区间上方程的通解为 $$y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^{x}\frac{1}{\varphi^2\left(s\right)}e^{-\int_{x_0}^{s}p\left(t\right)dt}ds\right],$$ 其中 $C_1$ 和 $C_2$ 为任意常数.
 
@@ -180,11 +180,11 @@ $$
 
 ### 习题五
 
-(习题 6-3 题7)设欧拉方程 $x^ny^{\left(n\right)}+a_1x^{n-1}y^{\left(n-1\right)}+\cdots+a_{n-1}xy'+a_ny=0$, 其中 $a_1,a_2,\cdots,a_n$ 都是常数, $x>0$. 试利用适当的变换把它化成常系数齐次线性微分方程.
+(习题 6-3 题7)设欧拉方程 $x^ny^{\left(n\right)}+a_1x^{n-1}y^{\left(n-1\right)}+\cdots+a_{n-1}xy'+a_ny=0$, 其中 $a_1,a_2,\cdots,a_n$ 都是常数, $x> 0$. 试利用适当的变换把它化成常系数齐次线性微分方程.
 
 ### 解答 习题五
 
-作自变量变换 $x=e^t$, 即 $t=\ln x\ \left(x>0\right)$. 记 $D=\frac{d}{dt}$, 则 $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, 即
+作自变量变换 $x=e^t$, 即 $t=\ln x\ \left(x> 0\right)$. 记 $D=\frac{d}{dt}$, 则 $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, 即
 
 $$
 x\frac{d}{dx}=D.

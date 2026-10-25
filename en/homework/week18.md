@@ -10,7 +10,7 @@
 
 > **Lemma 6.3** (Liouville's Formula for the Wronskian Determinant)<br>Suppose $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ are $n$ solutions of a homogeneous linear system, and their Wronskian determinant is $W\left(x\right)$. Then $$W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^{x}\mathrm{tr}\left[A\left(s\right)\right]ds},$$ where $x_0\in\left(a,b\right)$, and $\mathrm{tr}\left[A\left(x\right)\right]$ denotes the trace of the matrix $A\left(x\right)$.
 
-> **Theorem 6.2** (Wronskian Criterion)<br>The system of solutions $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ of the homogeneous linear system $\frac{dy}{dx}=A\left(x\right)y$ is linearly independent if and only if $W\left(x\right)\neq0\ \left(a<x<b\right)$.
+> **Theorem 6.2** (Wronskian Criterion)<br>The system of solutions $y_1\left(x\right),y_2\left(x\right),\cdots,y_n\left(x\right)$ of the homogeneous linear system $\frac{dy}{dx}=A\left(x\right)y$ is linearly independent if and only if $W\left(x\right)\neq0\ \left(a< x< b\right)$.
 
 > **Corollary 2** (Properties of a Fundamental Matrix)<br>(1) If $\Phi\left(x\right)$ is a fundamental matrix of a homogeneous linear system, then for any nonsingular $n$-th order constant matrix $C$, the matrix $\Phi\left(x\right)C$ is also a fundamental matrix of the system; (2) if both $\Phi\left(x\right)$ and $\Psi\left(x\right)$ are fundamental matrices of the system, then there exists a nonsingular $n$-th order constant matrix $C$ such that $\Psi\left(x\right)=\Phi\left(x\right)C$.
 
@@ -56,7 +56,7 @@ where $C_1,C_2$ are arbitrary constants. $\blacksquare$
 
 ### Problem 3
 
-(Problem 6-1, Problem 2(2)) Solve the initial value problem for the nonhomogeneous linear system: $\frac{dx}{dt}=\frac{2t}{1+t^2}x,\ \frac{dy}{dt}=-\frac{1}{t}y+x+t\ \left(t>0\right),\ x\left(1\right)=0,\ y\left(1\right)=\frac{4}{3}$.
+(Problem 6-1, Problem 2(2)) Solve the initial value problem for the nonhomogeneous linear system: $\frac{dx}{dt}=\frac{2t}{1+t^2}x,\ \frac{dy}{dt}=-\frac{1}{t}y+x+t\ \left(t> 0\right),\ x\left(1\right)=0,\ y\left(1\right)=\frac{4}{3}$.
 
 ### Solution to Problem 3
 
@@ -88,7 +88,7 @@ $$C_1\begin{bmatrix}1\\0\\0\end{bmatrix}+C_2\begin{bmatrix}x\\0\\0\end{bmatrix}+
 
 Comparing the first component gives the polynomial identity
 
-$$C_1+C_2x+C_3x^2=0\quad\left(a<x<b\right).$$
+$$C_1+C_2x+C_3x^2=0\quad\left(a< x< b\right).$$
 
 Since a nonzero polynomial cannot vanish identically on any interval, we must have $C_1=C_2=C_3=0$. By the definition of linear independence of vector functions, this set of vector functions is linearly independent on any interval $\left(a,b\right)$. $\blacksquare$
 
@@ -110,7 +110,7 @@ i.e. $A\left(x\right)\equiv B\left(x\right)$. $\blacksquare$
 
 ### Problem 6
 
-(Problem 6-1, Problem 6) Suppose that when $a<x<b$, the function $f\left(x\right)$ in the nonhomogeneous linear system $\frac{dy}{dx}=A\left(x\right)y+f\left(x\right)$ is not identically zero. Prove: the system has at most $\left(n+1\right)$ linearly independent solutions.
+(Problem 6-1, Problem 6) Suppose that when $a< x< b$, the function $f\left(x\right)$ in the nonhomogeneous linear system $\frac{dy}{dx}=A\left(x\right)y+f\left(x\right)$ is not identically zero. Prove: the system has at most $\left(n+1\right)$ linearly independent solutions.
 
 ### Solution to Problem 6
 

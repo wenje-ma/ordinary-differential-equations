@@ -56,7 +56,7 @@ $$
 
 先找静止点. 由 $v=0$ 与 $x''=-a^2\left(x-\frac{1}{6}x^3\right)=0$, 得 $x=0$ 或 $x=\pm\sqrt{6}$. 在 $x=0$ 附近线性化得 $x''+a^2x=0$, 故 $\left(0,0\right)$ 为中心(封闭轨线包围它, 对应振动); 在 $x=\pm\sqrt{6}$ 附近线性化得 $u''-2a^2u=0$, 故 $\left(\pm\sqrt{6},0\right)$ 为鞍点. 鞍点处能量为 $E_*=\frac{a^2}{2}\cdot 6-\frac{a^2}{24}\cdot 36=\frac{3}{2}a^2$, 过鞍点的轨线为分界线.
 
-(1) 证明振动不等时. 考虑振幅为 $A$($0<A<\sqrt{6}$) 的封闭轨线, 它在 $x=A$ 处掉头(即 $v=0$), 故 $E=\frac{a^2}{2}A^2-\frac{a^2}{24}A^4$. 振动周期为
+(1) 证明振动不等时. 考虑振幅为 $A$($0< A< \sqrt{6}$) 的封闭轨线, 它在 $x=A$ 处掉头(即 $v=0$), 故 $E=\frac{a^2}{2}A^2-\frac{a^2}{24}A^4$. 振动周期为
 
 $$
 T\left(A\right)=4\int_0^A\frac{dx}{\sqrt{2\left[E-\left(\frac{a^2}{2}x^2-\frac{a^2}{24}x^4\right)\right]}}.
@@ -74,8 +74,8 @@ $$
 T\left(A\right)=\frac{4}{a}\int_0^{\frac{\pi}{2}}\frac{d\varphi}{\sqrt{1-\frac{A^2}{12}\left(1+\sin^2\varphi\right)}}.
 $$
 
-当 $A\to 0$ 时, $T\left(A\right)\to\frac{4}{a}\cdot\frac{\pi}{2}=\frac{2\pi}{a}$, 即线性单摆的周期. 而当 $0<A<\sqrt{6}$ 时, 被积函数的分母 $<1$, 故被积函数 $>1$, 从而 $T\left(A\right)>\frac{2\pi}{a}$; 并且 $A$ 越大分母越小, $T\left(A\right)$ 越大. 因此周期 $T$ 随振幅 $A$ 变化, 即单摆振动是不等时的. 又当 $A\to\sqrt{6}^{-}$ 时, 在 $\varphi=\frac{\pi}{2}$ 处分母趋于零, 周期 $T\left(A\right)\to+\infty$.
+当 $A\to 0$ 时, $T\left(A\right)\to\frac{4}{a}\cdot\frac{\pi}{2}=\frac{2\pi}{a}$, 即线性单摆的周期. 而当 $0< A< \sqrt{6}$ 时, 被积函数的分母 $< 1$, 故被积函数 $> 1$, 从而 $T\left(A\right)> \frac{2\pi}{a}$; 并且 $A$ 越大分母越小, $T\left(A\right)$ 越大. 因此周期 $T$ 随振幅 $A$ 变化, 即单摆振动是不等时的. 又当 $A\to\sqrt{6}^{-}$ 时, 在 $\varphi=\frac{\pi}{2}$ 处分母趋于零, 周期 $T\left(A\right)\to+\infty$.
 
-(2) 说明相图上可以发生进动. 当能量 $E>\frac{3}{2}a^2$ 时, 首次积分右端 $2E-a^2x^2+\frac{a^2}{12}x^4\to+\infty$($\left|x\right|\to\infty$), 故 $v=\frac{dx}{dt}$ 恒不为零且不变号: $v>0$ 时 $x\left(t\right)$ 单调增加, $v<0$ 时 $x\left(t\right)$ 单调减少, 轨线不再掉头封闭, 而是绕过两个鞍点 $\left(\pm\sqrt{6},0\right)$ 向 $\left|x\right|$ 增大的方向延伸. 在相图上这就是分界线之外的上, 下两支轨线, 对应单摆越过最高点持续转动, 即发生进动.
+(2) 说明相图上可以发生进动. 当能量 $E> \frac{3}{2}a^2$ 时, 首次积分右端 $2E-a^2x^2+\frac{a^2}{12}x^4\to+\infty$($\left|x\right|\to\infty$), 故 $v=\frac{dx}{dt}$ 恒不为零且不变号: $v> 0$ 时 $x\left(t\right)$ 单调增加, $v< 0$ 时 $x\left(t\right)$ 单调减少, 轨线不再掉头封闭, 而是绕过两个鞍点 $\left(\pm\sqrt{6},0\right)$ 向 $\left|x\right|$ 增大的方向延伸. 在相图上这就是分界线之外的上, 下两支轨线, 对应单摆越过最高点持续转动, 即发生进动.
 
 $\blacksquare$
