@@ -115,7 +115,7 @@ $\blacksquare$
 
 ### Problem 5
 
-(Problem 2-3, Problem 5) Consider the equation $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, where $p\left(x\right),q\left(x\right)$ are both continuous functions with period $\omega> 0$. Prove: (1) if $q\left(x\right)\equiv0$, then any nonzero solution of the equation has period $\omega$ if and only if the mean value of the function $p\left(x\right)$ $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) if $q\left(x\right)$ is not identically zero, then the equation has a unique $\omega$-periodic solution if and only if $\bar p\neq0$, and find this solution.
+(Problem 2-3, Problem 5) Consider the equation $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, where $p\left(x\right),q\left(x\right)$ are both continuous functions with period $\omega> 0$. Prove: (1) if $q\left(x\right)\equiv0$, then any nonzero solution of the equation has period $\omega$ if and only if the mean value of the function $p\left(x\right)$ $\overline p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) if $q\left(x\right)$ is not identically zero, then the equation has a unique $\omega$-periodic solution if and only if $\overline p\neq0$, and find this solution.
 
 ### Solution to Problem 5
 
@@ -124,7 +124,7 @@ $$
 y\left(x+\omega\right)=Ce^{-\int_0^{x+\omega}p}=Ce^{-\int_0^x p}\cdot e^{-\int_0^\omega p}=y\left(x\right)e^{-\int_0^\omega p}.
 $$
 
-A nonzero solution has period $\omega$ means $y\left(x+\omega\right)=y\left(x\right)$, which holds if and only if $e^{-\int_0^\omega p}=1$, i.e. $\int_0^\omega p\left(t\right)dt=0$, equivalent to $\bar p=0$. This proves (1).
+A nonzero solution has period $\omega$ means $y\left(x+\omega\right)=y\left(x\right)$, which holds if and only if $e^{-\int_0^\omega p}=1$, i.e. $\int_0^\omega p\left(t\right)dt=0$, equivalent to $\overline p=0$. This proves (1).
 
 By the **General Solution of the Nonhomogeneous Linear Equation (Integrating Factor Method)**, when $q\left(x\right)$ is not identically zero, the general solution is
 $$
@@ -136,12 +136,12 @@ $$
 e^{-P_\omega}\left(C+I\right)=C.
 $$
 
-When $P_\omega\neq0$, i.e. $\bar p\neq0$, $e^{-P_\omega}\neq1$, and one can uniquely solve
+When $P_\omega\neq0$, i.e. $\overline p\neq0$, $e^{-P_\omega}\neq1$, and one can uniquely solve
 $$
 C=\frac{e^{-P_\omega}I}{1-e^{-P_\omega}}=\frac{I}{e^{P_\omega}-1},
 $$
 
-so there exists a unique $\omega$-periodic solution. When $P_\omega=0$, i.e. $\bar p=0$, the equation becomes $C+I=C$, i.e. $I=0$; but when $q\left(x\right)$ is not identically zero, generally $I\neq0$, in which case there is no solution; even if $I=0$, there are infinitely many $C$ giving periodic solutions, and uniqueness fails. Hence there is a unique periodic solution if and only if $\bar p\neq0$, and this unique periodic solution is
+so there exists a unique $\omega$-periodic solution. When $P_\omega=0$, i.e. $\overline p=0$, the equation becomes $C+I=C$, i.e. $I=0$; but when $q\left(x\right)$ is not identically zero, generally $I\neq0$, in which case there is no solution; even if $I=0$, there are infinitely many $C$ giving periodic solutions, and uniqueness fails. Hence there is a unique periodic solution if and only if $\overline p\neq0$, and this unique periodic solution is
 $$
 y\left(x\right)=e^{-\int_0^x p\left(t\right)dt}\left[\frac{\int_0^\omega q\left(s\right)e^{\int_0^s p\left(t\right)dt}ds}{e^{\int_0^\omega p\left(t\right)dt}-1}+\int_0^x q\left(s\right)e^{\int_0^s p\left(t\right)dt}ds\right].
 $$

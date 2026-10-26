@@ -115,7 +115,7 @@ $\blacksquare$
 
 ### 习题五
 
-(习题 2-3 题5)考虑方程 $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, 其中 $p\left(x\right),q\left(x\right)$ 都是以 $\omega> 0$ 为周期的连续函数. 试证: (1) 若 $q\left(x\right)\equiv0$, 则方程的任一非零解以 $\omega$ 为周期, 当且仅当函数 $p\left(x\right)$ 的平均值 $\bar p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) 若 $q\left(x\right)$ 不恒为零, 则方程有唯一的 $\omega$ 周期解, 当且仅当 $\bar p\neq0$, 试求出此解.
+(习题 2-3 题5)考虑方程 $\frac{dy}{dx}+p\left(x\right)y=q\left(x\right)$, 其中 $p\left(x\right),q\left(x\right)$ 都是以 $\omega> 0$ 为周期的连续函数. 试证: (1) 若 $q\left(x\right)\equiv0$, 则方程的任一非零解以 $\omega$ 为周期, 当且仅当函数 $p\left(x\right)$ 的平均值 $\overline p\equiv\frac{1}{\omega}\int_0^\omega p\left(x\right)dx=0$; (2) 若 $q\left(x\right)$ 不恒为零, 则方程有唯一的 $\omega$ 周期解, 当且仅当 $\overline p\neq0$, 试求出此解.
 
 ### 解答 习题五
 
@@ -124,7 +124,7 @@ $$
 y\left(x+\omega\right)=Ce^{-\int_0^{x+\omega}p}=Ce^{-\int_0^x p}\cdot e^{-\int_0^\omega p}=y\left(x\right)e^{-\int_0^\omega p}.
 $$
 
-非零解以 $\omega$ 为周期即 $y\left(x+\omega\right)=y\left(x\right)$, 当且仅当 $e^{-\int_0^\omega p}=1$, 亦即 $\int_0^\omega p\left(t\right)dt=0$, 等价于 $\bar p=0$. (1) 得证.
+非零解以 $\omega$ 为周期即 $y\left(x+\omega\right)=y\left(x\right)$, 当且仅当 $e^{-\int_0^\omega p}=1$, 亦即 $\int_0^\omega p\left(t\right)dt=0$, 等价于 $\overline p=0$. (1) 得证.
 
 由**非齐次线性方程的通解(积分因子法)**, 当 $q\left(x\right)$ 不恒为零时, 方程的通解为
 $$
@@ -136,12 +136,12 @@ $$
 e^{-P_\omega}\left(C+I\right)=C.
 $$
 
-当 $P_\omega\neq0$ 即 $\bar p\neq0$ 时, $e^{-P_\omega}\neq1$, 可唯一解出
+当 $P_\omega\neq0$ 即 $\overline p\neq0$ 时, $e^{-P_\omega}\neq1$, 可唯一解出
 $$
 C=\frac{e^{-P_\omega}I}{1-e^{-P_\omega}}=\frac{I}{e^{P_\omega}-1},
 $$
 
-故存在唯一的 $\omega$ 周期解. 当 $P_\omega=0$ 即 $\bar p=0$ 时, 上式化为 $C+I=C$, 即 $I=0$; 而 $q\left(x\right)$ 不恒为零时一般 $I\neq0$, 此时无解, 即使 $I=0$ 也有无穷多个 $C$ 使解为周期解, 唯一性不成立. 故有唯一周期解当且仅当 $\bar p\neq0$, 该唯一周期解为
+故存在唯一的 $\omega$ 周期解. 当 $P_\omega=0$ 即 $\overline p=0$ 时, 上式化为 $C+I=C$, 即 $I=0$; 而 $q\left(x\right)$ 不恒为零时一般 $I\neq0$, 此时无解, 即使 $I=0$ 也有无穷多个 $C$ 使解为周期解, 唯一性不成立. 故有唯一周期解当且仅当 $\overline p\neq0$, 该唯一周期解为
 $$
 y\left(x\right)=e^{-\int_0^x p\left(t\right)dt}\left[\frac{\int_0^\omega q\left(s\right)e^{\int_0^s p\left(t\right)dt}ds}{e^{\int_0^\omega p\left(t\right)dt}-1}+\int_0^x q\left(s\right)e^{\int_0^s p\left(t\right)dt}ds\right].
 $$

@@ -16,17 +16,17 @@
 
 ### Solution to Problem 1
 
-Fix any interior point $\left(\bar{x}_0,\bar{y}_0\right)$ in $R$. We prove: as $\left(x_0,y_0\right)\to\left(\bar{x}_0,\bar{y}_0\right)$, the solution $y=\varphi\left(x;x_0,y_0\right)$ of the Cauchy problem $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ converges uniformly on some common interval to the solution $\bar{\varphi}\left(x\right)=\varphi\left(x;\bar{x}_0,\bar{y}_0\right)$.
+Fix any interior point $\left(\overline{x}_0,\overline{y}_0\right)$ in $R$. We prove: as $\left(x_0,y_0\right)\to\left(\overline{x}_0,\overline{y}_0\right)$, the solution $y=\varphi\left(x;x_0,y_0\right)$ of the Cauchy problem $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ converges uniformly on some common interval to the solution $\overline{\varphi}\left(x\right)=\varphi\left(x;\overline{x}_0,\overline{y}_0\right)$.
 
-Step 1: shrink the region so that $f$ is bounded. Since $\left(\bar{x}_0,\bar{y}_0\right)$ is an interior point of $R$, we may take a small bounded closed rectangle $R':\left|x-\bar{x}_0\right|\le a',\ \left|y-\bar{y}_0\right|\le b'$ contained in the interior of $R$. $f$ is continuous on the bounded closed region $R'$, hence bounded; denote $\left|f\left(x,y\right)\right|\le M$.
+Step 1: shrink the region so that $f$ is bounded. Since $\left(\overline{x}_0,\overline{y}_0\right)$ is an interior point of $R$, we may take a small bounded closed rectangle $R':\left|x-\overline{x}_0\right|\le a',\ \left|y-\overline{y}_0\right|\le b'$ contained in the interior of $R$. $f$ is continuous on the bounded closed region $R'$, hence bounded; denote $\left|f\left(x,y\right)\right|\le M$.
 
-Step 2: take a sequence of initial values $\left(x_0^{\left(k\right)},y_0^{\left(k\right)}\right)\to\left(\bar{x}_0,\bar{y}_0\right)$. The solution sequence $\varphi_k\left(x\right)=\varphi\left(x;x_0^{\left(k\right)},y_0^{\left(k\right)}\right)$ satisfies the integral equation
+Step 2: take a sequence of initial values $\left(x_0^{\left(k\right)},y_0^{\left(k\right)}\right)\to\left(\overline{x}_0,\overline{y}_0\right)$. The solution sequence $\varphi_k\left(x\right)=\varphi\left(x;x_0^{\left(k\right)},y_0^{\left(k\right)}\right)$ satisfies the integral equation
 
 $$
 \varphi_k\left(x\right)=y_0^{\left(k\right)}+\int_{x_0^{\left(k\right)}}^{x}f\left(t,\varphi_k\left(t\right)\right)dt.
 $$
 
-By the **Equivalence Between the Integral Equation and the Cauchy Problem**, from $\left|f\right|\le M$ we get $\left|\varphi_k\left(x\right)-\bar{y}_0\right|\le\left|y_0^{\left(k\right)}-\bar{y}_0\right|+M\left|x-\bar{x}_0\right|$. Take $h> 0$ sufficiently small so that $Mh< \frac{b'}{2}$, and take $k$ sufficiently large so that $\left|y_0^{\left(k\right)}-\bar{y}_0\right|< \frac{b'}{2}$; then $\left|\varphi_k\left(x\right)-\bar{y}_0\right|< b'$, i.e. all $\varphi_k$ stay inside $R'$, and hence are defined on $\left[\bar{x}_0-h,\bar{x}_0+h\right]$.
+By the **Equivalence Between the Integral Equation and the Cauchy Problem**, from $\left|f\right|\le M$ we get $\left|\varphi_k\left(x\right)-\overline{y}_0\right|\le\left|y_0^{\left(k\right)}-\overline{y}_0\right|+M\left|x-\overline{x}_0\right|$. Take $h> 0$ sufficiently small so that $Mh< \frac{b'}{2}$, and take $k$ sufficiently large so that $\left|y_0^{\left(k\right)}-\overline{y}_0\right|< \frac{b'}{2}$; then $\left|\varphi_k\left(x\right)-\overline{y}_0\right|< b'$, i.e. all $\varphi_k$ stay inside $R'$, and hence are defined on $\left[\overline{x}_0-h,\overline{x}_0+h\right]$.
 
 Step 3: uniform boundedness and equicontinuity. Uniform boundedness follows from Step 2. Equicontinuity: for any $x,x'$ on this interval,
 
@@ -36,17 +36,17 @@ $$
 
 which is independent of $k$, so the sequence is equicontinuous.
 
-Step 4: by **Ascoli's Lemma**, there exists a subsequence $\varphi_{k_j}\left(x\right)$ converging uniformly on $\left[\bar{x}_0-h,\bar{x}_0+h\right]$ to some continuous function $\psi\left(x\right)$.
+Step 4: by **Ascoli's Lemma**, there exists a subsequence $\varphi_{k_j}\left(x\right)$ converging uniformly on $\left[\overline{x}_0-h,\overline{x}_0+h\right]$ to some continuous function $\psi\left(x\right)$.
 
-Step 5: prove that the limit $\psi$ satisfies the integral equation. In $\varphi_{k_j}\left(x\right)=y_0^{\left(k_j\right)}+\displaystyle\int_{x_0^{\left(k_j\right)}}^{x}f\left(t,\varphi_{k_j}\left(t\right)\right)dt$, let $j\to\infty$ on both sides. Since $f$ is uniformly continuous on $R'$ and $\varphi_{k_j}\rightrightarrows\psi$, we have $f\left(t,\varphi_{k_j}\left(t\right)\right)\rightrightarrows f\left(t,\psi\left(t\right)\right)$; also $x_0^{\left(k_j\right)}\to\bar{x}_0$, $y_0^{\left(k_j\right)}\to\bar{y}_0$, so
+Step 5: prove that the limit $\psi$ satisfies the integral equation. In $\varphi_{k_j}\left(x\right)=y_0^{\left(k_j\right)}+\displaystyle\int_{x_0^{\left(k_j\right)}}^{x}f\left(t,\varphi_{k_j}\left(t\right)\right)dt$, let $j\to\infty$ on both sides. Since $f$ is uniformly continuous on $R'$ and $\varphi_{k_j}\rightrightarrows\psi$, we have $f\left(t,\varphi_{k_j}\left(t\right)\right)\rightrightarrows f\left(t,\psi\left(t\right)\right)$; also $x_0^{\left(k_j\right)}\to\overline{x}_0$, $y_0^{\left(k_j\right)}\to\overline{y}_0$, so
 
 $$
-\psi\left(x\right)=\bar{y}_0+\int_{\bar{x}_0}^{x}f\left(t,\psi\left(t\right)\right)dt.
+\psi\left(x\right)=\overline{y}_0+\int_{\overline{x}_0}^{x}f\left(t,\psi\left(t\right)\right)dt.
 $$
 
-By the **Equivalence Between the Integral Equation and the Cauchy Problem**, $\psi\left(x\right)$ is the solution through $\left(\bar{x}_0,\bar{y}_0\right)$.
+By the **Equivalence Between the Integral Equation and the Cauchy Problem**, $\psi\left(x\right)$ is the solution through $\left(\overline{x}_0,\overline{y}_0\right)$.
 
-Step 6: use the uniqueness condition in the problem. The problem guarantees that the integral curve through $\left(\bar{x}_0,\bar{y}_0\right)$ is unique, so $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. Hence every convergent subsequence of $\left\{\varphi_k\right\}$ converges uniformly to the same limit $\bar{\varphi}$; if the whole sequence did not converge uniformly to $\bar{\varphi}$, there would exist some $\varepsilon> 0$ and a subsequence with $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\varepsilon$, which by Ascoli's Lemma contains a convergent subsequence, a contradiction. Therefore $\varphi_k\rightrightarrows\bar{\varphi}$. By the arbitrariness of the sequence, the solutions depend continuously on the initial values.
+Step 6: use the uniqueness condition in the problem. The problem guarantees that the integral curve through $\left(\overline{x}_0,\overline{y}_0\right)$ is unique, so $\psi\left(x\right)=\overline{\varphi}\left(x\right)$. Hence every convergent subsequence of $\left\{\varphi_k\right\}$ converges uniformly to the same limit $\overline{\varphi}$; if the whole sequence did not converge uniformly to $\overline{\varphi}$, there would exist some $\varepsilon> 0$ and a subsequence with $\left|\varphi_{k_j}\left(x_j\right)-\overline{\varphi}\left(x_j\right)\right|\ge\varepsilon$, which by Ascoli's Lemma contains a convergent subsequence, a contradiction. Therefore $\varphi_k\rightrightarrows\overline{\varphi}$. By the arbitrariness of the sequence, the solutions depend continuously on the initial values.
 
 $\blacksquare$
 

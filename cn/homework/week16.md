@@ -16,17 +16,17 @@
 
 ### 解答 习题一
 
-取定 $R$ 内任一内点 $\left(\bar{x}_0,\bar{y}_0\right)$. 要证: 当 $\left(x_0,y_0\right)\to\left(\bar{x}_0,\bar{y}_0\right)$ 时, 柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解 $y=\varphi\left(x;x_0,y_0\right)$ 在某个公共区间上一致地趋于解 $\bar{\varphi}\left(x\right)=\varphi\left(x;\bar{x}_0,\bar{y}_0\right)$.
+取定 $R$ 内任一内点 $\left(\overline{x}_0,\overline{y}_0\right)$. 要证: 当 $\left(x_0,y_0\right)\to\left(\overline{x}_0,\overline{y}_0\right)$ 时, 柯西问题 $\frac{dy}{dx}=f\left(x,y\right),\ y\left(x_0\right)=y_0$ 的解 $y=\varphi\left(x;x_0,y_0\right)$ 在某个公共区间上一致地趋于解 $\overline{\varphi}\left(x\right)=\varphi\left(x;\overline{x}_0,\overline{y}_0\right)$.
 
-第一步, 缩小区域使 $f$ 有界. 由 $\left(\bar{x}_0,\bar{y}_0\right)$ 是 $R$ 的内点, 可取有界闭小矩形 $R':\left|x-\bar{x}_0\right|\le a',\ \left|y-\bar{y}_0\right|\le b'$ 含于 $R$ 内部. $f$ 在有界闭区域 $R'$ 上连续, 故有界, 记 $\left|f\left(x,y\right)\right|\le M$.
+第一步, 缩小区域使 $f$ 有界. 由 $\left(\overline{x}_0,\overline{y}_0\right)$ 是 $R$ 的内点, 可取有界闭小矩形 $R':\left|x-\overline{x}_0\right|\le a',\ \left|y-\overline{y}_0\right|\le b'$ 含于 $R$ 内部. $f$ 在有界闭区域 $R'$ 上连续, 故有界, 记 $\left|f\left(x,y\right)\right|\le M$.
 
-第二步, 取一列初值 $\left(x_0^{\left(k\right)},y_0^{\left(k\right)}\right)\to\left(\bar{x}_0,\bar{y}_0\right)$. 解序列 $\varphi_k\left(x\right)=\varphi\left(x;x_0^{\left(k\right)},y_0^{\left(k\right)}\right)$ 满足积分方程
+第二步, 取一列初值 $\left(x_0^{\left(k\right)},y_0^{\left(k\right)}\right)\to\left(\overline{x}_0,\overline{y}_0\right)$. 解序列 $\varphi_k\left(x\right)=\varphi\left(x;x_0^{\left(k\right)},y_0^{\left(k\right)}\right)$ 满足积分方程
 
 $$
 \varphi_k\left(x\right)=y_0^{\left(k\right)}+\int_{x_0^{\left(k\right)}}^{x}f\left(t,\varphi_k\left(t\right)\right)dt.
 $$
 
-由**积分方程与柯西问题的等价性**, 从 $\left|f\right|\le M$ 得 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|\le\left|y_0^{\left(k\right)}-\bar{y}_0\right|+M\left|x-\bar{x}_0\right|$. 取充分小的 $h> 0$ 使 $Mh< \frac{b'}{2}$, 并取 $k$ 充分大使 $\left|y_0^{\left(k\right)}-\bar{y}_0\right|< \frac{b'}{2}$, 则 $\left|\varphi_k\left(x\right)-\bar{y}_0\right|< b'$, 即所有 $\varphi_k$ 都停留在 $R'$ 内, 因而在 $\left[\bar{x}_0-h,\bar{x}_0+h\right]$ 上有定义.
+由**积分方程与柯西问题的等价性**, 从 $\left|f\right|\le M$ 得 $\left|\varphi_k\left(x\right)-\overline{y}_0\right|\le\left|y_0^{\left(k\right)}-\overline{y}_0\right|+M\left|x-\overline{x}_0\right|$. 取充分小的 $h> 0$ 使 $Mh< \frac{b'}{2}$, 并取 $k$ 充分大使 $\left|y_0^{\left(k\right)}-\overline{y}_0\right|< \frac{b'}{2}$, 则 $\left|\varphi_k\left(x\right)-\overline{y}_0\right|< b'$, 即所有 $\varphi_k$ 都停留在 $R'$ 内, 因而在 $\left[\overline{x}_0-h,\overline{x}_0+h\right]$ 上有定义.
 
 第三步, 一致有界且等度连续. 一致有界由第二步给出. 等度连续: 对任意 $x,x'$ 在该区间上,
 
@@ -36,17 +36,17 @@ $$
 
 它与 $k$ 无关, 故序列等度连续.
 
-第四步, 由**阿斯科利引理**, 存在子列 $\varphi_{k_j}\left(x\right)$ 在 $\left[\bar{x}_0-h,\bar{x}_0+h\right]$ 上一致收敛于某连续函数 $\psi\left(x\right)$.
+第四步, 由**阿斯科利引理**, 存在子列 $\varphi_{k_j}\left(x\right)$ 在 $\left[\overline{x}_0-h,\overline{x}_0+h\right]$ 上一致收敛于某连续函数 $\psi\left(x\right)$.
 
-第五步, 证明极限 $\psi$ 满足积分方程. 在 $\varphi_{k_j}\left(x\right)=y_0^{\left(k_j\right)}+\displaystyle\int_{x_0^{\left(k_j\right)}}^{x}f\left(t,\varphi_{k_j}\left(t\right)\right)dt$ 两端令 $j\to\infty$. 由 $f$ 在 $R'$ 上一致连续且 $\varphi_{k_j}\rightrightarrows\psi$, 得 $f\left(t,\varphi_{k_j}\left(t\right)\right)\rightrightarrows f\left(t,\psi\left(t\right)\right)$; 又 $x_0^{\left(k_j\right)}\to\bar{x}_0$, $y_0^{\left(k_j\right)}\to\bar{y}_0$, 故
+第五步, 证明极限 $\psi$ 满足积分方程. 在 $\varphi_{k_j}\left(x\right)=y_0^{\left(k_j\right)}+\displaystyle\int_{x_0^{\left(k_j\right)}}^{x}f\left(t,\varphi_{k_j}\left(t\right)\right)dt$ 两端令 $j\to\infty$. 由 $f$ 在 $R'$ 上一致连续且 $\varphi_{k_j}\rightrightarrows\psi$, 得 $f\left(t,\varphi_{k_j}\left(t\right)\right)\rightrightarrows f\left(t,\psi\left(t\right)\right)$; 又 $x_0^{\left(k_j\right)}\to\overline{x}_0$, $y_0^{\left(k_j\right)}\to\overline{y}_0$, 故
 
 $$
-\psi\left(x\right)=\bar{y}_0+\int_{\bar{x}_0}^{x}f\left(t,\psi\left(t\right)\right)dt.
+\psi\left(x\right)=\overline{y}_0+\int_{\overline{x}_0}^{x}f\left(t,\psi\left(t\right)\right)dt.
 $$
 
-由**积分方程与柯西问题的等价性**, $\psi\left(x\right)$ 是经过 $\left(\bar{x}_0,\bar{y}_0\right)$ 的解.
+由**积分方程与柯西问题的等价性**, $\psi\left(x\right)$ 是经过 $\left(\overline{x}_0,\overline{y}_0\right)$ 的解.
 
-第六步, 用题设的唯一性条件. 题设保证经过 $\left(\bar{x}_0,\bar{y}_0\right)$ 的积分曲线唯一, 故 $\psi\left(x\right)=\bar{\varphi}\left(x\right)$. 于是序列 $\left\{\varphi_k\right\}$ 的任一收敛子列都一致收敛于同一极限 $\bar{\varphi}$; 若整个序列不一致收敛于 $\bar{\varphi}$, 则必有某 $\varepsilon> 0$ 与子列 $\left|\varphi_{k_j}\left(x_j\right)-\bar{\varphi}\left(x_j\right)\right|\ge\varepsilon$, 而该子列由阿斯科利引理又含收敛子列, 矛盾. 因此 $\varphi_k\rightrightarrows\bar{\varphi}$. 由序列的任意性, 解对初值连续依赖.
+第六步, 用题设的唯一性条件. 题设保证经过 $\left(\overline{x}_0,\overline{y}_0\right)$ 的积分曲线唯一, 故 $\psi\left(x\right)=\overline{\varphi}\left(x\right)$. 于是序列 $\left\{\varphi_k\right\}$ 的任一收敛子列都一致收敛于同一极限 $\overline{\varphi}$; 若整个序列不一致收敛于 $\overline{\varphi}$, 则必有某 $\varepsilon> 0$ 与子列 $\left|\varphi_{k_j}\left(x_j\right)-\overline{\varphi}\left(x_j\right)\right|\ge\varepsilon$, 而该子列由阿斯科利引理又含收敛子列, 矛盾. 因此 $\varphi_k\rightrightarrows\overline{\varphi}$. 由序列的任意性, 解对初值连续依赖.
 
 $\blacksquare$
 
