@@ -69,14 +69,7 @@ $$
 而 $\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots$, 故乘积 $\left(\sin x\right)y$ 中 $x^n$ 的系数为 $a_{n-1}-\frac{a_{n-3}}{3!}+\frac{a_{n-5}}{5!}-\cdots$(其中 $a_{-1}=a_{-2}=0$). 代入方程比较系数:
 
 $$
-\begin{aligned}
-n=0:&\quad 2a_2=0,\quad a_2=0;\\
-n=1:&\quad 6a_3+a_0=0,\quad a_3=-\frac{a_0}{6};\\
-n=2:&\quad 12a_4+a_1=0,\quad a_4=-\frac{a_1}{12};\\
-n=3:&\quad 20a_5+a_2-\frac{a_0}{6}=0,\quad a_5=\frac{a_0}{120};\\
-n=4:&\quad 30a_6+a_3-\frac{a_1}{6}=0,\quad a_6=\frac{a_0}{180}+\frac{a_1}{180};\\
-n=5:&\quad 42a_7+a_4-\frac{a_2}{6}+\frac{a_0}{120}=0,\quad a_7=\frac{a_1}{504}-\frac{a_0}{5040}.
-\end{aligned}
+n=0:\quad 2a_2=0,\quad a_2=0;;n=1:\quad 6a_3+a_0=0,\quad a_3=-\frac{a_0}{6};;n=2:\quad 12a_4+a_1=0,\quad a_4=-\frac{a_1}{12};;n=3:\quad 20a_5+a_2-\frac{a_0}{6}=0,\quad a_5=\frac{a_0}{120};;n=4:\quad 30a_6+a_3-\frac{a_1}{6}=0,\quad a_6=\frac{a_0}{180}+\frac{a_1}{180};;n=5:\quad 42a_7+a_4-\frac{a_2}{6}+\frac{a_0}{120}=0,\quad a_7=\frac{a_1}{504}-\frac{a_0}{5040}.
 $$
 
 取 $a_0=1,\ a_1=0$, 得第一个解
