@@ -65,7 +65,7 @@ $$
 若皮卡序列收敛到解 $y=y\left(x\right)$, 则极限函数满足积分方程 $y\left(x\right)=\displaystyle\int_0^x\big[t+y\left(t\right)+1\big]\,dt$, 即微分方程 $y'=x+y+1$ 及初值条件 $y\left(0\right)=0$. 这是一阶线性方程 $y'-y=x+1$, 两端乘积分因子 $e^{-x}$, 得
 
 $$
-\big(ye^{-x}\big)'=\left(x+1\right)e^{-x}.
+\left(ye^{-x}\right)'=\left(x+1\right)e^{-x}.
 $$
 
 积分得 $ye^{-x}=-\left(x+2\right)e^{-x}+C$, 代入 $y\left(0\right)=0$ 得 $C=2$, 故

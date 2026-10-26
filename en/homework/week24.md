@@ -121,7 +121,7 @@ When $p = 0$ and $q > 0$, the eigenvalues are $\lambda = \pm i\sqrt{q}$, a pair 
 Take the Lyapunov function $V\left(x,y\right) = x^2 + y^2$. It satisfies $V\left(0,0\right) = 0$, and $V\left(x,y\right) > 0$ when $\left(x,y\right) \ne \left(0,0\right)$, i.e. $V$ is a positive definite function. Compute the total derivative of $V$ along trajectories:
 
 $$
-\frac{dV}{dt} = 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 2x\bigl(y - xf\bigr) + 2y\bigl(-x - yf\bigr) = -2f\left(x,y\right)\bigl(x^2 + y^2\bigr).
+\frac{dV}{dt} = 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 2x\left(y - xf\right) + 2y\left(-x - yf\right) = -2f\left(x,y\right)\left(x^2 + y^2\right).
 $$
 
 By **Theorem 8.4** (Lyapunov's Stability Criterion), discuss cases.
@@ -147,7 +147,7 @@ $$
 From the condition $xg\left(x\right) > 0$ when $x \ne 0$, we know: when $x > 0$, $g\left(x\right) > 0$; when $x < 0$, $g\left(x\right) < 0$. Hence when $x \ne 0$, $\int_{0}^{x}g\left(s\right)\,ds > 0$, and together with $\frac{1}{2}y^2 \ge 0$, we have $V\left(0,0\right) = 0$ and $V\left(x,y\right) > 0$ when $\left(x,y\right) \ne \left(0,0\right)$, i.e. $V$ is a positive definite function. Compute the total derivative:
 
 $$
-\frac{dV}{dt} = y\frac{dy}{dt} + g\left(x\right)\frac{dx}{dt} = y\bigl(-g\left(x\right)\bigr) + g\left(x\right)y = 0.
+\frac{dV}{dt} = y\frac{dy}{dt} + g\left(x\right)\frac{dx}{dt} = y\left(-g\left(x\right)\right) + g\left(x\right)y = 0.
 $$
 
 The total derivative is identically zero, which certainly satisfies the negative semi-definite condition. By conclusion (2) of **Theorem 8.4** (Lyapunov's Stability Criterion), the zero solution is stable.
@@ -205,7 +205,7 @@ Its quadratic part $\frac{1}{2}y^2 + u^2$ is positive definite, and the cubic te
 Take the Lyapunov function $V\left(x,y\right) = x^4 + y^4$. Clearly $V\left(0,0\right) = 0$, and $V\left(x,y\right) > 0$ when $\left(x,y\right) \ne \left(0,0\right)$, i.e. $V$ is a positive definite function. Compute the total derivative:
 
 $$
-\frac{dV}{dt} = 4x^3\frac{dx}{dt} + 4y^3\frac{dy}{dt} = 4x^3\bigl(-y^3 - x^5\bigr) + 4y^3\bigl(x^3 - y^5\bigr).
+\frac{dV}{dt} = 4x^3\frac{dx}{dt} + 4y^3\frac{dy}{dt} = 4x^3\left(-y^3 - x^5\right) + 4y^3\left(x^3 - y^5\right).
 $$
 
 After expansion, the cross terms $-4x^3y^3$ and $+4x^3y^3$ cancel, giving

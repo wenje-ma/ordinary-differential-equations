@@ -242,10 +242,10 @@ $$
 
 Physical meaning: the solution is a superposition of free vibration at the natural frequency $\omega_0$ and forced vibration at the driving frequency $\omega$; in general the motion is non-periodic. When $\omega$ is close to $\omega_0$, the superposition of the two harmonic motions produces a "beat" phenomenon, with the amplitude periodically increasing and decreasing over time.
 
-(2) When $\omega=\omega_0$, $\pm i\omega_0$ is a simple characteristic root. By **Method of Undetermined Coefficients** (Presetting the Form of a Particular Solution for Special Nonhomogeneous Terms), we should assume a particular solution $x^*\left(t\right)=t\big(A\cos\omega_0t+B\sin\omega_0t\big)$. Differentiating gives
+(2) When $\omega=\omega_0$, $\pm i\omega_0$ is a simple characteristic root. By **Method of Undetermined Coefficients** (Presetting the Form of a Particular Solution for Special Nonhomogeneous Terms), we should assume a particular solution $x^*\left(t\right)=t\left(A\cos\omega_0t+B\sin\omega_0t\right)$. Differentiating gives
 
 $$
-x^{*''}\left(t\right)=-2A\omega_0\sin\omega_0t+2B\omega_0\cos\omega_0t-\omega_0^2t\big(A\cos\omega_0t+B\sin\omega_0t\big).
+x^{*''}\left(t\right)=-2A\omega_0\sin\omega_0t+2B\omega_0\cos\omega_0t-\omega_0^2t\left(A\cos\omega_0t+B\sin\omega_0t\right).
 $$
 
 Substituting into $mx''+kx$, the terms containing $t$ cancel because $k=m\omega_0^2$, leaving

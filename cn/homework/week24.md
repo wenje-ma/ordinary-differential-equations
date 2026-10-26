@@ -121,7 +121,7 @@ $$
 取李雅普诺夫函数 $V\left(x,y\right) = x^2 + y^2$. 它满足 $V\left(0,0\right) = 0$, 且 $V\left(x,y\right) > 0$ 当 $\left(x,y\right) \ne \left(0,0\right)$, 即 $V$ 为定正函数. 计算 $V$ 沿轨线的全导数:
 
 $$
-\frac{dV}{dt} = 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 2x\bigl(y - xf\bigr) + 2y\bigl(-x - yf\bigr) = -2f\left(x,y\right)\bigl(x^2 + y^2\bigr).
+\frac{dV}{dt} = 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 2x\left(y - xf\right) + 2y\left(-x - yf\right) = -2f\left(x,y\right)\left(x^2 + y^2\right).
 $$
 
 由**定理 8.4**(李雅普诺夫的稳定性判定), 分情形讨论.
@@ -147,7 +147,7 @@ $$
 由条件 $xg\left(x\right) > 0$ 当 $x \ne 0$ 知: 当 $x > 0$ 时 $g\left(x\right) > 0$, 当 $x < 0$ 时 $g\left(x\right) < 0$. 因而当 $x \ne 0$ 时 $\int_{0}^{x}g\left(s\right)\,ds > 0$, 加上 $\frac{1}{2}y^2 \ge 0$, 故 $V\left(0,0\right) = 0$ 且 $V\left(x,y\right) > 0$ 当 $\left(x,y\right) \ne \left(0,0\right)$, 即 $V$ 为定正函数. 计算全导数:
 
 $$
-\frac{dV}{dt} = y\frac{dy}{dt} + g\left(x\right)\frac{dx}{dt} = y\bigl(-g\left(x\right)\bigr) + g\left(x\right)y = 0.
+\frac{dV}{dt} = y\frac{dy}{dt} + g\left(x\right)\frac{dx}{dt} = y\left(-g\left(x\right)\right) + g\left(x\right)y = 0.
 $$
 
 全导数恒为零, 当然满足常负条件. 由**定理 8.4**(李雅普诺夫的稳定性判定)的结论 (2), 零解是稳定的.
@@ -205,7 +205,7 @@ $$
 取李雅普诺夫函数 $V\left(x,y\right) = x^4 + y^4$. 显然 $V\left(0,0\right) = 0$, 且 $V\left(x,y\right) > 0$ 当 $\left(x,y\right) \ne \left(0,0\right)$, 即 $V$ 为定正函数. 计算全导数:
 
 $$
-\frac{dV}{dt} = 4x^3\frac{dx}{dt} + 4y^3\frac{dy}{dt} = 4x^3\bigl(-y^3 - x^5\bigr) + 4y^3\bigl(x^3 - y^5\bigr).
+\frac{dV}{dt} = 4x^3\frac{dx}{dt} + 4y^3\frac{dy}{dt} = 4x^3\left(-y^3 - x^5\right) + 4y^3\left(x^3 - y^5\right).
 $$
 
 展开后交叉项 $-4x^3y^3$ 与 $+4x^3y^3$ 相消, 得

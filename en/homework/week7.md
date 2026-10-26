@@ -65,7 +65,7 @@ $$
 If the Picard sequence converges to the solution $y=y\left(x\right)$, then the limit function satisfies the integral equation $y\left(x\right)=\displaystyle\int_0^x\big[t+y\left(t\right)+1\big]\,dt$, i.e. the differential equation $y'=x+y+1$ and the initial condition $y\left(0\right)=0$. This is the first-order linear equation $y'-y=x+1$; multiplying both sides by the integrating factor $e^{-x}$ gives
 
 $$
-\big(ye^{-x}\big)'=\left(x+1\right)e^{-x}.
+\left(ye^{-x}\right)'=\left(x+1\right)e^{-x}.
 $$
 
 Integrating gives $ye^{-x}=-\left(x+2\right)e^{-x}+C$; substituting $y\left(0\right)=0$ gives $C=2$, hence

@@ -242,10 +242,10 @@ $$
 
 其物理意义: 解由频率为固有频率 $\omega_0$ 的自由振动与频率为外加频率 $\omega$ 的强迫振动叠加而成, 一般为非周期运动; 当 $\omega$ 接近 $\omega_0$ 时, 两种简谐运动叠加产生"拍"现象, 振幅随时间周期性地增减.
 
-(2) 当 $\omega=\omega_0$ 时, $\pm i\omega_0$ 是单特征根. 由**待定系数法**(对特殊非齐次项预先设定特解形式), 应设特解 $x^*\left(t\right)=t\big(A\cos\omega_0t+B\sin\omega_0t\big)$. 求导得
+(2) 当 $\omega=\omega_0$ 时, $\pm i\omega_0$ 是单特征根. 由**待定系数法**(对特殊非齐次项预先设定特解形式), 应设特解 $x^*\left(t\right)=t\left(A\cos\omega_0t+B\sin\omega_0t\right)$. 求导得
 
 $$
-x^{*''}\left(t\right)=-2A\omega_0\sin\omega_0t+2B\omega_0\cos\omega_0t-\omega_0^2t\big(A\cos\omega_0t+B\sin\omega_0t\big).
+x^{*''}\left(t\right)=-2A\omega_0\sin\omega_0t+2B\omega_0\cos\omega_0t-\omega_0^2t\left(A\cos\omega_0t+B\sin\omega_0t\right).
 $$
 
 代入 $mx''+kx$, 含 $t$ 的项因 $k=m\omega_0^2$ 抵消, 剩下
