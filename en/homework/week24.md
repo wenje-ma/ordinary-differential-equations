@@ -45,10 +45,10 @@ Since the coefficient $\frac{\delta_0}{2\left\|\boldsymbol{x}_0^*\right\|}$ is a
 The equation is separable; the solution with initial condition $x\left(t_0\right) = x_0$ is
 
 $$
-x\left(t\right) = x_0\exp\!\left(\int_{t_0}^{t}a\left(s\right)\,ds\right).
+x\left(t\right) = x_0\exp\!\left(\int_{t_0}^{\top}a\left(s\right)\,ds\right).
 $$
 
-Denote $A\left(t\right) = \int_{t_0}^{t}a\left(s\right)\,ds$; then $\left|x\left(t\right)\right| = \left|x_0\right|\,e^{A\left(t\right)}$.
+Denote $A\left(t\right) = \int_{t_0}^{\top}a\left(s\right)\,ds$; then $\left|x\left(t\right)\right| = \left|x_0\right|\,e^{A\left(t\right)}$.
 
 First discuss asymptotic stability. By **Stability of Solutions** (Stability in the Sense of Lyapunov, Asymptotic Stability, Instability, and Global Asymptotic Stability), asymptotic stability of the zero solution requires that for all initial values $x_0$, $x\left(t\right) \to 0\ \left(t \to +\infty\right)$, i.e. $e^{A\left(t\right)} \to 0$, which is equivalent to
 
@@ -56,15 +56,15 @@ $$
 \lim_{t \to +\infty}A\left(t\right) = -\infty.
 $$
 
-Hence the necessary and sufficient condition for asymptotic stability of the zero solution is $\int_{t_0}^{t}a\left(s\right)\,ds \to -\infty\ \left(t \to +\infty\right)$.
+Hence the necessary and sufficient condition for asymptotic stability of the zero solution is $\int_{t_0}^{\top}a\left(s\right)\,ds \to -\infty\ \left(t \to +\infty\right)$.
 
 Next discuss stability. Stability of the zero solution requires: for any $\varepsilon > 0$, there exists $\delta > 0$ such that when $\left|x_0\right| < \delta$, $\left|x\left(t\right)\right| < \varepsilon$ for all $t \ge t_0$, i.e. $e^{A\left(t\right)}$ is bounded above for $t \ge t_0$. This is equivalent to $A\left(t\right)$ being bounded above for $t \ge t_0$:
 
 $$
-\sup_{t \ge t_0}\int_{t_0}^{t}a\left(s\right)\,ds < +\infty.
+\sup_{t \ge t_0}\int_{t_0}^{\top}a\left(s\right)\,ds < +\infty.
 $$
 
-Hence the necessary and sufficient condition for stability of the zero solution is that $\int_{t_0}^{t}a\left(s\right)\,ds$ remains bounded above as $t \to +\infty$. $\blacksquare$
+Hence the necessary and sufficient condition for stability of the zero solution is that $\int_{t_0}^{\top}a\left(s\right)\,ds$ remains bounded above as $t \to +\infty$. $\blacksquare$
 
 ### Problem 3
 

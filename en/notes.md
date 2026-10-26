@@ -564,7 +564,7 @@ The equation of motion of a simple pendulum is $\frac{d^2\theta}{dt^2}+a^2\sin\t
 
 **Standard System of Differential Equations and Vector Form**
 
-Taking the number of unknown functions equal to the order of the differential equation, the resulting standard system is $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$ ($i=1,\cdots,n$). Using column vectors $y=\left(y_1,\cdots,y_n\right)^T$, $f=\left(f_1,\cdots,f_n\right)^T$, the vector form is $\frac{dy}{dx}=f\left(x,y\right)$, where $f\left(x,y\right)$ is continuous on the region $D\subset R^{n+1}$. Adding the initial condition $y\left(x_0\right)=y_0$ gives the Cauchy problem.
+Taking the number of unknown functions equal to the order of the differential equation, the resulting standard system is $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$ ($i=1,\cdots,n$). Using column vectors $y=\left(y_1,\cdots,y_n\right)^\top$, $f=\left(f_1,\cdots,f_n\right)^\top$, the vector form is $\frac{dy}{dx}=f\left(x,y\right)$, where $f\left(x,y\right)$ is continuous on the region $D\subset R^{n+1}$. Adding the initial condition $y\left(x_0\right)=y_0$ gives the Cauchy problem.
 
 **The Norm of a Vector and Its Basic Properties**
 
@@ -644,7 +644,7 @@ Set $A\left(x,x_0,y_0,\lambda\right)=\frac{\partial f}{\partial y}\left(x,\varph
 
 **Jacobian Matrix**
 
-The Jacobian matrix of the vector-valued function $f\left(x,y,\lambda\right)=\left(f_1,\cdots,f_n\right)^T$ with respect to $y=\left(y_1,\cdots,y_n\right)^T$ is $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$, and with respect to the parameter $\lambda=\left(\lambda_1,\cdots,\lambda_m\right)^T$ is $f_\lambda=\left(\frac{\partial f_i}{\partial\lambda_k}\right)_{n\times m}$. Differentiation of composite functions proceeds by matrix multiplication: $\frac{\partial f\left(x,\varphi,\lambda\right)}{\partial\lambda_k}=\displaystyle\sum_{j=1}^{n}\frac{\partial f}{\partial y_j}\frac{\partial\varphi_j}{\partial\lambda_k}+\frac{\partial f}{\partial\lambda_k}$.
+The Jacobian matrix of the vector-valued function $f\left(x,y,\lambda\right)=\left(f_1,\cdots,f_n\right)^\top$ with respect to $y=\left(y_1,\cdots,y_n\right)^\top$ is $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$, and with respect to the parameter $\lambda=\left(\lambda_1,\cdots,\lambda_m\right)^\top$ is $f_\lambda=\left(\frac{\partial f_i}{\partial\lambda_k}\right)_{n\times m}$. Differentiation of composite functions proceeds by matrix multiplication: $\frac{\partial f\left(x,\varphi,\lambda\right)}{\partial\lambda_k}=\displaystyle\sum_{j=1}^{n}\frac{\partial f}{\partial y_j}\frac{\partial\varphi_j}{\partial\lambda_k}+\frac{\partial f}{\partial\lambda_k}$.
 
 ## 6.1 General Theory
 

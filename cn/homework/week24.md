@@ -45,10 +45,10 @@ $$
 方程是可分离变量的, 以 $x\left(t_0\right) = x_0$ 为初值的解为
 
 $$
-x\left(t\right) = x_0\exp\!\left(\int_{t_0}^{t}a\left(s\right)\,ds\right).
+x\left(t\right) = x_0\exp\!\left(\int_{t_0}^{\top}a\left(s\right)\,ds\right).
 $$
 
-记 $A\left(t\right) = \int_{t_0}^{t}a\left(s\right)\,ds$, 则 $\left|x\left(t\right)\right| = \left|x_0\right|\,e^{A\left(t\right)}$.
+记 $A\left(t\right) = \int_{t_0}^{\top}a\left(s\right)\,ds$, 则 $\left|x\left(t\right)\right| = \left|x_0\right|\,e^{A\left(t\right)}$.
 
 先论渐近稳定性. 由**解的稳定性**(李雅普诺夫意义下的稳定, 渐近稳定, 不稳定与全局渐近稳定), 零解渐近稳定要求对一切初值 $x_0$ 都有 $x\left(t\right) \to 0\ \left(t \to +\infty\right)$, 即 $e^{A\left(t\right)} \to 0$, 等价于
 
@@ -56,15 +56,15 @@ $$
 \lim_{t \to +\infty}A\left(t\right) = -\infty.
 $$
 
-故零解渐近稳定的充要条件是 $\int_{t_0}^{t}a\left(s\right)\,ds \to -\infty\ \left(t \to +\infty\right)$.
+故零解渐近稳定的充要条件是 $\int_{t_0}^{\top}a\left(s\right)\,ds \to -\infty\ \left(t \to +\infty\right)$.
 
 再论稳定性. 零解稳定要求: 对任意 $\varepsilon > 0$, 存在 $\delta > 0$, 使 $\left|x_0\right| < \delta$ 时 $\left|x\left(t\right)\right| < \varepsilon$ 对一切 $t \ge t_0$ 成立, 即 $e^{A\left(t\right)}$ 对 $t \ge t_0$ 有上界. 这等价于 $A\left(t\right)$ 在 $t \ge t_0$ 上有上界:
 
 $$
-\sup_{t \ge t_0}\int_{t_0}^{t}a\left(s\right)\,ds < +\infty.
+\sup_{t \ge t_0}\int_{t_0}^{\top}a\left(s\right)\,ds < +\infty.
 $$
 
-故零解稳定的充要条件是 $\int_{t_0}^{t}a\left(s\right)\,ds$ 在 $t \to +\infty$ 时保持有上界. $\blacksquare$
+故零解稳定的充要条件是 $\int_{t_0}^{\top}a\left(s\right)\,ds$ 在 $t \to +\infty$ 时保持有上界. $\blacksquare$
 
 ### 习题三
 

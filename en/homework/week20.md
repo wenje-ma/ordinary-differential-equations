@@ -152,7 +152,7 @@ $$
 \left\{\begin{matrix}\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k'\left(x\right)=0,\\\quad\vdots\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-2\right)}\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-1\right)}\left(x\right)=f\left(x\right).\end{matrix}\right.
 $$
 
-Its coefficient determinant is exactly the Wronskian determinant $W\left(x\right)$ of the fundamental system. By **Theorem 6.2*** (Wronskian Criterion for Linear Independence of a Solution Set), $W\left(x\right)\neq0$; hence by Cramer's rule, $C_k'\left(x\right)$ equals the determinant obtained by replacing the $k$-th column of $W\left(x\right)$ with the right-hand side vector $\left(0,\cdots,0,f\left(x\right)\right)^T$, divided by $W\left(x\right)$. Expanding that determinant along the $k$-th column, only $f\left(x\right)$ in the last row contributes, so
+Its coefficient determinant is exactly the Wronskian determinant $W\left(x\right)$ of the fundamental system. By **Theorem 6.2*** (Wronskian Criterion for Linear Independence of a Solution Set), $W\left(x\right)\neq0$; hence by Cramer's rule, $C_k'\left(x\right)$ equals the determinant obtained by replacing the $k$-th column of $W\left(x\right)$ with the right-hand side vector $\left(0,\cdots,0,f\left(x\right)\right)^\top$, divided by $W\left(x\right)$. Expanding that determinant along the $k$-th column, only $f\left(x\right)$ in the last row contributes, so
 
 $$
 C_k'\left(x\right)=\frac{W_k\left(x\right)}{W\left(x\right)}f\left(x\right),
@@ -184,7 +184,7 @@ which is exactly formulas (6.57)(6.58). **Theorem 6.3*** (General Solution Struc
 
 ### Solution to Problem 5
 
-Make the change of independent variable $x=e^t$, i.e. $t=\ln x\ \left(x> 0\right)$. Denote $D=\frac{d}{dt}$; then $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, i.e.
+Make the change of independent variable $x=e^\top$, i.e. $t=\ln x\ \left(x> 0\right)$. Denote $D=\frac{d}{dt}$; then $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, i.e.
 
 $$
 x\frac{d}{dx}=D.

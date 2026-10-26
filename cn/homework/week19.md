@@ -36,7 +36,7 @@ $$\det\left(A-\lambda E\right)=\begin{vmatrix}-\lambda&a\\-a&-\lambda\end{vmatri
 
 $$\begin{bmatrix}-ia&a\\-a&-ia\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
-由第一行得 $-ir_1+r_2=0$, 取 $\boldsymbol{r}=\left(1,i\right)^T$. 于是得到一个复值解
+由第一行得 $-ir_1+r_2=0$, 取 $\boldsymbol{r}=\left(1,i\right)^\top$. 于是得到一个复值解
 
 $$\boldsymbol{y}_1=e^{iax}\begin{bmatrix}1\\i\end{bmatrix}.$$
 
@@ -82,7 +82,7 @@ $$\boldsymbol{r}^{\left(1\right)}=\begin{bmatrix}1\\0\\0\end{bmatrix},\quad\bold
 
 $$\left(A-E\right)^2=O,$$
 
-故任取 $\boldsymbol{r}_0^{\left(3\right)}=\left(0,1,0\right)^T$ 即可, 它不是特征向量. 逐次计算系数:
+故任取 $\boldsymbol{r}_0^{\left(3\right)}=\left(0,1,0\right)^\top$ 即可, 它不是特征向量. 逐次计算系数:
 
 $$\boldsymbol{r}_1^{\left(3\right)}=\left(A-E\right)\boldsymbol{r}_0^{\left(3\right)}=\begin{bmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{bmatrix}.$$
 
@@ -108,7 +108,7 @@ $$A=\begin{bmatrix}0&-n^2\\-n^2&0\end{bmatrix},\quad\boldsymbol{f}\left(x\right)
 
 $$\det\left(A-\lambda E\right)=\lambda^2-n^4=0,$$
 
-故 $\lambda=\pm n^2$. 由**引理 6.6**(方程组有指数型非零解的充要条件)分别求特征向量: 对 $\lambda=n^2$ 解 $\left(A-n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1+r_2=0$, 取 $\left(1,-1\right)^T$; 对 $\lambda=-n^2$ 解 $\left(A+n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1-r_2=0$, 取 $\left(1,1\right)^T$. 故齐次通解为
+故 $\lambda=\pm n^2$. 由**引理 6.6**(方程组有指数型非零解的充要条件)分别求特征向量: 对 $\lambda=n^2$ 解 $\left(A-n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1+r_2=0$, 取 $\left(1,-1\right)^\top$; 对 $\lambda=-n^2$ 解 $\left(A+n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $r_1-r_2=0$, 取 $\left(1,1\right)^\top$. 故齐次通解为
 
 $$\boldsymbol{y}_h=C_1e^{n^2x}\begin{bmatrix}1\\-1\end{bmatrix}+C_2e^{-n^2x}\begin{bmatrix}1\\1\end{bmatrix}.$$
 
@@ -146,7 +146,7 @@ $$A=\begin{bmatrix}2&1&-2\\-1&0&0\\1&1&-1\end{bmatrix},\quad\boldsymbol{f}\left(
 
 $$\det\left(A-\lambda E\right)=\left(2-\lambda\right)\left(\lambda+\lambda^2\right)-\left(1+\lambda\right)-2\left(\lambda-1\right)=-\left(\lambda-1\right)\left(\lambda^2+1\right).$$
 
-故特征根为 $\lambda=1,\ \lambda=\pm i$. 对 $\lambda=1$, 解 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得特征向量 $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^T$. 对 $\lambda=i$, 解 $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得复特征向量 $\boldsymbol{r}=\left(-i,1,-i\right)^T$, 对应复值解 $e^{ix}\left(-i,1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{ix}=\cos x+i\sin x$ 取实部与虚部, 得
+故特征根为 $\lambda=1,\ \lambda=\pm i$. 对 $\lambda=1$, 解 $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ 得特征向量 $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^\top$. 对 $\lambda=i$, 解 $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得复特征向量 $\boldsymbol{r}=\left(-i,1,-i\right)^\top$, 对应复值解 $e^{ix}\left(-i,1,-i\right)^\top$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{ix}=\cos x+i\sin x$ 取实部与虚部, 得
 
 $$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\sin x\\\cos x\\\sin x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}-\cos x\\\sin x\\-\cos x\end{bmatrix}.$$
 
@@ -158,7 +158,7 @@ $$\boldsymbol{y}_h=C_1e^x\begin{bmatrix}-1\\1\\0\end{bmatrix}+C_2\begin{bmatrix}
 
 $$A\boldsymbol{b}=\begin{bmatrix}1\\0\\1\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}2\\0\\1\end{bmatrix}.$$
 
-由前式解出 $\boldsymbol{b}=\left(0,1,0\right)^T$, 再代入后式得 $A\boldsymbol{a}=\left(-2,1,-1\right)^T$, 解得 $\boldsymbol{a}=\left(-1,0,0\right)^T$. 故一个特解为
+由前式解出 $\boldsymbol{b}=\left(0,1,0\right)^\top$, 再代入后式得 $A\boldsymbol{a}=\left(-2,1,-1\right)^\top$, 解得 $\boldsymbol{a}=\left(-1,0,0\right)^\top$. 故一个特解为
 
 $$\boldsymbol{y}_p=\begin{bmatrix}-1\\x\\0\end{bmatrix}.$$
 
@@ -180,7 +180,7 @@ $$A=\begin{bmatrix}0&-2\\2&0\end{bmatrix},\quad\boldsymbol{f}\left(x\right)=\beg
 
 $$\det\left(A-\lambda E\right)=\lambda^2+4=0,$$
 
-故 $\lambda=\pm2i$. 对 $\lambda=2i$, 解 $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $\boldsymbol{r}=\left(1,-i\right)^T$, 对应复值解 $e^{2ix}\left(1,-i\right)^T$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{2ix}=\cos 2x+i\sin 2x$ 取实部与虚部, 得两个实值解
+故 $\lambda=\pm2i$. 对 $\lambda=2i$, 解 $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ 得 $\boldsymbol{r}=\left(1,-i\right)^\top$, 对应复值解 $e^{2ix}\left(1,-i\right)^\top$. 由**附注 2**(从复值解提取实值解的方法), 利用 $e^{2ix}=\cos 2x+i\sin 2x$ 取实部与虚部, 得两个实值解
 
 $$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}\sin 2x\\-\cos 2x\end{bmatrix}.$$
 
@@ -188,7 +188,7 @@ $$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix},\qua
 
 $$A\boldsymbol{b}=\begin{bmatrix}-3\\0\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}0\\4\end{bmatrix}.$$
 
-由前式得 $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^T$, 再代入得 $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^T$. 故一个特解为
+由前式得 $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^\top$, 再代入得 $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^\top$. 故一个特解为
 
 $$\boldsymbol{y}_p=\begin{bmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{bmatrix}.$$
 
@@ -234,7 +234,7 @@ $$\boldsymbol{y}\left(x\right)=\int_0^x e^{\left(x-s\right)A}\boldsymbol{f}\left
 
 $$\boldsymbol{y}\left(x\right)=-\boldsymbol{r}^{\left(-1\right)}\int_0^x e^{-\left(x-s\right)}e^{-s}\,ds=-\boldsymbol{r}^{\left(-1\right)}e^{-x}\int_0^x 1\,ds=-xe^{-x}\boldsymbol{r}^{\left(-1\right)}.$$
 
-代入 $\boldsymbol{r}^{\left(-1\right)}=\left(2,3,-2\right)^T$, 所求解为
+代入 $\boldsymbol{r}^{\left(-1\right)}=\left(2,3,-2\right)^\top$, 所求解为
 
 $$\boldsymbol{y}\left(x\right)=xe^{-x}\begin{bmatrix}-2\\-3\\2\end{bmatrix}.$$
 
@@ -258,7 +258,7 @@ $$\det\left(A-\lambda E\right)=\left(a-\lambda\right)^2+b^2=0,$$
 
 $$\begin{bmatrix}-ib&-b\\b&-ib\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
-由第一行得 $-ir_1-r_2=0$, 取 $\boldsymbol{r}=\left(1,-i\right)^T$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 得复值解
+由第一行得 $-ir_1-r_2=0$, 取 $\boldsymbol{r}=\left(1,-i\right)^\top$. 由**引理 6.6**(方程组有指数型非零解的充要条件), 得复值解
 
 $$\boldsymbol{y}_1=e^{\left(a+ib\right)t}\begin{bmatrix}1\\-i\end{bmatrix}.$$
 

@@ -36,7 +36,7 @@ so $\lambda=\pm ia$. Below assume $a\neq0$. By **Lemma 6.6** (Necessary and Suff
 
 $$\begin{bmatrix}-ia&a\\-a&-ia\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
-From the first row we get $-ir_1+r_2=0$; take $\boldsymbol{r}=\left(1,i\right)^T$. Thus we obtain a complex solution
+From the first row we get $-ir_1+r_2=0$; take $\boldsymbol{r}=\left(1,i\right)^\top$. Thus we obtain a complex solution
 
 $$\boldsymbol{y}_1=e^{iax}\begin{bmatrix}1\\i\end{bmatrix}.$$
 
@@ -82,7 +82,7 @@ By **Lemma 6.7** (Method for Determining Coefficients of the Vector Polynomial i
 
 $$\left(A-E\right)^2=O,$$
 
-so we may simply take $\boldsymbol{r}_0^{\left(3\right)}=\left(0,1,0\right)^T$, which is not an eigenvector. Compute the coefficients successively:
+so we may simply take $\boldsymbol{r}_0^{\left(3\right)}=\left(0,1,0\right)^\top$, which is not an eigenvector. Compute the coefficients successively:
 
 $$\boldsymbol{r}_1^{\left(3\right)}=\left(A-E\right)\boldsymbol{r}_0^{\left(3\right)}=\begin{bmatrix}\frac{2}{3}\\-\frac{1}{3}\\-\frac{1}{3}\end{bmatrix}.$$
 
@@ -108,7 +108,7 @@ First find the general solution of the corresponding homogeneous system. The cha
 
 $$\det\left(A-\lambda E\right)=\lambda^2-n^4=0,$$
 
-so $\lambda=\pm n^2$. By **Lemma 6.6** (Necessary and Sufficient Condition for a System to Have an Exponential Nonzero Solution), find the eigenvectors separately: for $\lambda=n^2$, solving $\left(A-n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ gives $r_1+r_2=0$, take $\left(1,-1\right)^T$; for $\lambda=-n^2$, solving $\left(A+n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ gives $r_1-r_2=0$, take $\left(1,1\right)^T$. Hence the homogeneous general solution is
+so $\lambda=\pm n^2$. By **Lemma 6.6** (Necessary and Sufficient Condition for a System to Have an Exponential Nonzero Solution), find the eigenvectors separately: for $\lambda=n^2$, solving $\left(A-n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ gives $r_1+r_2=0$, take $\left(1,-1\right)^\top$; for $\lambda=-n^2$, solving $\left(A+n^2E\right)\boldsymbol{r}=\boldsymbol{0}$ gives $r_1-r_2=0$, take $\left(1,1\right)^\top$. Hence the homogeneous general solution is
 
 $$\boldsymbol{y}_h=C_1e^{n^2x}\begin{bmatrix}1\\-1\end{bmatrix}+C_2e^{-n^2x}\begin{bmatrix}1\\1\end{bmatrix}.$$
 
@@ -146,7 +146,7 @@ First find the general solution of the corresponding homogeneous system. Compute
 
 $$\det\left(A-\lambda E\right)=\left(2-\lambda\right)\left(\lambda+\lambda^2\right)-\left(1+\lambda\right)-2\left(\lambda-1\right)=-\left(\lambda-1\right)\left(\lambda^2+1\right).$$
 
-Hence the eigenvalues are $\lambda=1,\ \lambda=\pm i$. For $\lambda=1$, solving $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ gives the eigenvector $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^T$. For $\lambda=i$, solving $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ gives the complex eigenvector $\boldsymbol{r}=\left(-i,1,-i\right)^T$, corresponding to the complex solution $e^{ix}\left(-i,1,-i\right)^T$. By **Remark 2** (Method for Extracting Real Solutions from Complex Solutions), using $e^{ix}=\cos x+i\sin x$ and taking real and imaginary parts, gives
+Hence the eigenvalues are $\lambda=1,\ \lambda=\pm i$. For $\lambda=1$, solving $\left(A-E\right)\boldsymbol{r}=\boldsymbol{0}$ gives the eigenvector $\boldsymbol{r}^{\left(1\right)}=\left(-1,1,0\right)^\top$. For $\lambda=i$, solving $\left(A-iE\right)\boldsymbol{r}=\boldsymbol{0}$ gives the complex eigenvector $\boldsymbol{r}=\left(-i,1,-i\right)^\top$, corresponding to the complex solution $e^{ix}\left(-i,1,-i\right)^\top$. By **Remark 2** (Method for Extracting Real Solutions from Complex Solutions), using $e^{ix}=\cos x+i\sin x$ and taking real and imaginary parts, gives
 
 $$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\sin x\\\cos x\\\sin x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}-\cos x\\\sin x\\-\cos x\end{bmatrix}.$$
 
@@ -158,7 +158,7 @@ Next find a particular solution. The nonhomogeneous term is linear in $x$; assum
 
 $$A\boldsymbol{b}=\begin{bmatrix}1\\0\\1\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}2\\0\\1\end{bmatrix}.$$
 
-From the first equation solve $\boldsymbol{b}=\left(0,1,0\right)^T$; substituting into the second gives $A\boldsymbol{a}=\left(-2,1,-1\right)^T$, solving gives $\boldsymbol{a}=\left(-1,0,0\right)^T$. Hence a particular solution is
+From the first equation solve $\boldsymbol{b}=\left(0,1,0\right)^\top$; substituting into the second gives $A\boldsymbol{a}=\left(-2,1,-1\right)^\top$, solving gives $\boldsymbol{a}=\left(-1,0,0\right)^\top$. Hence a particular solution is
 
 $$\boldsymbol{y}_p=\begin{bmatrix}-1\\x\\0\end{bmatrix}.$$
 
@@ -180,7 +180,7 @@ First find the general solution of the corresponding homogeneous system. The cha
 
 $$\det\left(A-\lambda E\right)=\lambda^2+4=0,$$
 
-so $\lambda=\pm2i$. For $\lambda=2i$, solving $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ gives $\boldsymbol{r}=\left(1,-i\right)^T$, corresponding to the complex solution $e^{2ix}\left(1,-i\right)^T$. By **Remark 2** (Method for Extracting Real Solutions from Complex Solutions), using $e^{2ix}=\cos 2x+i\sin 2x$ and taking real and imaginary parts, gives two real solutions
+so $\lambda=\pm2i$. For $\lambda=2i$, solving $\left(A-2iE\right)\boldsymbol{r}=\boldsymbol{0}$ gives $\boldsymbol{r}=\left(1,-i\right)^\top$, corresponding to the complex solution $e^{2ix}\left(1,-i\right)^\top$. By **Remark 2** (Method for Extracting Real Solutions from Complex Solutions), using $e^{2ix}=\cos 2x+i\sin 2x$ and taking real and imaginary parts, gives two real solutions
 
 $$\boldsymbol{u}\left(x\right)=\begin{bmatrix}\cos 2x\\\sin 2x\end{bmatrix},\quad\boldsymbol{v}\left(x\right)=\begin{bmatrix}\sin 2x\\-\cos 2x\end{bmatrix}.$$
 
@@ -188,7 +188,7 @@ Next find a particular solution. The nonhomogeneous term is linear; assume $\bol
 
 $$A\boldsymbol{b}=\begin{bmatrix}-3\\0\end{bmatrix},\quad\boldsymbol{b}=A\boldsymbol{a}+\begin{bmatrix}0\\4\end{bmatrix}.$$
 
-From the first equation get $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^T$; substituting gives $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^T$. Hence a particular solution is
+From the first equation get $\boldsymbol{b}=\left(0,\frac{3}{2}\right)^\top$; substituting gives $\boldsymbol{a}=\left(-\frac{5}{4},0\right)^\top$. Hence a particular solution is
 
 $$\boldsymbol{y}_p=\begin{bmatrix}-\frac{5}{4}\\[2pt\right]\frac{3}{2}x\end{bmatrix}.$$
 
@@ -234,7 +234,7 @@ Since $\boldsymbol{r}^{\left(-1\right)}$ is the eigenvector for $\lambda=-1$, we
 
 $$\boldsymbol{y}\left(x\right)=-\boldsymbol{r}^{\left(-1\right)}\int_0^x e^{-\left(x-s\right)}e^{-s}\,ds=-\boldsymbol{r}^{\left(-1\right)}e^{-x}\int_0^x 1\,ds=-xe^{-x}\boldsymbol{r}^{\left(-1\right)}.$$
 
-Substituting $\boldsymbol{r}^{\left(-1\right)}=\left(2,3,-2\right)^T$, the solution is
+Substituting $\boldsymbol{r}^{\left(-1\right)}=\left(2,3,-2\right)^\top$, the solution is
 
 $$\boldsymbol{y}\left(x\right)=xe^{-x}\begin{bmatrix}-2\\-3\\2\end{bmatrix}.$$
 
@@ -258,7 +258,7 @@ so $\lambda=a\pm ib$. For $\lambda=a+ib$, solve $\left(A-\left(a+ib\right)E\righ
 
 $$\begin{bmatrix}-ib&-b\\b&-ib\end{bmatrix}\begin{bmatrix}r_1\\r_2\end{bmatrix}=\boldsymbol{0},$$
 
-From the first row we get $-ir_1-r_2=0$; take $\boldsymbol{r}=\left(1,-i\right)^T$. By **Lemma 6.6** (Necessary and Sufficient Condition for a System to Have an Exponential Nonzero Solution), we get the complex solution
+From the first row we get $-ir_1-r_2=0$; take $\boldsymbol{r}=\left(1,-i\right)^\top$. By **Lemma 6.6** (Necessary and Sufficient Condition for a System to Have an Exponential Nonzero Solution), we get the complex solution
 
 $$\boldsymbol{y}_1=e^{\left(a+ib\right)t}\begin{bmatrix}1\\-i\end{bmatrix}.$$
 

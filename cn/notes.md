@@ -564,7 +564,7 @@ $$
 
 **标准微分方程组与向量形式**
 
-把未知函数的个数取成等于微分方程的阶数, 所得标准方程组为 $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$($i=1,\cdots,n$). 采用列向量 $y=\left(y_1,\cdots,y_n\right)^T$, $f=\left(f_1,\cdots,f_n\right)^T$, 则向量形式为 $\frac{dy}{dx}=f\left(x,y\right)$, 其中 $f\left(x,y\right)$ 在区域 $D\subset R^{n+1}$ 上连续. 附加初值条件 $y\left(x_0\right)=y_0$ 即得柯西问题.
+把未知函数的个数取成等于微分方程的阶数, 所得标准方程组为 $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$($i=1,\cdots,n$). 采用列向量 $y=\left(y_1,\cdots,y_n\right)^\top$, $f=\left(f_1,\cdots,f_n\right)^\top$, 则向量形式为 $\frac{dy}{dx}=f\left(x,y\right)$, 其中 $f\left(x,y\right)$ 在区域 $D\subset R^{n+1}$ 上连续. 附加初值条件 $y\left(x_0\right)=y_0$ 即得柯西问题.
 
 **向量的模(范数)及其基本性质**
 
@@ -644,7 +644,7 @@ $$
 
 **雅可比矩阵**
 
-向量值函数 $f\left(x,y,\lambda\right)=\left(f_1,\cdots,f_n\right)^T$ 对 $y=\left(y_1,\cdots,y_n\right)^T$ 的雅可比矩阵为 $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$, 对参数 $\lambda=\left(\lambda_1,\cdots,\lambda_m\right)^T$ 的雅可比矩阵为 $f_\lambda=\left(\frac{\partial f_i}{\partial\lambda_k}\right)_{n\times m}$. 复合函数求导按矩阵乘法进行: $\frac{\partial f\left(x,\varphi,\lambda\right)}{\partial\lambda_k}=\displaystyle\sum_{j=1}^{n}\frac{\partial f}{\partial y_j}\frac{\partial\varphi_j}{\partial\lambda_k}+\frac{\partial f}{\partial\lambda_k}$.
+向量值函数 $f\left(x,y,\lambda\right)=\left(f_1,\cdots,f_n\right)^\top$ 对 $y=\left(y_1,\cdots,y_n\right)^\top$ 的雅可比矩阵为 $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$, 对参数 $\lambda=\left(\lambda_1,\cdots,\lambda_m\right)^\top$ 的雅可比矩阵为 $f_\lambda=\left(\frac{\partial f_i}{\partial\lambda_k}\right)_{n\times m}$. 复合函数求导按矩阵乘法进行: $\frac{\partial f\left(x,\varphi,\lambda\right)}{\partial\lambda_k}=\displaystyle\sum_{j=1}^{n}\frac{\partial f}{\partial y_j}\frac{\partial\varphi_j}{\partial\lambda_k}+\frac{\partial f}{\partial\lambda_k}$.
 
 ## 6.1 一般理论
 

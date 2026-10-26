@@ -1,6 +1,6 @@
 # 作业 15
 
-> **标准微分方程组与向量形式**<br>把未知函数的个数取成等于微分方程的阶数, 所得标准方程组为 $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$($i=1,\cdots,n$). 采用列向量 $y=\left(y_1,\cdots,y_n\right)^T$, $f=\left(f_1,\cdots,f_n\right)^T$, 则向量形式为 $\frac{dy}{dx}=f\left(x,y\right)$, 其中 $f\left(x,y\right)$ 在区域 $D\subset R^{n+1}$ 上连续. 附加初值条件 $y\left(x_0\right)=y_0$ 即得柯西问题.
+> **标准微分方程组与向量形式**<br>把未知函数的个数取成等于微分方程的阶数, 所得标准方程组为 $\frac{dy_i}{dx}=f_i\left(x,y_1,\cdots,y_n\right)$($i=1,\cdots,n$). 采用列向量 $y=\left(y_1,\cdots,y_n\right)^\top$, $f=\left(f_1,\cdots,f_n\right)^\top$, 则向量形式为 $\frac{dy}{dx}=f\left(x,y\right)$, 其中 $f\left(x,y\right)$ 在区域 $D\subset R^{n+1}$ 上连续. 附加初值条件 $y\left(x_0\right)=y_0$ 即得柯西问题.
 
 > **向量的模(范数)及其基本性质**<br>在 $n$ 维线性空间 $R^n$ 中可定义向量的模 $\left|y\right|$, 例如欧几里得模 $\left|y\right|=\sqrt{y_1^2+\cdots+y_n^2}$. 模的基本性质: 对任何 $y,z\in R^n$, 有三角不等式 $\left|y+z\right|\le\left|y\right|+\left|z\right|$. 在引进模以后, $R^n$ 成为 $n$ 维赋范线性空间, 其中可建立相应的微积分学与一致收敛等概念.
 

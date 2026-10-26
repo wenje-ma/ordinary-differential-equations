@@ -152,7 +152,7 @@ $$
 \left\{\begin{matrix}\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k'\left(x\right)=0,\\\quad\vdots\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-2\right)}\left(x\right)=0,\\\sum_{k=1}^{n}C_k'\left(x\right)\varphi_k^{\left(n-1\right)}\left(x\right)=f\left(x\right).\end{matrix}\right.
 $$
 
-其系数行列式恰为基本解组的朗斯基行列式 $W\left(x\right)$. 由**定理 6.2***(解组线性无关的朗斯基行列式判据), $W\left(x\right)\neq0$, 故由克莱姆法则, $C_k'\left(x\right)$ 等于把 $W\left(x\right)$ 的第 $k$ 列换成右端向量 $\left(0,\cdots,0,f\left(x\right)\right)^T$ 所得行列式除以 $W\left(x\right)$. 按第 $k$ 列展开该行列式, 只有最后一行的 $f\left(x\right)$ 贡献, 故
+其系数行列式恰为基本解组的朗斯基行列式 $W\left(x\right)$. 由**定理 6.2***(解组线性无关的朗斯基行列式判据), $W\left(x\right)\neq0$, 故由克莱姆法则, $C_k'\left(x\right)$ 等于把 $W\left(x\right)$ 的第 $k$ 列换成右端向量 $\left(0,\cdots,0,f\left(x\right)\right)^\top$ 所得行列式除以 $W\left(x\right)$. 按第 $k$ 列展开该行列式, 只有最后一行的 $f\left(x\right)$ 贡献, 故
 
 $$
 C_k'\left(x\right)=\frac{W_k\left(x\right)}{W\left(x\right)}f\left(x\right),
@@ -184,7 +184,7 @@ $$
 
 ### 解答 习题五
 
-作自变量变换 $x=e^t$, 即 $t=\ln x\ \left(x> 0\right)$. 记 $D=\frac{d}{dt}$, 则 $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, 即
+作自变量变换 $x=e^\top$, 即 $t=\ln x\ \left(x> 0\right)$. 记 $D=\frac{d}{dt}$, 则 $\frac{d}{dx}=\frac{1}{x}\frac{d}{dt}$, 即
 
 $$
 x\frac{d}{dx}=D.
