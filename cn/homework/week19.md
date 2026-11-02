@@ -1,36 +1,36 @@
 # week19
 
 > **命题 1 (矩阵幂级数的绝对收敛性与矩阵指数函数的定义)**
->
+> 
 > $e^A=\sum_{k=0}^\infty\frac1{k!}A^k$.
 
 > **命题 2 (矩阵指数函数的性质)**
->
-> $e^{A+B}=e^Ae^B$ ($AB=BA$); $(e^A)^{-1}=e^{-A}$; $e^{PAP^{-1}}=Pe^AP^{-1}$.
+> 
+> $e^{A+B}=e^Ae^B$ ($AB=BA$); $\left(e^A\right)^{-1}=e^{-A}$; $e^{PAP^{-1}}=Pe^AP^{-1}$.
 
 > **推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**
->
-> $y=e^{xA}c+\int_{x_0}^x e^{(x-s)A}f(s)\mathrm ds$.
+> 
+> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
 
 > **定理 6.4 (矩阵指数函数是常系数齐次线性微分方程组的标准基解矩阵)**
->
-> $\Phi(x)=e^{xA}$ 是标准基解矩阵 ($\Phi(0)=E$).
+> 
+> $\Phi\left(x\right)=e^{xA}$ 是标准基解矩阵 ($\Phi\left(0\right)=E$).
 
 > **定理 6.5 ($n$ 个互不相同特征根时的基解矩阵)**
->
-> $\Phi(x)=(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n)$.
+> 
+> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
 
 > **引理 6.6 (方程组有指数型非零解的充要条件)**
->
+> 
 > $y=e^{\lambda x}r$ 是解当且仅当 $\lambda$ 是 $A$ 的特征根, $r$ 为对应特征向量.
 
 > **定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**
->
-> 解为形如 $e^{\lambda_i x}(r_0+xr_1+\cdots)$ 的线性组合.
+> 
+> 解为形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$ 的线性组合.
 
 > **引理 6.7 (重特征根时确定向量多项式系数的方法)**
->
-> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_i x}(r_0+xr_1+\cdots)$, 其中 $(A-\lambda_iE)^{n_i}r_0=0$.
+> 
+> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
 ---
 
 ## 6-2 题1(2)
@@ -49,7 +49,7 @@
 
 ### 解答 6-2 题1(4)
 
-由**引理 6.7 (重特征根时确定向量多项式系数的方法)**, $\lambda=1$ 为三重根. 通解为 $C_1e^x(1,0,0)^\top+C_2e^x(0,1,1)^\top+C_3e^x[(0,1,0)^\top+x(\frac23,-\frac13,-\frac13)^\top]$. $\blacksquare$
+由**引理 6.7 (重特征根时确定向量多项式系数的方法)**, $\lambda=1$ 为三重根. 通解为 $C_1e^x\left(1,0,0\right)^\top+C_2e^x\left(0,1,1\right)^\top+C_3e^x\left[\left(0,1,0\right)^\top+x\left(\frac23,-\frac13,-\frac13\right)^\top\right]$. $\blacksquare$
 
 ---
 
@@ -69,13 +69,13 @@
 
 ### 解答 6-2 题2(4)
 
-特征根 $\lambda=1,\pm i$. 由**附注 2 (从复值解提取实值解的方法)** 取实部虚部. 特解设为一次式 $(-1,x,0)^\top$. $\blacksquare$
+特征根 $\lambda=1,\pm i$. 由**附注 2 (从复值解提取实值解的方法)** 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
 
 ---
 
 ## 6-2 题3(2)
 
-求解初值问题 $y'=\begin{bmatrix}0&-2\\2&0\end{bmatrix}y+\begin{bmatrix}3x\\4\end{bmatrix}$, $y(0)=(2,3)^\top$.
+求解初值问题 $y'=\begin{bmatrix}0&-2\\2&0\end{bmatrix}y+\begin{bmatrix}3x\\4\end{bmatrix}$, $y\left(0\right)=\left(2,3\right)^\top$.
 
 ### 解答 6-2 题3(2)
 
@@ -85,11 +85,11 @@
 
 ## 6-2 题3(4)
 
-求解初值问题 $y'=\begin{bmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{bmatrix}y+\begin{bmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{bmatrix}$, $y(0)=0$.
+求解初值问题 $y'=\begin{bmatrix}16&14&38\\-9&-7&-18\\-4&-4&-11\end{bmatrix}y+\begin{bmatrix}-2e^{-x}\\-3e^{-x}\\2e^{-x}\end{bmatrix}$, $y\left(0\right)=0$.
 
 ### 解答 6-2 题3(4)
 
-非齐次项共振于特征根 $\lambda=-1$. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=xe^{-x}(-2,-3,2)^\top$. $\blacksquare$
+非齐次项共振于特征根 $\lambda=-1$. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
 
 ---
 
@@ -99,7 +99,7 @@
 
 ### 解答 6-2 题4
 
-由**附注 2 (从复值解提取实值解的方法)**, 通解为 $C_1e^{at}(\cos bt,\sin bt)^\top+C_2e^{at}(\sin bt,-\cos bt)^\top$. $\blacksquare$
+由**附注 2 (从复值解提取实值解的方法)**, 通解为 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
 
 ---
 
@@ -109,4 +109,4 @@
 
 ### 解答 6-2 题5
 
-由**定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**, 解为 $e^{\lambda x}$ 乘多项式. 充分性: $\mathrm{Re}\,\lambda<0$ 时多项式增长慢于指数衰减. 必要性: 由**引理 6.6 (方程组有指数型非零解的充要条件)**, 若有 $\mathrm{Re}\,\lambda\ge0$ 的特征根, 对应解不趋于零. $\blacksquare$
+由**定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**, 解为 $e^{\lambda x}$ 乘多项式. 充分性: $\mathrm{Re}\,\lambda< 0$ 时多项式增长慢于指数衰减. 必要性: 由**引理 6.6 (方程组有指数型非零解的充要条件)**, 若有 $\mathrm{Re}\,\lambda\ge0$ 的特征根, 对应解不趋于零. $\blacksquare$

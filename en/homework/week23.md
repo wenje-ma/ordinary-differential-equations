@@ -1,18 +1,18 @@
 # week23
 
 > **Basic Knowledge: Legendre Equation**
->
-> $(1-x^2)y''-2xy'+n(n+1)y=0$.
+> 
+> $\left(1-x^2\right)y''-2xy'+n\left(n+1\right)y=0$.
 
 > **Basic Knowledge: Generating Function**
->
-> $G=(1-2xt+t^2)^{-1/2}=\sum P_nt^n$.
+> 
+> $G=\left(1-2xt+t^2\right)^{-1/2}=\sum P_nt^n$.
 
 ---
 
 ## 7-3 Problem 2
 
-Prove $(n+1)P_{n+1}-(2n+1)xP_n+nP_{n-1}=0$.
+Prove $\left(n+1\right)P_{n+1}-\left(2n+1\right)xP_n+nP_{n-1}=0$.
 
 ### Solution 7-3 Problem 2
 

@@ -1,19 +1,19 @@
 # week5
 
 > **基础知识: 齐次方程**
->
+> 
 > 若 $P,Q$ 为同次齐次函数, 令 $y=ux$ 化为变量分离方程.
 
 > **基础知识: 可化为齐次的方程**
->
+> 
 > $\frac{\mathrm dy}{\mathrm dx}=\frac{ax+by+c}{mx+ny+l}$, 当 $\Delta=an-bm\ne0$ 时平移化为齐次方程.
 
 > **基础知识: 伯努利方程**
->
+> 
 > $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)y^n$ ($n\ne0,1$). 令 $z=y^{1-n}$ 化为一阶线性方程.
 
 > **基础知识: 里卡蒂方程**
->
+> 
 > $\frac{\mathrm dy}{\mathrm dx}=p\left(x\right)y^2+q\left(x\right)y+r\left(x\right)$.
 
 ---

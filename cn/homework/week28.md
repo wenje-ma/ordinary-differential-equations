@@ -1,7 +1,7 @@
 # week28
 
 > **定理 11.1 (齐次线性偏微分方程的通解)**
->
+> 
 > 特征方程首次积分给出通解.
 
 ---
@@ -12,23 +12,23 @@
 
 ### 解答 11-1 题1(1)
 
-特征方程 $dx_1/x_1=\cdots=dx_n/x_n$. 首次积分 $x_i/x_n$. 通解 $y=\psi(x_1/x_n,\cdots,x_{n-1}/x_n)$. $\blacksquare$
+特征方程 $dx_1/x_1=\cdots=dx_n/x_n$. 首次积分 $x_i/x_n$. 通解 $y=\psi\left(x_1/x_n,\cdots,x_{n-1}/x_n\right)$. $\blacksquare$
 
 ---
 
 ## 11-1 题1(3)
 
-求解 $a(b^2+c^2)h_a+b(c^2+a^2)h_b+c(b^2-a^2)h_c=0$.
+求解 $a\left(b^2+c^2\right)h_a+b\left(c^2+a^2\right)h_b+c\left(b^2-a^2\right)h_c=0$.
 
 ### 解答 11-1 题1(3)
 
-首次积分 $a^2-b^2+c^2$ 与 $a^2/(b^2c^2)$. $\blacksquare$
+首次积分 $a^2-b^2+c^2$ 与 $a^2/\left(b^2c^2\right)$. $\blacksquare$
 
 ---
 
 ## 11-1 题2(2)
 
-求解 $(x-y^2)z_x+yz_y=0$, $z(1,y)=f_0(y)$.
+求解 $\left(x-y^2\right)z_x+yz_y=0$, $z\left(1,y\right)=f_0\left(y\right)$.
 
 ### 解答 11-1 题2(2)
 

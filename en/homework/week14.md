@@ -1,11 +1,11 @@
 # week14
 
 > **Basic Knowledge: First Integral**
->
+> 
 > Integrating autonomous equation once yields a first integral.
 
 > **Basic Knowledge: Pendulum Equation**
->
+> 
 > $\theta''+a^2\theta=0$, period $T=2\pi\sqrt{\frac lg}$.
 
 ---
@@ -26,4 +26,4 @@ Prove nonlinear pendulum is isochronous not and can precess.
 
 ### Solution 5-1 Problem 2
 
-By first integral, $T\left(A\right)>\frac{2\pi}a$ and increases with $A$. $\blacksquare$
+By first integral, $T\left(A\right)> \frac{2\pi}a$ and increases with $A$. $\blacksquare$

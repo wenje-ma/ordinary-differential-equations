@@ -1,15 +1,15 @@
 # week6
 
 > **Basic Knowledge: Integrating Factor**
->
+> 
 > $\mu$ such that $\mu P\mathrm dx+\mu Q\mathrm dy=0$ is exact.
 
 > **Theorem 2.5 (Integrating Factor depending only on $y$)**
->
+> 
 > $\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int H\mathrm dy}$.
 
 > **Theorem 2.6 (Product of Integrating Factor and Function of $\Phi$)**
->
+> 
 > If $\mu$ is an IF, then $\mu g\left(\Phi\right)$ is also an IF.
 
 ---
@@ -20,7 +20,7 @@ Solve $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
 
 ### Solution 2-5 Problem 1(2)
 
-$xe^{2y}-\ln|y|=C$, plus $y\equiv0$. $\blacksquare$
+$xe^{2y}-\ln\left|y\right|=C$, plus $y\equiv0$. $\blacksquare$
 
 ---
 

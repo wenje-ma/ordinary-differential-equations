@@ -1,21 +1,21 @@
 # week20
 
 > **基础知识: 初值问题解的存在唯一性**
->
+> 
 > $n$ 阶线性方程初值问题在公共连续区间上存在唯一.
 
 > **例 1 (由一个非零解构造通解的公式)**
->
-> $y=\varphi(x)[C_1+C_2\int_{x_0}^x\frac1{\varphi^2(s)}e^{-\int_{x_0}^s p(t)\mathrm dt}\mathrm ds]$.
+> 
+> $y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^x\frac1{\varphi^2\left(s\right)}e^{-\int_{x_0}^s p\left(t\right)\mathrm dt}\mathrm ds\right]$.
 ---
 
 ## 6-3 题3
 
-(1) 证明 $y''+q(x)y=0$ 的两解朗斯基行列式为常数. (2) 已知 $y=e^x$ 为解, 求通解与 $q(x)$.
+(1) 证明 $y''+q\left(x\right)y=0$ 的两解朗斯基行列式为常数. (2) 已知 $y=e^x$ 为解, 求通解与 $q\left(x\right)$.
 
 ### 解答 6-3 题3
 
-(1) 由**刘维尔公式 (朗斯基行列式的演化公式)**, $a_1(x)=0$, 故 $W(x)\equiv W(x_0)$. (2) $q(x)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
+(1) 由**刘维尔公式 (朗斯基行列式的演化公式)**, $a_1\left(x\right)=0$, 故 $W\left(x\right)\equiv W\left(x_0\right)$. (2) $q\left(x\right)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
 
 ---
 
@@ -25,17 +25,17 @@
 
 ### 解答 6-3 题4
 
-由**基础知识: 初值问题解的存在唯一性**, 若 $\varphi(x_0)=0$ 且 $\varphi'(x_0)=0$ 则 $\varphi\equiv0$, 矛盾. 零点孤立, 故有限. $\blacksquare$
+由**基础知识: 初值问题解的存在唯一性**, 若 $\varphi\left(x_0\right)=0$ 且 $\varphi'\left(x_0\right)=0$ 则 $\varphi\equiv0$, 矛盾. 零点孤立, 故有限. $\blacksquare$
 
 ---
 
 ## 6-3 题5
 
-证明基本解组唯一确定系数 $p(x),q(x)$, 且两解无共同零点.
+证明基本解组唯一确定系数 $p\left(x\right),q\left(x\right)$, 且两解无共同零点.
 
 ### 解答 6-3 题5
 
-由**定理 6.2* (解组线性无关的朗斯基行列式判据)**, $W\ne0$, 线性方程组有唯一解. 共同零点蕴含 $W(x_0)=0$, 矛盾. $\blacksquare$
+由**定理 6.2* (解组线性无关的朗斯基行列式判据)**, $W\ne0$, 线性方程组有唯一解. 共同零点蕴含 $W\left(x_0\right)=0$, 矛盾. $\blacksquare$
 
 ---
 
@@ -45,17 +45,17 @@
 
 ### 解答 6-3 题6
 
-设 $y=\sum C_k(x)\varphi_k(x)$, 令 $\sum C_k'\varphi_k^{(j)}=0$ ($j=0,\cdots,n-2$), 得 $C_k'=\frac{W_k}{W}f$. $\blacksquare$
+设 $y=\sum C_k\left(x\right)\varphi_k\left(x\right)$, 令 $\sum C_k'\varphi_k^{\left(j\right)}=0$ ($j=0,\cdots,n-2$), 得 $C_k'=\frac{W_k}{W}f$. $\blacksquare$
 
 ---
 
 ## 6-3 题7
 
-将欧拉方程 $x^ny^{(n)}+\cdots+a_ny=0$ 化为常系数方程.
+将欧拉方程 $x^ny^{\left(n\right)}+\cdots+a_ny=0$ 化为常系数方程.
 
 ### 解答 6-3 题7
 
-令 $x=e^t$, 则 $x^ky^{(k)}=D(D-1)\cdots(D-k+1)y$, $D=\frac{\mathrm d}{\mathrm dt}$. $\blacksquare$
+令 $x=e^t$, 则 $x^ky^{\left(k\right)}=D\left(D-1\right)\cdots\left(D-k+1\right)y$, $D=\frac{\mathrm d}{\mathrm dt}$. $\blacksquare$
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 解答 6-3 题9
 
-由**定理 6.6* (常系数齐次线性微分方程的特征根解法)** 与**待定系数法 (对特殊非齐次项预先设定特解形式)**, $\omega\ne\omega_0$ 时 $x=C_1\cos\omega_0t+C_2\sin\omega_0t+\frac{p}{m(\omega_0^2-\omega^2)}\cos\omega t$; $\omega=\omega_0$ 时共振. $\blacksquare$
+由**定理 6.6* (常系数齐次线性微分方程的特征根解法)** 与**待定系数法 (对特殊非齐次项预先设定特解形式)**, $\omega\ne\omega_0$ 时 $x=C_1\cos\omega_0t+C_2\sin\omega_0t+\frac{p}{m\left(\omega_0^2-\omega^2\right)}\cos\omega t$; $\omega=\omega_0$ 时共振. $\blacksquare$
 
 ---
 
@@ -75,7 +75,7 @@
 
 ### 解答 6-3 题10(3)
 
-齐次通解 $C_1+C_2e^{-2x}$. 特解 $\frac32x-\frac12(\cos2x+\sin2x)$. $\blacksquare$
+齐次通解 $C_1+C_2e^{-2x}$. 特解 $\frac32x-\frac12\left(\cos2x+\sin2x\right)$. $\blacksquare$
 
 ---
 
@@ -85,23 +85,23 @@
 
 ### 解答 6-3 题10(6)
 
-由**定理 6.6* (常系数齐次线性微分方程的特征根解法)**, $\lambda=a$ 三重根, $y=(C_1+C_2x+C_3x^2)e^{ax}$. $\blacksquare$
+由**定理 6.6* (常系数齐次线性微分方程的特征根解法)**, $\lambda=a$ 三重根, $y=\left(C_1+C_2x+C_3x^2\right)e^{ax}$. $\blacksquare$
 
 ---
 
 ## 6-3 题10(9)
 
-求解 $y^{(4)}+2y''+y=\sin x$, $y(0)=1$, $y'(0)=-2$, $y''(0)=3$, $y'''(0)=0$.
+求解 $y^{\left(4\right)}+2y''+y=\sin x$, $y\left(0\right)=1$, $y'\left(0\right)=-2$, $y''\left(0\right)=3$, $y'''\left(0\right)=0$.
 
 ### 解答 6-3 题10(9)
 
-$\lambda=\pm i$ 二重根. 特解 $-\frac18x^2\sin x$. 代入初值得 $y=(1+\frac58x)\cos x+(2x-\frac{21}8-\frac18x^2)\sin x$. $\blacksquare$
+$\lambda=\pm i$ 二重根. 特解 $-\frac18x^2\sin x$. 代入初值得 $y=\left(1+\frac58x\right)\cos x+\left(2x-\frac{21}8-\frac18x^2\right)\sin x$. $\blacksquare$
 
 ---
 
 ## 6-3 题10(12)
 
-求解 $y''-5y'+6y=(12x-7)e^{-x}$.
+求解 $y''-5y'+6y=\left(12x-7\right)e^{-x}$.
 
 ### 解答 6-3 题10(12)
 

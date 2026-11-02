@@ -1,15 +1,15 @@
 # week21
 
 > **Basic Knowledge: Majorant Series and Function**
->
-> $|a_{ij}|\le A_{ij}$ and $\sum A_{ij}$ converges.
+> 
+> $\left|a_{ij}\right|\le A_{ij}$ and $\sum A_{ij}$ converges.
 
 > **Note 3 (Majorant Method for Systems)**
->
+> 
 > Applies to systems of ODEs.
 
 > **Theorem 7.1 (Cauchy's Theorem)**
->
+> 
 > Analytic RHS implies unique analytic solution.
 ---
 

@@ -1,7 +1,7 @@
 # week3
 
 > **Basic Knowledge: Separable Equations**
->
+> 
 > $P\mathrm dx+Q\mathrm dy=0$ with $P=X\left(x\right)Y_1\left(y\right)$, $Q=X_1\left(x\right)Y\left(y\right)$ can be separated.
 
 ---
@@ -38,11 +38,11 @@ $y^2=2e^x\left(1-x\right)-1$. $\blacksquare$
 
 ## 2-2 Problem 2(4)
 
-Solve $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln|x|}{1+y^2}$, $y\left(1\right)=0$.
+Solve $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln\left|x\right|}{1+y^2}$, $y\left(1\right)=0$.
 
 ### Solution 2-2 Problem 2(4)
 
-$y+\frac{y^3}3=x\ln|x|-x+1$. $\blacksquare$
+$y+\frac{y^3}3=x\ln\left|x\right|-x+1$. $\blacksquare$
 
 ---
 

@@ -1,12 +1,12 @@
 # week20
 
 > **Basic Knowledge: Existence and Uniqueness for Linear IVPs**
->
+> 
 > Unique solution on the common interval.
 
 > **Example 1 (Reduction of Order)**
->
-> $y=\varphi(x)[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds]$.
+> 
+> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds\right]$.
 ---
 
 ## 6-3 Problem 3
@@ -45,7 +45,7 @@ Prove Theorem 6.3* by variation of constants.
 
 ### Solution 6-3 Problem 6
 
-Set $y=\sum C_k(x)\varphi_k(x)$. $\blacksquare$
+Set $y=\sum C_k\left(x\right)\varphi_k\left(x\right)$. $\blacksquare$
 
 ---
 
@@ -75,7 +75,7 @@ Solve $y''+2y'=3+4\sin2x$.
 
 ### Solution 6-3 Problem 10(3)
 
-$C_1+C_2e^{-2x}+\frac32x-\frac12(\cos2x+\sin2x)$. $\blacksquare$
+$C_1+C_2e^{-2x}+\frac32x-\frac12\left(\cos2x+\sin2x\right)$. $\blacksquare$
 
 ---
 
@@ -85,7 +85,7 @@ Solve $y'''-3ay''+3a^2y'-a^3y=0$.
 
 ### Solution 6-3 Problem 10(6)
 
-$(C_1+C_2x+C_3x^2)e^{ax}$. $\blacksquare$
+$\left(C_1+C_2x+C_3x^2\right)e^{ax}$. $\blacksquare$
 
 ---
 
@@ -95,13 +95,13 @@ Solve the 4th order IVP.
 
 ### Solution 6-3 Problem 10(9)
 
-$(1+\frac58x)\cos x+(2x-\frac{21}8-\frac18x^2)\sin x$. $\blacksquare$
+$\left(1+\frac58x\right)\cos x+\left(2x-\frac{21}8-\frac18x^2\right)\sin x$. $\blacksquare$
 
 ---
 
 ## 6-3 Problem 10(12)
 
-Solve $y''-5y'+6y=(12x-7)e^{-x}$.
+Solve $y''-5y'+6y=\left(12x-7\right)e^{-x}$.
 
 ### Solution 6-3 Problem 10(12)
 

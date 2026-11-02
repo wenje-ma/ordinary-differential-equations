@@ -1,23 +1,23 @@
 # week10
 
 > **Theorem 3.3 (Peano Existence Theorem)**
->
+> 
 > At least one solution.
 
 > **Theorem 3.4 (Extension Theorem)**
->
+> 
 > Extend to boundary.
 
 > **Theorem 3.6 (First Comparison Theorem)**
->
-> If $f<F$, then $\varphi<\Phi$.
+> 
+> If $f< F$, then $\varphi< \Phi$.
 
 > **Theorem 3.7 (Minimal and Maximal Solutions)**
->
+> 
 > Exist.
 
 > **Theorem 3.8 (Second Comparison Theorem)**
->
+> 
 > If $f\le F$, then $\varphi\le\Phi$.
 
 ---

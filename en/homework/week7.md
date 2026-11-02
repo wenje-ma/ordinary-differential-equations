@@ -1,19 +1,19 @@
 # week7
 
 > **Basic Knowledge: Lipschitz Condition**
->
-> $|f\left(x,y_1\right)-f\left(x,y_2\right)|\le L|y_1-y_2|$.
+> 
+> $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$.
 
 > **Basic Knowledge: Integral Equation Equivalence**
->
+> 
 > $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$. Picard iterates.
 
 > **Theorem 3.1 (Picard Existence and Uniqueness)**
->
+> 
 > Continuous and Lipschitz implies unique solution.
 
 > **Theorem 3.2 (Osgood Uniqueness)**
->
+> 
 > If $\int_0^{r_1}\frac{\mathrm dr}{F\left(r\right)}=\infty$, then uniqueness holds.
 
 ---
@@ -24,7 +24,7 @@ Discuss uniqueness for $y\left(0\right)=0$.
 
 ### Solution 3-1 Problem 1
 
-(1) $\alpha\ge1$ unique, $0<\alpha<1$ not unique. (2) Zero solution is unique. $\blacksquare$
+(1) $\alpha\ge1$ unique, $0< \alpha< 1$ not unique. (2) Zero solution is unique. $\blacksquare$
 
 ---
 

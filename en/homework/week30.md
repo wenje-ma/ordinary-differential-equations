@@ -1,11 +1,11 @@
 # week30
 
 > **Basic Knowledge: Characteristic Method Note**
->
+> 
 > Nonunique when initial curve is characteristic.
 
 > **Theorem 11.2 (Quasilinear PDE and Characteristics)**
->
+> 
 > Integral surface woven by characteristics.
 
 ---

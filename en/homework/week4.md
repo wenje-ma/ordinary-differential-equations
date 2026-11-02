@@ -1,15 +1,15 @@
 # week4
 
 > **Basic Knowledge: First-Order Linear Equation**
->
+> 
 > $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)$.
 
 > **Basic Knowledge: Homogeneous Solution**
->
+> 
 > $y=Ce^{-\int p\mathrm dx}$.
 
 > **Basic Knowledge: Nonhomogeneous Solution (Integrating Factor)**
->
+> 
 > $y=e^{-\int p\mathrm dx}\left[\int q e^{\int p\mathrm dx}\mathrm dx+C\right]$.
 
 ---

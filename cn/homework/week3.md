@@ -1,7 +1,7 @@
 # week3
 
 > **基础知识: 变量分离方程**
->
+> 
 > 若 $P\left(x,y\right)=X\left(x\right)Y_1\left(y\right)$, $Q\left(x,y\right)=X_1\left(x\right)Y\left(y\right)$, 则方程可分离变量为 $\frac{X\left(x\right)}{X_1\left(x\right)}\mathrm dx+\frac{Y\left(y\right)}{Y_1\left(y\right)}\mathrm dy=0$, 通积分为两端积分之和等于常数.
 
 ---
@@ -38,11 +38,11 @@
 
 ## 2-2 题2(4)
 
-求解初值问题 $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln|x|}{1+y^2}$, $y\left(1\right)=0$.
+求解初值问题 $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln\left|x\right|}{1+y^2}$, $y\left(1\right)=0$.
 
 ### 解答 2-2 题2(4)
 
-分离变量积分得 $y+\frac{y^3}3=x\ln|x|-x+C$. 代入初值得 $y+\frac{y^3}3=x\ln|x|-x+1$. $\blacksquare$
+分离变量积分得 $y+\frac{y^3}3=x\ln\left|x\right|-x+C$. 代入初值得 $y+\frac{y^3}3=x\ln\left|x\right|-x+1$. $\blacksquare$
 
 ---
 

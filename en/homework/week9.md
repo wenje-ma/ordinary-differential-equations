@@ -1,16 +1,16 @@
 # week9
 
 > **Theorem 3.4 (Extension Theorem)**
->
+> 
 > Solutions extend to the boundary of $G$.
 
 > **Corollary (Local Lipschitz Extension)**
->
+> 
 > Unique solution extending to the boundary.
 
 > **Theorem 3.5 (Global Existence in Strip)**
->
-> If $|f|\le A|y|+B$, solutions exist globally.
+> 
+> If $\left|f\right|\le A\left|y\right|+B$, solutions exist globally.
 
 ---
 

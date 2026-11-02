@@ -1,12 +1,12 @@
 # week29
 
 > **Theorem 11.1 (Homogeneous Linear PDE)**
->
+> 
 > Characteristics.
 
 > **Theorem 11.2 (Quasilinear PDE)**
->
-> $\Phi(u,v)=0$.
+> 
+> $\Phi\left(u,v\right)=0$.
 
 ---
 

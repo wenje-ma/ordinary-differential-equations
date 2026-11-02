@@ -1,19 +1,19 @@
 # week24
 
 > **Basic Knowledge: Stability**
->
+> 
 > Lyapunov stability, asymptotic stability, instability.
 
 > **Theorem 8.1 (Eigenvalue Criterion)**
->
-> Asymptotically stable iff all Re(lambda)<0.
+> 
+> Asymptotically stable iff all Re(lambda)< 0.
 
 > **Theorem 8.3 (Instability by Linear Approximation)**
->
+> 
 > Positive real part implies instability.
 
 > **Theorem 8.4 (Lyapunov Direct Method)**
->
+> 
 > Positive definite V with negative definite derivative.
 
 ---
@@ -30,7 +30,7 @@ By linear scaling. $\blacksquare$
 
 ## 8-2 Problem 2
 
-Find conditions for $x'=a(t)x$.
+Find conditions for $x'=a\left(t\right)x$.
 
 ### Solution 8-2 Problem 2
 
@@ -70,7 +70,7 @@ Depends on sign of $f$. $\blacksquare$
 
 ## 8-2 Problem 6
 
-Prove $x''+g(x)=0$ is stable.
+Prove $x''+g\left(x\right)=0$ is stable.
 
 ### Solution 8-2 Problem 6
 
@@ -84,7 +84,7 @@ Study two equilibria.
 
 ### Solution 8-2 Problem 7
 
-$(1,0)$ unstable, $(-1,0)$ stable. $\blacksquare$
+$\left(1,0\right)$ unstable, $\left(-1,0\right)$ stable. $\blacksquare$
 
 ---
 

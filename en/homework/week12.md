@@ -1,15 +1,15 @@
 # week12
 
 > **Definition 4.1 (Singular Solution)**
->
+> 
 > A solution that is tangent to other solutions at every point.
 
 > **Theorem 4.1 (Necessary Condition: $p$-Discriminant)**
->
+> 
 > $F=0$ and $F_p'=0$.
 
 > **Theorem 4.2 (Sufficient Condition)**
->
+> 
 > If $F_y'\ne0$, $F_{pp}''\ne0$, $F_p'=0$.
 
 ---

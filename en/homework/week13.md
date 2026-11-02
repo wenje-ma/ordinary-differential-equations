@@ -1,15 +1,15 @@
 # week13
 
 > **Theorem 4.3 (Envelope is Singular Solution)**
->
+> 
 > The envelope of the general integral is a singular solution.
 
 > **Theorem 4.4 (Envelope Satisfies $C$-Discriminant)**
->
+> 
 > $V=0$ and $V_C'=0$.
 
 > **Theorem 4.5 (Sufficient Condition for Envelope)**
->
+> 
 > Nondegenerate $C$-discriminant curve is an envelope.
 
 ---
