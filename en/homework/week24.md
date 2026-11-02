@@ -1,12 +1,20 @@
 # week24
 
-> **Basic Knowledge: Stability**<br>Lyapunov stability, asymptotic stability, instability.
+> **Basic Knowledge: Stability**
+>
+> Lyapunov stability, asymptotic stability, instability.
 
-> **Theorem 8.1 (Eigenvalue Criterion)**<br>Asymptotically stable iff all Re(lambda)<0.
+> **Theorem 8.1 (Eigenvalue Criterion)**
+>
+> Asymptotically stable iff all Re(lambda)<0.
 
-> **Theorem 8.3 (Instability by Linear Approximation)**<br>Positive real part implies instability.
+> **Theorem 8.3 (Instability by Linear Approximation)**
+>
+> Positive real part implies instability.
 
-> **Theorem 8.4 (Lyapunov Direct Method)**<br>Positive definite V with negative definite derivative.
+> **Theorem 8.4 (Lyapunov Direct Method)**
+>
+> Positive definite V with negative definite derivative.
 
 ---
 

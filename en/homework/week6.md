@@ -1,10 +1,16 @@
 # week6
 
-> **Basic Knowledge: Integrating Factor**<br>$\mu$ such that $\mu P\mathrm dx+\mu Q\mathrm dy=0$ is exact.
+> **Basic Knowledge: Integrating Factor**
+>
+> $\mu$ such that $\mu P\mathrm dx+\mu Q\mathrm dy=0$ is exact.
 
-> **Theorem 2.5 (Integrating Factor depending only on $y$)**<br>$\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int H\mathrm dy}$.
+> **Theorem 2.5 (Integrating Factor depending only on $y$)**
+>
+> $\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int H\mathrm dy}$.
 
-> **Theorem 2.6 (Product of Integrating Factor and Function of $\Phi$)**<br>If $\mu$ is an IF, then $\mu g\left(\Phi\right)$ is also an IF.
+> **Theorem 2.6 (Product of Integrating Factor and Function of $\Phi$)**
+>
+> If $\mu$ is an IF, then $\mu g\left(\Phi\right)$ is also an IF.
 
 ---
 

@@ -1,20 +1,36 @@
 # week18
 
-> **基础知识: 存在和唯一性定理 (线性微分方程组)**<br>$\frac{\mathrm dy}{\mathrm dx}=A\left(x\right)y+f\left(x\right)$ 的解在整个区间上存在唯一.
+> **基础知识: 存在和唯一性定理 (线性微分方程组)**
+>
+> $\frac{\mathrm dy}{\mathrm dx}=A\left(x\right)y+f\left(x\right)$ 的解在整个区间上存在唯一.
 
-> **引理 6.1 (齐次线性方程组解的叠加原理)**<br>齐次解的线性组合仍是齐次解.
+> **引理 6.1 (齐次线性方程组解的叠加原理)**
+>
+> 齐次解的线性组合仍是齐次解.
 
-> **定理 6.1 (齐次线性微分方程组的通解结构)**<br>通解为 $n$ 个线性无关解的线性组合.
+> **定理 6.1 (齐次线性微分方程组的通解结构)**
+>
+> 通解为 $n$ 个线性无关解的线性组合.
 
-> **引理 6.2 (齐次线性方程组解空间的维数)**<br>解空间为 $n$ 维.
+> **引理 6.2 (齐次线性方程组解空间的维数)**
+>
+> 解空间为 $n$ 维.
 
-> **定理 6.2 (朗斯基行列式判别法)**<br>解组线性无关当且仅当 $W\left(x\right)\ne0$.
+> **定理 6.2 (朗斯基行列式判别法)**
+>
+> 解组线性无关当且仅当 $W\left(x\right)\ne0$.
 
-> **引理 6.3 (朗斯基行列式的刘维尔公式)**<br>$W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> **引理 6.3 (朗斯基行列式的刘维尔公式)**
+>
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
 
-> **定理 6.3 (非齐次线性微分方程组的通解结构)**<br>$y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm ds$.
+> **定理 6.3 (非齐次线性微分方程组的通解结构)**
+>
+> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm ds$.
 
-> **引理 6.4 (非齐次线性方程组解的结构)**<br>非齐次解 $=$ 齐次通解 $+$ 特解.
+> **引理 6.4 (非齐次线性方程组解的结构)**
+>
+> 非齐次解 $=$ 齐次通解 $+$ 特解.
 ---
 
 ## 6-1 题1(1)

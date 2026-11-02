@@ -1,10 +1,16 @@
 # week4
 
-> **基础知识: 一阶线性方程**<br>形如 $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)$ 的方程. $q\equiv0$ 时为齐次, 否则为非齐次.
+> **基础知识: 一阶线性方程**
+>
+> 形如 $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)$ 的方程. $q\equiv0$ 时为齐次, 否则为非齐次.
 
-> **基础知识: 齐次线性方程的通解**<br>$y=Ce^{-\int p\left(x\right)\mathrm dx}$.
+> **基础知识: 齐次线性方程的通解**
+>
+> $y=Ce^{-\int p\left(x\right)\mathrm dx}$.
 
-> **基础知识: 非齐次线性方程的通解 (积分因子法)**<br>积分因子 $\mu\left(x\right)=e^{\int p\left(x\right)\mathrm dx}$, 通解为 $y=e^{-\int p\left(x\right)\mathrm dx}\left[\int q\left(x\right)e^{\int p\left(x\right)\mathrm dx}\mathrm dx+C\right]$.
+> **基础知识: 非齐次线性方程的通解 (积分因子法)**
+>
+> 积分因子 $\mu\left(x\right)=e^{\int p\left(x\right)\mathrm dx}$, 通解为 $y=e^{-\int p\left(x\right)\mathrm dx}\left[\int q\left(x\right)e^{\int p\left(x\right)\mathrm dx}\mathrm dx+C\right]$.
 
 ---
 

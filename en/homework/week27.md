@@ -1,10 +1,16 @@
 # week27
 
-> **Basic Knowledge: Divergence and Conservative Systems**<br>Zero divergence.
+> **Basic Knowledge: Divergence and Conservative Systems**
+>
+> Zero divergence.
 
-> **Basic Knowledge: Exact Equations and Integrating Factors**<br>$P_y=Q_x$.
+> **Basic Knowledge: Exact Equations and Integrating Factors**
+>
+> $P_y=Q_x$.
 
-> **Theorem 10.7 (Global First Integrals and Conservative Systems)**<br>$n-1$ independent integrals imply conservativity.
+> **Theorem 10.7 (Global First Integrals and Conservative Systems)**
+>
+> $n-1$ independent integrals imply conservativity.
 
 ---
 

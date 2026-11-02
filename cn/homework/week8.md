@@ -1,14 +1,24 @@
 # week8
 
-> **基础知识: 积分方程与初值问题的等价性**<br>初值问题等价于 $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
+> **基础知识: 积分方程与初值问题的等价性**
+>
+> 初值问题等价于 $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
 
-> **基础知识: 阿斯科利引理**<br>有限闭区间上一致有界且等度连续的函数列必有一致收敛子列.
+> **基础知识: 阿斯科利引理**
+>
+> 有限闭区间上一致有界且等度连续的函数列必有一致收敛子列.
 
-> **定理 3.1 (皮卡存在和唯一性定理)**<br>$f$ 连续且满足利普希茨条件时初值问题有唯一解.
+> **定理 3.1 (皮卡存在和唯一性定理)**
+>
+> $f$ 连续且满足利普希茨条件时初值问题有唯一解.
 
-> **引理 3.2 (欧拉折线的积分关系式)**<br>$\rho_n\left(x\right)=y_0+\int_{x_0}^x f\left(t,\rho_n\left(t\right)\right)\mathrm dt+\delta_n\left(x\right)$, 其中 $\delta_n\to0$ 一致.
+> **引理 3.2 (欧拉折线的积分关系式)**
+>
+> $\rho_n\left(x\right)=y_0+\int_{x_0}^x f\left(t,\rho_n\left(t\right)\right)\mathrm dt+\delta_n\left(x\right)$, 其中 $\delta_n\to0$ 一致.
 
-> **定理 3.3 (佩亚诺存在定理)**<br>$f$ 连续时初值问题至少有一个解.
+> **定理 3.3 (佩亚诺存在定理)**
+>
+> $f$ 连续时初值问题至少有一个解.
 
 ---
 

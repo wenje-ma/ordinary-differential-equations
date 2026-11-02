@@ -1,20 +1,36 @@
 # week18
 
-> **Basic Knowledge: Existence and Uniqueness for Linear Systems**<br>Solution exists and is unique on the whole interval.
+> **Basic Knowledge: Existence and Uniqueness for Linear Systems**
+>
+> Solution exists and is unique on the whole interval.
 
-> **Lemma 6.1 (Superposition Principle)**<br>Linear combinations of homogeneous solutions are solutions.
+> **Lemma 6.1 (Superposition Principle)**
+>
+> Linear combinations of homogeneous solutions are solutions.
 
-> **Theorem 6.1 (General Solution of Homogeneous Systems)**<br>Linear combination of $n$ linearly independent solutions.
+> **Theorem 6.1 (General Solution of Homogeneous Systems)**
+>
+> Linear combination of $n$ linearly independent solutions.
 
-> **Lemma 6.2 (Dimension of Solution Space)**<br>The solution space is $n$-dimensional.
+> **Lemma 6.2 (Dimension of Solution Space)**
+>
+> The solution space is $n$-dimensional.
 
-> **Theorem 6.2 (Wronskian Criterion)**<br>Linearly independent iff $W\ne0$.
+> **Theorem 6.2 (Wronskian Criterion)**
+>
+> Linearly independent iff $W\ne0$.
 
-> **Lemma 6.3 (Liouville's Formula for Wronskian)**<br>$W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> **Lemma 6.3 (Liouville's Formula for Wronskian)**
+>
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
 
-> **Theorem 6.3 (General Solution of Nonhomogeneous Systems)**<br>$y=\Phi\left(x\right)c+\Phi\left(x\right)\int\Phi^{-1}f$.
+> **Theorem 6.3 (General Solution of Nonhomogeneous Systems)**
+>
+> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int\Phi^{-1}f$.
 
-> **Lemma 6.4 (Structure of Nonhomogeneous Solutions)**<br>Nonhomogeneous = homogeneous general + particular.
+> **Lemma 6.4 (Structure of Nonhomogeneous Solutions)**
+>
+> Nonhomogeneous = homogeneous general + particular.
 ---
 
 ## 6-1 Problem 1(1)

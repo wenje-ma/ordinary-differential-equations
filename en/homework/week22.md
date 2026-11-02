@@ -1,8 +1,12 @@
 # week22
 
-> **Basic Knowledge: Ordinary and Singular Points**<br>$A(x_0)\ne0$ is ordinary, $A(x_0)=0$ is singular.
+> **Basic Knowledge: Ordinary and Singular Points**
+>
+> $A(x_0)\ne0$ is ordinary, $A(x_0)=0$ is singular.
 
-> **Theorem 7.2 (Power Series Solution Near Ordinary Points)**<br>$y=\sum C_n(x-x_0)^n$ with recurrence.
+> **Theorem 7.2 (Power Series Solution Near Ordinary Points)**
+>
+> $y=\sum C_n(x-x_0)^n$ with recurrence.
 
 ---
 

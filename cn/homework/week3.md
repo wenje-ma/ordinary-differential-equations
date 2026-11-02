@@ -1,6 +1,8 @@
 # week3
 
-> **基础知识: 变量分离方程**<br>若 $P\left(x,y\right)=X\left(x\right)Y_1\left(y\right)$, $Q\left(x,y\right)=X_1\left(x\right)Y\left(y\right)$, 则方程可分离变量为 $\frac{X\left(x\right)}{X_1\left(x\right)}\mathrm dx+\frac{Y\left(y\right)}{Y_1\left(y\right)}\mathrm dy=0$, 通积分为两端积分之和等于常数.
+> **基础知识: 变量分离方程**
+>
+> 若 $P\left(x,y\right)=X\left(x\right)Y_1\left(y\right)$, $Q\left(x,y\right)=X_1\left(x\right)Y\left(y\right)$, 则方程可分离变量为 $\frac{X\left(x\right)}{X_1\left(x\right)}\mathrm dx+\frac{Y\left(y\right)}{Y_1\left(y\right)}\mathrm dy=0$, 通积分为两端积分之和等于常数.
 
 ---
 

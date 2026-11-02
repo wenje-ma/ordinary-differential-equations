@@ -1,12 +1,20 @@
 # week26
 
-> **Basic Knowledge: Implicit Function Theorem**<br>Solve locally when partial derivative nonzero.
+> **Basic Knowledge: Implicit Function Theorem**
+>
+> Solve locally when partial derivative nonzero.
 
-> **Basic Knowledge: Independent First Integrals**<br>Jacobian nonzero.
+> **Basic Knowledge: Independent First Integrals**
+>
+> Jacobian nonzero.
 
-> **Theorem 10.1 (First Integral Criterion)**<br>$\Phi_x+\sum\Phi_{y_j}f_j\equiv0$.
+> **Theorem 10.1 (First Integral Criterion)**
+>
+> $\Phi_x+\sum\Phi_{y_j}f_j\equiv0$.
 
-> **Theorem 10.2 (Reducing Order)**<br>One first integral reduces order by one.
+> **Theorem 10.2 (Reducing Order)**
+>
+> One first integral reduces order by one.
 ---
 
 ## 10-2 Problem 1

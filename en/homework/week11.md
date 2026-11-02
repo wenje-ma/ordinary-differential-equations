@@ -1,8 +1,12 @@
 # week11
 
-> **Basic Knowledge: Differentiation Method**<br>Differentiate $y=f\left(x,p\right)$ to obtain an equation in $x$ and $p$.
+> **Basic Knowledge: Differentiation Method**
+>
+> Differentiate $y=f\left(x,p\right)$ to obtain an equation in $x$ and $p$.
 
-> **Basic Knowledge: Parametric Method**<br>Parametrize $F\left(x,p\right)=0$ or $F\left(y,p\right)=0$.
+> **Basic Knowledge: Parametric Method**
+>
+> Parametrize $F\left(x,p\right)=0$ or $F\left(y,p\right)=0$.
 
 ---
 

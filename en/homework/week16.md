@@ -1,14 +1,24 @@
 # week16
 
-> **Basic Knowledge: Integral Equation Equivalence**<br>$y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
+> **Basic Knowledge: Integral Equation Equivalence**
+>
+> $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
 
-> **Basic Knowledge: Ascoli Lemma**<br>Equicontinuous sequence has convergent subsequence.
+> **Basic Knowledge: Ascoli Lemma**
+>
+> Equicontinuous sequence has convergent subsequence.
 
-> **Theorem 5.1 (Continuous Dependence on Parameters)**<br>The solution depends continuously on parameters.
+> **Theorem 5.1 (Continuous Dependence on Parameters)**
+>
+> The solution depends continuously on parameters.
 
-> **Corollary of 5.1 (Continuous Dependence on Initial Values)**<br>The solution depends continuously on initial values.
+> **Corollary of 5.1 (Continuous Dependence on Initial Values)**
+>
+> The solution depends continuously on initial values.
 
-> **Theorem 5.2 (Global Continuous Dependence)**<br>On bounded intervals under local Lipschitz.
+> **Theorem 5.2 (Global Continuous Dependence)**
+>
+> On bounded intervals under local Lipschitz.
 
 ---
 

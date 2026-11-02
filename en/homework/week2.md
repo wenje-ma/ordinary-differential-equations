@@ -1,8 +1,12 @@
 # week2
 
-> **Basic Knowledge: Exact Differential Equation**<br>If $\mathrm d\Phi=P\mathrm dx+Q\mathrm dy$, then $P\mathrm dx+Q\mathrm dy=0$ is exact, with general integral $\Phi=C$.
+> **Basic Knowledge: Exact Differential Equation**
+>
+> If $\mathrm d\Phi=P\mathrm dx+Q\mathrm dy$, then $P\mathrm dx+Q\mathrm dy=0$ is exact, with general integral $\Phi=C$.
 
-> **Theorem 2.1 (Criterion and Formula for Exact Equations)**<br>$P\mathrm dx+Q\mathrm dy=0$ is exact iff $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$.
+> **Theorem 2.1 (Criterion and Formula for Exact Equations)**
+>
+> $P\mathrm dx+Q\mathrm dy=0$ is exact iff $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$.
 
 ---
 

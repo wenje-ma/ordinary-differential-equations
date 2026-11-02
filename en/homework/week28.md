@@ -1,6 +1,8 @@
 # week28
 
-> **Theorem 11.1 (Homogeneous Linear PDE)**<br>Characteristics give general solution.
+> **Theorem 11.1 (Homogeneous Linear PDE)**
+>
+> Characteristics give general solution.
 
 ---
 

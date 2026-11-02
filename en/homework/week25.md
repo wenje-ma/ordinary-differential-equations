@@ -1,12 +1,20 @@
 # week25
 
-> **Basic Knowledge: Elementary Singular Points**<br>Regular if $\det A\ne0$.
+> **Basic Knowledge: Elementary Singular Points**
+>
+> Regular if $\det A\ne0$.
 
-> **Basic Knowledge: Special Directions**<br>Lines approached by trajectories.
+> **Basic Knowledge: Special Directions**
+>
+> Lines approached by trajectories.
 
-> **Theorem 8.5 (Classification of Singular Points)**<br>By $p=-\mathrm{tr}\,A$, $q=\det A$.
+> **Theorem 8.5 (Classification of Singular Points)**
+>
+> By $p=-\mathrm{tr}\,A$, $q=\det A$.
 
-> **Theorem 8.6 (Perturbation Preserves Type)**<br>Small nonlinear terms preserve type.
+> **Theorem 8.6 (Perturbation Preserves Type)**
+>
+> Small nonlinear terms preserve type.
 
 ---
 

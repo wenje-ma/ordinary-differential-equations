@@ -1,8 +1,12 @@
 # week11
 
-> **基础知识: 微分法**<br>若 $y=f\left(x,p\right)$, 对 $x$ 微分得 $\left(f_x-p\right)\mathrm dx+f_p\mathrm dp=0$.
+> **基础知识: 微分法**
+>
+> 若 $y=f\left(x,p\right)$, 对 $x$ 微分得 $\left(f_x-p\right)\mathrm dx+f_p\mathrm dp=0$.
 
-> **基础知识: 参数法**<br>对 $F\left(y,p\right)=0$ 或 $F\left(x,p\right)=0$, 取参数表示后由 $\mathrm dy=p\mathrm dx$ 积分.
+> **基础知识: 参数法**
+>
+> 对 $F\left(y,p\right)=0$ 或 $F\left(x,p\right)=0$, 取参数表示后由 $\mathrm dy=p\mathrm dx$ 积分.
 
 ---
 

@@ -1,22 +1,40 @@
 # week19
 
-> **Proposition 1 (Matrix Exponential)**<br>$e^A=\sum_{k=0}^\infty\frac1{k!}A^k$.
+> **Proposition 1 (Matrix Exponential)**
+>
+> $e^A=\sum_{k=0}^\infty\frac1{k!}A^k$.
 
-> **Proposition 2 (Properties of Matrix Exponential)**<br>$e^{A+B}=e^Ae^B$; $(e^A)^{-1}=e^{-A}$.
+> **Proposition 2 (Properties of Matrix Exponential)**
+>
+> $e^{A+B}=e^Ae^B$; $(e^A)^{-1}=e^{-A}$.
 
-> **Note 2 (Extracting Real Solutions)**<br>Real and imaginary parts of complex solutions are real solutions.
+> **Note 2 (Extracting Real Solutions)**
+>
+> Real and imaginary parts of complex solutions are real solutions.
 
-> **Corollary 3 (Nonhomogeneous Constant Coefficient Systems)**<br>$y=e^{xA}c+\int_{x_0}^x e^{(x-s)A}f(s)\mathrm ds$.
+> **Corollary 3 (Nonhomogeneous Constant Coefficient Systems)**
+>
+> $y=e^{xA}c+\int_{x_0}^x e^{(x-s)A}f(s)\mathrm ds$.
 
-> **Theorem 6.4 ($e^{xA}$ is a Fundamental Matrix)**<br>$\Phi(x)=e^{xA}$ with $\Phi(0)=E$.
+> **Theorem 6.4 ($e^{xA}$ is a Fundamental Matrix)**
+>
+> $\Phi(x)=e^{xA}$ with $\Phi(0)=E$.
 
-> **Theorem 6.5 (Distinct Eigenvalues)**<br>$\Phi(x)=(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n)$.
+> **Theorem 6.5 (Distinct Eigenvalues)**
+>
+> $\Phi(x)=(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n)$.
 
-> **Lemma 6.6 (Exponential Solutions)**<br>$y=e^{\lambda x}r$ is a solution iff $\lambda$ is an eigenvalue.
+> **Lemma 6.6 (Exponential Solutions)**
+>
+> $y=e^{\lambda x}r$ is a solution iff $\lambda$ is an eigenvalue.
 
-> **Theorem 6.6 (Repeated Eigenvalue Case)**<br>Linear combinations of $e^{\lambda_i x}(r_0+xr_1+\cdots)$.
+> **Theorem 6.6 (Repeated Eigenvalue Case)**
+>
+> Linear combinations of $e^{\lambda_i x}(r_0+xr_1+\cdots)$.
 
-> **Lemma 6.7 (Repeated Eigenvalues)**<br>Solutions are $e^{\lambda x}(r_0+xr_1+\cdots)$.
+> **Lemma 6.7 (Repeated Eigenvalues)**
+>
+> Solutions are $e^{\lambda x}(r_0+xr_1+\cdots)$.
 ---
 
 ## 6-2 Problem 1(2)

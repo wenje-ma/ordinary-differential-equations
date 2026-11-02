@@ -1,20 +1,36 @@
 # week15
 
-> **Basic Knowledge: Standard System in Vector Form**<br>$\frac{\mathrm dy}{\mathrm dx}=f\left(x,y\right)$.
+> **Basic Knowledge: Standard System in Vector Form**
+>
+> $\frac{\mathrm dy}{\mathrm dx}=f\left(x,y\right)$.
 
-> **Basic Knowledge: Norm of Vectors**<br>Euclidean norm with triangle inequality.
+> **Basic Knowledge: Norm of Vectors**
+>
+> Euclidean norm with triangle inequality.
 
-> **Basic Knowledge: Lipschitz Condition**<br>$|f\left(x,y_1\right)-f\left(x,y_2\right)|\le L|y_1-y_2|$.
+> **Basic Knowledge: Lipschitz Condition**
+>
+> $|f\left(x,y_1\right)-f\left(x,y_2\right)|\le L|y_1-y_2|$.
 
-> **Basic Knowledge: Picard Existence and Uniqueness (Vector Form)**<br>Unique solution when Lipschitz.
+> **Basic Knowledge: Picard Existence and Uniqueness (Vector Form)**
+>
+> Unique solution when Lipschitz.
 
-> **Basic Knowledge: Peano Existence Theorem (Vector Form)**<br>At least one solution when continuous.
+> **Basic Knowledge: Peano Existence Theorem (Vector Form)**
+>
+> At least one solution when continuous.
 
-> **Basic Knowledge: Picard Iterates and Estimate**<br>$|y_{k+1}-y_k|\le\frac{ML^k|x-x_0|^{k+1}}{\left(k+1\right)!}$.
+> **Basic Knowledge: Picard Iterates and Estimate**
+>
+> $|y_{k+1}-y_k|\le\frac{ML^k|x-x_0|^{k+1}}{\left(k+1\right)!}$.
 
-> **Basic Knowledge: Ascoli Lemma and Gronwall Inequality**<br>Equicontinuous sequence has convergent subsequence; Gronwall: $u\le Ae^{L|x-x_0|}$.
+> **Basic Knowledge: Ascoli Lemma and Gronwall Inequality**
+>
+> Equicontinuous sequence has convergent subsequence; Gronwall: $u\le Ae^{L|x-x_0|}$.
 
-> **Basic Knowledge: Weierstrass M-Test**<br>Uniform convergence.
+> **Basic Knowledge: Weierstrass M-Test**
+>
+> Uniform convergence.
 
 ---
 

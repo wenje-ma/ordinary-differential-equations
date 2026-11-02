@@ -1,10 +1,16 @@
 # week6
 
-> **基础知识: 积分因子**<br>若 $\mu\left(x,y\right)P\mathrm dx+\mu Q\mathrm dy=0$ 为恰当方程, 则称 $\mu$ 为积分因子.
+> **基础知识: 积分因子**
+>
+> 若 $\mu\left(x,y\right)P\mathrm dx+\mu Q\mathrm dy=0$ 为恰当方程, 则称 $\mu$ 为积分因子.
 
-> **定理 2.5 (只依赖于 $y$ 的积分因子)**<br>充要条件为 $\frac{\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}}P=H\left(y\right)$ 只依赖于 $y$, 此时 $\mu\left(y\right)=e^{\int H\left(y\right)\mathrm dy}$.
+> **定理 2.5 (只依赖于 $y$ 的积分因子)**
+>
+> 充要条件为 $\frac{\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}}P=H\left(y\right)$ 只依赖于 $y$, 此时 $\mu\left(y\right)=e^{\int H\left(y\right)\mathrm dy}$.
 
-> **定理 2.6 (积分因子与通积分的任意函数之积)**<br>若 $\mu$ 是积分因子且 $\mu P\mathrm dx+\mu Q\mathrm dy=d\Phi$, 则 $\mu g\left(\Phi\right)$ 也是积分因子.
+> **定理 2.6 (积分因子与通积分的任意函数之积)**
+>
+> 若 $\mu$ 是积分因子且 $\mu P\mathrm dx+\mu Q\mathrm dy=d\Phi$, 则 $\mu g\left(\Phi\right)$ 也是积分因子.
 
 ---
 

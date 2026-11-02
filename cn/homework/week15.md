@@ -1,20 +1,36 @@
 # week15
 
-> **基础知识: 标准微分方程组与向量形式**<br>$\frac{\mathrm dy_i}{\mathrm dx}=f_i\left(x,y_1,\cdots,y_n\right)$, 向量形式 $\frac{\mathrm dy}{\mathrm dx}=f\left(x,y\right)$.
+> **基础知识: 标准微分方程组与向量形式**
+>
+> $\frac{\mathrm dy_i}{\mathrm dx}=f_i\left(x,y_1,\cdots,y_n\right)$, 向量形式 $\frac{\mathrm dy}{\mathrm dx}=f\left(x,y\right)$.
 
-> **基础知识: 向量的模及其基本性质**<br>欧几里得模 $|y|=\sqrt{y_1^2+\cdots+y_n^2}$, 满足三角不等式.
+> **基础知识: 向量的模及其基本性质**
+>
+> 欧几里得模 $|y|=\sqrt{y_1^2+\cdots+y_n^2}$, 满足三角不等式.
 
-> **基础知识: 利普希茨条件**<br>$|f\left(x,y_1\right)-f\left(x,y_2\right)|\le L|y_1-y_2|$.
+> **基础知识: 利普希茨条件**
+>
+> $|f\left(x,y_1\right)-f\left(x,y_2\right)|\le L|y_1-y_2|$.
 
-> **基础知识: 皮卡存在唯一性定理 ($n$ 维向量形式)**<br>$f$ 连续且满足利普希茨条件时, 柯西问题在 $|x-x_0|\le h$ 上存在唯一解.
+> **基础知识: 皮卡存在唯一性定理 ($n$ 维向量形式)**
+>
+> $f$ 连续且满足利普希茨条件时, 柯西问题在 $|x-x_0|\le h$ 上存在唯一解.
 
-> **基础知识: 佩亚诺存在定理 ($n$ 维向量形式)**<br>$f$ 连续时, 柯西问题至少有一个解.
+> **基础知识: 佩亚诺存在定理 ($n$ 维向量形式)**
+>
+> $f$ 连续时, 柯西问题至少有一个解.
 
-> **基础知识: 皮卡序列及其一致收敛估计**<br>$y_{k+1}=y_0+\int_{x_0}^x f\left(t,y_k\left(t\right)\right)\mathrm dt$, 估计 $|y_{k+1}-y_k|\le\frac{ML^k|x-x_0|^{k+1}}{\left(k+1\right)!}$.
+> **基础知识: 皮卡序列及其一致收敛估计**
+>
+> $y_{k+1}=y_0+\int_{x_0}^x f\left(t,y_k\left(t\right)\right)\mathrm dt$, 估计 $|y_{k+1}-y_k|\le\frac{ML^k|x-x_0|^{k+1}}{\left(k+1\right)!}$.
 
-> **基础知识: 阿斯科利引理与格朗沃尔不等式**<br>阿斯科利引理: 一致有界且等度连续函数列有一致收敛子列. 格朗沃尔不等式: $u\le A+L\int u$ 蕴含 $u\le Ae^{L|x-x_0|}$.
+> **基础知识: 阿斯科利引理与格朗沃尔不等式**
+>
+> 阿斯科利引理: 一致有界且等度连续函数列有一致收敛子列. 格朗沃尔不等式: $u\le A+L\int u$ 蕴含 $u\le Ae^{L|x-x_0|}$.
 
-> **基础知识: 魏尔斯特拉斯判别法 (一致收敛)**<br>$|u_k\left(x\right)|\le M_k$ 且 $\sum M_k$ 收敛, 则函数项级数一致收敛.
+> **基础知识: 魏尔斯特拉斯判别法 (一致收敛)**
+>
+> $|u_k\left(x\right)|\le M_k$ 且 $\sum M_k$ 收敛, 则函数项级数一致收敛.
 
 ---
 

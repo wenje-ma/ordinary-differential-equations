@@ -1,8 +1,12 @@
 # week20
 
-> **Basic Knowledge: Existence and Uniqueness for Linear IVPs**<br>Unique solution on the common interval.
+> **Basic Knowledge: Existence and Uniqueness for Linear IVPs**
+>
+> Unique solution on the common interval.
 
-> **Example 1 (Reduction of Order)**<br>$y=\varphi(x)[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds]$.
+> **Example 1 (Reduction of Order)**
+>
+> $y=\varphi(x)[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds]$.
 ---
 
 ## 6-3 Problem 3

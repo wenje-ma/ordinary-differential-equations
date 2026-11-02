@@ -1,8 +1,12 @@
 # week14
 
-> **Basic Knowledge: First Integral**<br>Integrating autonomous equation once yields a first integral.
+> **Basic Knowledge: First Integral**
+>
+> Integrating autonomous equation once yields a first integral.
 
-> **Basic Knowledge: Pendulum Equation**<br>$\theta''+a^2\theta=0$, period $T=2\pi\sqrt{\frac lg}$.
+> **Basic Knowledge: Pendulum Equation**
+>
+> $\theta''+a^2\theta=0$, period $T=2\pi\sqrt{\frac lg}$.
 
 ---
 

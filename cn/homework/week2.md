@@ -1,8 +1,12 @@
 # week2
 
-> **基础知识: 恰当方程 (全微分方程)**<br>若存在 $\Phi\left(x,y\right)$ 使 $\mathrm d\Phi=P\mathrm dx+Q\mathrm dy$, 则称 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程, 通积分为 $\Phi\left(x,y\right)=C$.
+> **基础知识: 恰当方程 (全微分方程)**
+>
+> 若存在 $\Phi\left(x,y\right)$ 使 $\mathrm d\Phi=P\mathrm dx+Q\mathrm dy$, 则称 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程, 通积分为 $\Phi\left(x,y\right)=C$.
 
-> **定理 2.1 (恰当方程的判别与通积分公式)**<br>方程 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程的充要条件是 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$.
+> **定理 2.1 (恰当方程的判别与通积分公式)**
+>
+> 方程 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程的充要条件是 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$.
 
 ---
 

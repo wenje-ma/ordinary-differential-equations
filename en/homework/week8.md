@@ -1,14 +1,24 @@
 # week8
 
-> **Basic Knowledge: Integral Equation Equivalence**<br>$y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
+> **Basic Knowledge: Integral Equation Equivalence**
+>
+> $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
 
-> **Basic Knowledge: Ascoli Lemma**<br>Uniformly bounded and equicontinuous sequence has uniformly convergent subsequence.
+> **Basic Knowledge: Ascoli Lemma**
+>
+> Uniformly bounded and equicontinuous sequence has uniformly convergent subsequence.
 
-> **Theorem 3.1 (Picard Existence and Uniqueness)**<br>Unique solution when Lipschitz.
+> **Theorem 3.1 (Picard Existence and Uniqueness)**
+>
+> Unique solution when Lipschitz.
 
-> **Lemma 3.2 (Euler Polygonal Integral Relation)**<br>$\rho_n=y_0+\int f\left(t,\rho_n\right)\mathrm dt+\delta_n$, $\delta_n\to0$.
+> **Lemma 3.2 (Euler Polygonal Integral Relation)**
+>
+> $\rho_n=y_0+\int f\left(t,\rho_n\right)\mathrm dt+\delta_n$, $\delta_n\to0$.
 
-> **Theorem 3.3 (Peano Existence Theorem)**<br>At least one solution when $f$ is continuous.
+> **Theorem 3.3 (Peano Existence Theorem)**
+>
+> At least one solution when $f$ is continuous.
 
 ---
 

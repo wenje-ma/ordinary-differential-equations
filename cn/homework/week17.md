@@ -1,12 +1,20 @@
 # week17
 
-> **基础知识: 变分方程**<br>$z=\frac{\partial\varphi}{\partial\lambda}$ 满足 $\frac{\mathrm dz}{\mathrm dx}=Az+B$, $z\left(x_0\right)=0$; $z=\frac{\partial\varphi}{\partial y_0}$ 满足 $\frac{\mathrm dz}{\mathrm dx}=Az$, $z\left(x_0\right)=I$.
+> **基础知识: 变分方程**
+>
+> $z=\frac{\partial\varphi}{\partial\lambda}$ 满足 $\frac{\mathrm dz}{\mathrm dx}=Az+B$, $z\left(x_0\right)=0$; $z=\frac{\partial\varphi}{\partial y_0}$ 满足 $\frac{\mathrm dz}{\mathrm dx}=Az$, $z\left(x_0\right)=I$.
 
-> **基础知识: 雅可比矩阵**<br>$f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$.
+> **基础知识: 雅可比矩阵**
+>
+> $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)_{n\times n}$.
 
-> **定理 5.3 (解对参数的连续可微性)**<br>$f$ 对 $y$ 和 $\lambda$ 有连续偏微商时, 解连续可微.
+> **定理 5.3 (解对参数的连续可微性)**
+>
+> $f$ 对 $y$ 和 $\lambda$ 有连续偏微商时, 解连续可微.
 
-> **定理 5.3 的推论 (解对初值的连续可微性)**<br>$f_y$ 连续时, 解对初值连续可微.
+> **定理 5.3 的推论 (解对初值的连续可微性)**
+>
+> $f_y$ 连续时, 解对初值连续可微.
 
 ---
 

@@ -1,8 +1,12 @@
 # week23
 
-> **Basic Knowledge: Legendre Equation**<br>$(1-x^2)y''-2xy'+n(n+1)y=0$.
+> **Basic Knowledge: Legendre Equation**
+>
+> $(1-x^2)y''-2xy'+n(n+1)y=0$.
 
-> **Basic Knowledge: Generating Function**<br>$G=(1-2xt+t^2)^{-1/2}=\sum P_nt^n$.
+> **Basic Knowledge: Generating Function**
+>
+> $G=(1-2xt+t^2)^{-1/2}=\sum P_nt^n$.
 
 ---
 
