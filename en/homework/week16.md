@@ -1,13 +1,5 @@
 # week16
 
-> **Basic Knowledge: Integral Equation Equivalence**
-> 
-> $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
-
-> **Basic Knowledge: Ascoli Lemma**
-> 
-> Equicontinuous sequence has convergent subsequence.
-
 > **Theorem 5.1 (Continuous Dependence on Parameters)**
 > 
 > The solution depends continuously on parameters.

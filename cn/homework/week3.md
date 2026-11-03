@@ -1,9 +1,5 @@
 # week3
 
-> **基础知识: 变量分离方程**
-> 
-> 若 $P\left(x,y\right)=X\left(x\right)Y_1\left(y\right)$, $Q\left(x,y\right)=X_1\left(x\right)Y\left(y\right)$, 则方程可分离变量为 $\frac{X\left(x\right)}{X_1\left(x\right)}\mathrm dx+\frac{Y\left(y\right)}{Y_1\left(y\right)}\mathrm dy=0$, 通积分为两端积分之和等于常数.
-
 ---
 
 ## 2-2 题1(3)
@@ -12,7 +8,7 @@
 
 ### 解答 2-2 题1(3)
 
-由**基础知识: 变量分离方程**, 分离变量积分得 $y=-\frac1{\cos x+C}$. 特解 $y\equiv0$. $\blacksquare$
+由变量分离方程, 分离变量积分得 $y=-\frac1{\cos x+C}$. 特解 $y\equiv0$. $\blacksquare$
 
 ---
 
@@ -22,7 +18,7 @@
 
 ### 解答 2-2 题1(5)
 
-由**基础知识: 变量分离方程**, 分离变量积分得 $\tan2y=x+\frac12\sin2x+C$. 特解 $y=\frac{2k+1}4\pi$. $\blacksquare$
+由变量分离方程, 分离变量积分得 $\tan2y=x+\frac12\sin2x+C$. 特解 $y=\frac{2k+1}4\pi$. $\blacksquare$
 
 ---
 
@@ -52,7 +48,7 @@
 
 ### 解答 2-2 题3(2)
 
-由**基础知识: 变量分离方程**, $y=C_1e^{ax}$. $\blacksquare$
+由变量分离方程, $y=C_1e^{ax}$. $\blacksquare$
 
 ---
 

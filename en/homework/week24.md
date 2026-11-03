@@ -1,9 +1,5 @@
 # week24
 
-> **Basic Knowledge: Stability**
-> 
-> Lyapunov stability, asymptotic stability, instability.
-
 > **Theorem 8.1 (Eigenvalue Criterion)**
 > 
 > Asymptotically stable iff all Re(lambda)< 0.

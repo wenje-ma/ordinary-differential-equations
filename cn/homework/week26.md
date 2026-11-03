@@ -1,13 +1,5 @@
 # week26
 
-> **基础知识: 隐函数定理**
-> 
-> $F$ 连续可微且偏导非零时可局部解出.
-
-> **基础知识: 互相独立的首次积分**
-> 
-> 雅可比行列式非零.
-
 > **定理 10.1 (首次积分的充要条件)**
 > 
 > $\frac{\partial\Phi}{\partial x}+\sum\frac{\partial\Phi}{\partial y_j}f_j\equiv0$.
@@ -23,7 +15,7 @@
 
 ### 解答 10-2 题1
 
-由**基础知识: 隐函数定理解出 $y_1,\cdots,y_k$. $\blacksquare$
+由隐函数定理解出 $y_1,\cdots,y_k$. $\blacksquare$
 
 ---
 

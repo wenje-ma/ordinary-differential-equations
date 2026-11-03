@@ -1,9 +1,5 @@
 # week18
 
-> **Basic Knowledge: Existence and Uniqueness for Linear Systems**
-> 
-> Solution exists and is unique on the whole interval.
-
 > **Lemma 6.1 (Superposition Principle)**
 > 
 > Linear combinations of homogeneous solutions are solutions.

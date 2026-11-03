@@ -1,21 +1,5 @@
 # week5
 
-> **基础知识: 齐次方程**
-> 
-> 若 $P,Q$ 为同次齐次函数, 令 $y=ux$ 化为变量分离方程.
-
-> **基础知识: 可化为齐次的方程**
-> 
-> $\frac{\mathrm dy}{\mathrm dx}=\frac{ax+by+c}{mx+ny+l}$, 当 $\Delta=an-bm\ne0$ 时平移化为齐次方程.
-
-> **基础知识: 伯努利方程**
-> 
-> $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)y^n$ ($n\ne0,1$). 令 $z=y^{1-n}$ 化为一阶线性方程.
-
-> **基础知识: 里卡蒂方程**
-> 
-> $\frac{\mathrm dy}{\mathrm dx}=p\left(x\right)y^2+q\left(x\right)y+r\left(x\right)$.
-
 ---
 
 ## 2-4 题1(2)
@@ -24,7 +8,7 @@
 
 ### 解答 2-4 题1(2)
 
-由**基础知识: 可化为齐次的方程**, 平移 $x=\xi+1$, $y=\eta-2$. 令 $\eta=u\xi$, 分离变量积分得 $\frac{\eta-\xi}{\left(\eta+\xi\right)^3}=C$. 代回得 $y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
+由可化为齐次的方程, 平移 $x=\xi+1$, $y=\eta-2$. 令 $\eta=u\xi$, 分离变量积分得 $\frac{\eta-\xi}{\left(\eta+\xi\right)^3}=C$. 代回得 $y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
 
 ---
 
@@ -34,7 +18,7 @@
 
 ### 解答 2-4 题1(4)
 
-由**基础知识: 伯努利方程**, 令 $z=y^{-2}$, 得 $z'-2xz=-2x^3$. 积分因子 $e^{-x^2}$, 解得 $\frac1{y^2}=x^2+1+Ce^{x^2}$. 特解 $y\equiv0$. $\blacksquare$
+由伯努利方程, 令 $z=y^{-2}$, 得 $z'-2xz=-2x^3$. 积分因子 $e^{-x^2}$, 解得 $\frac1{y^2}=x^2+1+Ce^{x^2}$. 特解 $y\equiv0$. $\blacksquare$
 
 ---
 
@@ -44,7 +28,7 @@
 
 ### 解答 2-4 题2(2)
 
-由**基础知识: 齐次方程**, 令 $v=wu$, 分离变量积分得 $u^2v\left(v+2u\right)=C$. $\blacksquare$
+由齐次方程, 令 $v=wu$, 分离变量积分得 $u^2v\left(v+2u\right)=C$. $\blacksquare$
 
 ---
 
@@ -54,7 +38,7 @@
 
 ### 解答 2-4 题2(4)
 
-令 $u=x^2$, $v=y^2$. 由**基础知识: 可化为齐次的方程**, 平移后令 $\eta=w\xi$, 积分得 $x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$
+令 $u=x^2$, $v=y^2$. 由可化为齐次的方程, 平移后令 $\eta=w\xi$, 积分得 $x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$
 
 ---
 
@@ -64,4 +48,4 @@
 
 ### 解答 2-4 题4
 
-令 $z=\frac{y'}y$, 则 $z'=-z^2-p\left(x\right)z-q\left(x\right)$, 即**基础知识: 里卡蒂方程**. $\blacksquare$
+令 $z=\frac{y'}y$, 则 $z'=-z^2-p\left(x\right)z-q\left(x\right)$, 即里卡蒂方程. $\blacksquare$

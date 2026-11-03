@@ -1,13 +1,5 @@
 # week26
 
-> **Basic Knowledge: Implicit Function Theorem**
-> 
-> Solve locally when partial derivative nonzero.
-
-> **Basic Knowledge: Independent First Integrals**
-> 
-> Jacobian nonzero.
-
 > **Theorem 10.1 (First Integral Criterion)**
 > 
 > $\Phi_x+\sum\Phi_{y_j}f_j\equiv0$.

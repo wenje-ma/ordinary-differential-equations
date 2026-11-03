@@ -1,9 +1,5 @@
 # week6
 
-> **Basic Knowledge: Integrating Factor**
-> 
-> $\mu$ such that $\mu P\mathrm dx+\mu Q\mathrm dy=0$ is exact.
-
 > **Theorem 2.5 (Integrating Factor depending only on $y$)**
 > 
 > $\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int H\mathrm dy}$.

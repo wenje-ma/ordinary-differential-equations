@@ -1,13 +1,5 @@
 # week7
 
-> **基础知识: 利普希茨条件**
-> 
-> 若 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$, 则称 $f$ 对 $y$ 满足利普希茨条件.
-
-> **基础知识: 积分方程与初值问题的等价性**
-> 
-> 初值问题等价于 $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$. 皮卡序列 $y_{n+1}=y_0+\int_{x_0}^x f\left(t,y_n\left(t\right)\right)\mathrm dt$.
-
 > **定理 3.1 (皮卡存在和唯一性定理)**
 > 
 > 若 $f$ 连续且满足利普希茨条件, 则初值问题在 $\left|x-x_0\right|\le h$ 上有唯一解.
@@ -34,4 +26,4 @@
 
 ### 解答 3-1 题2
 
-由**基础知识: 积分方程与初值问题的等价性**, $y_1=x+\frac{x^2}2$, $y_2=x+x^2+\frac{x^3}6$. 极限解为 $y=2e^x-x-2$. $\blacksquare$
+由积分方程与初值问题的等价性, $y_1=x+\frac{x^2}2$, $y_2=x+x^2+\frac{x^3}6$. 极限解为 $y=2e^x-x-2$. $\blacksquare$

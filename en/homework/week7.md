@@ -1,13 +1,5 @@
 # week7
 
-> **Basic Knowledge: Lipschitz Condition**
-> 
-> $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le L\left|y_1-y_2\right|$.
-
-> **Basic Knowledge: Integral Equation Equivalence**
-> 
-> $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$. Picard iterates.
-
 > **Theorem 3.1 (Picard Existence and Uniqueness)**
 > 
 > Continuous and Lipschitz implies unique solution.

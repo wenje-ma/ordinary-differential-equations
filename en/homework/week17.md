@@ -1,13 +1,5 @@
 # week17
 
-> **Basic Knowledge: Variational Equations**
-> 
-> $z=\frac{\partial\varphi}{\partial\lambda}$ satisfies $\frac{\mathrm dz}{\mathrm dx}=Az+B$.
-
-> **Basic Knowledge: Jacobian Matrix**
-> 
-> $f_y=\left(\frac{\partial f_i}{\partial y_j}\right)$.
-
 > **Theorem 5.3 (Differentiability with Respect to Parameters)**
 > 
 > The solution is differentiable.

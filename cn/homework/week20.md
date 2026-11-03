@@ -1,9 +1,5 @@
 # week20
 
-> **基础知识: 初值问题解的存在唯一性**
-> 
-> $n$ 阶线性方程初值问题在公共连续区间上存在唯一.
-
 > **例 1 (由一个非零解构造通解的公式)**
 > 
 > $y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^x\frac1{\varphi^2\left(s\right)}e^{-\int_{x_0}^s p\left(t\right)\mathrm dt}\mathrm ds\right]$.
@@ -25,7 +21,7 @@
 
 ### 解答 6-3 题4
 
-由**基础知识: 初值问题解的存在唯一性**, 若 $\varphi\left(x_0\right)=0$ 且 $\varphi'\left(x_0\right)=0$ 则 $\varphi\equiv0$, 矛盾. 零点孤立, 故有限. $\blacksquare$
+由初值问题解的存在唯一性, 若 $\varphi\left(x_0\right)=0$ 且 $\varphi'\left(x_0\right)=0$ 则 $\varphi\equiv0$, 矛盾. 零点孤立, 故有限. $\blacksquare$
 
 ---
 

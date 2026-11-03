@@ -1,21 +1,5 @@
 # week5
 
-> **Basic Knowledge: Homogeneous Equation**
-> 
-> Set $y=ux$ to separate variables.
-
-> **Basic Knowledge: Reducible to Homogeneous**
-> 
-> Shift coordinates when $\Delta=an-bm\ne0$.
-
-> **Basic Knowledge: Bernoulli Equation**
-> 
-> $\frac{\mathrm dy}{\mathrm dx}+py=qy^n$. Set $z=y^{1-n}$.
-
-> **Basic Knowledge: Riccati Equation**
-> 
-> $\frac{\mathrm dy}{\mathrm dx}=py^2+qy+r$.
-
 ---
 
 ## 2-4 Problem 1(2)

@@ -1,9 +1,5 @@
 # week22
 
-> **Basic Knowledge: Ordinary and Singular Points**
-> 
-> $A\left(x_0\right)\ne0$ is ordinary, $A\left(x_0\right)=0$ is singular.
-
 > **Theorem 7.2 (Power Series Solution Near Ordinary Points)**
 > 
 > $y=\sum C_n\left(x-x_0\right)^n$ with recurrence.

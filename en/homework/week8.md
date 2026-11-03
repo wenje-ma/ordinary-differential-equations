@@ -1,13 +1,5 @@
 # week8
 
-> **Basic Knowledge: Integral Equation Equivalence**
-> 
-> $y=y_0+\int_{x_0}^x f\left(t,y\left(t\right)\right)\mathrm dt$.
-
-> **Basic Knowledge: Ascoli Lemma**
-> 
-> Uniformly bounded and equicontinuous sequence has uniformly convergent subsequence.
-
 > **Theorem 3.1 (Picard Existence and Uniqueness)**
 > 
 > Unique solution when Lipschitz.

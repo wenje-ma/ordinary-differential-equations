@@ -1,17 +1,5 @@
 # week4
 
-> **基础知识: 一阶线性方程**
-> 
-> 形如 $\frac{\mathrm dy}{\mathrm dx}+p\left(x\right)y=q\left(x\right)$ 的方程. $q\equiv0$ 时为齐次, 否则为非齐次.
-
-> **基础知识: 齐次线性方程的通解**
-> 
-> $y=Ce^{-\int p\left(x\right)\mathrm dx}$.
-
-> **基础知识: 非齐次线性方程的通解 (积分因子法)**
-> 
-> 积分因子 $\mu\left(x\right)=e^{\int p\left(x\right)\mathrm dx}$, 通解为 $y=e^{-\int p\left(x\right)\mathrm dx}\left[\int q\left(x\right)e^{\int p\left(x\right)\mathrm dx}\mathrm dx+C\right]$.
-
 ---
 
 ## 2-3 题1(2)
@@ -20,7 +8,7 @@
 
 ### 解答 2-3 题1(2)
 
-由**基础知识: 非齐次线性方程的通解 (积分因子法)**, 积分因子 $\mu=\sec x$. 积分得 $y\sec x=-2\cos x+C$, 故 $y=C\cos x-2\cos^2x$. $\blacksquare$
+由非齐次线性方程的通解 (积分因子法), 积分因子 $\mu=\sec x$. 积分得 $y\sec x=-2\cos x+C$, 故 $y=C\cos x-2\cos^2x$. $\blacksquare$
 
 ---
 
@@ -60,4 +48,4 @@
 
 ### 解答 2-3 题5
 
-由**基础知识: 齐次线性方程的通解** 与**基础知识: 非齐次线性方程的通解 (积分因子法)**, $y\left(x+\omega\right)=y\left(x\right)$ 等价于 $e^{-\int_0^\omega p}=1$, 即 $\bar p=0$. 非齐次时唯一周期解当且仅当 $\bar p\ne0$. $\blacksquare$
+由齐次线性方程的通解 与非齐次线性方程的通解 (积分因子法), $y\left(x+\omega\right)=y\left(x\right)$ 等价于 $e^{-\int_0^\omega p}=1$, 即 $\bar p=0$. 非齐次时唯一周期解当且仅当 $\bar p\ne0$. $\blacksquare$

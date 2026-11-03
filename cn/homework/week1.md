@@ -1,13 +1,5 @@
 # week1
 
-> **基础知识: 初值问题 (柯西问题)**
-> 
-> 对 $n$ 阶微分方程, 初值条件为 $y\left(x_0\right)=y_0$, $y'\left(x_0\right)=y_0'$, $\cdots$, $y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)}$.
-
-> **基础知识: 微分方程的求解与积分运算**
-> 
-> 微分方程的求解与一定的积分运算相联系. $n$ 阶微分方程的通解应包含 $n$ 个任意常数.
-
 > **定义 1.2 (解)**
 > 
 > 若 $y=\varphi\left(x\right)$ 及其各阶导数代入方程后得到恒等式, 则称 $y=\varphi\left(x\right)$ 为该微分方程在区间 $J$ 上的一个解.
@@ -30,7 +22,7 @@
 
 ### 解答 1-2 题2(3)
 
-由**基础知识: 微分方程的求解与积分运算**, 分离变量积分得 $R=Ce^{-at}$. 代入初值 $R\left(0\right)=1$, 得 $C=1$. 故 $R\left(t\right)=e^{-at}$. $\blacksquare$
+由微分方程的求解与积分运算, 分离变量积分得 $R=Ce^{-at}$. 代入初值 $R\left(0\right)=1$, 得 $C=1$. 故 $R\left(t\right)=e^{-at}$. $\blacksquare$
 
 ---
 

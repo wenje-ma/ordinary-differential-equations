@@ -1,9 +1,5 @@
 # week3
 
-> **Basic Knowledge: Separable Equations**
-> 
-> $P\mathrm dx+Q\mathrm dy=0$ with $P=X\left(x\right)Y_1\left(y\right)$, $Q=X_1\left(x\right)Y\left(y\right)$ can be separated.
-
 ---
 
 ## 2-2 Problem 1(3)

@@ -1,13 +1,5 @@
 # week1
 
-> **Basic Knowledge: Initial Value Problem (Cauchy Problem)**
-> 
-> $y\left(x_0\right)=y_0$, $y'\left(x_0\right)=y_0'$, ..., $y^{\left(n-1\right)}\left(x_0\right)=y_0^{\left(n-1\right)}$.
-
-> **Basic Knowledge: Integration and ODEs**
-> 
-> Solving an ODE involves integration; the general solution of an $n$-th order ODE contains $n$ arbitrary constants.
-
 > **Definition 1.2 (Solution)**
 > 
 > A function $\varphi$ such that substituting it and its derivatives into the equation yields an identity.

@@ -1,9 +1,5 @@
 # week21
 
-> **Basic Knowledge: Majorant Series and Function**
-> 
-> $\left|a_{ij}\right|\le A_{ij}$ and $\sum A_{ij}$ converges.
-
 > **Note 3 (Majorant Method for Systems)**
 > 
 > Applies to systems of ODEs.
