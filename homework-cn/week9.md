@@ -12,8 +12,6 @@
 > 
 > 若 $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, 则解以整个条形区域为最大存在区间.
 
----
-
 ## 3-3 题1
 
 证明: 线性方程 $y'=a\left(x\right)y+b\left(x\right)$ 的每一个解以 $I$ 为最大存在区间.
@@ -21,8 +19,6 @@
 ### 解答 3-3 题1
 
 由**定理 3.5 (条形区域上解的整体存在性)**, 取 $A=\left|a\right|$, $B=\left|b\right|$ 即得. $\blacksquare$
-
----
 
 ## 3-3 题2(2)
 
@@ -32,8 +28,6 @@
 
 由**推论 (局部利普希茨条件下解的存在唯一与延伸)**, 分离变量得 $y=\frac1{1-Ce^x}$. 平衡解 $y\equiv0,1$ 全局存在; $0< y_0< 1$ 全局存在; $y_0< 0$ 或 $y_0> 1$ 时在有限点爆破. $\blacksquare$
 
----
-
 ## 3-3 题2(4)
 
 讨论 $y'=1+y^2$ 解的存在区间.
@@ -42,8 +36,6 @@
 
 $y=\tan\left(x+C\right)$, 最大存在区间为有限区间 $\left(-\frac\pi2-C,\frac\pi2-C\right)$. $\blacksquare$
 
----
-
 ## 3-3 题3
 
 $x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解的延伸定理)** 矛盾?
@@ -51,8 +43,6 @@ $x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解�
 ### 解答 3-3 题3
 
 不矛盾. 正规形式 $y'=-\frac xy$ 在 $y=0$ 处不连续, 故**定理 3.4 (解的延伸定理)** 前提不成立. 每支曲线延伸到 $y=0$ 即定义域边界. $\blacksquare$
-
----
 
 ## 3-3 题4
 

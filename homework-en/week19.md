@@ -35,8 +35,6 @@
 > **Lemma 6.7 (Repeated Eigenvalues)**
 > 
 > Solutions are $e^{\lambda x}\left(r_0+xr_1+\cdots\right)$.
----
-
 ## 6-2 Problem 1(2)
 
 Solve $y'=\begin{bmatrix}0&a\\-a&0\end{bmatrix}y$.
@@ -44,8 +42,6 @@ Solve $y'=\begin{bmatrix}0&a\\-a&0\end{bmatrix}y$.
 ### Solution 6-2 Problem 1(2)
 
 $C_1\left(\cos ax,-\sin ax\right)^\top+C_2\left(\sin ax,\cos ax\right)^\top$. $\blacksquare$
-
----
 
 ## 6-2 Problem 1(4)
 
@@ -55,8 +51,6 @@ Solve the 3x3 system with triple eigenvalue.
 
 $C_1e^x\left(1,0,0\right)^\top+C_2e^x\left(0,1,1\right)^\top+C_3e^x\left[\left(0,1,0\right)^\top+x\left(\frac23,-\frac13,-\frac13\right)^\top\right]$. $\blacksquare$
 
----
-
 ## 6-2 Problem 2(2)
 
 Solve the nonhomogeneous system.
@@ -64,8 +58,6 @@ Solve the nonhomogeneous system.
 ### Solution 6-2 Problem 2(2)
 
 Homogeneous + particular trigonometric solution. $\blacksquare$
-
----
 
 ## 6-2 Problem 2(4)
 
@@ -75,8 +67,6 @@ Solve the nonhomogeneous 3x3 system.
 
 Homogeneous with eigenvalues $1,\pm i$ + particular $\left(-1,x,0\right)^\top$. $\blacksquare$
 
----
-
 ## 6-2 Problem 3(2)
 
 Solve the IVP.
@@ -84,8 +74,6 @@ Solve the IVP.
 ### Solution 6-2 Problem 3(2)
 
 $y=\frac{13}4\left(\cos2x,\sin2x\right)^\top-3\left(\sin2x,-\cos2x\right)^\top+\left(-\frac54,\frac32x\right)^\top$. $\blacksquare$
-
----
 
 ## 6-2 Problem 3(4)
 
@@ -95,8 +83,6 @@ Solve the resonant IVP.
 
 $y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
 
----
-
 ## 6-2 Problem 4
 
 Solve the rotation system.
@@ -104,8 +90,6 @@ Solve the rotation system.
 ### Solution 6-2 Problem 4
 
 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
-
----
 
 ## 6-2 Problem 5
 

@@ -1,7 +1,5 @@
 # week4
 
----
-
 ## 2-3 题1(2)
 
 求解 $\frac{\mathrm dy}{\mathrm dx}+y\tan x=\sin2x$.
@@ -9,8 +7,6 @@
 ### 解答 2-3 题1(2)
 
 由非齐次线性方程的通解 (积分因子法), 积分因子 $\mu=\sec x$. 积分得 $y\sec x=-2\cos x+C$, 故 $y=C\cos x-2\cos^2x$. $\blacksquare$
-
----
 
 ## 2-3 题1(4)
 
@@ -20,8 +16,6 @@
 
 积分因子 $\mu=\sqrt{\frac{1-x}{1+x}}$. 积分得 $\mu y=1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)$. 故 $y=\sqrt{\frac{1+x}{1-x}}\left[1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)\right]$. $\blacksquare$
 
----
-
 ## 2-3 题3
 
 证明: 若 $y'+a\left(x\right)y\le0$, 则 $\varphi\left(x\right)\le\varphi\left(0\right)e^{-\int_0^x a\left(s\right)\mathrm ds}$.
@@ -30,8 +24,6 @@
 
 取积分因子 $A\left(x\right)=e^{\int_0^x a\left(s\right)\mathrm ds}$, 则 $\frac{\mathrm d}{\mathrm dx}\left(Ay\right)\le0$, 故 $Ay$ 单调不增. $\blacksquare$
 
----
-
 ## 2-3 题4
 
 用常数变易法推导非齐次线性方程的通解.
@@ -39,8 +31,6 @@
 ### 解答 2-3 题4
 
 设 $y=C\left(x\right)e^{-\int p\mathrm dx}$, 代入方程得 $C'\left(x\right)=q\left(x\right)e^{\int p\mathrm dx}$. 积分后即得与积分因子法一致的结果. $\blacksquare$
-
----
 
 ## 2-3 题5
 

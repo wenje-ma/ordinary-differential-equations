@@ -12,8 +12,6 @@
 > 
 > On bounded intervals under local Lipschitz.
 
----
-
 ## 5-3 Problem 2
 
 Prove: uniqueness implies continuous dependence on initial values.
@@ -21,8 +19,6 @@ Prove: uniqueness implies continuous dependence on initial values.
 ### Solution 5-3 Problem 2
 
 By Ascoli lemma and uniqueness. $\blacksquare$
-
----
 
 ## 5-3 Problem 3
 

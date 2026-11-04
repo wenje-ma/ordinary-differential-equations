@@ -1,7 +1,5 @@
 # week3
 
----
-
 ## 2-2 题1(3)
 
 求解 $\frac{\mathrm dy}{\mathrm dx}+y^2\sin x=0$.
@@ -9,8 +7,6 @@
 ### 解答 2-2 题1(3)
 
 由变量分离方程, 分离变量积分得 $y=-\frac1{\cos x+C}$. 特解 $y\equiv0$. $\blacksquare$
-
----
 
 ## 2-2 题1(5)
 
@@ -20,8 +16,6 @@
 
 由变量分离方程, 分离变量积分得 $\tan2y=x+\frac12\sin2x+C$. 特解 $y=\frac{2k+1}4\pi$. $\blacksquare$
 
----
-
 ## 2-2 题2(2)
 
 求解初值问题 $x\mathrm dx+ye^{-x}\mathrm dy=0$, $y\left(0\right)=1$.
@@ -29,8 +23,6 @@
 ### 解答 2-2 题2(2)
 
 分离变量积分得 $\frac{y^2}2=e^x\left(1-x\right)+C$. 代入初值得 $y^2=2e^x\left(1-x\right)-1$. $\blacksquare$
-
----
 
 ## 2-2 题2(4)
 
@@ -40,8 +32,6 @@
 
 分离变量积分得 $y+\frac{y^3}3=x\ln\left|x\right|-x+C$. 代入初值得 $y+\frac{y^3}3=x\ln\left|x\right|-x+1$. $\blacksquare$
 
----
-
 ## 2-2 题3(2)
 
 求解 $\frac{\mathrm dy}{\mathrm dx}=ay$.
@@ -50,8 +40,6 @@
 
 由变量分离方程, $y=C_1e^{ax}$. $\blacksquare$
 
----
-
 ## 2-2 题3(4)
 
 求解 $\frac{\mathrm dy}{\mathrm dx}=y^n$ ($n=\frac13,1,2$).
@@ -59,8 +47,6 @@
 ### 解答 2-2 题3(4)
 
 $n=\frac13$: $y=\pm\left[\frac23\left(x+C\right)\right]^{3/2}$; $n=1$: $y=Ce^x$; $n=2$: $y=-\frac1{x+C}$. 均补特解 $y\equiv0$. $\blacksquare$
-
----
 
 ## 2-2 题5
 

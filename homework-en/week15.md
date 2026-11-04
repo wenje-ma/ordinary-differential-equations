@@ -1,7 +1,5 @@
 # week15
 
----
-
 ## 5-2 Problem 2
 
 State and prove Picard and Peano theorems in vector form.
@@ -9,8 +7,6 @@ State and prove Picard and Peano theorems in vector form.
 ### Solution 5-2 Problem 2
 
 By integral equation, Picard iterates, and Gronwall inequality. $\blacksquare$
-
----
 
 ## 5-2 Problem 3
 

@@ -1,7 +1,5 @@
 # week14
 
----
-
 ## 5-1 Problem 1
 
 Estimate $g$ using the linear pendulum.
@@ -9,8 +7,6 @@ Estimate $g$ using the linear pendulum.
 ### Solution 5-1 Problem 1
 
 $g=\frac{4\pi^2l}{T^2}$. $\blacksquare$
-
----
 
 ## 5-1 Problem 2
 

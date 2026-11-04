@@ -8,8 +8,6 @@
 > 
 > $\Phi\left(u,v\right)=0$.
 
----
-
 ## 11-2 题1(2)
 
 求解 $\left(xy^3-2x^4\right)z_x+\left(2y^4-x^3y\right)z_y=9z\left(x^3-y^3\right)$.
@@ -17,8 +15,6 @@
 ### 解答 11-2 题1(2)
 
 首次积分 $x^2y^2/\left(x^3+y^3\right)$ 与 $\left(x^3+y^3\right)^3z^2$. $\blacksquare$
-
----
 
 ## 11-2 题2
 

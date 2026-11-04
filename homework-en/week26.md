@@ -7,8 +7,6 @@
 > **Theorem 10.2 (Reducing Order)**
 > 
 > One first integral reduces order by one.
----
-
 ## 10-2 Problem 1
 
 Prove $k$ integrals reduce order by $k$.
@@ -16,8 +14,6 @@ Prove $k$ integrals reduce order by $k$.
 ### Solution 10-2 Problem 1
 
 By implicit function theorem. $\blacksquare$
-
----
 
 ## 10-2 Problem 2
 

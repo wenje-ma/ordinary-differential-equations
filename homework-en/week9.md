@@ -12,8 +12,6 @@
 > 
 > If $\left|f\right|\le A\left|y\right|+B$, solutions exist globally.
 
----
-
 ## 3-3 Problem 1
 
 Prove linear equations have global solutions.
@@ -21,8 +19,6 @@ Prove linear equations have global solutions.
 ### Solution 3-3 Problem 1
 
 By Theorem 3.5. $\blacksquare$
-
----
 
 ## 3-3 Problem 2(2)
 
@@ -32,8 +28,6 @@ Discuss existence intervals for $y'=y\left(y-1\right)$.
 
 Equilibrium solutions global; other solutions may blow up. $\blacksquare$
 
----
-
 ## 3-3 Problem 2(4)
 
 Discuss $y'=1+y^2$.
@@ -42,8 +36,6 @@ Discuss $y'=1+y^2$.
 
 $y=\tan\left(x+C\right)$, finite interval. $\blacksquare$
 
----
-
 ## 3-3 Problem 3
 
 Is the unit circle a contradiction?
@@ -51,8 +43,6 @@ Is the unit circle a contradiction?
 ### Solution 3-3 Problem 3
 
 No. The RHS is not continuous on $y=0$. $\blacksquare$
-
----
 
 ## 3-3 Problem 4
 

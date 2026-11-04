@@ -8,8 +8,6 @@
 > 
 > If $\mu$ is an IF, then $\mu g\left(\Phi\right)$ is also an IF.
 
----
-
 ## 2-5 Problem 1(2)
 
 Solve $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
@@ -17,8 +15,6 @@ Solve $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
 ### Solution 2-5 Problem 1(2)
 
 $xe^{2y}-\ln\left|y\right|=C$, plus $y\equiv0$. $\blacksquare$
-
----
 
 ## 2-5 Problem 1(4)
 
@@ -28,8 +24,6 @@ Solve $y\mathrm dx-\left(x^2+y^2+x\right)\mathrm dy=0$.
 
 $\arctan\frac xy=y+C$. $\blacksquare$
 
----
-
 ## 2-5 Problem 2
 
 Prove the necessary and sufficient condition for $\mu=\mu\left(\varphi\right)$.
@@ -37,8 +31,6 @@ Prove the necessary and sufficient condition for $\mu=\mu\left(\varphi\right)$.
 ### Solution 2-5 Problem 2
 
 $\mu=e^{\int f\left(\varphi\right)\mathrm d\varphi}$. $\blacksquare$
-
----
 
 ## 2-5 Problem 4
 

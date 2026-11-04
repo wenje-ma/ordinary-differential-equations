@@ -4,8 +4,6 @@
 > 
 > $y=\sum C_n\left(x-x_0\right)^n$ with recurrence.
 
----
-
 ## 7-2 Problem 3
 
 Solve Hermite's equation $y''-2xy'+\lambda y=0$.
@@ -13,8 +11,6 @@ Solve Hermite's equation $y''-2xy'+\lambda y=0$.
 ### Solution 7-2 Problem 3
 
 $a_{n+2}=\frac{2n-\lambda}{\left(n+2\right)\left(n+1\right)}a_n$. $\blacksquare$
-
----
 
 ## 7-2 Problem 4
 

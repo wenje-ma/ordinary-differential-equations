@@ -12,8 +12,6 @@
 > 
 > Positive definite V with negative definite derivative.
 
----
-
 ## 8-2 Problem 1
 
 Prove asymptotic = global asymptotic for linear systems.
@@ -21,8 +19,6 @@ Prove asymptotic = global asymptotic for linear systems.
 ### Solution 8-2 Problem 1
 
 By linear scaling. $\blacksquare$
-
----
 
 ## 8-2 Problem 2
 
@@ -32,8 +28,6 @@ Find conditions for $x'=a\left(t\right)x$.
 
 $\int a\to-\infty$ for asymptotic. $\blacksquare$
 
----
-
 ## 8-2 Problem 3
 
 Discuss polar coordinate equilibrium.
@@ -41,8 +35,6 @@ Discuss polar coordinate equilibrium.
 ### Solution 8-2 Problem 3
 
 Stable, not asymptotically stable. $\blacksquare$
-
----
 
 ## 8-2 Problem 4
 
@@ -52,8 +44,6 @@ Prove 2x2 stability criteria.
 
 By Theorem 8.1. $\blacksquare$
 
----
-
 ## 8-2 Problem 5
 
 Discuss using $V=x^2+y^2$.
@@ -61,8 +51,6 @@ Discuss using $V=x^2+y^2$.
 ### Solution 8-2 Problem 5
 
 Depends on sign of $f$. $\blacksquare$
-
----
 
 ## 8-2 Problem 6
 
@@ -72,8 +60,6 @@ Prove $x''+g\left(x\right)=0$ is stable.
 
 Energy method. $\blacksquare$
 
----
-
 ## 8-2 Problem 7
 
 Study two equilibria.
@@ -82,8 +68,6 @@ Study two equilibria.
 
 $\left(1,0\right)$ unstable, $\left(-1,0\right)$ stable. $\blacksquare$
 
----
-
 ## 8-2 Problem 8(2)
 
 Discuss zero solution.
@@ -91,8 +75,6 @@ Discuss zero solution.
 ### Solution 8-2 Problem 8(2)
 
 Asymptotically stable. $\blacksquare$
-
----
 
 ## 8-2 Problem 8(4)
 

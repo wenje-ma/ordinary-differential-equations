@@ -27,8 +27,6 @@
 > **引理 6.4 (非齐次线性方程组解的结构)**
 > 
 > 非齐次解 $=$ 齐次通解 $+$ 特解.
----
-
 ## 6-1 题1(1)
 
 求 $\frac{\mathrm dy}{\mathrm dt}=\begin{bmatrix}\frac1t&0\\0&\frac1t\end{bmatrix}y$ 的通解.
@@ -36,8 +34,6 @@
 ### 解答 6-1 题1(1)
 
 分量独立, $y_1=C_1t$, $y_2=C_2t$. $\blacksquare$
-
----
 
 ## 6-1 题1(3)
 
@@ -47,8 +43,6 @@
 
 $y_1=C_1\cos t+C_2\sin t$, $y_2=-C_1\sin t+C_2\cos t$. $\blacksquare$
 
----
-
 ## 6-1 题2(2)
 
 求解初值问题: $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1t y+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
@@ -56,8 +50,6 @@ $y_1=C_1\cos t+C_2\sin t$, $y_2=-C_1\sin t+C_2\cos t$. $\blacksquare$
 ### 解答 6-1 题2(2)
 
 $x\equiv0$. $y=\frac{t^2}3+\frac1t$. $\blacksquare$
-
----
 
 ## 6-1 题3
 
@@ -67,8 +59,6 @@ $x\equiv0$. $y=\frac{t^2}3+\frac1t$. $\blacksquare$
 
 多项式恒等 $C_1+C_2x+C_3x^2=0$ 蕴含 $C_1=C_2=C_3=0$. $\blacksquare$
 
----
-
 ## 6-1 题4
 
 证明基解矩阵完全决定齐次方程组.
@@ -76,8 +66,6 @@ $x\equiv0$. $y=\frac{t^2}3+\frac1t$. $\blacksquare$
 ### 解答 6-1 题4
 
 由**定理 6.2 (朗斯基行列式判别法)**, $\Phi$ 可逆, 故 $A\Phi=B\Phi$ 蕴含 $A=B$. $\blacksquare$
-
----
 
 ## 6-1 题6
 

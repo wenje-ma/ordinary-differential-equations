@@ -31,8 +31,6 @@
 > **引理 6.7 (重特征根时确定向量多项式系数的方法)**
 > 
 > $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
----
-
 ## 6-2 题1(2)
 
 求 $y'=\begin{bmatrix}0&a\\-a&0\end{bmatrix}y$ 的通解.
@@ -40,8 +38,6 @@
 ### 解答 6-2 题1(2)
 
 由**引理 6.6 (方程组有指数型非零解的充要条件)**, 特征根 $\lambda=\pm ia$. 由**附注 2 (从复值解提取实值解的方法)**, 取实部虚部得 $y=C_1\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix}+C_2\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix}$. $\blacksquare$
-
----
 
 ## 6-2 题1(4)
 
@@ -51,8 +47,6 @@
 
 由**引理 6.7 (重特征根时确定向量多项式系数的方法)**, $\lambda=1$ 为三重根. 通解为 $C_1e^x\left(1,0,0\right)^\top+C_2e^x\left(0,1,1\right)^\top+C_3e^x\left[\left(0,1,0\right)^\top+x\left(\frac23,-\frac13,-\frac13\right)^\top\right]$. $\blacksquare$
 
----
-
 ## 6-2 题2(2)
 
 求 $y'=\begin{bmatrix}0&-n^2\\-n^2&0\end{bmatrix}y+\begin{bmatrix}\cos nx\\\sin nx\end{bmatrix}$ 的通解.
@@ -60,8 +54,6 @@
 ### 解答 6-2 题2(2)
 
 齐次通解由**定理 6.5 ($n$ 个互不相同特征根时的基解矩阵)** 给出. 特解设为三角函数形式. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, 通解为齐次通解加特解. $\blacksquare$
-
----
 
 ## 6-2 题2(4)
 
@@ -71,8 +63,6 @@
 
 特征根 $\lambda=1,\pm i$. 由**附注 2 (从复值解提取实值解的方法)** 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
 
----
-
 ## 6-2 题3(2)
 
 求解初值问题 $y'=\begin{bmatrix}0&-2\\2&0\end{bmatrix}y+\begin{bmatrix}3x\\4\end{bmatrix}$, $y\left(0\right)=\left(2,3\right)^\top$.
@@ -80,8 +70,6 @@
 ### 解答 6-2 题3(2)
 
 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=\frac{13}4\begin{bmatrix}\cos2x\\\sin2x\end{bmatrix}-3\begin{bmatrix}\sin2x\\-\cos2x\end{bmatrix}+\begin{bmatrix}-\frac54\\\frac32x\end{bmatrix}$. $\blacksquare$
-
----
 
 ## 6-2 题3(4)
 
@@ -91,8 +79,6 @@
 
 非齐次项共振于特征根 $\lambda=-1$. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
 
----
-
 ## 6-2 题4
 
 求解 $\frac{\mathrm d}{\mathrm dt}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}a&-b\\b&a\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}$.
@@ -100,8 +86,6 @@
 ### 解答 6-2 题4
 
 由**附注 2 (从复值解提取实值解的方法)**, 通解为 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
-
----
 
 ## 6-2 题5
 

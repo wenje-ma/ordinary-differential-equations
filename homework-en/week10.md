@@ -20,8 +20,6 @@
 > 
 > If $f\le F$, then $\varphi\le\Phi$.
 
----
-
 ## 3-4 Problem 1
 
 Prove the strip between min/max solutions is filled.
@@ -29,8 +27,6 @@ Prove the strip between min/max solutions is filled.
 ### Solution 3-4 Problem 1
 
 By comparison and extension theorems. $\blacksquare$
-
----
 
 ## 3-4 Problem 2
 

@@ -4,8 +4,6 @@
 > 
 > A function $\varphi$ such that substituting it and its derivatives into the equation yields an identity.
 
----
-
 ## 1-1 Problem 1(4)
 
 Verify that the given piecewise function solves $y'=\sqrt{\left|y\right|}$.
@@ -14,8 +12,6 @@ Verify that the given piecewise function solves $y'=\sqrt{\left|y\right|}$.
 
 By checking each of the three intervals. $\blacksquare$
 
----
-
 ## 1-2 Problem 2(3)
 
 Solve $\frac{\mathrm dR}{\mathrm dt}=-aR$, $R\left(0\right)=1$.
@@ -23,8 +19,6 @@ Solve $\frac{\mathrm dR}{\mathrm dt}=-aR$, $R\left(0\right)=1$.
 ### Solution 1-2 Problem 2(3)
 
 $R\left(t\right)=e^{-at}$. $\blacksquare$
-
----
 
 ## 1-2 Problem 2(4)
 

@@ -8,8 +8,6 @@
 > 
 > 若 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le F\left(\left|y_1-y_2\right|\right)$ 且 $\int_0^{r_1}\frac{\mathrm dr}{F\left(r\right)}=+\infty$, 则解唯一.
 
----
-
 ## 3-1 题1
 
 讨论 $y\left(0\right)=0$ 的解的唯一性: (1) $y'=\left|y\right|^\alpha$; (2) $y'=\begin{cases}0,&y=0\\ y\ln\left|y\right|,&y\ne0\end{cases}$.
@@ -17,8 +15,6 @@
 ### 解答 3-1 题1
 
 (1) $\alpha\ge1$ 时由**定理 3.1 (皮卡存在和唯一性定理)** 解唯一; $0< \alpha< 1$ 时不唯一. (2) 不满足利普希茨条件, 但由反证法可证零解唯一. $\blacksquare$
-
----
 
 ## 3-1 题2
 

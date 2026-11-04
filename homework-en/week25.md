@@ -8,8 +8,6 @@
 > 
 > Small nonlinear terms preserve type.
 
----
-
 ## 8-3 Problem 1
 
 Sketch phase portrait for higher-order singularity.
@@ -17,8 +15,6 @@ Sketch phase portrait for higher-order singularity.
 ### Solution 8-3 Problem 1
 
 Line or plane of equilibria. $\blacksquare$
-
----
 
 ## 8-3 Problem 2(2)
 
@@ -28,8 +24,6 @@ Classify singular point.
 
 Unstable node. $\blacksquare$
 
----
-
 ## 8-3 Problem 2(4)
 
 Classify singular point.
@@ -37,8 +31,6 @@ Classify singular point.
 ### Solution 8-3 Problem 2(4)
 
 Unstable improper node. $\blacksquare$
-
----
 
 ## 8-3 Problem 2(5)
 

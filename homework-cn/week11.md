@@ -1,7 +1,5 @@
 # week11
 
----
-
 ## 4-1 题1(1)
 
 求解 $2y=p^2+4px+2x^2$.
@@ -9,8 +7,6 @@
 ### 解答 4-1 题1(1)
 
 由微分法, $y=\frac12p^2+2px+x^2$. 微分得 $\left(p+2x\right)\left(\frac{\mathrm dp}{\mathrm dx}+1\right)=0$. 通解 $y=-\frac12x^2+Cx+\frac{C^2}2$, 特解 $y=-x^2$. $\blacksquare$
-
----
 
 ## 4-1 题1(3)
 
@@ -20,8 +16,6 @@
 
 由微分法, 令 $u=p\cos y$, 得通解 $\sin y=Cx-\frac{C^3}2$, 特解 $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
 
----
-
 ## 4-1 题2(2)
 
 用参数法求解 $x^2-3p^2=1$.
@@ -29,8 +23,6 @@
 ### 解答 4-1 题2(2)
 
 由参数法, $x=\cosh t$, $p=\frac1{\sqrt3}\sinh t$. 积分得 $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$
-
----
 
 ## 4-1 题2(4)
 

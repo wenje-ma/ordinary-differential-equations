@@ -4,8 +4,6 @@
 > 
 > Integral surface woven by characteristics.
 
----
-
 ## 11-3 Problem 1
 
 Solve the IVP.

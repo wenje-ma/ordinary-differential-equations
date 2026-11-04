@@ -8,8 +8,6 @@
 > 
 > Differentiable in initial values.
 
----
-
 ## 5-4 Problem 1
 
 Prove $z=\frac{\partial\varphi}{\partial\lambda}$ satisfies the variational equation.
@@ -17,8 +15,6 @@ Prove $z=\frac{\partial\varphi}{\partial\lambda}$ satisfies the variational equa
 ### Solution 5-4 Problem 1
 
 By Theorem 5.3 and Jacobian differentiation. $\blacksquare$
-
----
 
 ## 5-4 Problem 2
 

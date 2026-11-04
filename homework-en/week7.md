@@ -8,8 +8,6 @@
 > 
 > If $\int_0^{r_1}\frac{\mathrm dr}{F\left(r\right)}=\infty$, then uniqueness holds.
 
----
-
 ## 3-1 Problem 1
 
 Discuss uniqueness for $y\left(0\right)=0$.
@@ -17,8 +15,6 @@ Discuss uniqueness for $y\left(0\right)=0$.
 ### Solution 3-1 Problem 1
 
 (1) $\alpha\ge1$ unique, $0< \alpha< 1$ not unique. (2) Zero solution is unique. $\blacksquare$
-
----
 
 ## 3-1 Problem 2
 

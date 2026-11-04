@@ -27,8 +27,6 @@
 > **Lemma 6.4 (Structure of Nonhomogeneous Solutions)**
 > 
 > Nonhomogeneous = homogeneous general + particular.
----
-
 ## 6-1 Problem 1(1)
 
 Solve $y'=\begin{bmatrix}\frac1t&0\\0&\frac1t\end{bmatrix}y$.
@@ -36,8 +34,6 @@ Solve $y'=\begin{bmatrix}\frac1t&0\\0&\frac1t\end{bmatrix}y$.
 ### Solution 6-1 Problem 1(1)
 
 $y_1=C_1t$, $y_2=C_2t$. $\blacksquare$
-
----
 
 ## 6-1 Problem 1(3)
 
@@ -47,8 +43,6 @@ Solve $y'=\begin{bmatrix}0&1\\-1&0\end{bmatrix}y$.
 
 $y_1=C_1\cos t+C_2\sin t$, $y_2=-C_1\sin t+C_2\cos t$. $\blacksquare$
 
----
-
 ## 6-1 Problem 2(2)
 
 Solve $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1t y+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
@@ -56,8 +50,6 @@ Solve $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1t y+x+t$, $x\left(1\right)=0$, $y\left(
 ### Solution 6-1 Problem 2(2)
 
 $x\equiv0$, $y=\frac{t^2}3+\frac1t$. $\blacksquare$
-
----
 
 ## 6-1 Problem 3
 
@@ -67,8 +59,6 @@ Prove the vector functions are linearly independent.
 
 Polynomial identity implies all coefficients zero. $\blacksquare$
 
----
-
 ## 6-1 Problem 4
 
 Prove a fundamental matrix determines the system.
@@ -76,8 +66,6 @@ Prove a fundamental matrix determines the system.
 ### Solution 6-1 Problem 4
 
 By Theorem 6.2, $\Phi$ is invertible. $\blacksquare$
-
----
 
 ## 6-1 Problem 6
 

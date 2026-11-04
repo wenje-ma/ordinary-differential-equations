@@ -1,7 +1,5 @@
 # week23
 
----
-
 ## 7-3 题2
 
 证明递推公式 $\left(n+1\right)P_{n+1}-\left(2n+1\right)xP_n+nP_{n-1}=0$.

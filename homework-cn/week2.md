@@ -4,8 +4,6 @@
 > 
 > 方程 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程的充要条件是 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$.
 
----
-
 ## 2-1 题3
 
 判断并求解 $\left(ax+by\right)\mathrm dx+\left(bx+cy\right)\mathrm dy=0$.
@@ -13,8 +11,6 @@
 ### 解答 2-1 题3
 
 $P=ax+by$, $Q=bx+cy$. 由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial y}=b=\frac{\partial Q}{\partial x}$. 积分得 $\Phi=\frac a2x^2+bxy+\frac c2y^2=C$. $\blacksquare$
-
----
 
 ## 2-1 题6
 
@@ -24,8 +20,6 @@ $P=ax+by$, $Q=bx+cy$. 由**定理 2.1 (恰当方程的判别与通积分公式)*
 
 由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial y}=e^x+2y=\frac{\partial Q}{\partial x}$. 积分得 $\Phi=e^x\left(y+2\right)+xy^2=C$. $\blacksquare$
 
----
-
 ## 2-1 题9
 
 判断并求解 $\frac{2s-1}{t}\mathrm ds+\frac{s-s^2}{t^2}\mathrm dt=0$.
@@ -33,8 +27,6 @@ $P=ax+by$, $Q=bx+cy$. 由**定理 2.1 (恰当方程的判别与通积分公式)*
 ### 解答 2-1 题9
 
 由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial t}=-\frac{2s-1}{t^2}=\frac{\partial Q}{\partial s}$. 积分得 $\Phi=\frac{s^2-s}{t}=C$. $\blacksquare$
-
----
 
 ## 2-1 题10
 

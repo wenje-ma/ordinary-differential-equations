@@ -4,8 +4,6 @@
 > 
 > $n-1$ independent integrals imply conservativity.
 
----
-
 ## 10-4 Problem 1
 
 Generalize Theorem 10.7 to $n$ dimensions.

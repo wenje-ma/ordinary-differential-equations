@@ -12,8 +12,6 @@
 > 
 > Nondegenerate $C$-discriminant curve is an envelope.
 
----
-
 ## 4-3 Problem 2
 
 Construct an ODE with singular solution $y=\sin x$.

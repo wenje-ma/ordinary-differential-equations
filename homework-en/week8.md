@@ -12,8 +12,6 @@
 > 
 > At least one solution when $f$ is continuous.
 
----
-
 ## 3-2 Problem 3
 
 Can Picard iterates prove Peano's theorem?
@@ -21,8 +19,6 @@ Can Picard iterates prove Peano's theorem?
 ### Solution 3-2 Problem 3
 
 No. Because the error in Euler polygons vanishes uniformly, while Picard iterates may converge to different limits. $\blacksquare$
-
----
 
 ## 3-2 Problem 4
 

@@ -7,8 +7,6 @@
 > **Theorem 7.1 (Cauchy's Theorem)**
 > 
 > Analytic RHS implies unique analytic solution.
----
-
 ## 7-1 Problem 2
 
 Prove analytic solution exists on the whole interval.
@@ -16,8 +14,6 @@ Prove analytic solution exists on the whole interval.
 ### Solution 7-1 Problem 2
 
 Reduce to first-order system and apply Note 3. $\blacksquare$
-
----
 
 ## 7-1 Problem 3
 

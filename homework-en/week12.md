@@ -12,8 +12,6 @@
 > 
 > If $F_y'\ne0$, $F_{pp}''\ne0$, $F_p'=0$.
 
----
-
 ## 4-2 Problem 1(3)
 
 Find singular solution of $\left(y-1\right)^2p^2=\frac49y$.
@@ -22,8 +20,6 @@ Find singular solution of $\left(y-1\right)^2p^2=\frac49y$.
 
 $y=0$. $\blacksquare$
 
----
-
 ## 4-2 Problem 3
 
 Show $F_p'=0$ is necessary.
@@ -31,8 +27,6 @@ Show $F_p'=0$ is necessary.
 ### Solution 4-2 Problem 3
 
 $y=2x-\frac23$ is not a singular solution. $\blacksquare$
-
----
 
 ## 4-2 Problem 4
 
