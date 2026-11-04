@@ -1,57 +1,65 @@
 # week3
 
-## 2-2 题1(3)
+## 2-3 题1(4)
 
-求解 $\frac{\mathrm dy}{\mathrm dx}+y^2\sin x=0$.
+求解初值问题 $\frac{\mathrm dy}{\mathrm dx}-\frac1{1-x^2}y=1+x$, $y\left(0\right)=1$.
 
-### 解答 2-2 题1(3)
+### 解答 2-3 题1(4)
 
-由变量分离方程, 分离变量积分得 $y=-\frac1{\cos x+C}$. 特解 $y\equiv0$. $\blacksquare$
+积分因子 $\mu=\sqrt{\frac{1-x}{1+x}}$. 积分得 $\mu y=1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)$. 故 $y=\sqrt{\frac{1+x}{1-x}}\left[1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)\right]$. $\blacksquare$
 
-## 2-2 题1(5)
+## 2-3 题3
 
-求解 $\frac{\mathrm dy}{\mathrm dx}=\left(\cos x\cos2y\right)^2$.
+证明: 若 $y'+a\left(x\right)y\le0$, 则 $\varphi\left(x\right)\le\varphi\left(0\right)e^{-\int_0^x a\left(s\right)\mathrm ds}$.
 
-### 解答 2-2 题1(5)
+### 解答 2-3 题3
 
-由变量分离方程, 分离变量积分得 $\tan2y=x+\frac12\sin2x+C$. 特解 $y=\frac{2k+1}4\pi$. $\blacksquare$
+取积分因子 $A\left(x\right)=e^{\int_0^x a\left(s\right)\mathrm ds}$, 则 $\frac{\mathrm d}{\mathrm dx}\left(Ay\right)\le0$, 故 $Ay$ 单调不增. $\blacksquare$
 
-## 2-2 题2(2)
+## 2-3 题4
 
-求解初值问题 $x\mathrm dx+ye^{-x}\mathrm dy=0$, $y\left(0\right)=1$.
+用常数变易法推导非齐次线性方程的通解.
 
-### 解答 2-2 题2(2)
+### 解答 2-3 题4
 
-分离变量积分得 $\frac{y^2}2=e^x\left(1-x\right)+C$. 代入初值得 $y^2=2e^x\left(1-x\right)-1$. $\blacksquare$
+设 $y=C\left(x\right)e^{-\int p\mathrm dx}$, 代入方程得 $C'\left(x\right)=q\left(x\right)e^{\int p\mathrm dx}$. 积分后即得与积分因子法一致的结果. $\blacksquare$
 
-## 2-2 题2(4)
+## 2-3 题5
 
-求解初值问题 $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln\left|x\right|}{1+y^2}$, $y\left(1\right)=0$.
+证明: 若 $p,q$ 均以 $\omega$ 为周期, 则方程有唯一 $\omega$ 周期解当且仅当 $\overline p\ne0$.
 
-### 解答 2-2 题2(4)
+### 解答 2-3 题5
 
-分离变量积分得 $y+\frac{y^3}3=x\ln\left|x\right|-x+C$. 代入初值得 $y+\frac{y^3}3=x\ln\left|x\right|-x+1$. $\blacksquare$
+由齐次线性方程的通解 与非齐次线性方程的通解 (积分因子法), $y\left(x+\omega\right)=y\left(x\right)$ 等价于 $e^{-\int_0^\omega p}=1$, 即 $\overline p=0$. 非齐次时唯一周期解当且仅当 $\overline p\ne0$. $\blacksquare$
 
-## 2-2 题3(2)
+## 2-4 题1(2)
 
-求解 $\frac{\mathrm dy}{\mathrm dx}=ay$.
+求解 $y'=\frac{2y-x+5}{2x-y-4}$.
 
-### 解答 2-2 题3(2)
+### 解答 2-4 题1(2)
 
-由变量分离方程, $y=C_1e^{ax}$. $\blacksquare$
+由可化为齐次的方程, 平移 $x=\xi+1$, $y=\eta-2$. 令 $\eta=u\xi$, 分离变量积分得 $\frac{\eta-\xi}{\left(\eta+\xi\right)^3}=C$. 代回得 $y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
 
-## 2-2 题3(4)
+## 2-4 题1(4)
 
-求解 $\frac{\mathrm dy}{\mathrm dx}=y^n$ ($n=\frac13,1,2$).
+求解 $y'=x^3y^3-xy$.
 
-### 解答 2-2 题3(4)
+### 解答 2-4 题1(4)
 
-$n=\frac13$: $y=\pm\left[\frac23\left(x+C\right)\right]^{3/2}$; $n=1$: $y=Ce^x$; $n=2$: $y=-\frac1{x+C}$. 均补特解 $y\equiv0$. $\blacksquare$
+由伯努利方程, 令 $z=y^{-2}$, 得 $z'-2xz=-2x^3$. 积分因子 $e^{-x^2}$, 解得 $\frac1{y^2}=x^2+1+Ce^{x^2}$. 特解 $y\equiv0$. $\blacksquare$
 
-## 2-2 题5
+## 2-4 题2(2)
 
-证明: $y=a$ 上解局部唯一当且仅当 $\left|\int_a^{a\pm\varepsilon}\frac{\mathrm dy}{f\left(y\right)}\right|=+\infty$.
+求解 $\left(3uv+v^2\right)\mathrm du+\left(u^2+uv\right)\mathrm dv=0$.
 
-### 解答 2-2 题5
+### 解答 2-4 题2(2)
 
-充分性: 若瑕积分发散, 则非常数解不能在有限横坐标处到达 $y=a$. 必要性: 若瑕积分收敛, 则可构造拼接解. $\blacksquare$
+由齐次方程, 令 $v=wu$, 分离变量积分得 $u^2v\left(v+2u\right)=C$. $\blacksquare$
+
+## 2-4 题2(4)
+
+求解 $\frac{\mathrm dy}{\mathrm dx}=\frac{2x^3+3xy^2-7x}{3x^2y+2y^3-8y}$.
+
+### 解答 2-4 题2(4)
+
+令 $u=x^2$, $v=y^2$. 由可化为齐次的方程, 平移后令 $\eta=w\xi$, 积分得 $x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$

@@ -1,33 +1,129 @@
 # week11
 
-## 4-1 Problem 1(1)
+> **Theorem 7.2 (Power Series Solution Near Ordinary Points)**
+> 
+> $y=\sum C_n\left(x-x_0\right)^n$ with recurrence.
 
-Solve $2y=p^2+4px+2x^2$.
+> **Theorem 8.1 (Eigenvalue Criterion)**
+> 
+> Asymptotically stable iff all Re(lambda)< 0.
 
-### Solution 4-1 Problem 1(1)
+> **Theorem 8.3 (Instability by Linear Approximation)**
+> 
+> Positive real part implies instability.
 
-$y=-\frac12x^2+Cx+\frac{C^2}2$, plus $y=-x^2$. $\blacksquare$
+> **Theorem 8.4 (Lyapunov Direct Method)**
+> 
+> Positive definite V with negative definite derivative.
 
-## 4-1 Problem 1(3)
+> **Theorem 8.5 (Classification of Singular Points)**
+> 
+> By $p=-\mathrm{tr}\,A$, $q=\det A$.
 
-Solve $2xp=2\tan y+p^3\cos^2y$.
+> **Theorem 8.6 (Perturbation Preserves Type)**
+> 
+> Small nonlinear terms preserve type.
 
-### Solution 4-1 Problem 1(3)
+## 7-2 Problem 3
 
-$\sin y=Cx-\frac{C^3}2$, plus $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
+Solve Hermite's equation $y''-2xy'+\lambda y=0$.
 
-## 4-1 Problem 2(2)
+### Solution to 7-2 Problem 3
 
-Solve $x^2-3p^2=1$.
+$a_{n+2}=\frac{2n-\lambda}{\left(n+2\right)\left(n+1\right)}a_n$. $\blacksquare$
 
-### Solution 4-1 Problem 2(2)
+## 7-2 Problem 4
 
-$x=\cosh t$, $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$
+Find two power series solutions of $y''+\left(\sin x\right)y=0$ at $x=0$.
 
-## 4-1 Problem 2(4)
+### Solution to 7-2 Problem 4
 
-Solve $x^3+p^3=4xp$.
+$y_1=1-\frac{x^3}6+\cdots$, $y_2=x-\frac{x^4}{12}+\cdots$. $\blacksquare$
 
-### Solution 4-1 Problem 2(4)
+## 7-3 Problem 2
 
-$x=\frac{4t}{1+t^3}$, $y=-\frac8{\left(1+t^3\right)^2}+\frac{32}{3\left(1+t^3\right)}+C$. $\blacksquare$
+Prove $\left(n+1\right)P_{n+1}-\left(2n+1\right)xP_n+nP_{n-1}=0$.
+
+### Solution to 7-3 Problem 2
+
+Compare coefficients of $t^k$ in the generating function identity. $\blacksquare$
+
+## 8-2 Problem 1
+
+Prove asymptotic = global asymptotic for linear systems.
+
+### Solution to 8-2 Problem 1
+
+By linear scaling. $\blacksquare$
+
+## 8-2 Problem 2
+
+Find conditions for $x'=a\left(t\right)x$.
+
+### Solution to 8-2 Problem 2
+
+$\int a\to-\infty$ for asymptotic. $\blacksquare$
+
+## 8-2 Problem 3
+
+Discuss polar coordinate equilibrium.
+
+### Solution to 8-2 Problem 3
+
+Stable, not asymptotically stable. $\blacksquare$
+
+## 8-2 Problem 4
+
+Prove 2x2 stability criteria.
+
+### Solution to 8-2 Problem 4
+
+By Theorem 8.1. $\blacksquare$
+
+## 8-2 Problem 5
+
+Discuss using $V=x^2+y^2$.
+
+### Solution to 8-2 Problem 5
+
+Depends on sign of $f$. $\blacksquare$
+
+## 8-2 Problem 6
+
+Prove $x''+g\left(x\right)=0$ is stable.
+
+### Solution to 8-2 Problem 6
+
+Energy method. $\blacksquare$
+
+## 8-2 Problem 7
+
+Study two equilibria.
+
+### Solution to 8-2 Problem 7
+
+$\left(1,0\right)$ unstable, $\left(-1,0\right)$ stable. $\blacksquare$
+
+## 8-2 Problem 8(2)
+
+Discuss zero solution.
+
+### Solution to 8-2 Problem 8(2)
+
+Asymptotically stable. $\blacksquare$
+
+## 8-2 Problem 8(4)
+
+Discuss zero solution.
+
+### Solution to 8-2 Problem 8(4)
+
+Unstable. $\blacksquare$
+
+## 8-3 Problem 1
+
+Sketch phase portrait for higher-order singularity.
+
+### Solution to 8-3 Problem 1
+
+Line or plane of equilibria. $\blacksquare$

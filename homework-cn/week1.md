@@ -4,6 +4,10 @@
 > 
 > 若 $y=\varphi\left(x\right)$ 及其各阶导数代入方程后得到恒等式, 则称 $y=\varphi\left(x\right)$ 为该微分方程在区间 $J$ 上的一个解.
 
+> **定理 2.1 (恰当方程的判别与通积分公式)**
+> 
+> 方程 $P\mathrm dx+Q\mathrm dy=0$ 为恰当方程的充要条件是 $\frac{\partial P}{\partial y}\equiv\frac{\partial Q}{\partial x}$.
+
 ## 1-1 题1(4)
 
 验证 $y=\begin{cases}-\frac14\left(x-C_1\right)^2,&x< C_1\\ 0,&C_1\le x\le C_2\\ \frac14\left(x-C_2\right)^2,&x> C_2\end{cases}$ 是 $y'=\sqrt{\left|y\right|}$ 的解.
@@ -27,3 +31,27 @@
 ### 解答 1-2 题2(4)
 
 分离变量积分得 $\arctan y=x+C$. 代入初值, 得 $C=\arctan y_0-x_0$. 故 $y=\tan\left(x+\arctan y_0-x_0\right)$. $\blacksquare$
+
+## 2-1 题3
+
+判断并求解 $\left(ax+by\right)\mathrm dx+\left(bx+cy\right)\mathrm dy=0$.
+
+### 解答 2-1 题3
+
+$P=ax+by$, $Q=bx+cy$. 由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial y}=b=\frac{\partial Q}{\partial x}$. 积分得 $\Phi=\frac a2x^2+bxy+\frac c2y^2=C$. $\blacksquare$
+
+## 2-1 题6
+
+判断并求解 $\left(ye^x+2e^x+y^2\right)\mathrm dx+\left(e^x+2xy\right)\mathrm dy=0$.
+
+### 解答 2-1 题6
+
+由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial y}=e^x+2y=\frac{\partial Q}{\partial x}$. 积分得 $\Phi=e^x\left(y+2\right)+xy^2=C$. $\blacksquare$
+
+## 2-1 题9
+
+判断并求解 $\frac{2s-1}{t}\mathrm ds+\frac{s-s^2}{t^2}\mathrm dt=0$.
+
+### 解答 2-1 题9
+
+由**定理 2.1 (恰当方程的判别与通积分公式)**, $\frac{\partial P}{\partial t}=-\frac{2s-1}{t^2}=\frac{\partial Q}{\partial s}$. 积分得 $\Phi=\frac{s^2-s}{t}=C$. $\blacksquare$

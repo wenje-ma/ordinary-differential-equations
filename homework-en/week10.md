@@ -1,37 +1,77 @@
 # week10
 
-> **Theorem 3.3 (Peano Existence Theorem)**
+> **Example 1 (Reduction of Order)**
 > 
-> At least one solution.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds\right]$.
 
-> **Theorem 3.4 (Extension Theorem)**
+> **Note 3 (Majorant Method for Systems)**
 > 
-> Extend to boundary.
+> Applies to systems of ODEs.
 
-> **Theorem 3.6 (First Comparison Theorem)**
+> **Theorem 7.1 (Cauchy's Theorem)**
 > 
-> If $f< F$, then $\varphi< \Phi$.
+> Analytic RHS implies unique analytic solution.
 
-> **Theorem 3.7 (Minimal and Maximal Solutions)**
-> 
-> Exist.
+## 6-3 Problem 7
 
-> **Theorem 3.8 (Second Comparison Theorem)**
-> 
-> If $f\le F$, then $\varphi\le\Phi$.
+Transform Euler equation to constant coefficient.
 
-## 3-4 Problem 1
+### Solution to 6-3 Problem 7
 
-Prove the strip between min/max solutions is filled.
+Set $x=e^t$. $\blacksquare$
 
-### Solution 3-4 Problem 1
+## 6-3 Problem 9
 
-By comparison and extension theorems. $\blacksquare$
+Solve forced oscillator.
 
-## 3-4 Problem 2
+### Solution to 6-3 Problem 9
 
-Prove the Second Comparison Theorem.
+Resonance when $\omega=\omega_0$. $\blacksquare$
 
-### Solution 3-4 Problem 2
+## 6-3 Problem 10(3)
 
-By perturbation and passing to the limit. $\blacksquare$
+Solve $y''+2y'=3+4\sin2x$.
+
+### Solution to 6-3 Problem 10(3)
+
+$C_1+C_2e^{-2x}+\frac32x-\frac12\left(\cos2x+\sin2x\right)$. $\blacksquare$
+
+## 6-3 Problem 10(6)
+
+Solve $y'''-3ay''+3a^2y'-a^3y=0$.
+
+### Solution to 6-3 Problem 10(6)
+
+$\left(C_1+C_2x+C_3x^2\right)e^{ax}$. $\blacksquare$
+
+## 6-3 Problem 10(9)
+
+Solve the 4th order IVP.
+
+### Solution to 6-3 Problem 10(9)
+
+$\left(1+\frac58x\right)\cos x+\left(2x-\frac{21}8-\frac18x^2\right)\sin x$. $\blacksquare$
+
+## 6-3 Problem 10(12)
+
+Solve $y''-5y'+6y=\left(12x-7\right)e^{-x}$.
+
+### Solution to 6-3 Problem 10(12)
+
+$C_1e^{2x}+C_2e^{3x}+xe^{-x}$. $\blacksquare$
+
+## 7-1 Problem 2
+
+Prove analytic solution exists on the whole interval.
+
+### Solution to 7-1 Problem 2
+
+Reduce to first-order system and apply Note 3. $\blacksquare$
+
+## 7-1 Problem 3
+
+State and prove analytic dependence on initial values and parameters.
+
+### Solution to 7-1 Problem 3
+
+Treat $x_0,\lambda$ as additional unknowns. $\blacksquare$

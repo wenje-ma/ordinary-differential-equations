@@ -1,57 +1,65 @@
 # week3
 
-## 2-2 Problem 1(3)
+## 2-3 Problem 1(4)
 
-Solve $\frac{\mathrm dy}{\mathrm dx}+y^2\sin x=0$.
+Solve $\frac{\mathrm dy}{\mathrm dx}-\frac1{1-x^2}y=1+x$, $y\left(0\right)=1$.
 
-### Solution 2-2 Problem 1(3)
+### Solution to 2-3 Problem 1(4)
 
-$y=-\frac1{\cos x+C}$, plus $y\equiv0$. $\blacksquare$
+$y=\sqrt{\frac{1+x}{1-x}}\left[1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)\right]$. $\blacksquare$
 
-## 2-2 Problem 1(5)
+## 2-3 Problem 3
 
-Solve $\frac{\mathrm dy}{\mathrm dx}=\left(\cos x\cos2y\right)^2$.
+Prove the differential inequality.
 
-### Solution 2-2 Problem 1(5)
+### Solution to 2-3 Problem 3
 
-$\tan2y=x+\frac12\sin2x+C$. $\blacksquare$
+By the integrating factor method. $\blacksquare$
 
-## 2-2 Problem 2(2)
+## 2-3 Problem 4
 
-Solve $x\mathrm dx+ye^{-x}\mathrm dy=0$, $y\left(0\right)=1$.
+Derive the solution by variation of constants.
 
-### Solution 2-2 Problem 2(2)
+### Solution to 2-3 Problem 4
 
-$y^2=2e^x\left(1-x\right)-1$. $\blacksquare$
+Setting $y=C\left(x\right)e^{-\int p\mathrm dx}$. $\blacksquare$
 
-## 2-2 Problem 2(4)
+## 2-3 Problem 5
 
-Solve $\frac{\mathrm dy}{\mathrm dx}=\frac{\ln\left|x\right|}{1+y^2}$, $y\left(1\right)=0$.
+Prove unique periodic solution iff $\overline p\ne0$.
 
-### Solution 2-2 Problem 2(4)
+### Solution to 2-3 Problem 5
 
-$y+\frac{y^3}3=x\ln\left|x\right|-x+1$. $\blacksquare$
+By periodicity of the integrating factor. $\blacksquare$
 
-## 2-2 Problem 3(2)
+## 2-4 Problem 1(2)
 
-Solve $\frac{\mathrm dy}{\mathrm dx}=ay$.
+Solve $y'=\frac{2y-x+5}{2x-y-4}$.
 
-### Solution 2-2 Problem 3(2)
+### Solution to 2-4 Problem 1(2)
 
-$y=C_1e^{ax}$. $\blacksquare$
+$y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
 
-## 2-2 Problem 3(4)
+## 2-4 Problem 1(4)
 
-Solve $\frac{\mathrm dy}{\mathrm dx}=y^n$.
+Solve $y'=x^3y^3-xy$.
 
-### Solution 2-2 Problem 3(4)
+### Solution to 2-4 Problem 1(4)
 
-$n=\frac13$: $y=\pm\left[\frac23\left(x+C\right)\right]^{3/2}$; $n=1$: $y=Ce^x$; $n=2$: $y=-\frac1{x+C}$. $\blacksquare$
+$\frac1{y^2}=x^2+1+Ce^{x^2}$, plus $y\equiv0$. $\blacksquare$
 
-## 2-2 Problem 5
+## 2-4 Problem 2(2)
 
-Prove local uniqueness on $y=a$ iff the improper integral diverges.
+Solve $\left(3uv+v^2\right)\mathrm du+\left(u^2+uv\right)\mathrm dv=0$.
 
-### Solution 2-2 Problem 5
+### Solution to 2-4 Problem 2(2)
 
-By separation of variables. $\blacksquare$
+$u^2v\left(v+2u\right)=C$. $\blacksquare$
+
+## 2-4 Problem 2(4)
+
+Solve the given rational equation.
+
+### Solution to 2-4 Problem 2(4)
+
+$x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$

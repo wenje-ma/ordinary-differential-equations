@@ -1,41 +1,109 @@
 # week5
 
-## 2-4 Problem 1(2)
+> **Theorem 3.3 (Peano Existence Theorem)**
+> 
+> At least one solution.
 
-Solve $y'=\frac{2y-x+5}{2x-y-4}$.
+> **Theorem 3.4 (Extension Theorem)**
+> 
+> Extend to boundary.
 
-### Solution 2-4 Problem 1(2)
+> **Theorem 3.5 (Global Existence in Strip)**
+> 
+> If $\left|f\right|\le A\left|y\right|+B$, solutions exist globally.
 
-$y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
+> **Theorem 3.6 (First Comparison Theorem)**
+> 
+> If $f< F$, then $\varphi< \Phi$.
 
-## 2-4 Problem 1(4)
+> **Theorem 3.7 (Minimal and Maximal Solutions)**
+> 
+> Exist.
 
-Solve $y'=x^3y^3-xy$.
+> **Theorem 3.8 (Second Comparison Theorem)**
+> 
+> If $f\le F$, then $\varphi\le\Phi$.
 
-### Solution 2-4 Problem 1(4)
+> **Corollary (Local Lipschitz Extension)**
+> 
+> Unique solution extending to the boundary.
 
-$\frac1{y^2}=x^2+1+Ce^{x^2}$, plus $y\equiv0$. $\blacksquare$
+## 3-3 Problem 1
 
-## 2-4 Problem 2(2)
+Prove linear equations have global solutions.
 
-Solve $\left(3uv+v^2\right)\mathrm du+\left(u^2+uv\right)\mathrm dv=0$.
+### Solution to 3-3 Problem 1
 
-### Solution 2-4 Problem 2(2)
+By Theorem 3.5. $\blacksquare$
 
-$u^2v\left(v+2u\right)=C$. $\blacksquare$
+## 3-3 Problem 2(2)
 
-## 2-4 Problem 2(4)
+Discuss existence intervals for $y'=y\left(y-1\right)$.
 
-Solve the given rational equation.
+### Solution to 3-3 Problem 2(2)
 
-### Solution 2-4 Problem 2(4)
+Equilibrium solutions global; other solutions may blow up. $\blacksquare$
 
-$x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$
+## 3-3 Problem 2(4)
 
-## 2-4 Problem 4
+Discuss $y'=1+y^2$.
 
-Reduce $y''+py'+qy=0$ to a Riccati equation.
+### Solution to 3-3 Problem 2(4)
 
-### Solution 2-4 Problem 4
+$y=\tan\left(x+C\right)$, finite interval. $\blacksquare$
 
-Set $z=\frac{y'}y$, then $z'=-z^2-pz-q$. $\blacksquare$
+## 3-3 Problem 3
+
+Is the unit circle a contradiction?
+
+### Solution to 3-3 Problem 3
+
+No. The RHS is not continuous on $y=0$. $\blacksquare$
+
+## 3-3 Problem 4
+
+Prove at least one endpoint is infinite.
+
+### Solution to 3-3 Problem 4
+
+By sign analysis. $\blacksquare$
+
+## 3-4 Problem 1
+
+Prove the strip between min/max solutions is filled.
+
+### Solution to 3-4 Problem 1
+
+By comparison and extension theorems. $\blacksquare$
+
+## 3-4 Problem 2
+
+Prove the Second Comparison Theorem.
+
+### Solution to 3-4 Problem 2
+
+By perturbation and passing to the limit. $\blacksquare$
+
+## 4-1 Problem 1(1)
+
+Solve $2y=p^2+4px+2x^2$.
+
+### Solution to 4-1 Problem 1(1)
+
+$y=-\frac12x^2+Cx+\frac{C^2}2$, plus $y=-x^2$. $\blacksquare$
+
+## 4-1 Problem 1(3)
+
+Solve $2xp=2\tan y+p^3\cos^2y$.
+
+### Solution to 4-1 Problem 1(3)
+
+$\sin y=Cx-\frac{C^3}2$, plus $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
+
+## 4-1 Problem 2(2)
+
+Solve $x^2-3p^2=1$.
+
+### Solution to 4-1 Problem 2(2)
+
+$x=\cosh t$, $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$

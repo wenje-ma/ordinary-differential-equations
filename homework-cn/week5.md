@@ -1,41 +1,109 @@
 # week5
 
-## 2-4 题1(2)
+> **定理 3.3 (佩亚诺存在定理)**
+> 
+> $f$ 连续时初值问题至少有一个解.
 
-求解 $y'=\frac{2y-x+5}{2x-y-4}$.
+> **定理 3.4 (解的延伸定理)**
+> 
+> 解可延伸到区域边界.
 
-### 解答 2-4 题1(2)
+> **定理 3.5 (条形区域上解的整体存在性)**
+> 
+> 若 $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, 则解以整个条形区域为最大存在区间.
 
-由可化为齐次的方程, 平移 $x=\xi+1$, $y=\eta-2$. 令 $\eta=u\xi$, 分离变量积分得 $\frac{\eta-\xi}{\left(\eta+\xi\right)^3}=C$. 代回得 $y-x+3=C\left(x+y+1\right)^3$. $\blacksquare$
+> **定理 3.6 (第一比较定理)**
+> 
+> 若 $f< F$, 则 $\varphi< \Phi$ 于 $x> x_0$, $\varphi> \Phi$ 于 $x< x_0$.
 
-## 2-4 题1(4)
+> **定理 3.7 (最小解与最大解的存在性)**
+> 
+> 存在最小解 $W$ 与最大解 $Z$.
 
-求解 $y'=x^3y^3-xy$.
+> **定理 3.8 (第二比较定理)**
+> 
+> 若 $f\le F$, 且 $\varphi$ 为最小/最大解, 则 $\varphi\le\Phi$.
 
-### 解答 2-4 题1(4)
+> **推论 (局部利普希茨条件下解的存在唯一与延伸)**
+> 
+> 局部利普希茨条件下解存在唯一且延伸到边界.
 
-由伯努利方程, 令 $z=y^{-2}$, 得 $z'-2xz=-2x^3$. 积分因子 $e^{-x^2}$, 解得 $\frac1{y^2}=x^2+1+Ce^{x^2}$. 特解 $y\equiv0$. $\blacksquare$
+## 3-3 题1
 
-## 2-4 题2(2)
+证明: 线性方程 $y'=a\left(x\right)y+b\left(x\right)$ 的每一个解以 $I$ 为最大存在区间.
 
-求解 $\left(3uv+v^2\right)\mathrm du+\left(u^2+uv\right)\mathrm dv=0$.
+### 解答 3-3 题1
 
-### 解答 2-4 题2(2)
+由**定理 3.5 (条形区域上解的整体存在性)**, 取 $A=\left|a\right|$, $B=\left|b\right|$ 即得. $\blacksquare$
 
-由齐次方程, 令 $v=wu$, 分离变量积分得 $u^2v\left(v+2u\right)=C$. $\blacksquare$
+## 3-3 题2(2)
 
-## 2-4 题2(4)
+讨论 $y'=y\left(y-1\right)$ 解的存在区间.
 
-求解 $\frac{\mathrm dy}{\mathrm dx}=\frac{2x^3+3xy^2-7x}{3x^2y+2y^3-8y}$.
+### 解答 3-3 题2(2)
 
-### 解答 2-4 题2(4)
+由**推论 (局部利普希茨条件下解的存在唯一与延伸)**, 分离变量得 $y=\frac1{1-Ce^x}$. 平衡解 $y\equiv0,1$ 全局存在; $0< y_0< 1$ 全局存在; $y_0< 0$ 或 $y_0> 1$ 时在有限点爆破. $\blacksquare$
 
-令 $u=x^2$, $v=y^2$. 由可化为齐次的方程, 平移后令 $\eta=w\xi$, 积分得 $x^2+y^2-3=C\left(x^2-y^2-1\right)^5$. $\blacksquare$
+## 3-3 题2(4)
 
-## 2-4 题4
+讨论 $y'=1+y^2$ 解的存在区间.
 
-将二阶方程 $y''+p\left(x\right)y'+q\left(x\right)y=0$ 化为里卡蒂方程.
+### 解答 3-3 题2(4)
 
-### 解答 2-4 题4
+$y=\tan\left(x+C\right)$, 最大存在区间为有限区间 $\left(-\frac\pi2-C,\frac\pi2-C\right)$. $\blacksquare$
 
-令 $z=\frac{y'}y$, 则 $z'=-z^2-p\left(x\right)z-q\left(x\right)$, 即里卡蒂方程. $\blacksquare$
+## 3-3 题3
+
+$x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解的延伸定理)** 矛盾?
+
+### 解答 3-3 题3
+
+不矛盾. 正规形式 $y'=-\frac xy$ 在 $y=0$ 处不连续, 故**定理 3.4 (解的延伸定理)** 前提不成立. 每支曲线延伸到 $y=0$ 即定义域边界. $\blacksquare$
+
+## 3-3 题4
+
+证明: $y'=\left(y^2-2y-3\right)e^{\left(x+y\right)^2}$ 的解至少有一端为无穷.
+
+### 解答 3-3 题4
+
+由符号分析, $y< -1$ 时 $y'> 0$, $-1< y< 3$ 时 $y'< 0$, $y> 3$ 时 $y'> 0$. 解不能同时两端有限. $\blacksquare$
+
+## 3-4 题1
+
+证明: 最小解与最大解之间充满了其他解.
+
+### 解答 3-4 题1
+
+由**定理 3.3 (佩亚诺存在定理)** 与**定理 3.7 (最小解与最大解的存在性)**, 过 $\left(x_1,y_1\right)$ 的解夹在 $W$ 与 $Z$ 之间. 由**定理 3.6 (第一比较定理)**, 同一右端函数的曲线不能穿越. 由**定理 3.4 (解的延伸定理)**, 可延伸到整个区间. $\blacksquare$
+
+## 3-4 题2
+
+证明**定理 3.8 (第二比较定理)**.
+
+### 解答 3-4 题2
+
+对扰动方程 $y'=f-\varepsilon$ 应用**定理 3.6 (第一比较定理)**, 令 $\varepsilon\to0$ 取极限. $\blacksquare$
+
+## 4-1 题1(1)
+
+求解 $2y=p^2+4px+2x^2$.
+
+### 解答 4-1 题1(1)
+
+由微分法, $y=\frac12p^2+2px+x^2$. 微分得 $\left(p+2x\right)\left(\frac{\mathrm dp}{\mathrm dx}+1\right)=0$. 通解 $y=-\frac12x^2+Cx+\frac{C^2}2$, 特解 $y=-x^2$. $\blacksquare$
+
+## 4-1 题1(3)
+
+求解 $2xp=2\tan y+p^3\cos^2y$.
+
+### 解答 4-1 题1(3)
+
+由微分法, 令 $u=p\cos y$, 得通解 $\sin y=Cx-\frac{C^3}2$, 特解 $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
+
+## 4-1 题2(2)
+
+用参数法求解 $x^2-3p^2=1$.
+
+### 解答 4-1 题2(2)
+
+由参数法, $x=\cosh t$, $p=\frac1{\sqrt3}\sinh t$. 积分得 $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$

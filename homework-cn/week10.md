@@ -1,37 +1,73 @@
 # week10
 
-> **定理 3.3 (佩亚诺存在定理)**
+> **例 1 (由一个非零解构造通解的公式)**
 > 
-> $f$ 连续时初值问题至少有一个解.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^x\frac1{\varphi^2\left(s\right)}e^{-\int_{x_0}^s p\left(t\right)\mathrm dt}\mathrm ds\right]$.
 
-> **定理 3.4 (解的延伸定理)**
+> **定理 7.1 (柯西定理)**
 > 
-> 解可延伸到区域边界.
+> $f$ 解析时, 初值问题在 $x_0$ 邻域内有唯一解析解.
 
-> **定理 3.6 (第一比较定理)**
-> 
-> 若 $f< F$, 则 $\varphi< \Phi$ 于 $x> x_0$, $\varphi> \Phi$ 于 $x< x_0$.
+## 6-3 题7
 
-> **定理 3.7 (最小解与最大解的存在性)**
-> 
-> 存在最小解 $W$ 与最大解 $Z$.
+将欧拉方程 $x^ny^{\left(n\right)}+\cdots+a_ny=0$ 化为常系数方程.
 
-> **定理 3.8 (第二比较定理)**
-> 
-> 若 $f\le F$, 且 $\varphi$ 为最小/最大解, 则 $\varphi\le\Phi$.
+### 解答 6-3 题7
 
-## 3-4 题1
+令 $x=e^t$, 则 $x^ky^{\left(k\right)}=D\left(D-1\right)\cdots\left(D-k+1\right)y$, $D=\frac{\mathrm d}{\mathrm dt}$. $\blacksquare$
 
-证明: 最小解与最大解之间充满了其他解.
+## 6-3 题9
 
-### 解答 3-4 题1
+求解强迫振动方程 $mx''+kx=p\cos\omega t$.
 
-由**定理 3.3 (佩亚诺存在定理)** 与**定理 3.7 (最小解与最大解的存在性)**, 过 $\left(x_1,y_1\right)$ 的解夹在 $W$ 与 $Z$ 之间. 由**定理 3.6 (第一比较定理)**, 同一右端函数的曲线不能穿越. 由**定理 3.4 (解的延伸定理)**, 可延伸到整个区间. $\blacksquare$
+### 解答 6-3 题9
 
-## 3-4 题2
+由**定理 6.6* (常系数齐次线性微分方程的特征根解法)** 与**待定系数法 (对特殊非齐次项预先设定特解形式)**, $\omega\ne\omega_0$ 时 $x=C_1\cos\omega_0t+C_2\sin\omega_0t+\frac{p}{m\left(\omega_0^2-\omega^2\right)}\cos\omega t$; $\omega=\omega_0$ 时共振. $\blacksquare$
 
-证明**定理 3.8 (第二比较定理)**.
+## 6-3 题10(3)
 
-### 解答 3-4 题2
+求解 $y''+2y'=3+4\sin2x$.
 
-对扰动方程 $y'=f-\varepsilon$ 应用**定理 3.6 (第一比较定理)**, 令 $\varepsilon\to0$ 取极限. $\blacksquare$
+### 解答 6-3 题10(3)
+
+齐次通解 $C_1+C_2e^{-2x}$. 特解 $\frac32x-\frac12\left(\cos2x+\sin2x\right)$. $\blacksquare$
+
+## 6-3 题10(6)
+
+求解 $y'''-3ay''+3a^2y'-a^3y=0$.
+
+### 解答 6-3 题10(6)
+
+由**定理 6.6* (常系数齐次线性微分方程的特征根解法)**, $\lambda=a$ 三重根, $y=\left(C_1+C_2x+C_3x^2\right)e^{ax}$. $\blacksquare$
+
+## 6-3 题10(9)
+
+求解 $y^{\left(4\right)}+2y''+y=\sin x$, $y\left(0\right)=1$, $y'\left(0\right)=-2$, $y''\left(0\right)=3$, $y'''\left(0\right)=0$.
+
+### 解答 6-3 题10(9)
+
+$\lambda=\pm i$ 二重根. 特解 $-\frac18x^2\sin x$. 代入初值得 $y=\left(1+\frac58x\right)\cos x+\left(2x-\frac{21}8-\frac18x^2\right)\sin x$. $\blacksquare$
+
+## 6-3 题10(12)
+
+求解 $y''-5y'+6y=\left(12x-7\right)e^{-x}$.
+
+### 解答 6-3 题10(12)
+
+齐次通解 $C_1e^{2x}+C_2e^{3x}$. 特解 $xe^{-x}$. $\blacksquare$
+
+## 7-1 题2
+
+证明二阶线性解析方程的解析解在整个收敛区间内存在唯一.
+
+### 解答 7-1 题2
+
+化为一阶方程组, 由**附注 3 (优级数方法对微分方程组的应用)**, 解析解在 $x_0$ 邻域内存在唯一. 由区间连通性延拓. $\blacksquare$
+
+## 7-1 题3
+
+叙述并证明解关于初值和参数的解析性定理.
+
+### 解答 7-1 题3
+
+将 $x_0,\lambda$ 视为附加未知函数 ($\frac{\mathrm dx_0}{\mathrm dt}=0$, $\frac{\mathrm d\lambda}{\mathrm dt}=0$), 由**附注 3 (优级数方法对微分方程组的应用)**, 解关于所有变量解析. $\blacksquare$

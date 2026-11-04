@@ -1,41 +1,89 @@
 # week6
 
-> **定理 2.5 (只依赖于 $y$ 的积分因子)**
+> **定义 4.1 (奇解)**
 > 
-> 充要条件为 $\frac{\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}}P=H\left(y\right)$ 只依赖于 $y$, 此时 $\mu\left(y\right)=e^{\int H\left(y\right)\mathrm dy}$.
+> 若对每一点 $Q\in\Gamma$, 邻域内有其他解在 $Q$ 处与 $\Gamma$ 相切, 则称 $\Gamma$ 为奇解.
 
-> **定理 2.6 (积分因子与通积分的任意函数之积)**
+> **定理 4.1 (奇解的必要条件即 $p$-判别式)**
 > 
-> 若 $\mu$ 是积分因子且 $\mu P\mathrm dx+\mu Q\mathrm dy=d\Phi$, 则 $\mu g\left(\Phi\right)$ 也是积分因子.
+> 奇解必满足 $F=0$ 与 $F_p'=0$.
 
-## 2-5 题1(2)
+> **定理 4.2 (奇解的充分条件)**
+> 
+> 若 $y=\psi\left(x\right)$ 是解, 且 $F_y'\ne0$, $F_{pp}''\ne0$, $F_p'=0$, 则为奇解.
 
-求解 $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
+> **定理 4.3 (包络是奇解)**
+> 
+> 通积分的包络是微分方程的奇解.
 
-### 解答 2-5 题1(2)
+> **定理 4.4 (包络满足 $C$-判别式)**
+> 
+> 包络满足 $V=0$ 与 $V_C'=0$.
 
-由**定理 2.5 (只依赖于 $y$ 的积分因子)**, $\mu=\frac{e^{2y}}y$. 乘后得 $xe^{2y}-\ln\left|y\right|=C$. 特解 $y\equiv0$. $\blacksquare$
+> **定理 4.5 ($C$-判别式是包络的充分条件)**
+> 
+> 满足非退化条件时 $C$-判别曲线为包络.
 
-## 2-5 题1(4)
+## 4-1 题2(4)
 
-求解 $y\mathrm dx-\left(x^2+y^2+x\right)\mathrm dy=0$.
+用参数法求解 $x^3+p^3=4xp$.
 
-### 解答 2-5 题1(4)
+### 解答 4-1 题2(4)
 
-由**定理 2.6 (积分因子与通积分的任意函数之积)**, 取 $\mu=\frac1{x^2+y^2}$. 积分得 $\arctan\frac xy=y+C$. $\blacksquare$
+由参数法, $x=\frac{4t}{1+t^3}$, $p=\frac{4t^2}{1+t^3}$. 积分得 $y=-\frac8{\left(1+t^3\right)^2}+\frac{32}{3\left(1+t^3\right)}+C$. $\blacksquare$
 
-## 2-5 题2
+## 4-2 题1(3)
 
-证明: 存在形如 $\mu=\mu\left(\varphi\left(x,y\right)\right)$ 的积分因子的充要条件.
+求 $\left(y-1\right)^2p^2=\frac49y$ 的奇解.
 
-### 解答 2-5 题2
+### 解答 4-2 题1(3)
 
-由 $\frac{\mu'}{\mu}=\frac{P_y-Q_x}{Q\varphi_x-P\varphi_y}=f\left(\varphi\right)$, 得 $\mu=e^{\int f\left(\varphi\right)\mathrm d\varphi}$. $\blacksquare$
+由**定理 4.1 (奇解的必要条件即 $p$-判别式)**, 得 $y=0$. 由**定理 4.2 (奇解的充分条件)** 验证成立. 故 $y=0$ 是奇解. $\blacksquare$
 
-## 2-5 题4
+## 4-2 题3
 
-证明定理 2.6 及其逆定理.
+说明 $F_p'=0$ 条件不可缺少: $y=2x+p-\frac13p^3$.
 
-### 解答 2-5 题4
+### 解答 4-2 题3
 
-正方向: $\mu g\left(\Phi\right)$ 乘后为全微分. 逆定理: $d\Psi=\frac{\mu_1}{\mu}d\Phi$, 故 $\Psi$ 只是 $\Phi$ 的函数. $\blacksquare$
+由**定理 4.1 (奇解的必要条件即 $p$-判别式)**, 得 $y=2x\pm\frac23$. 其中 $y=2x-\frac23$ 是解但不是奇解, 因 $F_p'=3\ne0$. $\blacksquare$
+
+## 4-2 题4
+
+证明: $y=0$ 是 $y'=E\left(y\right)$ 的奇解当且仅当 $\int_0^1\frac{\mathrm dy}{E\left(y\right)}$ 收敛.
+
+### 解答 4-2 题4
+
+由**定义 4.1 (奇解)**, 收敛时非平凡解在有限横坐标处到达 $y=0$ 并相切; 发散时只渐近逼近. $\blacksquare$
+
+## 4-3 题2
+
+构造一个微分方程, 使其有奇解 $y=\sin x$.
+
+### 解答 4-3 题2
+
+取 $y=\sin x$ 的切线族 $y=x\cos a+\sin a-a\cos a$. 由**定理 4.4 (包络满足 $C$-判别式)** 与**定理 4.5 ($C$-判别式是包络的充分条件)**, 其包络为 $y=\sin x$. 令 $p=\cos a$, 得方程 $y=xp+\sqrt{1-p^2}-p\arccos p$. 由**定理 4.3 (包络是奇解)**, $y=\sin x$ 为奇解. $\blacksquare$
+
+## 5-1 题1
+
+利用线性单摆方程估计重力加速度 $g$.
+
+### 解答 5-1 题1
+
+由单摆方程与线性单摆方程, $g=\frac{4\pi^2l}{T^2}$. 测量摆长 $l$ 与周期 $T$ 即可. $\blacksquare$
+
+## 5-1 题2
+
+证明单摆振动不等时且可发生进动.
+
+### 解答 5-1 题2
+
+由首次积分, 得 $\frac12v^2+\frac{a^2}2x^2-\frac{a^2}{24}x^4=E$. 周期 $T\left(A\right)=\frac4a\int_0^{\pi/2}\frac{\mathrm d\varphi}{\sqrt{1-\frac{A^2}{12}\left(1+\sin^2\varphi\right)}}> \frac{2\pi}a$, 随振幅增大而增大. $E> \frac32a^2$ 时轨线不封闭, 对应进动. $\blacksquare$
+
+## 5-2 题2
+
+叙述并证明 $n$ 维向量形式的皮卡存在唯一性定理与佩亚诺存在定理.
+
+### 解答 5-2 题2
+
+由标准微分方程组与向量形式 及积分方程等价性, 柯西问题等价于积分方程. 由皮卡序列及其一致收敛估计 与魏尔斯特拉斯判别法 (一致收敛), 皮卡序列一致收敛, 取极限得解. 唯一性由阿斯科利引理与格朗沃尔不等式 中的格朗沃尔不等式给出. 佩亚诺定理由欧拉折线与阿斯科利引理与格朗沃尔不等式 中的阿斯科利引理证明. $\blacksquare$

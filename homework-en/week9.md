@@ -1,53 +1,97 @@
 # week9
 
-> **Theorem 3.4 (Extension Theorem)**
+> **Proposition 1 (Matrix Exponential)**
 > 
-> Solutions extend to the boundary of $G$.
+> $e^A=\sum_{k=0}^\infty\frac1{k!}A^k$.
 
-> **Corollary (Local Lipschitz Extension)**
+> **Example 1 (Reduction of Order)**
 > 
-> Unique solution extending to the boundary.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds\right]$.
 
-> **Theorem 3.5 (Global Existence in Strip)**
+> **Proposition 2 (Properties of Matrix Exponential)**
 > 
-> If $\left|f\right|\le A\left|y\right|+B$, solutions exist globally.
+> $e^{A+B}=e^Ae^B$; $\left(e^A\right)^{-1}=e^{-A}$.
 
-## 3-3 Problem 1
+> **Note 2 (Extracting Real Solutions)**
+> 
+> Real and imaginary parts of complex solutions are real solutions.
 
-Prove linear equations have global solutions.
+> **Corollary 3 (Nonhomogeneous Constant Coefficient Systems)**
+> 
+> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
 
-### Solution 3-3 Problem 1
+> **Theorem 6.4 ($e^{xA}$ is a Fundamental Matrix)**
+> 
+> $\Phi\left(x\right)=e^{xA}$ with $\Phi\left(0\right)=E$.
 
-By Theorem 3.5. $\blacksquare$
+> **Theorem 6.5 (Distinct Eigenvalues)**
+> 
+> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
 
-## 3-3 Problem 2(2)
+> **Lemma 6.6 (Exponential Solutions)**
+> 
+> $y=e^{\lambda x}r$ is a solution iff $\lambda$ is an eigenvalue.
 
-Discuss existence intervals for $y'=y\left(y-1\right)$.
+> **Theorem 6.6 (Repeated Eigenvalue Case)**
+> 
+> Linear combinations of $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$.
 
-### Solution 3-3 Problem 2(2)
+> **Lemma 6.7 (Repeated Eigenvalues)**
+> 
+> Solutions are $e^{\lambda x}\left(r_0+xr_1+\cdots\right)$.
 
-Equilibrium solutions global; other solutions may blow up. $\blacksquare$
+## 6-2 Problem 3(4)
 
-## 3-3 Problem 2(4)
+Solve the resonant IVP.
 
-Discuss $y'=1+y^2$.
+### Solution to 6-2 Problem 3(4)
 
-### Solution 3-3 Problem 2(4)
+$y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
 
-$y=\tan\left(x+C\right)$, finite interval. $\blacksquare$
+## 6-2 Problem 4
 
-## 3-3 Problem 3
+Solve the rotation system.
 
-Is the unit circle a contradiction?
+### Solution to 6-2 Problem 4
 
-### Solution 3-3 Problem 3
+$C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
 
-No. The RHS is not continuous on $y=0$. $\blacksquare$
+## 6-2 Problem 5
 
-## 3-3 Problem 4
+Prove solutions tend to zero iff all eigenvalues have negative real part.
 
-Prove at least one endpoint is infinite.
+### Solution to 6-2 Problem 5
 
-### Solution 3-3 Problem 4
+By Theorem 6.6 and Lemma 6.6. $\blacksquare$
 
-By sign analysis. $\blacksquare$
+## 6-3 Problem 3
+
+(1) Prove Wronskian is constant for $y''+qy=0$. (2) Find solution given $y=e^x$.
+
+### Solution to 6-3 Problem 3
+
+(1) By Liouville's formula. (2) $q=-1$, $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
+
+## 6-3 Problem 4
+
+Prove zeros are simple and finite on compact intervals.
+
+### Solution to 6-3 Problem 4
+
+By uniqueness of IVP. $\blacksquare$
+
+## 6-3 Problem 5
+
+Prove coefficients are uniquely determined by a fundamental set.
+
+### Solution to 6-3 Problem 5
+
+By Wronskian criterion and Cramer's rule. $\blacksquare$
+
+## 6-3 Problem 6
+
+Prove Theorem 6.3* by variation of constants.
+
+### Solution to 6-3 Problem 6
+
+Set $y=\sum C_k\left(x\right)\varphi_k\left(x\right)$. $\blacksquare$
