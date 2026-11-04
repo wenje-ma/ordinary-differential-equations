@@ -44,8 +44,8 @@
 
 ## 2-3 题5
 
-证明: 若 $p,q$ 均以 $\omega$ 为周期, 则方程有唯一 $\omega$ 周期解当且仅当 $\bar p\ne0$.
+证明: 若 $p,q$ 均以 $\omega$ 为周期, 则方程有唯一 $\omega$ 周期解当且仅当 $\overline p\ne0$.
 
 ### 解答 2-3 题5
 
-由齐次线性方程的通解 与非齐次线性方程的通解 (积分因子法), $y\left(x+\omega\right)=y\left(x\right)$ 等价于 $e^{-\int_0^\omega p}=1$, 即 $\bar p=0$. 非齐次时唯一周期解当且仅当 $\bar p\ne0$. $\blacksquare$
+由齐次线性方程的通解 与非齐次线性方程的通解 (积分因子法), $y\left(x+\omega\right)=y\left(x\right)$ 等价于 $e^{-\int_0^\omega p}=1$, 即 $\overline p=0$. 非齐次时唯一周期解当且仅当 $\overline p\ne0$. $\blacksquare$

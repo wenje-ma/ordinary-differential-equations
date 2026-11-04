@@ -44,7 +44,7 @@ Setting $y=C\left(x\right)e^{-\int p\mathrm dx}$. $\blacksquare$
 
 ## 2-3 Problem 5
 
-Prove unique periodic solution iff $\bar p\ne0$.
+Prove unique periodic solution iff $\overline p\ne0$.
 
 ### Solution 2-3 Problem 5
 
