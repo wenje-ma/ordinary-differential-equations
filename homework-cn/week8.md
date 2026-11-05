@@ -82,7 +82,7 @@
 
 ### 解答 6-2 题1(2)
 
-由**引理 6.6 (方程组有指数型非零解的充要条件)**, 特征根 $\lambda=\pm ia$. 由**附注 2 (从复值解提取实值解的方法)**, 取实部虚部得 $y=C_1\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix}+C_2\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix}$. $\blacksquare$
+由**引理 6.6 (方程组有指数型非零解的充要条件)**, 特征根 $\lambda=\pm ia$. 由附注 2 (从复值解提取实值解的方法), 取实部虚部得 $y=C_1\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix}+C_2\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix}$. $\blacksquare$
 
 ## 6-2 题1(4)
 
@@ -106,7 +106,7 @@
 
 ### 解答 6-2 题2(4)
 
-特征根 $\lambda=1,\pm i$. 由**附注 2 (从复值解提取实值解的方法)** 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
+特征根 $\lambda=1,\pm i$. 由附注 2 (从复值解提取实值解的方法) 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
 
 ## 6-2 题3(2)
 

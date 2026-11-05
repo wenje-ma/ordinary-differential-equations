@@ -50,7 +50,7 @@
 
 ### 解答 6-2 题4
 
-由**附注 2 (从复值解提取实值解的方法)**, 通解为 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
+由附注 2 (从复值解提取实值解的方法), 通解为 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
 
 ## 6-2 题5
 
@@ -66,7 +66,7 @@
 
 ### 解答 6-3 题3
 
-(1) 由**刘维尔公式 (朗斯基行列式的演化公式)**, $a_1\left(x\right)=0$, 故 $W\left(x\right)\equiv W\left(x_0\right)$. (2) $q\left(x\right)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
+(1) 由刘维尔公式 (朗斯基行列式的演化公式), $a_1\left(x\right)=0$, 故 $W\left(x\right)\equiv W\left(x_0\right)$. (2) $q\left(x\right)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
 
 ## 6-3 题4
 

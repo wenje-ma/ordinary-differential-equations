@@ -22,7 +22,7 @@
 
 ### 解答 6-3 题9
 
-由**定理 6.6* (常系数齐次线性微分方程的特征根解法)** 与**待定系数法 (对特殊非齐次项预先设定特解形式)**, $\omega\ne\omega_0$ 时 $x=C_1\cos\omega_0t+C_2\sin\omega_0t+\frac{p}{m\left(\omega_0^2-\omega^2\right)}\cos\omega t$; $\omega=\omega_0$ 时共振. $\blacksquare$
+由**定理 6.6* (常系数齐次线性微分方程的特征根解法)** 与待定系数法 (对特殊非齐次项预先设定特解形式), $\omega\ne\omega_0$ 时 $x=C_1\cos\omega_0t+C_2\sin\omega_0t+\frac{p}{m\left(\omega_0^2-\omega^2\right)}\cos\omega t$; $\omega=\omega_0$ 时共振. $\blacksquare$
 
 ## 6-3 题10(3)
 
@@ -62,7 +62,7 @@ $\lambda=\pm i$ 二重根. 特解 $-\frac18x^2\sin x$. 代入初值得 $y=\left(
 
 ### 解答 7-1 题2
 
-化为一阶方程组, 由**附注 3 (优级数方法对微分方程组的应用)**, 解析解在 $x_0$ 邻域内存在唯一. 由区间连通性延拓. $\blacksquare$
+化为一阶方程组, 由附注 3 (优级数方法对微分方程组的应用), 解析解在 $x_0$ 邻域内存在唯一. 由区间连通性延拓. $\blacksquare$
 
 ## 7-1 题3
 
@@ -70,4 +70,4 @@ $\lambda=\pm i$ 二重根. 特解 $-\frac18x^2\sin x$. 代入初值得 $y=\left(
 
 ### 解答 7-1 题3
 
-将 $x_0,\lambda$ 视为附加未知函数 ($\frac{\mathrm dx_0}{\mathrm dt}=0$, $\frac{\mathrm d\lambda}{\mathrm dt}=0$), 由**附注 3 (优级数方法对微分方程组的应用)**, 解关于所有变量解析. $\blacksquare$
+将 $x_0,\lambda$ 视为附加未知函数 ($\frac{\mathrm dx_0}{\mathrm dt}=0$, $\frac{\mathrm d\lambda}{\mathrm dt}=0$), 由附注 3 (优级数方法对微分方程组的应用), 解关于所有变量解析. $\blacksquare$
