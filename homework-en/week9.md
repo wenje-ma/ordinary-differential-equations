@@ -6,7 +6,7 @@
 
 > **Example 1 (Reduction of Order)**
 > 
-> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds\right]$.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int{p}}\mathrm{d}s\right]$.
 
 > **Proposition 2 (Properties of Matrix Exponential)**
 > 
@@ -18,7 +18,7 @@
 
 > **Corollary 3 (Nonhomogeneous Constant Coefficient Systems)**
 > 
-> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
+> $y=e^{xA}c+\int_{x_0}^xe^{\left(x-s\right)A}f\left(s\right)\mathrm{d}s$.
 
 > **Theorem 6.4 ($e^{xA}$ is a Fundamental Matrix)**
 > 
@@ -26,19 +26,19 @@
 
 > **Theorem 6.5 (Distinct Eigenvalues)**
 > 
-> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
+> $\Phi\left(x\right)=\left(e^{\lambda_1x}r_1,\cdots,e^{\lambda_nx}r_n\right)$.
 
 > **Lemma 6.6 (Exponential Solutions)**
 > 
-> $y=e^{\lambda x}r$ is a solution iff $\lambda$ is an eigenvalue.
+> $y=e^{\lambda{x}}r$ is a solution iff $\lambda$ is an eigenvalue.
 
 > **Theorem 6.6 (Repeated Eigenvalue Case)**
 > 
-> Linear combinations of $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$.
+> Linear combinations of $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$.
 
 > **Lemma 6.7 (Repeated Eigenvalues)**
 > 
-> Solutions are $e^{\lambda x}\left(r_0+xr_1+\cdots\right)$.
+> Solutions are $e^{\lambda{x}}\left(r_0+xr_1+\cdots\right)$.
 
 ## 6-2 Problem 3(4)
 
@@ -54,7 +54,7 @@ Solve the rotation system.
 
 ### Solution to 6-2 Problem 4
 
-$C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
+$C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^\top+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^\top$. $\blacksquare$
 
 ## 6-2 Problem 5
 
@@ -94,4 +94,4 @@ Prove Theorem 6.3* by variation of constants.
 
 ### Solution to 6-3 Problem 6
 
-Set $y=\sum C_k\left(x\right)\varphi_k\left(x\right)$. $\blacksquare$
+Set $y=\sum{C}_k\left(x\right)\varphi_k\left(x\right)$. $\blacksquare$

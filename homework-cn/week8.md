@@ -10,7 +10,7 @@
 
 > **推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**
 > 
-> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
+> $y=e^{xA}c+\int_{x_0}^xe^{\left(x-s\right)A}f\left(s\right)\mathrm{d}s$.
 
 > **引理 6.1 (齐次线性方程组解的叠加原理)**
 > 
@@ -30,11 +30,11 @@
 
 > **引理 6.3 (朗斯基行列式的刘维尔公式)**
 > 
-> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm{d}s}$.
 
 > **定理 6.3 (非齐次线性微分方程组的通解结构)**
 > 
-> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm ds$.
+> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm{d}s$.
 
 > **引理 6.4 (非齐次线性方程组解的结构)**
 > 
@@ -46,19 +46,19 @@
 
 > **定理 6.5 ($n$ 个互不相同特征根时的基解矩阵)**
 > 
-> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
+> $\Phi\left(x\right)=\left(e^{\lambda_1x}r_1,\cdots,e^{\lambda_nx}r_n\right)$.
 
 > **引理 6.6 (方程组有指数型非零解的充要条件)**
 > 
-> $y=e^{\lambda x}r$ 是解当且仅当 $\lambda$ 是 $A$ 的特征根, $r$ 为对应特征向量.
+> $y=e^{\lambda{x}}r$ 是解当且仅当 $\lambda$ 是 $A$ 的特征根, $r$ 为对应特征向量.
 
 > **定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**
 > 
-> 解为形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$ 的线性组合.
+> 解为形如 $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$ 的线性组合.
 
 > **引理 6.7 (重特征根时确定向量多项式系数的方法)**
 > 
-> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
+> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
 
 ## 6-1 题4
 
@@ -82,7 +82,7 @@
 
 ### 解答 6-2 题1(2)
 
-由**引理 6.6 (方程组有指数型非零解的充要条件)**, 特征根 $\lambda=\pm ia$. 由附注 2 (从复值解提取实值解的方法), 取实部虚部得 $y=C_1\begin{bmatrix}\cos ax\\-\sin ax\end{bmatrix}+C_2\begin{bmatrix}\sin ax\\\cos ax\end{bmatrix}$. $\blacksquare$
+由**引理 6.6 (方程组有指数型非零解的充要条件)**, 特征根 $\lambda=\pm{i}a$. 由附注 2 (从复值解提取实值解的方法), 取实部虚部得 $y=C_1\begin{bmatrix}\cos{a}x\\-\sin{a}x\end{bmatrix}+C_2\begin{bmatrix}\sin{a}x\\\cos{a}x\end{bmatrix}$. $\blacksquare$
 
 ## 6-2 题1(4)
 
@@ -94,7 +94,7 @@
 
 ## 6-2 题2(2)
 
-求 $y'=\begin{bmatrix}0&-n^2\\-n^2&0\end{bmatrix}y+\begin{bmatrix}\cos nx\\\sin nx\end{bmatrix}$ 的通解.
+求 $y'=\begin{bmatrix}0&-n^2\\-n^2&0\end{bmatrix}y+\begin{bmatrix}\cos{n}x\\\sin{n}x\end{bmatrix}$ 的通解.
 
 ### 解答 6-2 题2(2)
 
@@ -106,7 +106,7 @@
 
 ### 解答 6-2 题2(4)
 
-特征根 $\lambda=1,\pm i$. 由附注 2 (从复值解提取实值解的方法) 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
+特征根 $\lambda=1,\pm{i}$. 由附注 2 (从复值解提取实值解的方法) 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
 
 ## 6-2 题3(2)
 

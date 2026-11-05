@@ -2,7 +2,7 @@
 
 > **Theorem 8.5 (Classification of Singular Points)**
 > 
-> By $p=-\mathrm{tr}\,A$, $q=\det A$.
+> By $p=-\mathrm{tr}\,A$, $q=\det{A}$.
 
 > **Theorem 8.6 (Perturbation Preserves Type)**
 > 
@@ -82,7 +82,7 @@ Generalized cross product and divergence identity. $\blacksquare$
 
 ## 11-1 Problem 1(1)
 
-Solve $\sum x_i\partial y/\partial x_i=0$.
+Solve $\sum{x}_i\partial{y}/\partial{x}_i=0$.
 
 ### Solution to 11-1 Problem 1(1)
 

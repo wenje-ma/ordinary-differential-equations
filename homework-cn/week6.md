@@ -50,7 +50,7 @@
 
 ## 4-2 题4
 
-证明: $y=0$ 是 $y'=E\left(y\right)$ 的奇解当且仅当 $\int_0^1\frac{\mathrm dy}{E\left(y\right)}$ 收敛.
+证明: $y=0$ 是 $y'=E\left(y\right)$ 的奇解当且仅当 $\int_0^1\frac{\mathrm{d}y}{E\left(y\right)}$ 收敛.
 
 ### 解答 4-2 题4
 
@@ -58,11 +58,11 @@
 
 ## 4-3 题2
 
-构造一个微分方程, 使其有奇解 $y=\sin x$.
+构造一个微分方程, 使其有奇解 $y=\sin{x}$.
 
 ### 解答 4-3 题2
 
-取 $y=\sin x$ 的切线族 $y=x\cos a+\sin a-a\cos a$. 由**定理 4.4 (包络满足 $C$-判别式)** 与**定理 4.5 ($C$-判别式是包络的充分条件)**, 其包络为 $y=\sin x$. 令 $p=\cos a$, 得方程 $y=xp+\sqrt{1-p^2}-p\arccos p$. 由**定理 4.3 (包络是奇解)**, $y=\sin x$ 为奇解. $\blacksquare$
+取 $y=\sin{x}$ 的切线族 $y=x\cos{a}+\sin{a}-a\cos{a}$. 由**定理 4.4 (包络满足 $C$-判别式)** 与**定理 4.5 ($C$-判别式是包络的充分条件)**, 其包络为 $y=\sin{x}$. 令 $p=\cos{a}$, 得方程 $y=xp+\sqrt{1-p^2}-p\arccos{p}$. 由**定理 4.3 (包络是奇解)**, $y=\sin{x}$ 为奇解. $\blacksquare$
 
 ## 5-1 题1
 
@@ -78,7 +78,7 @@
 
 ### 解答 5-1 题2
 
-由首次积分, 得 $\frac12v^2+\frac{a^2}2x^2-\frac{a^2}{24}x^4=E$. 周期 $T\left(A\right)=\frac4a\int_0^{\pi/2}\frac{\mathrm d\varphi}{\sqrt{1-\frac{A^2}{12}\left(1+\sin^2\varphi\right)}}> \frac{2\pi}a$, 随振幅增大而增大. $E> \frac32a^2$ 时轨线不封闭, 对应进动. $\blacksquare$
+由首次积分, 得 $\frac12v^2+\frac{a^2}2x^2-\frac{a^2}{24}x^4=E$. 周期 $T\left(A\right)=\frac4a\int_0^{\pi/2}\frac{\mathrm{d}\varphi}{\sqrt{1-\frac{A^2}{12}\left(1+\sin^2\varphi\right)}}>\frac{2\pi}a$, 随振幅增大而增大. $E>\frac32a^2$ 时轨线不封闭, 对应进动. $\blacksquare$
 
 ## 5-2 题2
 

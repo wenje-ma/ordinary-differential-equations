@@ -50,7 +50,7 @@ $y=2x-\frac23$ is not a singular solution. $\blacksquare$
 
 ## 4-2 Problem 4
 
-Prove $y=0$ is singular iff $\int_0^1\frac{\mathrm dy}{E\left(y\right)}$ converges.
+Prove $y=0$ is singular iff $\int_0^1\frac{\mathrm{d}y}{E\left(y\right)}$ converges.
 
 ### Solution to 4-2 Problem 4
 
@@ -58,11 +58,11 @@ By Definition 4.1. $\blacksquare$
 
 ## 4-3 Problem 2
 
-Construct an ODE with singular solution $y=\sin x$.
+Construct an ODE with singular solution $y=\sin{x}$.
 
 ### Solution to 4-3 Problem 2
 
-$y=xp+\sqrt{1-p^2}-p\arccos p$, where $p=y'$. $\blacksquare$
+$y=xp+\sqrt{1-p^2}-p\arccos{p}$, where $p=y'$. $\blacksquare$
 
 ## 5-1 Problem 1
 
@@ -78,7 +78,7 @@ Prove nonlinear pendulum is isochronous not and can precess.
 
 ### Solution to 5-1 Problem 2
 
-By first integral, $T\left(A\right)> \frac{2\pi}a$ and increases with $A$. $\blacksquare$
+By first integral, $T\left(A\right)>\frac{2\pi}a$ and increases with $A$. $\blacksquare$
 
 ## 5-2 Problem 2
 

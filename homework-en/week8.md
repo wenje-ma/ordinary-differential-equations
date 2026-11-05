@@ -14,7 +14,7 @@
 
 > **Corollary 3 (Nonhomogeneous Constant Coefficient Systems)**
 > 
-> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
+> $y=e^{xA}c+\int_{x_0}^xe^{\left(x-s\right)A}f\left(s\right)\mathrm{d}s$.
 
 > **Lemma 6.1 (Superposition Principle)**
 > 
@@ -34,7 +34,7 @@
 
 > **Lemma 6.3 (Liouville's Formula for Wronskian)**
 > 
-> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm{d}s}$.
 
 > **Theorem 6.3 (General Solution of Nonhomogeneous Systems)**
 > 
@@ -50,19 +50,19 @@
 
 > **Theorem 6.5 (Distinct Eigenvalues)**
 > 
-> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
+> $\Phi\left(x\right)=\left(e^{\lambda_1x}r_1,\cdots,e^{\lambda_nx}r_n\right)$.
 
 > **Lemma 6.6 (Exponential Solutions)**
 > 
-> $y=e^{\lambda x}r$ is a solution iff $\lambda$ is an eigenvalue.
+> $y=e^{\lambda{x}}r$ is a solution iff $\lambda$ is an eigenvalue.
 
 > **Theorem 6.6 (Repeated Eigenvalue Case)**
 > 
-> Linear combinations of $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$.
+> Linear combinations of $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$.
 
 > **Lemma 6.7 (Repeated Eigenvalues)**
 > 
-> Solutions are $e^{\lambda x}\left(r_0+xr_1+\cdots\right)$.
+> Solutions are $e^{\lambda{x}}\left(r_0+xr_1+\cdots\right)$.
 
 ## 6-1 Problem 4
 
@@ -86,7 +86,7 @@ Solve $y'=\begin{bmatrix}0&a\\-a&0\end{bmatrix}y$.
 
 ### Solution to 6-2 Problem 1(2)
 
-$C_1\left(\cos ax,-\sin ax\right)^\top+C_2\left(\sin ax,\cos ax\right)^\top$. $\blacksquare$
+$C_1\left(\cos{a}x,-\sin{a}x\right)^\top+C_2\left(\sin{a}x,\cos{a}x\right)^\top$. $\blacksquare$
 
 ## 6-2 Problem 1(4)
 
@@ -110,7 +110,7 @@ Solve the nonhomogeneous 3x3 system.
 
 ### Solution to 6-2 Problem 2(4)
 
-Homogeneous with eigenvalues $1,\pm i$ + particular $\left(-1,x,0\right)^\top$. $\blacksquare$
+Homogeneous with eigenvalues $1,\pm{i}$ + particular $\left(-1,x,0\right)^\top$. $\blacksquare$
 
 ## 6-2 Problem 3(2)
 

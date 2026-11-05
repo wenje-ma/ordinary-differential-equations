@@ -2,7 +2,7 @@
 
 > **定理 7.2 (常点邻域内幂级数解的存在与递推)**
 > 
-> $p,q$ 解析时, 方程在常点邻域内有收敛幂级数解 $y=\sum C_n\left(x-x_0\right)^n$.
+> $p,q$ 解析时, 方程在常点邻域内有收敛幂级数解 $y=\sum{C}_n\left(x-x_0\right)^n$.
 
 > **定理 8.1 (常系数线性系统零解稳定性的特征根判别)**
 > 
@@ -18,7 +18,7 @@
 
 > **定理 8.5 (初等奇点类型的判定)**
 > 
-> 由 $p=-\mathrm{tr}\,A$, $q=\det A$ 判断.
+> 由 $p=-\mathrm{tr}\,A$, $q=\det{A}$ 判断.
 
 > **定理 8.6 (非线性系统与线性化系统的定性结构相同)**
 > 
@@ -26,7 +26,7 @@
 
 ## 7-2 题3
 
-求解埃尔米特方程 $y''-2xy'+\lambda y=0$.
+求解埃尔米特方程 $y''-2xy'+\lambda{y}=0$.
 
 ### 解答 7-2 题3
 
@@ -34,7 +34,7 @@
 
 ## 7-2 题4
 
-求 $y''+\left(\sin x\right)y=0$ 在 $x=0$ 处的两个幂级数解.
+求 $y''+\left(\sin{x}\right)y=0$ 在 $x=0$ 处的两个幂级数解.
 
 ### 解答 7-2 题4
 
@@ -46,7 +46,7 @@
 
 ### 解答 7-3 题2
 
-由勒让德多项式的母函数, $G=\sum P_nt^n$, $G_t=\sum nP_nt^{n-1}$. 代入 $\left(1-2xt+t^2\right)G_t=\left(x-t\right)G$, 比较 $t^k$ 系数即得. $\blacksquare$
+由勒让德多项式的母函数, $G=\sum{P}_nt^n$, $G_t=\sum{n}P_nt^{n-1}$. 代入 $\left(1-2xt+t^2\right)G_t=\left(x-t\right)G$, 比较 $t^k$ 系数即得. $\blacksquare$
 
 ## 8-2 题1
 
@@ -62,7 +62,7 @@
 
 ### 解答 8-2 题2
 
-解为 $x=x_0e^{\int a}$. 渐近稳定当 $\int_{t_0}^\infty a=-\infty$. 稳定当 $\int_{t_0}^t a$ 有上界. $\blacksquare$
+解为 $x=x_0e^{\int{a}}$. 渐近稳定当 $\int_{t_0}^\infty{a}=-\infty$. 稳定当 $\int_{t_0}^ta$ 有上界. $\blacksquare$
 
 ## 8-2 题3
 
@@ -110,7 +110,7 @@ $\left(1,0\right)$ 不稳定 (由**定理 8.3 (按线性近似判断不稳定性
 
 ### 解答 8-2 题8(2)
 
-$V=x^4+y^4$, $V'=-4\left(x^8+y^8\right)< 0$. 渐近稳定. $\blacksquare$
+$V=x^4+y^4$, $V'=-4\left(x^8+y^8\right)<0$. 渐近稳定. $\blacksquare$
 
 ## 8-2 题8(4)
 

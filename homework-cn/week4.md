@@ -2,11 +2,11 @@
 
 > **定理 2.5 (只依赖于 $y$ 的积分因子)**
 > 
-> 充要条件为 $\frac{\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}}P=H\left(y\right)$ 只依赖于 $y$, 此时 $\mu\left(y\right)=e^{\int H\left(y\right)\mathrm dy}$.
+> 充要条件为 $\frac{\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}}P=H\left(y\right)$ 只依赖于 $y$, 此时 $\mu\left(y\right)=e^{\int{H}\left(y\right)\mathrm{d}y}$.
 
 > **定理 2.6 (积分因子与通积分的任意函数之积)**
 > 
-> 若 $\mu$ 是积分因子且 $\mu P\mathrm dx+\mu Q\mathrm dy=d\Phi$, 则 $\mu g\left(\Phi\right)$ 也是积分因子.
+> 若 $\mu$ 是积分因子且 $\mu{P}\mathrm{d}x+\mu{Q}\mathrm{d}y=d\Phi$, 则 $\mu{g}\left(\Phi\right)$ 也是积分因子.
 
 > **定理 3.1 (皮卡存在和唯一性定理)**
 > 
@@ -14,11 +14,11 @@
 
 > **定理 3.2 (奥斯古德条件下解的唯一性)**
 > 
-> 若 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le F\left(\left|y_1-y_2\right|\right)$ 且 $\int_0^{r_1}\frac{\mathrm dr}{F\left(r\right)}=+\infty$, 则解唯一.
+> 若 $\left|f\left(x,y_1\right)-f\left(x,y_2\right)\right|\le{F}\left(\left|y_1-y_2\right|\right)$ 且 $\int_0^{r_1}\frac{\mathrm{d}r}{F\left(r\right)}=+\infty$, 则解唯一.
 
 > **引理 3.2 (欧拉折线的积分关系式)**
 > 
-> $\rho_n\left(x\right)=y_0+\int_{x_0}^x f\left(t,\rho_n\left(t\right)\right)\mathrm dt+\delta_n\left(x\right)$, 其中 $\delta_n\to0$ 一致.
+> $\rho_n\left(x\right)=y_0+\int_{x_0}^xf\left(t,\rho_n\left(t\right)\right)\mathrm{d}t+\delta_n\left(x\right)$, 其中 $\delta_n\to0$ 一致.
 
 > **定理 3.3 (佩亚诺存在定理)**
 > 
@@ -34,7 +34,7 @@
 
 ## 2-5 题1(2)
 
-求解 $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
+求解 $y\mathrm{d}x+\left(2xy-e^{-2y}\right)\mathrm{d}y=0$.
 
 ### 解答 2-5 题1(2)
 
@@ -42,11 +42,11 @@
 
 ## 2-5 题1(4)
 
-求解 $y\mathrm dx-\left(x^2+y^2+x\right)\mathrm dy=0$.
+求解 $y\mathrm{d}x-\left(x^2+y^2+x\right)\mathrm{d}y=0$.
 
 ### 解答 2-5 题1(4)
 
-由**定理 2.6 (积分因子与通积分的任意函数之积)**, 取 $\mu=\frac1{x^2+y^2}$. 积分得 $\arctan\frac xy=y+C$. $\blacksquare$
+由**定理 2.6 (积分因子与通积分的任意函数之积)**, 取 $\mu=\frac1{x^2+y^2}$. 积分得 $\arctan\frac{x}y=y+C$. $\blacksquare$
 
 ## 2-5 题2
 
@@ -54,7 +54,7 @@
 
 ### 解答 2-5 题2
 
-由 $\frac{\mu'}{\mu}=\frac{P_y-Q_x}{Q\varphi_x-P\varphi_y}=f\left(\varphi\right)$, 得 $\mu=e^{\int f\left(\varphi\right)\mathrm d\varphi}$. $\blacksquare$
+由 $\frac{\mu'}{\mu}=\frac{P_y-Q_x}{Q\varphi_x-P\varphi_y}=f\left(\varphi\right)$, 得 $\mu=e^{\int{f}\left(\varphi\right)\mathrm{d}\varphi}$. $\blacksquare$
 
 ## 2-5 题4
 
@@ -62,15 +62,15 @@
 
 ### 解答 2-5 题4
 
-正方向: $\mu g\left(\Phi\right)$ 乘后为全微分. 逆定理: $d\Psi=\frac{\mu_1}{\mu}d\Phi$, 故 $\Psi$ 只是 $\Phi$ 的函数. $\blacksquare$
+正方向: $\mu{g}\left(\Phi\right)$ 乘后为全微分. 逆定理: $d\Psi=\frac{\mu_1}{\mu}d\Phi$, 故 $\Psi$ 只是 $\Phi$ 的函数. $\blacksquare$
 
 ## 3-1 题1
 
-讨论 $y\left(0\right)=0$ 的解的唯一性: (1) $y'=\left|y\right|^\alpha$; (2) $y'=\begin{cases}0,&y=0\\ y\ln\left|y\right|,&y\ne0\end{cases}$.
+讨论 $y\left(0\right)=0$ 的解的唯一性: (1) $y'=\left|y\right|^\alpha$; (2) $y'=\begin{cases}0,&y=0\\y\ln\left|y\right|,&y\ne0\end{cases}$.
 
 ### 解答 3-1 题1
 
-(1) $\alpha\ge1$ 时由**定理 3.1 (皮卡存在和唯一性定理)** 解唯一; $0< \alpha< 1$ 时不唯一. (2) 不满足利普希茨条件, 但由反证法可证零解唯一. $\blacksquare$
+(1) $\alpha\ge1$ 时由**定理 3.1 (皮卡存在和唯一性定理)** 解唯一; $0<\alpha<1$ 时不唯一. (2) 不满足利普希茨条件, 但由反证法可证零解唯一. $\blacksquare$
 
 ## 3-1 题2
 

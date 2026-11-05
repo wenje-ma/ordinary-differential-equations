@@ -38,7 +38,7 @@
 
 > **Lemma 6.3 (Liouville's Formula for Wronskian)**
 > 
-> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm{d}s}$.
 
 > **Theorem 6.3 (General Solution of Nonhomogeneous Systems)**
 > 
@@ -86,7 +86,7 @@ Find the equation for $z=\frac{\partial\varphi}{\partial\eta}$.
 
 ### Solution to 5-4 Problem 2
 
-$\frac{\mathrm dz}{\mathrm dx}=f_y\left(x,\varphi\right)z$, $z\left(x_0\right)=I_n$. $\blacksquare$
+$\frac{\mathrm{d}z}{\mathrm{d}x}=f_y\left(x,\varphi\right)z$, $z\left(x_0\right)=I_n$. $\blacksquare$
 
 ## 6-1 Problem 1(1)
 
@@ -102,11 +102,11 @@ Solve $y'=\begin{bmatrix}0&1\\-1&0\end{bmatrix}y$.
 
 ### Solution to 6-1 Problem 1(3)
 
-$y_1=C_1\cos t+C_2\sin t$, $y_2=-C_1\sin t+C_2\cos t$. $\blacksquare$
+$y_1=C_1\cos{t}+C_2\sin{t}$, $y_2=-C_1\sin{t}+C_2\cos{t}$. $\blacksquare$
 
 ## 6-1 Problem 2(2)
 
-Solve $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1t y+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
+Solve $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1ty+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
 
 ### Solution to 6-1 Problem 2(2)
 

@@ -2,7 +2,7 @@
 
 > **Theorem 7.2 (Power Series Solution Near Ordinary Points)**
 > 
-> $y=\sum C_n\left(x-x_0\right)^n$ with recurrence.
+> $y=\sum{C}_n\left(x-x_0\right)^n$ with recurrence.
 
 > **Theorem 8.1 (Eigenvalue Criterion)**
 > 
@@ -18,7 +18,7 @@
 
 > **Theorem 8.5 (Classification of Singular Points)**
 > 
-> By $p=-\mathrm{tr}\,A$, $q=\det A$.
+> By $p=-\mathrm{tr}\,A$, $q=\det{A}$.
 
 > **Theorem 8.6 (Perturbation Preserves Type)**
 > 
@@ -26,7 +26,7 @@
 
 ## 7-2 Problem 3
 
-Solve Hermite's equation $y''-2xy'+\lambda y=0$.
+Solve Hermite's equation $y''-2xy'+\lambda{y}=0$.
 
 ### Solution to 7-2 Problem 3
 
@@ -34,7 +34,7 @@ $a_{n+2}=\frac{2n-\lambda}{\left(n+2\right)\left(n+1\right)}a_n$. $\blacksquare$
 
 ## 7-2 Problem 4
 
-Find two power series solutions of $y''+\left(\sin x\right)y=0$ at $x=0$.
+Find two power series solutions of $y''+\left(\sin{x}\right)y=0$ at $x=0$.
 
 ### Solution to 7-2 Problem 4
 
@@ -62,7 +62,7 @@ Find conditions for $x'=a\left(t\right)x$.
 
 ### Solution to 8-2 Problem 2
 
-$\int a\to-\infty$ for asymptotic. $\blacksquare$
+$\int{a}\to-\infty$ for asymptotic. $\blacksquare$
 
 ## 8-2 Problem 3
 

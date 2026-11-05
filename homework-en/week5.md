@@ -10,11 +10,11 @@
 
 > **Theorem 3.5 (Global Existence in Strip)**
 > 
-> If $\left|f\right|\le A\left|y\right|+B$, solutions exist globally.
+> If $\left|f\right|\le{A}\left|y\right|+B$, solutions exist globally.
 
 > **Theorem 3.6 (First Comparison Theorem)**
 > 
-> If $f< F$, then $\varphi< \Phi$.
+> If $f<{}F$, then $\varphi<\Phi$.
 
 > **Theorem 3.7 (Minimal and Maximal Solutions)**
 > 
@@ -22,7 +22,7 @@
 
 > **Theorem 3.8 (Second Comparison Theorem)**
 > 
-> If $f\le F$, then $\varphi\le\Phi$.
+> If $f\le{F}$, then $\varphi\le\Phi$.
 
 > **Corollary (Local Lipschitz Extension)**
 > 
@@ -94,11 +94,11 @@ $y=-\frac12x^2+Cx+\frac{C^2}2$, plus $y=-x^2$. $\blacksquare$
 
 ## 4-1 Problem 1(3)
 
-Solve $2xp=2\tan y+p^3\cos^2y$.
+Solve $2xp=2\tan{y}+p^3\cos^2y$.
 
 ### Solution to 4-1 Problem 1(3)
 
-$\sin y=Cx-\frac{C^3}2$, plus $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
+$\sin{y}=Cx-\frac{C^3}2$, plus $x=\frac32\left(\sin{y}\right)^{2/3}$. $\blacksquare$
 
 ## 4-1 Problem 2(2)
 
@@ -106,4 +106,4 @@ Solve $x^2-3p^2=1$.
 
 ### Solution to 4-1 Problem 2(2)
 
-$x=\cosh t$, $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$
+$x=\cosh{t}$, $y=\frac1{2\sqrt3}\left(\sinh{t}\cosh{t}-t\right)+C$. $\blacksquare$

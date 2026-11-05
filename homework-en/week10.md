@@ -2,7 +2,7 @@
 
 > **Example 1 (Reduction of Order)**
 > 
-> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int p}\mathrm ds\right]$.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int\frac1{\varphi^2}e^{-\int{p}}\mathrm{d}s\right]$.
 
 > **Note 3 (Majorant Method for Systems)**
 > 
@@ -50,7 +50,7 @@ Solve the 4th order IVP.
 
 ### Solution to 6-3 Problem 10(9)
 
-$\left(1+\frac58x\right)\cos x+\left(2x-\frac{21}8-\frac18x^2\right)\sin x$. $\blacksquare$
+$\left(1+\frac58x\right)\cos{x}+\left(2x-\frac{21}8-\frac18x^2\right)\sin{x}$. $\blacksquare$
 
 ## 6-3 Problem 10(12)
 

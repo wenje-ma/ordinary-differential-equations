@@ -10,11 +10,11 @@
 
 > **定理 3.5 (条形区域上解的整体存在性)**
 > 
-> 若 $\left|f\left(x,y\right)\right|\le A\left(x\right)\left|y\right|+B\left(x\right)$, 则解以整个条形区域为最大存在区间.
+> 若 $\left|f\left(x,y\right)\right|\le{A}\left(x\right)\left|y\right|+B\left(x\right)$, 则解以整个条形区域为最大存在区间.
 
 > **定理 3.6 (第一比较定理)**
 > 
-> 若 $f< F$, 则 $\varphi< \Phi$ 于 $x> x_0$, $\varphi> \Phi$ 于 $x< x_0$.
+> 若 $f<{}F$, 则 $\varphi<\Phi$ 于 $x>{}x_0$, $\varphi>\Phi$ 于 $x<{}x_0$.
 
 > **定理 3.7 (最小解与最大解的存在性)**
 > 
@@ -22,7 +22,7 @@
 
 > **定理 3.8 (第二比较定理)**
 > 
-> 若 $f\le F$, 且 $\varphi$ 为最小/最大解, 则 $\varphi\le\Phi$.
+> 若 $f\le{F}$, 且 $\varphi$ 为最小/最大解, 则 $\varphi\le\Phi$.
 
 > **推论 (局部利普希茨条件下解的存在唯一与延伸)**
 > 
@@ -42,7 +42,7 @@
 
 ### 解答 3-3 题2(2)
 
-由**推论 (局部利普希茨条件下解的存在唯一与延伸)**, 分离变量得 $y=\frac1{1-Ce^x}$. 平衡解 $y\equiv0,1$ 全局存在; $0< y_0< 1$ 全局存在; $y_0< 0$ 或 $y_0> 1$ 时在有限点爆破. $\blacksquare$
+由**推论 (局部利普希茨条件下解的存在唯一与延伸)**, 分离变量得 $y=\frac1{1-Ce^x}$. 平衡解 $y\equiv0,1$ 全局存在; $0<{}y_0<1$ 全局存在; $y_0<0$ 或 $y_0>1$ 时在有限点爆破. $\blacksquare$
 
 ## 3-3 题2(4)
 
@@ -54,11 +54,11 @@ $y=\tan\left(x+C\right)$, 最大存在区间为有限区间 $\left(-\frac\pi2-C,
 
 ## 3-3 题3
 
-$x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解的延伸定理)** 矛盾?
+$x\mathrm{d}x+y\mathrm{d}y=0$ 的单位圆积分曲线是否与**定理 3.4 (解的延伸定理)** 矛盾?
 
 ### 解答 3-3 题3
 
-不矛盾. 正规形式 $y'=-\frac xy$ 在 $y=0$ 处不连续, 故**定理 3.4 (解的延伸定理)** 前提不成立. 每支曲线延伸到 $y=0$ 即定义域边界. $\blacksquare$
+不矛盾. 正规形式 $y'=-\frac{x}y$ 在 $y=0$ 处不连续, 故**定理 3.4 (解的延伸定理)** 前提不成立. 每支曲线延伸到 $y=0$ 即定义域边界. $\blacksquare$
 
 ## 3-3 题4
 
@@ -66,7 +66,7 @@ $x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解�
 
 ### 解答 3-3 题4
 
-由符号分析, $y< -1$ 时 $y'> 0$, $-1< y< 3$ 时 $y'< 0$, $y> 3$ 时 $y'> 0$. 解不能同时两端有限. $\blacksquare$
+由符号分析, $y<-1$ 时 $y'>0$, $-1<{}y<3$ 时 $y'<0$, $y>3$ 时 $y'>0$. 解不能同时两端有限. $\blacksquare$
 
 ## 3-4 题1
 
@@ -90,15 +90,15 @@ $x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解�
 
 ### 解答 4-1 题1(1)
 
-由微分法, $y=\frac12p^2+2px+x^2$. 微分得 $\left(p+2x\right)\left(\frac{\mathrm dp}{\mathrm dx}+1\right)=0$. 通解 $y=-\frac12x^2+Cx+\frac{C^2}2$, 特解 $y=-x^2$. $\blacksquare$
+由微分法, $y=\frac12p^2+2px+x^2$. 微分得 $\left(p+2x\right)\left(\frac{\mathrm{d}p}{\mathrm{d}x}+1\right)=0$. 通解 $y=-\frac12x^2+Cx+\frac{C^2}2$, 特解 $y=-x^2$. $\blacksquare$
 
 ## 4-1 题1(3)
 
-求解 $2xp=2\tan y+p^3\cos^2y$.
+求解 $2xp=2\tan{y}+p^3\cos^2y$.
 
 ### 解答 4-1 题1(3)
 
-由微分法, 令 $u=p\cos y$, 得通解 $\sin y=Cx-\frac{C^3}2$, 特解 $x=\frac32\left(\sin y\right)^{2/3}$. $\blacksquare$
+由微分法, 令 $u=p\cos{y}$, 得通解 $\sin{y}=Cx-\frac{C^3}2$, 特解 $x=\frac32\left(\sin{y}\right)^{2/3}$. $\blacksquare$
 
 ## 4-1 题2(2)
 
@@ -106,4 +106,4 @@ $x\mathrm dx+y\mathrm dy=0$ 的单位圆积分曲线是否与**定理 3.4 (解�
 
 ### 解答 4-1 题2(2)
 
-由参数法, $x=\cosh t$, $p=\frac1{\sqrt3}\sinh t$. 积分得 $y=\frac1{2\sqrt3}\left(\sinh t\cosh t-t\right)+C$. $\blacksquare$
+由参数法, $x=\cosh{t}$, $p=\frac1{\sqrt3}\sinh{t}$. 积分得 $y=\frac1{2\sqrt3}\left(\sinh{t}\cosh{t}-t\right)+C$. $\blacksquare$

@@ -2,11 +2,11 @@
 
 ## 2-3 Problem 1(4)
 
-Solve $\frac{\mathrm dy}{\mathrm dx}-\frac1{1-x^2}y=1+x$, $y\left(0\right)=1$.
+Solve $\frac{\mathrm{d}y}{\mathrm{d}x}-\frac1{1-x^2}y=1+x$, $y\left(0\right)=1$.
 
 ### Solution to 2-3 Problem 1(4)
 
-$y=\sqrt{\frac{1+x}{1-x}}\left[1+\frac12\left(x\sqrt{1-x^2}+\arcsin x\right)\right]$. $\blacksquare$
+$y=\sqrt{\frac{1+x}{1-x}}\left[1+\frac12\left(x\sqrt{1-x^2}+\arcsin{x}\right)\right]$. $\blacksquare$
 
 ## 2-3 Problem 3
 
@@ -22,11 +22,11 @@ Derive the solution by variation of constants.
 
 ### Solution to 2-3 Problem 4
 
-Setting $y=C\left(x\right)e^{-\int p\mathrm dx}$. $\blacksquare$
+Setting $y=C\left(x\right)e^{-\int{p}\mathrm{d}x}$. $\blacksquare$
 
 ## 2-3 Problem 5
 
-Prove unique periodic solution iff $\overline p\ne0$.
+Prove unique periodic solution iff $\overline{p}\ne0$.
 
 ### Solution to 2-3 Problem 5
 
@@ -50,7 +50,7 @@ $\frac1{y^2}=x^2+1+Ce^{x^2}$, plus $y\equiv0$. $\blacksquare$
 
 ## 2-4 Problem 2(2)
 
-Solve $\left(3uv+v^2\right)\mathrm du+\left(u^2+uv\right)\mathrm dv=0$.
+Solve $\left(3uv+v^2\right)\mathrm{d}u+\left(u^2+uv\right)\mathrm{d}v=0$.
 
 ### Solution to 2-4 Problem 2(2)
 

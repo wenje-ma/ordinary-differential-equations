@@ -2,7 +2,7 @@
 
 > **定理 8.5 (初等奇点类型的判定)**
 > 
-> 由 $p=-\mathrm{tr}\,A$, $q=\det A$ 判断.
+> 由 $p=-\mathrm{tr}\,A$, $q=\det{A}$ 判断.
 
 > **定理 8.6 (非线性系统与线性化系统的定性结构相同)**
 > 
@@ -10,7 +10,7 @@
 
 > **定理 10.1 (首次积分的充要条件)**
 > 
-> $\frac{\partial\Phi}{\partial x}+\sum\frac{\partial\Phi}{\partial y_j}f_j\equiv0$.
+> $\frac{\partial\Phi}{\partial{x}}+\sum\frac{\partial\Phi}{\partial{y}_j}f_j\equiv0$.
 
 > **定理 10.2 (已知一个首次积分可降低一阶)**
 > 
@@ -38,7 +38,7 @@
 
 ### 解答 8-3 题2(2)
 
-$p=-4$, $q=3$, $p^2> 4q$. 不稳定两向结点. $\blacksquare$
+$p=-4$, $q=3$, $p^2>4q$. 不稳定两向结点. $\blacksquare$
 
 ## 8-3 题2(4)
 
@@ -78,11 +78,11 @@ $A=I$, 不稳定星形结点. $\blacksquare$
 
 ### 解答 10-4 题1
 
-$n-1$ 个独立首次积分的梯度正交补给出广义叉乘 $L_i=\mu f_i$, 散度恒等式 $\sum\partial L_i/\partial x_i=0$. $n=2$ 时 $\mu$ 即积分因子. $\blacksquare$
+$n-1$ 个独立首次积分的梯度正交补给出广义叉乘 $L_i=\mu{f}_i$, 散度恒等式 $\sum\partial{L}_i/\partial{x}_i=0$. $n=2$ 时 $\mu$ 即积分因子. $\blacksquare$
 
 ## 11-1 题1(1)
 
-求解 $\sum x_i\partial y/\partial x_i=0$.
+求解 $\sum{x}_i\partial{y}/\partial{x}_i=0$.
 
 ### 解答 11-1 题1(1)
 

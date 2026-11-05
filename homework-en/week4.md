@@ -2,11 +2,11 @@
 
 > **Theorem 2.5 (Integrating Factor depending only on $y$)**
 > 
-> $\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int H\mathrm dy}$.
+> $\frac{Q_x-P_y}{P}=H\left(y\right)$ iff $\mu\left(y\right)=e^{\int{H}\mathrm{d}y}$.
 
 > **Theorem 2.6 (Product of Integrating Factor and Function of $\Phi$)**
 > 
-> If $\mu$ is an IF, then $\mu g\left(\Phi\right)$ is also an IF.
+> If $\mu$ is an IF, then $\mu{g}\left(\Phi\right)$ is also an IF.
 
 > **Theorem 3.1 (Picard Existence and Uniqueness)**
 > 
@@ -14,11 +14,11 @@
 
 > **Theorem 3.2 (Osgood Uniqueness)**
 > 
-> If $\int_0^{r_1}\frac{\mathrm dr}{F\left(r\right)}=\infty$, then uniqueness holds.
+> If $\int_0^{r_1}\frac{\mathrm{d}r}{F\left(r\right)}=\infty$, then uniqueness holds.
 
 > **Lemma 3.2 (Euler Polygonal Integral Relation)**
 > 
-> $\rho_n=y_0+\int f\left(t,\rho_n\right)\mathrm dt+\delta_n$, $\delta_n\to0$.
+> $\rho_n=y_0+\int{f}\left(t,\rho_n\right)\mathrm{d}t+\delta_n$, $\delta_n\to0$.
 
 > **Theorem 3.3 (Peano Existence Theorem)**
 > 
@@ -34,7 +34,7 @@ Set $z=\frac{y'}y$, then $z'=-z^2-pz-q$. $\blacksquare$
 
 ## 2-5 Problem 1(2)
 
-Solve $y\mathrm dx+\left(2xy-e^{-2y}\right)\mathrm dy=0$.
+Solve $y\mathrm{d}x+\left(2xy-e^{-2y}\right)\mathrm{d}y=0$.
 
 ### Solution to 2-5 Problem 1(2)
 
@@ -42,11 +42,11 @@ $xe^{2y}-\ln\left|y\right|=C$, plus $y\equiv0$. $\blacksquare$
 
 ## 2-5 Problem 1(4)
 
-Solve $y\mathrm dx-\left(x^2+y^2+x\right)\mathrm dy=0$.
+Solve $y\mathrm{d}x-\left(x^2+y^2+x\right)\mathrm{d}y=0$.
 
 ### Solution to 2-5 Problem 1(4)
 
-$\arctan\frac xy=y+C$. $\blacksquare$
+$\arctan\frac{x}y=y+C$. $\blacksquare$
 
 ## 2-5 Problem 2
 
@@ -54,7 +54,7 @@ Prove the necessary and sufficient condition for $\mu=\mu\left(\varphi\right)$.
 
 ### Solution to 2-5 Problem 2
 
-$\mu=e^{\int f\left(\varphi\right)\mathrm d\varphi}$. $\blacksquare$
+$\mu=e^{\int{f}\left(\varphi\right)\mathrm{d}\varphi}$. $\blacksquare$
 
 ## 2-5 Problem 4
 
@@ -70,7 +70,7 @@ Discuss uniqueness for $y\left(0\right)=0$.
 
 ### Solution to 3-1 Problem 1
 
-(1) $\alpha\ge1$ unique, $0< \alpha< 1$ not unique. (2) Zero solution is unique. $\blacksquare$
+(1) $\alpha\ge1$ unique, $0<\alpha<1$ not unique. (2) Zero solution is unique. $\blacksquare$
 
 ## 3-1 Problem 2
 

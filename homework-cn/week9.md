@@ -6,7 +6,7 @@
 
 > **例 1 (由一个非零解构造通解的公式)**
 > 
-> $y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^x\frac1{\varphi^2\left(s\right)}e^{-\int_{x_0}^s p\left(t\right)\mathrm dt}\mathrm ds\right]$.
+> $y=\varphi\left(x\right)\left[C_1+C_2\int_{x_0}^x\frac1{\varphi^2\left(s\right)}e^{-\int_{x_0}^sp\left(t\right)\mathrm{d}t}\mathrm{d}s\right]$.
 
 > **命题 2 (矩阵指数函数的性质)**
 > 
@@ -14,7 +14,7 @@
 
 > **推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**
 > 
-> $y=e^{xA}c+\int_{x_0}^x e^{\left(x-s\right)A}f\left(s\right)\mathrm ds$.
+> $y=e^{xA}c+\int_{x_0}^xe^{\left(x-s\right)A}f\left(s\right)\mathrm{d}s$.
 
 > **定理 6.4 (矩阵指数函数是常系数齐次线性微分方程组的标准基解矩阵)**
 > 
@@ -22,19 +22,19 @@
 
 > **定理 6.5 ($n$ 个互不相同特征根时的基解矩阵)**
 > 
-> $\Phi\left(x\right)=\left(e^{\lambda_1 x}r_1,\cdots,e^{\lambda_n x}r_n\right)$.
+> $\Phi\left(x\right)=\left(e^{\lambda_1x}r_1,\cdots,e^{\lambda_nx}r_n\right)$.
 
 > **引理 6.6 (方程组有指数型非零解的充要条件)**
 > 
-> $y=e^{\lambda x}r$ 是解当且仅当 $\lambda$ 是 $A$ 的特征根, $r$ 为对应特征向量.
+> $y=e^{\lambda{x}}r$ 是解当且仅当 $\lambda$ 是 $A$ 的特征根, $r$ 为对应特征向量.
 
 > **定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**
 > 
-> 解为形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$ 的线性组合.
+> 解为形如 $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$ 的线性组合.
 
 > **引理 6.7 (重特征根时确定向量多项式系数的方法)**
 > 
-> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_i x}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
+> $\lambda_i$ 为 $n_i$ 重根时, 解形如 $e^{\lambda_ix}\left(r_0+xr_1+\cdots\right)$, 其中 $\left(A-\lambda_iE\right)^{n_i}r_0=0$.
 
 ## 6-2 题3(4)
 
@@ -46,11 +46,11 @@
 
 ## 6-2 题4
 
-求解 $\frac{\mathrm d}{\mathrm dt}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}a&-b\\b&a\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}$.
+求解 $\frac{\mathrm{d}}{\mathrm{d}t}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}a&-b\\b&a\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}$.
 
 ### 解答 6-2 题4
 
-由附注 2 (从复值解提取实值解的方法), 通解为 $C_1e^{at}\left(\cos bt,\sin bt\right)^\top+C_2e^{at}\left(\sin bt,-\cos bt\right)^\top$. $\blacksquare$
+由附注 2 (从复值解提取实值解的方法), 通解为 $C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^\top+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^\top$. $\blacksquare$
 
 ## 6-2 题5
 
@@ -58,7 +58,7 @@
 
 ### 解答 6-2 题5
 
-由**定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**, 解为 $e^{\lambda x}$ 乘多项式. 充分性: $\mathrm{Re}\,\lambda< 0$ 时多项式增长慢于指数衰减. 必要性: 由**引理 6.6 (方程组有指数型非零解的充要条件)**, 若有 $\mathrm{Re}\,\lambda\ge0$ 的特征根, 对应解不趋于零. $\blacksquare$
+由**定理 6.6 (有重特征根时常系数齐次线性微分方程组的基解矩阵)**, 解为 $e^{\lambda{x}}$ 乘多项式. 充分性: $\mathrm{Re}\,\lambda<0$ 时多项式增长慢于指数衰减. 必要性: 由**引理 6.6 (方程组有指数型非零解的充要条件)**, 若有 $\mathrm{Re}\,\lambda\ge0$ 的特征根, 对应解不趋于零. $\blacksquare$
 
 ## 6-3 题3
 
@@ -66,7 +66,7 @@
 
 ### 解答 6-3 题3
 
-(1) 由刘维尔公式 (朗斯基行列式的演化公式), $a_1\left(x\right)=0$, 故 $W\left(x\right)\equiv W\left(x_0\right)$. (2) $q\left(x\right)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
+(1) 由刘维尔公式 (朗斯基行列式的演化公式), $a_1\left(x\right)=0$, 故 $W\left(x\right)\equiv{W}\left(x_0\right)$. (2) $q\left(x\right)=-1$, 通解 $y=C_1e^x+C_2e^{-x}$. $\blacksquare$
 
 ## 6-3 题4
 
@@ -90,4 +90,4 @@
 
 ### 解答 6-3 题6
 
-设 $y=\sum C_k\left(x\right)\varphi_k\left(x\right)$, 令 $\sum C_k'\varphi_k^{\left(j\right)}=0$ ($j=0,\cdots,n-2$), 得 $C_k'=\frac{W_k}{W}f$. $\blacksquare$
+设 $y=\sum{C}_k\left(x\right)\varphi_k\left(x\right)$, 令 $\sum{C}_k'\varphi_k^{\left(j\right)}=0$ ($j=0,\cdots,n-2$), 得 $C_k'=\frac{W_k}{W}f$. $\blacksquare$

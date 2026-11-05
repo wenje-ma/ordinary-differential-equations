@@ -38,11 +38,11 @@
 
 > **引理 6.3 (朗斯基行列式的刘维尔公式)**
 > 
-> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm ds}$.
+> $W\left(x\right)=W\left(x_0\right)e^{\int_{x_0}^x\mathrm{tr}A\left(s\right)\mathrm{d}s}$.
 
 > **定理 6.3 (非齐次线性微分方程组的通解结构)**
 > 
-> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm ds$.
+> $y=\Phi\left(x\right)c+\Phi\left(x\right)\int_{x_0}^x\Phi^{-1}\left(s\right)f\left(s\right)\mathrm{d}s$.
 
 > **引理 6.4 (非齐次线性方程组解的结构)**
 > 
@@ -78,7 +78,7 @@ $f\left(x,y\right)=A\left(x\right)y+e\left(x\right)$ 连续. 由利普希茨条�
 
 ### 解答 5-4 题1
 
-由**定理 5.3 (解对参数的连续可微性)** 与雅可比矩阵, 对积分方程两端关于 $\lambda$ 求导, 得 $\frac{\mathrm dz}{\mathrm dx}=Az+B$, $z\left(x_0\right)=0$. $\blacksquare$
+由**定理 5.3 (解对参数的连续可微性)** 与雅可比矩阵, 对积分方程两端关于 $\lambda$ 求导, 得 $\frac{\mathrm{d}z}{\mathrm{d}x}=Az+B$, $z\left(x_0\right)=0$. $\blacksquare$
 
 ## 5-4 题2
 
@@ -86,11 +86,11 @@ $f\left(x,y\right)=A\left(x\right)y+e\left(x\right)$ 连续. 由利普希茨条�
 
 ### 解答 5-4 题2
 
-由**定理 5.3 的推论 (解对初值的连续可微性)** 与变分方程, 对积分方程 $\varphi=\eta+\int f\mathrm dt$ 关于 $\eta$ 求导, 得 $\frac{\mathrm dz}{\mathrm dx}=f_y\left(x,\varphi\right)z$, $z\left(x_0\right)=I_n$. $\blacksquare$
+由**定理 5.3 的推论 (解对初值的连续可微性)** 与变分方程, 对积分方程 $\varphi=\eta+\int{f}\mathrm{d}t$ 关于 $\eta$ 求导, 得 $\frac{\mathrm{d}z}{\mathrm{d}x}=f_y\left(x,\varphi\right)z$, $z\left(x_0\right)=I_n$. $\blacksquare$
 
 ## 6-1 题1(1)
 
-求 $\frac{\mathrm dy}{\mathrm dt}=\begin{bmatrix}\frac1t&0\\0&\frac1t\end{bmatrix}y$ 的通解.
+求 $\frac{\mathrm{d}y}{\mathrm{d}t}=\begin{bmatrix}\frac1t&0\\0&\frac1t\end{bmatrix}y$ 的通解.
 
 ### 解答 6-1 题1(1)
 
@@ -98,15 +98,15 @@ $f\left(x,y\right)=A\left(x\right)y+e\left(x\right)$ 连续. 由利普希茨条�
 
 ## 6-1 题1(3)
 
-求 $\frac{\mathrm dy}{\mathrm dt}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}y$ 的通解.
+求 $\frac{\mathrm{d}y}{\mathrm{d}t}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}y$ 的通解.
 
 ### 解答 6-1 题1(3)
 
-$y_1=C_1\cos t+C_2\sin t$, $y_2=-C_1\sin t+C_2\cos t$. $\blacksquare$
+$y_1=C_1\cos{t}+C_2\sin{t}$, $y_2=-C_1\sin{t}+C_2\cos{t}$. $\blacksquare$
 
 ## 6-1 题2(2)
 
-求解初值问题: $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1t y+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
+求解初值问题: $x'=\frac{2t}{1+t^2}x$, $y'=-\frac1ty+x+t$, $x\left(1\right)=0$, $y\left(1\right)=\frac43$.
 
 ### 解答 6-1 题2(2)
 
