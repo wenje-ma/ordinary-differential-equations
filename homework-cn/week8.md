@@ -90,7 +90,7 @@
 
 ### 解答 6-2 题1(4)
 
-由**引理 6.7 (重特征根时确定向量多项式系数的方法)**, $\lambda=1$ 为三重根. 通解为 $C_1e^x\left(1,0,0\right)^\top+C_2e^x\left(0,1,1\right)^\top+C_3e^x\left[\left(0,1,0\right)^\top+x\left(\frac23,-\frac13,-\frac13\right)^\top\right]$. $\blacksquare$
+由**引理 6.7 (重特征根时确定向量多项式系数的方法)**, $\lambda=1$ 为三重根. 通解为 $C_1e^x\left(1,0,0\right)^{\top}+C_2e^x\left(0,1,1\right)^{\top}+C_3e^x\left[\left(0,1,0\right)^{\top}+x\left(\frac23,-\frac13,-\frac13\right)^{\top}\right]$. $\blacksquare$
 
 ## 6-2 题2(2)
 
@@ -106,11 +106,11 @@
 
 ### 解答 6-2 题2(4)
 
-特征根 $\lambda=1,\pm{i}$. 由附注 2 (从复值解提取实值解的方法) 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^\top$. $\blacksquare$
+特征根 $\lambda=1,\pm{i}$. 由附注 2 (从复值解提取实值解的方法) 取实部虚部. 特解设为一次式 $\left(-1,x,0\right)^{\top}$. $\blacksquare$
 
 ## 6-2 题3(2)
 
-求解初值问题 $y'=\begin{bmatrix}0&-2\\2&0\end{bmatrix}y+\begin{bmatrix}3x\\4\end{bmatrix}$, $y\left(0\right)=\left(2,3\right)^\top$.
+求解初值问题 $y'=\begin{bmatrix}0&-2\\2&0\end{bmatrix}y+\begin{bmatrix}3x\\4\end{bmatrix}$, $y\left(0\right)=\left(2,3\right)^{\top}$.
 
 ### 解答 6-2 题3(2)
 

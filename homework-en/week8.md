@@ -86,7 +86,7 @@ Solve $y'=\begin{bmatrix}0&a\\-a&0\end{bmatrix}y$.
 
 ### Solution to 6-2 Problem 1(2)
 
-$C_1\left(\cos{a}x,-\sin{a}x\right)^\top+C_2\left(\sin{a}x,\cos{a}x\right)^\top$. $\blacksquare$
+$C_1\left(\cos{a}x,-\sin{a}x\right)^{\top}+C_2\left(\sin{a}x,\cos{a}x\right)^{\top}$. $\blacksquare$
 
 ## 6-2 Problem 1(4)
 
@@ -94,7 +94,7 @@ Solve the 3x3 system with triple eigenvalue.
 
 ### Solution to 6-2 Problem 1(4)
 
-$C_1e^x\left(1,0,0\right)^\top+C_2e^x\left(0,1,1\right)^\top+C_3e^x\left[\left(0,1,0\right)^\top+x\left(\frac23,-\frac13,-\frac13\right)^\top\right]$. $\blacksquare$
+$C_1e^x\left(1,0,0\right)^{\top}+C_2e^x\left(0,1,1\right)^{\top}+C_3e^x\left[\left(0,1,0\right)^{\top}+x\left(\frac23,-\frac13,-\frac13\right)^{\top}\right]$. $\blacksquare$
 
 ## 6-2 Problem 2(2)
 
@@ -110,7 +110,7 @@ Solve the nonhomogeneous 3x3 system.
 
 ### Solution to 6-2 Problem 2(4)
 
-Homogeneous with eigenvalues $1,\pm{i}$ + particular $\left(-1,x,0\right)^\top$. $\blacksquare$
+Homogeneous with eigenvalues $1,\pm{i}$ + particular $\left(-1,x,0\right)^{\top}$. $\blacksquare$
 
 ## 6-2 Problem 3(2)
 
@@ -118,4 +118,4 @@ Solve the IVP.
 
 ### Solution to 6-2 Problem 3(2)
 
-$y=\frac{13}4\left(\cos2x,\sin2x\right)^\top-3\left(\sin2x,-\cos2x\right)^\top+\left(-\frac54,\frac32x\right)^\top$. $\blacksquare$
+$y=\frac{13}4\left(\cos2x,\sin2x\right)^{\top}-3\left(\sin2x,-\cos2x\right)^{\top}+\left(-\frac54,\frac32x\right)^{\top}$. $\blacksquare$

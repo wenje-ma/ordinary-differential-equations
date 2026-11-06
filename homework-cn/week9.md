@@ -42,7 +42,7 @@
 
 ### 解答 6-2 题3(4)
 
-非齐次项共振于特征根 $\lambda=-1$. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
+非齐次项共振于特征根 $\lambda=-1$. 由**推论 3 (常系数非齐次线性微分方程组的通解与初值问题解)**, $y=xe^{-x}\left(-2,-3,2\right)^{\top}$. $\blacksquare$
 
 ## 6-2 题4
 
@@ -50,7 +50,7 @@
 
 ### 解答 6-2 题4
 
-由附注 2 (从复值解提取实值解的方法), 通解为 $C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^\top+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^\top$. $\blacksquare$
+由附注 2 (从复值解提取实值解的方法), 通解为 $C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^{\top}+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^{\top}$. $\blacksquare$
 
 ## 6-2 题5
 

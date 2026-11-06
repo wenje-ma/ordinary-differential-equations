@@ -46,7 +46,7 @@ Solve the resonant IVP.
 
 ### Solution to 6-2 Problem 3(4)
 
-$y=xe^{-x}\left(-2,-3,2\right)^\top$. $\blacksquare$
+$y=xe^{-x}\left(-2,-3,2\right)^{\top}$. $\blacksquare$
 
 ## 6-2 Problem 4
 
@@ -54,7 +54,7 @@ Solve the rotation system.
 
 ### Solution to 6-2 Problem 4
 
-$C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^\top+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^\top$. $\blacksquare$
+$C_1e^{at}\left(\cos{b}t,\sin{b}t\right)^{\top}+C_2e^{at}\left(\sin{b}t,-\cos{b}t\right)^{\top}$. $\blacksquare$
 
 ## 6-2 Problem 5
 
